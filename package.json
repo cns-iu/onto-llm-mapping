@@ -1,0 +1,16 @@
+{
+  "name": "onto-llm-mapping",
+  "version": "0.0.0",
+  "description": ":warning: RESEARCH IN PROGRESS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "papaparse": "^5.4.1",
+    "shelljs": "^0.8.5"
+  }
+}

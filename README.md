@@ -39,9 +39,21 @@ Note: The LLM expanded description is in the data folder: [uberon](./data/uberon
 - prompt model: llama3.1:8b
 - vector embed model: sentence-transformers/all-mpnet-base-v2
 
+### Prerequisites
+
+- A unix environment (curl, bash, perl)
+- LLM CLI <https://llm.datasette.io>
+- Node.js
+- duckdb <https://duckdb.org/>
+- Ollama <https://ollama.com/>
+- Petagraph from <https://ubkg-downloads.xconsortia.org/> (for UBKG queries)
+
 ### Commands (to be scripted)
 
 ```bash
+# Setup templates
+cp templates/*.yaml `llm templates path`
+
 # Extract terms and descriptive metadata
 sparql-select.sh http://localhost:8080/blazegraph/namespace/kb/sparql queries/mesh-terms.rq > data/mesh-terms.csv
 sparql-select.sh http://localhost:8080/blazegraph/namespace/kb/sparql queries/uberon-terms.rq > data/uberon-terms.csv
