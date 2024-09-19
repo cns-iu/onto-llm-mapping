@@ -11,8 +11,12 @@
 5. Output the results to a .csv file to evaluate the results with an SME (Ellen).
 6. Generate SSSOM file
 
-# prompt model: llama3.1:8b
-# vector embed model: sentence-transformers/all-mpnet-base-v2
+## Current configuration:
+
+- prompt model: llama3.1:8b
+- vector embed model: sentence-transformers/all-mpnet-base-v2
+
+## Commands (to be scripted)
 
 ```bash
 # Extract terms and descriptive metadata
