@@ -14,4 +14,6 @@ FROM
   read_csv('data/uberon-terms.mesh-scores.csv') as SCORES
 WHERE SCORES.source = UBERON.id AND SCORES.target = MESH.id
 
+ORDER BY subject_id, similarity_score DESC
+
 ) TO 'mappings/uberon-mesh-mapping.llm-vec.sssom.csv' (HEADER, DELIMITER ',')
