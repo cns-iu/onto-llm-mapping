@@ -3,7 +3,7 @@ COPY (
 SELECT
   UBERON.iri as subject_id, UBERON.name as subject_label,
   'skos:exactMatch' as predicate_id,
-  MESH.descriptor as object_id, MESH.name as object_label,
+  MESH.iri as object_id, MESH.name as object_label,
   '' as comment,
   'semapv:LogicalReasoning' as mapping_justification,
 
