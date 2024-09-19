@@ -2,7 +2,7 @@ COPY (
 
 SELECT
   UBERON.iri as subject_id, UBERON.name as subject_label,
-  'skos:exactMatch' as predicate_id,
+  'skos:relatedMatch' as predicate_id,
   MESH.iri as object_id, MESH.name as object_label,
   SCORES.rank::integer as score,
   '' as comment,
