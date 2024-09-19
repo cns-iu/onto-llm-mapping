@@ -2,18 +2,12 @@
 
 :warning: RESEARCH IN PROGRESS
 
-Let's try:
-
-1. For each term, provide the LLM a name and short description (ideally all are about the same length) and ask it to expand the definition to 500 words
-2. Use model embedding to store each as a vector
-3. Use similarity search to find similar terms (-m sentence-transformers/all-MiniLM-L6-v2)
-4. Ask llm to verify
-5. Generate SSSOM file
+## Current method:
 
 1. For each uberon and mesh term that we care about, use an LLM to expand the name, synonyms, plus descriptions to a common length and quality to create an expanded description
 2. Store the expanded descriptions in a vector database 
 3. For each term in the uberon ontology, compare it's expanded description to the expanded descriptions in the mesh ontology's vector database and retrieve the top most similar terms based on the expanded description. 
-4. Ask the LLM to then take that same term's expanded description and rank the retrieved similar terms from the mesh ontology. 
+4. Ask the LLM to then take that same term's expanded description and rank the retrieved similar terms from the mesh ontology. (currently ranks the top 3)
 5. Output the results to a .csv file to evaluate the results with an SME (Ellen).
 6. Generate SSSOM file
 
