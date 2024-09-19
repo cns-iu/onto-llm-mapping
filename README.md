@@ -2,7 +2,15 @@
 
 :warning: RESEARCH IN PROGRESS
 
-## Current method:
+## TODO
+
+* Write validation code to evaluate each mapping generated (againsta a gold standard?)
+* Create scripts for setting up and running the workflow from start to finish
+* Tweak models used and prompts to improve results
+* Write code to choose and finalize a mapping for publication (maybe is then finalized by hand via SME)
+* Afte we are really satisfied with the results, generalize the code and workflow for mapping between any two sets of concepts
+
+## Current method
 
 1. For each uberon and mesh term that we care about, use an LLM to expand the name, synonyms, plus descriptions to a common length and quality to create an expanded description
 2. Store the expanded descriptions in a vector database 
@@ -11,12 +19,12 @@
 5. Output the results to a .csv file to evaluate the results with an SME (Ellen).
 6. Generate SSSOM file
 
-## Current configuration:
+### Current configuration
 
 - prompt model: llama3.1:8b
 - vector embed model: sentence-transformers/all-mpnet-base-v2
 
-## Commands (to be scripted)
+### Commands (to be scripted)
 
 ```bash
 # Extract terms and descriptive metadata
