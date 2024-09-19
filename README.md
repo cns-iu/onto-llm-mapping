@@ -10,6 +10,21 @@
 * Write code to choose and finalize a mapping for publication (maybe is then finalized by hand via SME)
 * Afte we are really satisfied with the results, generalize the code and workflow for mapping between any two sets of concepts
 
+## Current results
+
+There are 4 different SSSOM mappings to evaluate in [mappings](./mappings/) folder:
+
+* [uberon-mesh-mapping.desc-vec.sssom.csv](./mappings/uberon-mesh-mapping.desc-vec.sssom.csv)
+  * maps uberon to mesh using just the label, synonyms, and description loaded into a vector store and computing the semantic similarity using that. Could be used as a baseline to see how expanding the text via LLM improves the results.  
+* [uberon-mesh-mapping.llm-vec.sssom.csv](./mappings/uberon-mesh-mapping.llm-vec.sssom.csv)
+  * maps uberon to mesh by expanding the label, synonym, and description text (see the [term description](./templates/term-description.yaml) template), loading them into a vector store, and computing the semantic similarity using that.
+* [uberon-mesh-mapping.llm-rank.sssom.csv](./mappings/uberon-mesh-mapping.llm-rank.sssom.csv)
+  * maps uberon to mesh by expanding the text from above and asking the LLM to rank the top 3 (see the [rank similar](./templates/rank-similar.yaml) template). This should theoretically give the best results. This method should be extended to look at the whole set (usually more than 3) to rank, but needs more engineering.
+* [uberon-mesh-mapping.ubkg.sssom.csv](./mappings/uberon-mesh-mapping.ubkg.sssom.csv)
+  * uses UBKG's concept mapping approach that utilizes mappings in UMLS, Uberon, and a host of other ontologies to map terms from different ontologies to the same Concept. With this, if both MESH and Uberon have a term mapped to the same Concept, they are added to this mapping.
+
+Note: The LLM expanded description is in the data folder: [uberon](./data/uberon-terms.content.csv) and [mesh](./data/mesh-terms.content.csv)
+
 ## Current method
 
 1. For each uberon and mesh term that we care about, use an LLM to expand the name, synonyms, plus descriptions to a common length and quality to create an expanded description
