@@ -1,0 +1,100 @@
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+PREFIX mesh: <http://id.nlm.nih.gov/mesh/>
+
+# SELECT (COUNT(DISTINCT ?id) as ?count)
+SELECT DISTINCT (?term as ?iri) ?id ?name ?aka ?description
+FROM mesh:
+WHERE {
+  {
+    SELECT ?term
+    WHERE {
+      #+ A02 - Musculoskeletal System 
+      { mesh:D009141 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION
+      #+ A03 - Digestive System
+      { mesh:D004064 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION
+      #+ A04 - Respiratory System 
+      { mesh:D012137 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION
+      #+ A05 - Urogenital System
+      { mesh:D014566 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION
+      #+ A07 - Cardiovascular System
+      { mesh:D002319 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION 
+      #+ A08 - Nervous System
+      { mesh:D009420 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION
+      #+ A15 - Hemic and Immune Systems
+      { mesh:D006424 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION
+      #+ Skin
+      { mesh:D012867 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION
+      #+ Eyes
+      { mesh:D005123 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION
+      #+ Placenta
+      { mesh:D010920 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION 
+      #+ Breasts
+      { mesh:D001940 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION
+      #+ Adipose
+      { mesh:D000273 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      } UNION 
+      #+ Adrenal Gland
+      { mesh:D000311 meshv:treeNumber ?treeNum .
+        ?childTreeNum meshv:parentTreeNumber* ?treeNum .
+        ?descriptor meshv:treeNumber ?childTreeNum .
+      }
+
+      ?descriptor meshv:preferredConcept ?term .
+      hint:SubQuery hint:runOnce "true" .
+    }
+  }
+
+  ?term a meshv:Concept ;
+    meshv:identifier ?id ;
+    meshv:preferredTerm ?prefTerm .
+  ?prefTerm meshv:prefLabel ?name .
+
+  OPTIONAL { 
+    SELECT ?prefTerm (GROUP_CONCAT(DISTINCT ?akaLabel; SEPARATOR='; ') as ?aka)
+    WHERE {
+      ?prefTerm meshv:altLabel ?akaLabel .
+    }
+    GROUP BY ?prefTerm
+  }
+  OPTIONAL { ?term a meshv:Concept ; meshv:scopeNote ?description1 . }
+  BIND(IF(BOUND(?description1), ?description1, ?name) as ?description)
+}
+ORDER BY ?id

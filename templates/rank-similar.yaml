@@ -1,0 +1,21 @@
+model: llama3.1:8b
+system: >
+  You are a biologist and expert ontologist who can
+  differentiate between subtle and complex biological concepts.
+prompt: >
+  The concept '$name' also known as $aka has a description:
+  ```
+  $content
+  ```
+
+  Rank the passages with ID in square brackets below by how closely they describe the concept described above:
+
+  $input
+
+  Please obey the following rules:
+   * Passages should be ranked according to how closely they describe the same concept definition I provided at the beginning
+   * Return only the ID of the passages
+   * Do not include an explanation
+   * Just return an ordered list of passage IDs
+defaults:
+  aka: ''

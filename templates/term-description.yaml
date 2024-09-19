@@ -1,0 +1,18 @@
+model: llama3.1:8b
+system: >
+  You are a biologist and expert ontologist who can
+  describe complex biological concepts in concise scientific language.
+prompt: >
+  Please expand the definition of '$name' also known as $aka
+  from ```
+  $input
+  ```
+  to a concise 384 word or less scientific description.
+  Please obey the following rules:
+  * Only include text, do not include markdown.
+  * Do no preface what you are doing before going into the description.
+  * Make sure to mention the name of the concept and its aliases occurs somewhere in the description.
+  * It should read like a concise scientific description suitable for an advanced audience.
+  * Use 384 words or less
+defaults:
+  aka: ''
