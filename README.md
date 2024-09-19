@@ -49,11 +49,13 @@ node src/find-similar.js data/uberon-terms.content.csv data/mesh-terms.content.c
 node ./src/rank-similar.js data/uberon-terms.csv data/mesh-terms.csv data/uberon-terms.content.csv data/mesh-terms.content.csv data/uberon-terms.mesh-scores.csv data/uberon-terms.mesh-ranked-scores.csv
 
 ### Convert to SSSOM format
+duckdb :memory: -no-stdin -init queries/uberon-mesh-mapping.desc-vec.sql
 duckdb :memory: -no-stdin -init queries/uberon-mesh-mapping.llm-rank.sql
 duckdb :memory: -no-stdin -init queries/uberon-mesh-mapping.llm-vec.sql
 duckdb :memory: -no-stdin -init queries/uberon-mesh-mapping.ubkg.sql
 
 ### Validate SSOM csvs
+sssom validate mappings/uberon-mesh-mapping.desc-vec.sssom.csv
 sssom validate mappings/uberon-mesh-mapping.llm-rank.sssom.csv
 sssom validate mappings/uberon-mesh-mapping.llm-vec.sssom.csv
 sssom validate mappings/uberon-mesh-mapping.ubkg.sssom.csv
