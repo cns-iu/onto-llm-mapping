@@ -1,0 +1,36 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+PREFIX mesh: <http://id.nlm.nih.gov/mesh/>
+PREFIX example: <http://id.nlm.nih.gov/mesh/M0012006>
+PREFIX tissues: <http://id.nlm.nih.gov/mesh/M0021595>
+
+# SELECT (COUNT(DISTINCT ?id) as ?count)
+SELECT DISTINCT (?term as ?iri) ?id ?name ?aka ?description
+# FROM mesh:
+WHERE {
+  VALUES (?input) {
+    (example:)
+  }
+
+  # Get all child concepts of the input concept
+  ?descriptor meshv:preferredConcept ?input .
+  ?childDesriptor meshv:broaderDescriptor* ?descriptor .
+  ?childDesriptor meshv:preferredConcept ?term .
+
+  ?term a meshv:Concept ;
+    meshv:identifier ?id ;
+    meshv:preferredTerm ?prefTerm .
+  ?prefTerm meshv:prefLabel ?name .
+
+  OPTIONAL { 
+    SELECT ?prefTerm (GROUP_CONCAT(DISTINCT ?akaLabel; SEPARATOR='; ') as ?aka)
+    WHERE {
+      ?prefTerm meshv:altLabel ?akaLabel .
+    }
+    GROUP BY ?prefTerm
+  }
+  OPTIONAL { ?term a meshv:Concept ; meshv:scopeNote ?description1 . }
+  BIND(IF(BOUND(?description1), ?description1, ?name) as ?description)
+}
+ORDER BY ?id
