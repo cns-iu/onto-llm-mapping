@@ -1,31 +1,103 @@
 # Mapping ontologies using LLMs and RAG
 
-:warning: RESEARCH IN PROGRESS
+:warning: RESEARCH IN PROGRESS :warning: 
+
+:triangular_flag_on_post: YOU ARE NOT AUTHORIZED TO SHARE THIS REPO WITHOUT PRIOR EMAILED CONFIRMATION :triangular_flag_on_post: 
 
 ## TODO
 
-* Write validation code to evaluate each mapping generated (againsta a gold standard?)
-* Create scripts for setting up and running the workflow from start to finish
+* Write validation code to evaluate each mapping generated against a gold standard
 * Tweak models used and prompts to improve results
-* Write code to choose and finalize a mapping for publication (maybe is then finalized by hand via SME)
-* Afte we are really satisfied with the results, generalize the code and workflow for mapping between any two sets of concepts
+* Write code to choose and finalize a mapping for publication, which may be finalized by hand via subject matter expert
+* Generalize the code and workflow further for mapping between any two sets of concepts
 
-## Current results
+## Using onto-llm-mapping
 
-There are 4 different SSSOM mappings to evaluate in [mappings](./mappings/) folder:
+### Requirements
+
+To run the workflows, you will need the following installed:
+
+1. A unix-like environment (Linux, WSL2 / Ubuntu For Windows, or Mac (untested))
+2. Python 3.10+ with `python-venv` library installed
+
+A virtual environment will be installed with the following core applications:
+
+- LLM CLI <https://llm.datasette.io>
+- Node.js
+- duckdb <https://duckdb.org/>
+- Ollama <https://ollama.com/>
+
+### Setup
+
+With these pre-requisites are installed into a Python virtual environment (in the `.venv` directory by default).
+To setup the environment you will run
+
+```bash
+./scripts/00-setup-environment.sh
+```
+
+To install the models, run
+
+```bash
+./scripts/05-setup-models.sh
+```
+
+### Running Workflows
+
+You can run individual workflows from the workflows after setup by simply executing the shell script. For example:
+
+```bash
+./workflows/desc-vec.sh
+```
+
+### Publishing Results
+
+To publish final results, you can run this scripts:
+
+```bash
+./scripts/80-publish-results.sh
+```
+
+The data is then compiled to `output-data/$DATASET/$VERSION`.
+
+### End-to-End Workflow
+
+To run the workflow from end to end, starting with nothing (not even a virtual environment potentially) 
+and going to all data built and published, you can run this command:
+
+```bash
+./logged-run.sh
+```
+
+By default no extra workflows are run. To set which workflows are run during the end-to-end workflow.
+You can set the `WORKFLOWS` environment variable or set it right at run time like this.
+
+```bash
+WORKFLOWS="desc-vec llama3.2-1b" ./logged-run.sh
+```
+
+As you see, the workflows are named after the shell script in the workflows directory without the `.sh` extension.
+
+## Previous results (Sept 26, 2024)
+
+There are 6 different SSSOM mappings to evaluate in [mappings](./mappings/) folder:
 
 * [uberon-mesh-mapping.desc-vec.sssom.csv](./mappings/uberon-mesh-mapping.desc-vec.sssom.csv)
   * maps uberon to mesh using just the label, synonyms, and description loaded into a vector store and computing the semantic similarity using that. Could be used as a baseline to see how expanding the text via LLM improves the results.  
-* [uberon-mesh-mapping.llm-vec.sssom.csv](./mappings/uberon-mesh-mapping.llm-vec.sssom.csv)
+* [uberon-mesh-mapping.llama3.1-8b.llm-vec.sssom.csv](./mappings/uberon-mesh-mapping.llama3.1-8b.llm-vec.sssom.csv)
   * maps uberon to mesh by expanding the label, synonym, and description text (see the [term description](./templates/term-description.yaml) template), loading them into a vector store, and computing the semantic similarity using that.
-* [uberon-mesh-mapping.llm-rank.sssom.csv](./mappings/uberon-mesh-mapping.llm-rank.sssom.csv)
+* [uberon-mesh-mapping.gpt4o.llm-vec.sssom.csv](./mappings/uberon-mesh-mapping.gpt4o.llm-vec.sssom.csv)
+  * Same as above but using OpenAI's GPT-4o model
+* [uberon-mesh-mapping.llama3.1-8b-llm-rank.sssom.csv](./mappings/uberon-mesh-mapping.llama3.1-8b-llm-rank.sssom.csv)
   * maps uberon to mesh by expanding the text from above and asking the LLM to rank the top 3 (see the [rank similar](./templates/rank-similar.yaml) template). This should theoretically give the best results. This method should be extended to look at the whole set (usually more than 3) to rank, but needs more engineering.
+* * [uberon-mesh-mapping.gpt4o.llm-rank.sssom.csv](./mappings/uberon-mesh-mapping.gpt4o.llm-rank.sssom.csv)
+  * Same as above but using OpenAI's GPT-4o model
 * [uberon-mesh-mapping.ubkg.sssom.csv](./mappings/uberon-mesh-mapping.ubkg.sssom.csv)
   * uses UBKG's concept mapping approach that utilizes mappings in UMLS, Uberon, and a host of other ontologies to map terms from different ontologies to the same Concept. With this, if both MESH and Uberon have a term mapped to the same Concept, they are added to this mapping.
 
 Note: The LLM expanded description is in the data folder: [uberon](./data/uberon-terms.content.csv) and [mesh](./data/mesh-terms.content.csv)
 
-## Current method
+### Method
 
 1. For each uberon and mesh term that we care about, use an LLM to expand the name, synonyms, plus descriptions to a common length and quality to create an expanded description
 2. Store the expanded descriptions in a vector database 
@@ -33,11 +105,6 @@ Note: The LLM expanded description is in the data folder: [uberon](./data/uberon
 4. Ask the LLM to then take that same term's expanded description and rank the retrieved similar terms from the mesh ontology. (currently ranks the top 3)
 5. Output the results to a .csv file to evaluate the results with an SME (Ellen).
 6. Generate SSSOM file
-
-### Current configuration
-
-- prompt model: llama3.1:8b
-- vector embed model: sentence-transformers/all-mpnet-base-v2
 
 ### Prerequisites
 
@@ -48,7 +115,7 @@ Note: The LLM expanded description is in the data folder: [uberon](./data/uberon
 - Ollama <https://ollama.com/>
 - Petagraph from <https://ubkg-downloads.xconsortia.org/> (for UBKG queries)
 
-### Commands (to be scripted)
+### Commands used at the time
 
 ```bash
 # Setup templates
