@@ -9,6 +9,9 @@ const SOURCE_CONTENT_CSV = process.argv[4];
 const TARGET_CONTENT_CSV = process.argv[5];
 const SIMILARITIES_CSV = process.argv[6];
 const OUTPUT_CSV = process.argv[7];
+const MODEL = process.env['LLM_MODEL'];
+const MODEL_OPTS = process.env['LLM_MODEL_OPTS'] ?? '';
+const TEMPLATE = process.env['LLM_RANK_TEMPLATE'] ?? 'rank-similar';
 
 function readCsv(input) {
   const csvString = readFileSync(input).toString();
@@ -52,7 +55,7 @@ for (const source of Object.values(sources).filter((s) => s.similar?.length > 0)
       .slice(0, 3)
       .join('\n');
     const options = ['name', 'aka', 'content'].map((n) => `-p ${n} "${source[n]}"`).join(' ');
-    const simStr = sh.echo(content).exec(`llm -t rank-similar ${options}`).stdout.toString().trim();
+    const simStr = sh.echo(content).exec(`llm -m ${MODEL} ${MODEL_OPTS} -t ${TEMPLATE} ${options}`).stdout.toString().trim();
 
     const sorted = similar
       .slice(0, 3)

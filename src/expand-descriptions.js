@@ -4,6 +4,9 @@ import sh from 'shelljs';
 
 const INPUT_CSV = process.argv[2];
 const OUTPUT_CSV = process.argv[3];
+const MODEL = process.env['LLM_MODEL'];
+const MODEL_OPTS = process.env['LLM_MODEL_OPTS'] ?? '';
+const TEMPLATE = process.env['LLM_EXPAND_TEMPLATE'] ?? 'term-description';
 
 const results = openSync(OUTPUT_CSV, 'w');
 writeSync(results, 'id,content\n');
@@ -14,12 +17,13 @@ for (const row of data) {
 
   const expanded = sh
     .exec(
-      // -o max_tokens 384
-      `echo "${row.description}" | llm -t term-description -o num_predict 384 -p name "${row.name}"` +
+      `echo "${row.description}" | llm -m ${MODEL} ${MODEL_OPTS} -t ${TEMPLATE} -p name "${row.name}"` +
         (row.aka ? ` -p aka "${row.aka}"` : ''),
       { silent: false }
     )
-    .stdout.toString().replace(/\s+/g, ' ').trim();
-    writeSync(results, Papa.unparse([[row.id, expanded]]) + '\n');
+    .stdout.toString()
+    .replace(/\s+/g, ' ')
+    .trim();
+  writeSync(results, Papa.unparse([[row.id, expanded]]) + '\n');
 }
 closeSync(results);

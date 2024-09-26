@@ -1,3 +1,8 @@
+/scratch
+.venv
+.vscode
+/log.txt
+
 # Logs
 logs
 *.log

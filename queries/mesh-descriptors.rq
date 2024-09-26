@@ -6,7 +6,7 @@ PREFIX mesh: <http://id.nlm.nih.gov/mesh/>
 
 # SELECT (COUNT(DISTINCT ?id) as ?count)
 SELECT DISTINCT ?descriptor ?descriptor_id (?term as ?iri) ?id ?name ?aka ?description
-FROM mesh:
+# FROM mesh:
 WHERE {
   {
     SELECT ?term ?descriptor ?descriptor_id
@@ -79,7 +79,7 @@ WHERE {
 
       ?descriptor meshv:identifier ?descriptor_id .
       ?descriptor meshv:preferredConcept ?term .
-      hint:SubQuery hint:runOnce "true" .
+      # hint:SubQuery hint:runOnce "true" .
     }
   }
 
