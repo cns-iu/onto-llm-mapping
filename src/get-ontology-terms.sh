@@ -6,7 +6,7 @@ set -ev
 DIR=$1
 
 # Get UBERON Terms
-./src/sparql-select.sh https://lod.humanatlas.io/sparql queries/uberon-terms.rq \
+./src/sparql-select.sh https://lod.humanatlas.io/sparql queries/all-hra-uberon-terms.rq \
   | csvformat > $DIR/uberon-terms.csv
 
 # Get MeSH Terms
