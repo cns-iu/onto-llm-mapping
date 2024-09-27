@@ -1,0 +1,478 @@
+subject_id,subject_label,predicate_id,object_id,object_label,similarity_score,comment,mapping_justification
+http://purl.obolibrary.org/obo/UBERON_0000946,cardiac valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.8940728296765138,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000946,cardiac valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.8195595945630245,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000946,cardiac valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0021947,Tricuspid Valve,0.8150017908449574,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000946,cardiac valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7965068951742518,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000946,cardiac valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7721552614962827,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000946,cardiac valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7704110711663663,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000946,cardiac valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.7221080458045555,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000946,cardiac valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501519,Endocardial Cushions,0.7133638433567863,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000946,cardiac valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.6993986618390015,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000946,cardiac valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.6824099849638832,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000948,heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.8403655079034166,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000948,heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.8135645999556751,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000948,heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.799070767667162,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000948,heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.7648588920642232,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000948,heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.7567585368913851,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000948,heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.753234510347087,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000948,heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.7302192521603119,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000948,heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501519,Endocardial Cushions,0.7278508791661801,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000948,heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7224187721869273,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000948,heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.7154995259297647,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001621,coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.618868362448504,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001621,coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6094829169796714,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001621,coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0022051,Truncus Arteriosus,0.595167525356883,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001621,coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.5758905247964712,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001621,coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.5701909182390692,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001621,coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.5656446494482336,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001621,coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0003026,Bundle of His,0.5546075234189786,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001621,coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.5433422914217246,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001621,coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.5412837942591863,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001621,coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.5403724700697304,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001625,right coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.5663671929968103,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001625,right coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0022051,Truncus Arteriosus,0.557150024341188,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001625,right coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.5418724972807027,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001625,right coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.5338027539917468,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001625,right coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.5165996479700181,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001625,right coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.5047208395248901,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001625,right coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.5042240516785069,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001625,right coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.5010273791176776,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001626,left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0022051,Truncus Arteriosus,0.6533863917444138,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001626,left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6447237020725185,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001626,left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6185370729557618,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001626,left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0006876,Ductus Arteriosus,0.6066662726786433,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001626,left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6061181388432785,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001626,left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6042955481463115,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001626,left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.5990767384935939,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001626,left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.5979356456254382,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001626,left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.593886107764358,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001626,left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.5928610855122036,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.8094073498931945,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7920254457531641,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.7319372743174066,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.724455883558248,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7139742126018245,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.7105863380917478,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7092243910801498,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.7082412675946707,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.6999698943690508,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.6991966339536742,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.8085690610745633,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7693486078387044,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7472883258955433,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7172835353387339,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.7140352162186031,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.7133290283881752,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.7129965788906525,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6968195212884276,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.6968031912611474,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.6934963416639963,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.9067062957853542,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7621228627204019,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.7601497776989817,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.753177179523856,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.7509303444406306,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.7363049357254222,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.7013897740204739,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.6980027446912047,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6824159588741092,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.6689605509377943,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002081,cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.8932504870883781,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002081,cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.8046971957686497,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002081,cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7969074768024615,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002081,cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7671552997894664,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002081,cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.7615999960153792,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002081,cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.7539918823071258,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002081,cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7461663772549387,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002081,cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.729832750460379,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002081,cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7282754202689843,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002081,cardiac atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7247042988297259,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002082,cardiac ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.8849691563954624,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002082,cardiac ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.8611670164745443,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002082,cardiac ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.8196042310674297,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002082,cardiac ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.799193502652229,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002082,cardiac ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7891587458758788,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002082,cardiac ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7569826927615401,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002082,cardiac ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.7406245557116946,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002082,cardiac ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.736356298102867,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002082,cardiac ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7277503210037229,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002082,cardiac ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.7208561719487003,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.8826005082616667,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7652765332572217,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.7251159288883228,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.7195086598971439,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.7188786095347657,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.7169115694617668,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.6908166228624687,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0003026,Bundle of His,0.6850559598295216,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.6820286494657688,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.6783962269729317,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.9083298968696955,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.8692079192397241,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.8013958223413309,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7505750810673057,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7320774486255155,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501519,Endocardial Cushions,0.7105924787874012,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.705206868712614,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6947802845294704,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.6604087185413561,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.6595025822575974,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002099,cardiac septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.9446123087849925,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002099,cardiac septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.9003007343832454,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002099,cardiac septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.887471361202017,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002099,cardiac septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7157523176844339,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002099,cardiac septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501519,Endocardial Cushions,0.6914604443176247,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002099,cardiac septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.6840318142488204,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002099,cardiac septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6685415920695517,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002099,cardiac septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.6599658540893963,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002099,cardiac septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.6535524990511629,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002099,cardiac septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6535340705991183,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002133,atrioventricular valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.8390031047312286,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002133,atrioventricular valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.8064187378729374,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002133,atrioventricular valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7980253606040277,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002133,atrioventricular valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.7970260896708293,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002133,atrioventricular valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.7904418500500414,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002133,atrioventricular valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7897507979885152,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002133,atrioventricular valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0004331,Chordae Tendineae,0.7838766318886498,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002133,atrioventricular valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0021947,Tricuspid Valve,0.7828632169121882,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002133,atrioventricular valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.7598829701141274,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002133,atrioventricular valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.7527331502907528,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002134,tricuspid valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0021947,Tricuspid Valve,0.909117855845288,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002134,tricuspid valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.8095626502885519,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002134,tricuspid valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7460087563284254,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002134,tricuspid valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7456312292594438,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002134,tricuspid valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7414372331727016,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002134,tricuspid valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.6871984282857415,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002134,tricuspid valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6870340427466374,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002134,tricuspid valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.6842722817051679,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002134,tricuspid valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501519,Endocardial Cushions,0.6816323688679439,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002134,tricuspid valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6793086983575245,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002135,mitral valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.9308324400281729,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002135,mitral valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.7904660212403409,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002135,mitral valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7892762191273888,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002135,mitral valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0021947,Tricuspid Valve,0.7851284745191257,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002135,mitral valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7246545936398272,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002135,mitral valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.7036719387503991,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002135,mitral valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.694246727966007,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002135,mitral valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0004331,Chordae Tendineae,0.6910452547505888,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002135,mitral valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.6755006262202565,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002135,mitral valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6684349245641542,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002137,aortic valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.8463498109042826,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002137,aortic valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0021947,Tricuspid Valve,0.8135232999028511,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002137,aortic valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7508221955628225,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002137,aortic valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.7452455208043134,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002137,aortic valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7265295944587576,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002137,aortic valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6679620590153241,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002137,aortic valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501519,Endocardial Cushions,0.6459697386539754,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002137,aortic valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6426297515945215,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002137,aortic valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0004331,Chordae Tendineae,0.6306646781668264,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002137,aortic valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6085749130314154,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002146,pulmonary valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.8707990416973521,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002146,pulmonary valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7907265613638775,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002146,pulmonary valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7173498687575303,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002146,pulmonary valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0021947,Tricuspid Valve,0.6995104265162089,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002146,pulmonary valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6908367209928012,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002146,pulmonary valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6716670954883012,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002146,pulmonary valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.6410200565770889,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002146,pulmonary valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.6307244887716537,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002146,pulmonary valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0006876,Ductus Arteriosus,0.630366512315758,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002146,pulmonary valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.6162030135432688,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002348,epicardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0016307,Pericardium,0.8444436632061093,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002348,epicardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.769946381954101,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002348,epicardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.7177751535857666,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002348,epicardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.6823177308416719,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002348,epicardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000605189,Pericardial Fluid,0.6799054066965847,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002348,epicardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6669844693205578,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002348,epicardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.6631079020425069,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002348,epicardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.6465477550145813,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002348,epicardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.64505044528754,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002348,epicardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501519,Endocardial Cushions,0.6445938660834968,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002351,sinoatrial node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0019898,Sinoatrial Node,0.9250572729629717,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002351,sinoatrial node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.8413367497661273,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002351,sinoatrial node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009948,Heart Conduction System,0.7656228710904404,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002351,sinoatrial node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.7258823655857616,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002351,sinoatrial node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7091540925144615,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002351,sinoatrial node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018172,Purkinje Fibers,0.6749059926745041,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002351,sinoatrial node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0003026,Bundle of His,0.6710584092403887,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002351,sinoatrial node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.658655364240473,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002351,sinoatrial node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.6061910108349507,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002351,sinoatrial node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.5890257345278447,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002352,atrioventricular node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.9220329147570401,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002352,atrioventricular node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0019898,Sinoatrial Node,0.8442111136946328,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002352,atrioventricular node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009948,Heart Conduction System,0.8022652297573805,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002352,atrioventricular node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7626927877019869,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002352,atrioventricular node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0003026,Bundle of His,0.7561531010014648,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002352,atrioventricular node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018172,Purkinje Fibers,0.7405024326309864,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002352,atrioventricular node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.7214632210518109,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002352,atrioventricular node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.6432828007818701,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002352,atrioventricular node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.6425176799269966,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002352,atrioventricular node,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.6396570580491658,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002353,bundle of His,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0003026,Bundle of His,0.8927671620274977,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002353,bundle of His,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.7816125698389876,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002353,bundle of His,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009948,Heart Conduction System,0.7497966303780493,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002353,bundle of His,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7282765344657862,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002353,bundle of His,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018172,Purkinje Fibers,0.7184376087489572,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002353,bundle of His,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0019898,Sinoatrial Node,0.717066562361314,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002353,bundle of His,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.6448181514032811,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002353,bundle of His,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.6435429129123051,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002353,bundle of His,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0008401,Fetal Heart,0.630164322392186,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002353,bundle of His,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.625341974486174,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002494,papillary muscle of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.8858376577396934,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002494,papillary muscle of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0004331,Chordae Tendineae,0.760052073312754,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002494,papillary muscle of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7278693728945519,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002494,papillary muscle of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.7230058985179852,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002494,papillary muscle of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.6885189975640337,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002494,papillary muscle of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0021947,Tricuspid Valve,0.6752701263396998,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002494,papillary muscle of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6740931164092006,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002494,papillary muscle of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501519,Endocardial Cushions,0.6719425181007543,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002494,papillary muscle of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.6706783729683075,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002494,papillary muscle of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6663860257850076,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003379,cardiac muscle of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.8845138675701673,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003379,cardiac muscle of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0400427,"Myocytes, Cardiac",0.8296636456093961,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003379,cardiac muscle of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.8131507641783505,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003379,cardiac muscle of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0003026,Bundle of His,0.7696824850296219,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003379,cardiac muscle of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018172,Purkinje Fibers,0.7665959801089812,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003379,cardiac muscle of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009948,Heart Conduction System,0.7659399694109985,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003379,cardiac muscle of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7514778077470385,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003379,cardiac muscle of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.7506203330780565,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003379,cardiac muscle of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.7097636014803803,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003379,cardiac muscle of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0019898,Sinoatrial Node,0.7093670309166114,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003383,cardiac muscle tissue of interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.8324159049224177,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003383,cardiac muscle tissue of interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.8187890337308561,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003383,cardiac muscle tissue of interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0400427,"Myocytes, Cardiac",0.7825068889665527,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003383,cardiac muscle tissue of interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7775587893991016,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003383,cardiac muscle tissue of interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7282443289110287,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003383,cardiac muscle tissue of interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.7261276413080117,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003383,cardiac muscle tissue of interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.7238069939519792,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003383,cardiac muscle tissue of interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018172,Purkinje Fibers,0.7160598243597898,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003383,cardiac muscle tissue of interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0003026,Bundle of His,0.704089327292062,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003383,cardiac muscle tissue of interventricular septum,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501519,Endocardial Cushions,0.6928067522572798,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003498,heart blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.697574066033055,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003498,heart blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6919290627024575,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003498,heart blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6873111407765177,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003498,heart blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.6502405127302824,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003498,heart blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.6308084420132737,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003498,heart blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6195591954500101,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003498,heart blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.6119800264622997,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003498,heart blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.5951158976412586,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003498,heart blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.5874116250485613,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003498,heart blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0022051,Truncus Arteriosus,0.5768469966825361,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004145,outflow tract,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.730233628484072,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004145,outflow tract,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.711699583640405,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004145,outflow tract,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6880556956338381,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004145,outflow tract,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.682633710287764,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004145,outflow tract,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6671941236336381,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004145,outflow tract,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.6649743063052439,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004145,outflow tract,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.6489149011646733,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004145,outflow tract,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.6428789787083137,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004145,outflow tract,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.6428312597448512,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004145,outflow tract,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6392001214111767,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004148,cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7088736496501479,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004148,cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.698700375625875,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004148,cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6648808576334944,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004148,cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.6579320744217149,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004148,cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.6380454029033694,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004148,cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.6298095893984019,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004148,cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.6290339104937104,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004148,cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.6289215768324532,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004148,cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6274418632466844,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004148,cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0016307,Pericardium,0.6230350442723198,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004151,cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.883308198594411,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004151,cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.8465008400713905,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004151,cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.8129802652678968,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004151,cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.7819108072268481,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004151,cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.7744589985583098,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004151,cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7715932775032012,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004151,cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.7581418129060167,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004151,cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.7364533803832372,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004151,cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7078464144403593,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004151,cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009948,Heart Conduction System,0.6979720368913049,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005208,right atrium valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0021947,Tricuspid Valve,0.9231921050221883,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005208,right atrium valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.8231297933543614,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005208,right atrium valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7977341179501468,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005208,right atrium valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7719184705217126,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005208,right atrium valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0004331,Chordae Tendineae,0.7570012462103369,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005208,right atrium valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7519721967348908,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005208,right atrium valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.7078768144903893,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005208,right atrium valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.655308197176424,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005208,right atrium valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.6529949750593198,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005208,right atrium valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6516699533270247,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005337,outflow tract of ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.77074181823471,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005337,outflow tract of ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.714893528931039,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005337,outflow tract of ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0006876,Ductus Arteriosus,0.7107158401759117,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005337,outflow tract of ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.701169428363826,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005337,outflow tract of ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.66711538858099,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005337,outflow tract of ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0022051,Truncus Arteriosus,0.6663037194776423,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005337,outflow tract of ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.6500294910319474,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005337,outflow tract of ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.6487265830955106,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005337,outflow tract of ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501519,Endocardial Cushions,0.6464833271873948,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005337,outflow tract of ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6412903226940335,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005438,coronary sinus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.6707020233875004,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005438,coronary sinus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6165974169640203,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005438,coronary sinus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0019898,Sinoatrial Node,0.6090293424430641,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005438,coronary sinus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.6060907577494226,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005438,coronary sinus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.6039176639337704,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005438,coronary sinus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6033185638650779,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005438,coronary sinus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.5985760000289166,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005438,coronary sinus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.5904587306493423,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005438,coronary sinus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.5869913103879588,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005438,coronary sinus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.576254076690403,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005623,semi-lunar valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.8148561474443154,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005623,semi-lunar valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7663374943281461,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005623,semi-lunar valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7584072382452806,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005623,semi-lunar valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0021947,Tricuspid Valve,0.7492076902109078,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005623,semi-lunar valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7425556996255235,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005623,semi-lunar valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.686484381650403,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005623,semi-lunar valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6825439604758275,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005623,semi-lunar valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.6230645191685136,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005623,semi-lunar valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.6229808297755236,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005623,semi-lunar valve,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.618278479948404,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005946,outflow tract of atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.7978022676928401,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005946,outflow tract of atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.753786401499378,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005946,outflow tract of atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7459532788302266,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005946,outflow tract of atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.740652420210399,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005946,outflow tract of atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7378352327132139,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005946,outflow tract of atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.7344792547156054,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005946,outflow tract of atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7286430219405579,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005946,outflow tract of atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.7248140452436924,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005946,outflow tract of atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.7227619753048543,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005946,outflow tract of atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7206230221246205,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005956,outflow part of left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.7207207710572942,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005956,outflow part of left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7145606374437463,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005956,outflow part of left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6999652240603407,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005956,outflow part of left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.6974924126045452,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005956,outflow part of left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.6955783459481537,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005956,outflow part of left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.6861076819594988,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005956,outflow part of left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.684657585381852,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005956,outflow part of left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.664273125984638,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005956,outflow part of left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0022051,Truncus Arteriosus,0.6611208347426711,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005956,outflow part of left ventricle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.6210773243432124,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005965,outflow part of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7736767767960087,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005965,outflow part of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.7708496647302102,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005965,outflow part of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.766089764236518,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005965,outflow part of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7594538721414513,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005965,outflow part of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0021947,Tricuspid Valve,0.7511754559179947,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005965,outflow part of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7287653861835939,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005965,outflow part of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.719875701847934,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005965,outflow part of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.718237641373989,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005965,outflow part of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.6869309843368538,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005965,outflow part of right atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.6861868157566656,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005966,outflow part of left atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.7779931393078432,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005966,outflow part of left atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7655856705829647,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005966,outflow part of left atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.732758355593744,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005966,outflow part of left atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7265843497947931,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005966,outflow part of left atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7175162364281606,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005966,outflow part of left atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.7154824764723129,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005966,outflow part of left atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7070710776432487,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005966,outflow part of left atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.6986823427175874,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005966,outflow part of left atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.6813670056190052,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005966,outflow part of left atrium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.6771439033753197,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005985,coronary vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6729404843732624,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005985,coronary vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6357765835943001,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005985,coronary vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6308437519710753,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005985,coronary vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6028690159946798,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005985,coronary vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.5677941261487015,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005985,coronary vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.5568164924490138,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005985,coronary vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.5516446480034223,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005985,coronary vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.5441431327225009,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005985,coronary vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.5385569422665131,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005985,coronary vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.5330889685012495,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006566,left ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.8552753360531568,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006566,left ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7932539328564951,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006566,left ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0400427,"Myocytes, Cardiac",0.7860045572236034,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006566,left ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7686674299329007,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006566,left ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0003026,Bundle of His,0.6757680766575945,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006566,left ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.6668071477696064,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006566,left ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018172,Purkinje Fibers,0.6590139459365608,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006566,left ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.6538487442306781,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006566,left ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0400431,"Myoblasts, Cardiac",0.653584971779873,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006566,left ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.6477251263318076,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006567,right ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.8500609140939147,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006567,right ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.8221124509596469,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006567,right ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0400427,"Myocytes, Cardiac",0.7713564373048847,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006567,right ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7604661205488602,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006567,right ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0003026,Bundle of His,0.7177812471082825,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006567,right ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.71059036804693,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006567,right ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0015833,Papillary Muscles,0.6919768197793957,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006567,right ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0019441,Sarcomeres,0.6912293765023642,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006567,right ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018172,Purkinje Fibers,0.6894602375189555,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006567,right ventricle myocardium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.6824119175313916,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006958,great vein of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6835766726724901,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006958,great vein of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.6299051331228344,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006958,great vein of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.6263003146994377,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006958,great vein of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6220085518157601,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006958,great vein of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.6103606732389855,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006958,great vein of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.600473837281408,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006958,great vein of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.5965830839833663,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006958,great vein of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.5877507693709609,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006958,great vein of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.5866318434048229,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006958,great vein of heart,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.5773668803238541,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009687,middle cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.6033423289570253,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009687,middle cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.5985269167747542,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009687,middle cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.5918497867806534,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009687,middle cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.5893923887460425,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009687,middle cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.5738221330229651,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009687,middle cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.5706033590063526,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009687,middle cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.5620659415487237,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009687,middle cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.5560925988692358,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009687,middle cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.5558186718766891,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009687,middle cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.5550060859266986,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011820,atrioventricular region,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.8350491270871041,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011820,atrioventricular region,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.8234579604849482,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011820,atrioventricular region,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.8057995644103255,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011820,atrioventricular region,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.8046113654603025,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011820,atrioventricular region,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.8017519133634781,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011820,atrioventricular region,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7863021000157575,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011820,atrioventricular region,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009948,Heart Conduction System,0.7115522881227769,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011820,atrioventricular region,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0019898,Sinoatrial Node,0.6985929591241676,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011820,atrioventricular region,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0003026,Bundle of His,0.691285450696587,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011820,atrioventricular region,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.6844827605142242,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0018674,heart vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.8594562002019559,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0018674,heart vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0016307,Pericardium,0.7631740535708404,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0018674,heart vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0007395,Endocardium,0.7564687058568093,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0018674,heart vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.7537951920631177,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0018674,heart vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014344,Myocardium,0.751045612993878,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0018674,heart vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.7345089218024915,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0018674,heart vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.7224420261761464,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0018674,heart vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7078550169800493,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0018674,heart vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.7064419854915043,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0018674,heart vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.7009973899858097,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035374,small cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.6443288021780399,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035374,small cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.6351518932176499,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035374,small cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.6345107272485025,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035374,small cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6300485020487706,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035374,small cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.6146883201874164,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035374,small cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.6122900240211625,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035374,small cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.5947104389414265,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035374,small cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.5892771850189987,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035374,small cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.5870915419371421,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035374,small cardiac vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.5866564789110125,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035422,circumflex branch of left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0022051,Truncus Arteriosus,0.5899888198795954,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035422,circumflex branch of left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.5652797947112776,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035422,circumflex branch of left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.5534537748697522,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035422,circumflex branch of left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001928,Atrioventricular Node,0.5427217678601259,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035422,circumflex branch of left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.5270602754683856,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035422,circumflex branch of left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.5075153503576345,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035422,circumflex branch of left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0328425,Atrial Appendage,0.5065726717245588,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035422,circumflex branch of left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.5048098566487161,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035422,circumflex branch of left coronary artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.5045011317695051,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035553,left cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.8947567671330051,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035553,left cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.8159053809057577,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035553,left cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.8091107920948255,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035553,left cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.7786797127019391,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035553,left cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.774092724412699,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035553,left cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.7405535054193763,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035553,left cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.733897120688854,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035553,left cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.7308487697165281,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035553,left cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7283477464133415,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035553,left cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.7208706675621555,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035554,right cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009975,Heart Ventricles,0.8421847865930394,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035554,right cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009941,Heart Atria,0.8233084064312276,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035554,right cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501517,Ventricular Septum,0.7343974270677215,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035554,right cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009974,Heart Valves,0.7217575337902495,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035554,right cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009936,Heart,0.7148570890784529,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035554,right cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009969,Heart Septum,0.7064984486610492,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035554,right cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0018141,Pulmonary Valve,0.7022080678118031,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035554,right cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0501516,Atrial Septum,0.7011395797948278,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035554,right cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0013957,Mitral Valve,0.6942221442237885,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035554,right cardiac chamber,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0001553,Aortic Valve,0.6942056352292095,,semapv:SemanticSimilarityThresholdMatching
