@@ -1,0 +1,262 @@
+subject_id,subject_label,predicate_id,object_id,object_label,score,comment,mapping_justification
+http://purl.obolibrary.org/obo/UBERON_0000074,renal glomerulus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000074,renal glomerulus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000074,renal glomerulus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009299,Glomerular Mesangium,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000362,renal medulla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000362,renal medulla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0000362,renal medulla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001224,renal pelvis,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012010,Kidney Calices,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001224,renal pelvis,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012023,Kidney Pelvis,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001224,renal pelvis,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001225,cortex of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012006,Kidney,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001225,cortex of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001225,cortex of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001226,major calyx,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012010,Kidney Calices,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001226,major calyx,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001226,major calyx,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012023,Kidney Pelvis,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001227,minor calyx,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012023,Kidney Pelvis,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001227,minor calyx,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012010,Kidney Calices,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001227,minor calyx,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012026,"Kidney Tubules, Collecting",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001229,renal corpuscle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014633,Nephrons,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001229,renal corpuscle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001229,renal corpuscle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001231,nephron tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001231,nephron tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014633,Nephrons,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001231,nephron tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001232,collecting duct of renal tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001232,collecting duct of renal tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001232,collecting duct of renal tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012026,"Kidney Tubules, Collecting",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001284,renal column,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001284,renal column,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012026,"Kidney Tubules, Collecting",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001284,renal column,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001285,nephron,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012006,Kidney,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001285,nephron,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014633,Nephrons,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001285,nephron,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001287,proximal convoluted tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001287,proximal convoluted tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001287,proximal convoluted tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001288,loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001288,loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001288,loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001289,descending limb of loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001289,descending limb of loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001289,descending limb of loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001290,proximal straight tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001290,proximal straight tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001290,proximal straight tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001291,thick ascending limb of loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001291,thick ascending limb of loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001291,thick ascending limb of loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001292,distal convoluted tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001292,distal convoluted tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012026,"Kidney Tubules, Collecting",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001292,distal convoluted tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001293,outer medulla of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001293,outer medulla of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001293,outer medulla of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001294,inner medulla of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001294,inner medulla of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001294,inner medulla of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001552,kidney arcuate artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001552,kidney arcuate artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001552,kidney arcuate artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0475586,Bowman Capsule,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0473246,Podocytes,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002113,kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014633,Nephrons,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002113,kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002113,kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012006,Kidney,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002303,juxtaglomerular apparatus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0011890,Juxtaglomerular Apparatus,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002303,juxtaglomerular apparatus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009299,Glomerular Mesangium,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002303,juxtaglomerular apparatus,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002319,mesangium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0475996,Mesangial Cells,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002319,mesangium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009299,Glomerular Mesangium,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002319,mesangium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0476074,Glomerular Basement Membrane,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002320,glomerular mesangium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009299,Glomerular Mesangium,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002320,glomerular mesangium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0476074,Glomerular Basement Membrane,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002320,glomerular mesangium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0475996,Mesangial Cells,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002335,macula densa,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002335,macula densa,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0011890,Juxtaglomerular Apparatus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002335,macula densa,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003455,inner renal medulla loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003455,inner renal medulla loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003455,inner renal medulla loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003517,kidney blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003517,kidney blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003517,kidney blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003527,kidney capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003527,kidney capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003527,kidney capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003644,kidney arterial blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003644,kidney arterial blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012006,Kidney,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0003644,kidney arterial blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004100,renal collecting system,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004100,renal collecting system,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004100,renal collecting system,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012026,"Kidney Tubules, Collecting",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004134,proximal tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004134,proximal tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004134,proximal tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004135,distal tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004135,distal tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004135,distal tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004136,intermediate tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004136,intermediate tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004136,intermediate tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004188,glomerular epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004188,glomerular epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004188,glomerular epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0473246,Podocytes,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004189,glomerular endothelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004189,glomerular endothelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004189,glomerular endothelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0473246,Podocytes,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004190,renal glomerulus vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004190,renal glomerulus vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004190,renal glomerulus vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004193,loop of Henle ascending limb thin segment,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004193,loop of Henle ascending limb thin segment,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004193,loop of Henle ascending limb thin segment,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004196,proximal convoluted tubule segment 1,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004196,proximal convoluted tubule segment 1,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004196,proximal convoluted tubule segment 1,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004197,proximal convoluted tubule segment 2,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004197,proximal convoluted tubule segment 2,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014633,Nephrons,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004197,proximal convoluted tubule segment 2,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004200,kidney pyramid,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004200,kidney pyramid,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004200,kidney pyramid,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004201,kidney outer medulla inner stripe,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004201,kidney outer medulla inner stripe,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004201,kidney outer medulla inner stripe,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004202,kidney outer medulla outer stripe,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004202,kidney outer medulla outer stripe,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004202,kidney outer medulla outer stripe,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004203,cortical collecting duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004203,cortical collecting duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004203,cortical collecting duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012026,"Kidney Tubules, Collecting",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004204,outer medullary collecting duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004204,outer medullary collecting duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004204,outer medullary collecting duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012026,"Kidney Tubules, Collecting",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004205,inner medullary collecting duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004205,inner medullary collecting duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004205,inner medullary collecting duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012026,"Kidney Tubules, Collecting",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004211,nephron epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004211,nephron epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0473246,Podocytes,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004211,nephron epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004212,glomerular capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004212,glomerular capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004212,glomerular capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0476074,Glomerular Basement Membrane,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004294,glomerular capillary endothelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004294,glomerular capillary endothelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004294,glomerular capillary endothelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0473246,Podocytes,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004639,renal afferent arteriole,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0011890,Juxtaglomerular Apparatus,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004639,renal afferent arteriole,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004639,renal afferent arteriole,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004640,renal efferent arteriole,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0011890,Juxtaglomerular Apparatus,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004640,renal efferent arteriole,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004640,renal efferent arteriole,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004719,kidney arcuate vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004719,kidney arcuate vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004719,kidney arcuate vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004723,interlobular artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004723,interlobular artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004723,interlobular artery,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004819,kidney epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004819,kidney epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004819,kidney epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005096,descending thin limb,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005096,descending thin limb,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005096,descending thin limb,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005097,renal connecting tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005097,renal connecting tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005097,renal connecting tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005099,short descending thin limb,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005099,short descending thin limb,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005099,short descending thin limb,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014633,Nephrons,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005164,ascending limb of loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005164,ascending limb of loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005164,ascending limb of loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005168,renal interlobular vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005168,renal interlobular vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005168,renal interlobular vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005215,kidney interstitium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005215,kidney interstitium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0476074,Glomerular Basement Membrane,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005215,kidney interstitium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009299,Glomerular Mesangium,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005271,juxtamedullary cortex,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005271,juxtamedullary cortex,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005271,juxtamedullary cortex,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005272,peritubular capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005272,peritubular capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005272,peritubular capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005750,glomerular parietal epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005750,glomerular parietal epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0475586,Bowman Capsule,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005750,glomerular parietal epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0009299,Glomerular Mesangium,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005751,glomerular visceral epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005751,glomerular visceral epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0005751,glomerular visceral epithelium,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0475586,Bowman Capsule,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006517,kidney calyx,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012023,Kidney Pelvis,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006517,kidney calyx,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012010,Kidney Calices,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006517,kidney calyx,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006534,renal convoluted tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006534,renal convoluted tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006534,renal convoluted tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006542,outer medulla outer stripe loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006542,outer medulla outer stripe loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006542,outer medulla outer stripe loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006544,kidney vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006544,kidney vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006544,kidney vasculature,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0011890,Juxtaglomerular Apparatus,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006853,renal cortex tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006853,renal cortex tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006853,renal cortex tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012026,"Kidney Tubules, Collecting",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0007684,uriniferous tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0007684,uriniferous tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014633,Nephrons,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0007684,uriniferous tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0007685,region of nephron tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0007685,region of nephron tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0007685,region of nephron tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0008716,hilum of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0008716,hilum of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012023,Kidney Pelvis,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0008716,hilum of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0008987,renal parenchyma,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0008987,renal parenchyma,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0008987,renal parenchyma,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0014633,Nephrons,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009035,renal straight tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009035,renal straight tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009035,renal straight tubule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009095,tip of renal papilla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012010,Kidney Calices,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009095,tip of renal papilla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012023,Kidney Pelvis,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009095,tip of renal papilla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009883,medullary ray,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009883,medullary ray,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0009883,medullary ray,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0010181,straight venules of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0010181,straight venules of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0010181,straight venules of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0012441,endothelium of peritubular capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0012441,endothelium of peritubular capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0555122,Glomerular Filtration Barrier,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0012441,endothelium of peritubular capillary,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0473246,Podocytes,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0014401,renal venous blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012012,Kidney Cortex,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0014401,renal venous blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0014401,renal venous blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0034884,juxtaglomerular arteriole,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0011890,Juxtaglomerular Apparatus,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0034884,juxtaglomerular arteriole,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0034884,juxtaglomerular arteriole,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012018,Kidney Glomerulus,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0034996,outer renal medulla loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0034996,outer renal medulla loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012027,"Kidney Tubules, Distal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0034996,outer renal medulla loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0034997,renal medulla loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0034997,renal medulla loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0034997,renal medulla loop of Henle,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_8410073,medullary region of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_8410073,medullary region of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_8410073,medullary region of kidney,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_8600036,kidney loop of Henle long descending thin limb outer medulla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_8600036,kidney loop of Henle long descending thin limb outer medulla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_8600036,kidney loop of Henle long descending thin limb outer medulla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012025,Kidney Tubules,3,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_8600037,kidney loop of Henle long descending thin limb inner medulla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012019,Kidney Medulla,1,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_8600037,kidney loop of Henle long descending thin limb inner medulla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012028,"Kidney Tubules, Proximal",2,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_8600037,kidney loop of Henle long descending thin limb inner medulla,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012691,Loop of Henle,3,,semapv:SemanticSimilarityThresholdMatching
