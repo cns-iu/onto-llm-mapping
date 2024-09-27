@@ -1,0 +1,50 @@
+subject_id,subject_label,predicate_id,object_id,object_label,similarity_score,comment,mapping_justification
+http://purl.obolibrary.org/obo/UBERON_0001113,lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5553661351189817,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001113,lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.5545705489476106,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001113,lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012632,Liver,0.5112999523459981,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001114,right lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.5818074831591507,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001114,right lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5510804329542902,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001114,right lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012632,Liver,0.5055492328373903,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001115,left lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.5430681115508348,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001115,left lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5105188710481882,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001116,quadrate lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.5757902079929584,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001116,quadrate lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002477,Bile Canaliculi,0.5222431802399032,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001117,caudate lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.5212959280332515,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001117,caudate lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5137694288470447,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001117,caudate lobe of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002477,Bile Canaliculi,0.5041123336093576,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001143,hepatic vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5139234106416667,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001247,falciform ligament,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.6792292507669359,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001247,falciform ligament,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002477,Bile Canaliculi,0.5097130206386992,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001280,liver parenchyma,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012632,Liver,0.5629532813463332,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001280,liver parenchyma,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5543480844545656,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001281,hepatic sinusoid,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5620616010101548,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001281,hepatic sinusoid,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002477,Bile Canaliculi,0.5557464969747522,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001282,intralobular bile duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002477,Bile Canaliculi,0.7490779360594537,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001282,intralobular bile duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.6787224942093366,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0001282,intralobular bile duct,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.5465883333188715,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0002107,liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012632,Liver,0.760514101780542,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004058,biliary ductule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.6588259038120312,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004058,biliary ductule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002477,Bile Canaliculi,0.6198760827860693,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004647,liver lobule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.5667190000957806,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004647,liver lobule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002477,Bile Canaliculi,0.5080615382025953,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0004647,liver lobule,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5013890240989178,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006588,round ligament of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.853329175885503,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006727,liver left lateral lobe,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5876287741562964,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006728,liver left medial lobe,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5763679429988623,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006729,liver perisinusoidal space,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002477,Bile Canaliculi,0.5112240241304747,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0006841,central vein of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.55684479451793,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011955,left hepatic vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5315447366292021,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011955,left hepatic vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012632,Liver,0.5137106692605795,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011956,right hepatic vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5217022518395339,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0011956,right hepatic vein,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012632,Liver,0.515971212010344,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0013138,coronary ligament of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.6666074272932595,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0013138,coronary ligament of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002477,Bile Canaliculi,0.5401379838255039,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0013138,coronary ligament of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5301852924087347,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0013139,ligament of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.7067008256324974,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0013139,ligament of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.6236724603352999,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0013139,ligament of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012632,Liver,0.5485856347025251,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0013139,ligament of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002477,Bile Canaliculi,0.5135140698606572,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0015796,liver blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0012632,Liver,0.6229750769603258,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0015796,liver blood vessel,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5387502205745421,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0016478,liver stroma,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M0002483,"Bile Ducts, Intrahepatic",0.5832632788013529,,semapv:SemanticSimilarityThresholdMatching
+http://purl.obolibrary.org/obo/UBERON_0035444,triangular ligament of liver,skos:relatedMatch,http://id.nlm.nih.gov/mesh/M000606073,Round Ligament of Liver,0.7084186896739253,,semapv:SemanticSimilarityThresholdMatching
