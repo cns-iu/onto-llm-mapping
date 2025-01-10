@@ -60,6 +60,8 @@ if [ -e "$ENV/bin/activate" ]; then
 
   llm install llm-gpt4all llm-ollama llm-sentence-transformers
 
+  llm sentence-transformers register all-mpnet-base-v2
+
   # Setup templates
   cp ${ROOT_DIR}/templates/*.yaml `llm templates path`
 fi
