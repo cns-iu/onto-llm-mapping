@@ -1,8 +1,6 @@
 # Mapping ontologies using LLMs and RAG
 
-:warning: RESEARCH IN PROGRESS :warning: 
-
-:triangular_flag_on_post: YOU ARE NOT AUTHORIZED TO SHARE THIS REPO WITHOUT PRIOR EMAILED CONFIRMATION :triangular_flag_on_post: 
+:warning: RESEARCH IN PROGRESS :warning:
 
 ## TODO
 
