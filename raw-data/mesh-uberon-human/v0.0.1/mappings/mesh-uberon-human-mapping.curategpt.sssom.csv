@@ -26,7 +26,7 @@ http://id.nlm.nih.gov/mesh/M0000076,Acanthocytes,skos:relatedMatch,http://purl.o
 http://id.nlm.nih.gov/mesh/M0000076,Acanthocytes,skos:relatedMatch,http://purl.obolibrary.org/obo/CL_0002020,GlyA-positive reticulocytes,0.8475729360472266,,semapv:SemanticSimilarityThresholdMatching
 http://id.nlm.nih.gov/mesh/M0000076,Acanthocytes,skos:relatedMatch,http://purl.obolibrary.org/obo/CL_0002021,GlyA-positive erythrocyte,0.8469836610003512,,semapv:SemanticSimilarityThresholdMatching
 http://id.nlm.nih.gov/mesh/M0000076,Acanthocytes,skos:relatedMatch,http://purl.obolibrary.org/obo/CL_0000552,orthochromatic erythroblast,0.8455541703660268,,semapv:SemanticSimilarityThresholdMatching
-http://id.nlm.nih.gov/mesh/M0000076,Acanthocytes,skos:relatedMatch,http://purl.obolibrary.org/obo/CL_000`0765,erythroblast,0.845275537,,semapv:SemanticSimilarityThresholdMatching
+http://id.nlm.nih.gov/mesh/M0000076,Acanthocytes,skos:relatedMatch,http://purl.obolibrary.org/obo/CL_0000765,erythroblast,0.845275537,,semapv:SemanticSimilarityThresholdMatching
 http://id.nlm.nih.gov/mesh/M0000076,Acanthocytes,skos:relatedMatch,http://purl.obolibrary.org/obo/CL_0000550,polychromatophilic erythroblast,0.8443129945481535,,semapv:SemanticSimilarityThresholdMatching
 http://id.nlm.nih.gov/mesh/M0000076,Acanthocytes,skos:relatedMatch,http://purl.obolibrary.org/obo/CL_0000595,enucleate erythrocyte,0.84057245,,semapv:SemanticSimilarityThresholdMatching
 http://id.nlm.nih.gov/mesh/M0000081,Accessory Nerve,skos:relatedMatch,http://purl.obolibrary.org/obo/UBERON_0002019,accessory XI nerve,0.9260184365346701,,semapv:SemanticSimilarityThresholdMatching
