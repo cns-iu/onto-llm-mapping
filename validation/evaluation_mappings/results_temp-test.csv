@@ -1,0 +1,1000 @@
+"model","subject_id","subject_label","accurate_mapping","model_analyzed","mesh_concept_group","mapping_count"
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000009","Abdominal Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000010","Abducens Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000081","Accessory Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000110","Acetabulum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000199","Achilles Tendon",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000241","Vestibulocochlear Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000262","Acromioclavicular Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000263","Acromion",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000365","Adenoids",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000425","Adipose Tissue",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000455","Adnexa Uteri",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000476","Adrenal Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000486","Adrenal Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000489","Adrenal Medulla",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0000834","Alveolar Process",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001044","Amygdala",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001253","Ankle Joint",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001297","Anterior Chamber",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001299","Anterior Eye Segment",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001526","Anal Canal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001539","Aorta",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001541","Aorta, Abdominal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001542","Aorta, Thoracic",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001548","Aortic Bodies",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001553","Aortic Valve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001590","Apocrine Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001611","Appendix",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001636","Aqueous Humor",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001655","Arachnoid",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001670","Arcuate Nucleus of Hypothalamus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001698","Bones of Upper Extremity",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001699","Arm Bones",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001731","Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001733","Arterioles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001782","Arytenoid Cartilage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001890","Astrocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001911","Atlanto-Axial Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001912","Atlanto-Occipital Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001913","Cervical Atlas",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001928","Atrioventricular Node",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0001963","Auditory Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002008","Autonomic Fibers, Postganglionic",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002009","Autonomic Fibers, Preganglionic",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002013","Autonomic Nervous System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002049","Axillary Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002050","Axillary Vein",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002051","Axis, Cervical Vertebra",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002096","Azygos Vein",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002097","B-Lymphocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002187","Bartholin's Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002196","Basal Ganglia",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002197","Claustrum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002218","Basilar Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002222","Basophils",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002477","Bile Canaliculi",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002482","Bile Ducts",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002483","Bile Ducts, Intrahepatic",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002490","Biliary Tract",1,TRUE,"Anatomical Structure",2
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002628","Urinary Bladder",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002669","Blood",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002677","Blood Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002704","Blood Platelets",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002726","Blood Vessels",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002730","Blood-Brain Barrier",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002732","Blood-Testis Barrier",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002767","Bone and Bones",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002783","Bone Marrow",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002787","Bone Marrow Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002855","Brachial Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002856","Brachial Plexus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002865","Brain",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002866","Cerebrum",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002886","Brain Stem",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002904","Breast",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002925","Broad Ligament",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002960","Bronchi",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002961","Bronchioles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002962","Bronchial Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002984","Adipose Tissue, Brown",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0002993","Brunner Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003019","Bulbourethral Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003026","Bundle of His",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003068","Bursa of Fabricius",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003069","Bursa, Synovial",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003140","Calcaneus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003289","Capillaries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003449","Cardia",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003475","Cardiovascular System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003539","Carotid Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003544","Carotid Artery, External",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003545","Carotid Artery, Internal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003546","Carotid Body",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003548","Carotid Sinus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003552","Carpal Bones",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003567","Cartilage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003569","Cartilage, Articular",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003689","Cauda Equina",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003691","Caudate Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003697","Cavernous Sinus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003712","Cecum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003735","Celiac Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003739","Celiac Plexus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003801","Central Nervous System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003857","Cerebellar Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003861","Cerebellar Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003866","Cerebellopontine Angle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003867","Cerebellum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003873","Cerebral Aqueduct",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003874","Cerebral Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003878","Cerebral Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003879","Insular Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003897","Cerebral Veins",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003903","Cerebral Ventricles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003929","Cervical Plexus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003931","Cervical Vertebrae",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0003947","Cervix Uteri",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004020","Chemoreceptor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004089","Chin",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004330","Chorda Tympani Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004331","Chordae Tendineae",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004341","Chorionic Villi",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004346","Choroid",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004348","Choroid Plexus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004454","Chyle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004476","Ciliary Body",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004501","Circle of Willis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004510","Cisterna Magna",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004545","Clavicle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004573","Clitoris",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004681","Coccyx",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004688","Cochlear Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004808","Colon",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0004860","Common Bile Duct",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005012","Conjunctiva",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005176","Cornea",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005184","Corneal Stroma",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005197","Coronary Vessels",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005203","Corpora Allata",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005205","Tectum Mesencephali",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005206","Corpus Callosum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005207","Corpus Luteum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005212","Corpus Striatum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005277","Cranial Fossa, Posterior",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005281","Cranial Nerves",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005282","Cranial Sinuses",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005283","Cranial Sutures",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005321","Cricoid Cartilage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005550","Cystic Duct",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005719","Decidua",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005769","Vestibular Nucleus, Lateral",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005828","Dendritic Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0005965","Dentition",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000605189","Pericardial Fluid",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000605281","Dorsolateral Prefrontal Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000606072","Round Ligament of Uterus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000606073","Round Ligament of Liver",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0006068","Descemet Membrane",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000611239","Coracoid Process",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000611246","Aponeurosis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000611270","Rib Cage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000611362","Nucleus Pulposus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000611368","Annulus Fibrosus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000611429","Hamstring Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000612951","Perirhinal Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000612954","Esophageal Mucosa",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000615196","Abdominal Oblique Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000616163","Gracilis Muscle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000616234","Meniscus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000616943","Mucosal-Associated Invariant T Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0006209","Diaphragm",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000622733","Oligodendrocyte Precursor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000626819","Suprachiasmatic Nucleus Neurons",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000631720","Intraepithelial Lymphocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0006319","Diencephalon",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0006371","Digestive System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000640812","Glymphatic System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000647224","Mental Foramen",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000648549","Jugular Foramina",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000648572","Infratemporal Fossa",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000648575","Parapharyngeal Space",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000648723","Cerebellar Golgi Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0006763","Dorsomedial Hypothalamic Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000679091","Uncinate Fasciculus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000679153","Vertebral Body",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000682877","T Follicular Helper Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0006876","Ductus Arteriosus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0006890","Duodenum",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0006892","Dura Mater",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0006939","Ear Cartilage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0006956","Eccrine Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007146","Ejaculatory Ducts",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007155","Elbow Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007395","Endocardium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000740445","Mandibular Canal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007416","Endometrium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007433","Endothelium, Corneal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007435","Endothelium, Lymphatic",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007437","Endothelium, Vascular",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000748185","Memory B Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000748186","Memory T Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000752489","Schlemm's Canal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007534","Eosinophils",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007535","Ependyma",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007554","Epidermis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000755725","Medium Spiny Neurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000755890","Myotendinous Junction",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000755891","Hypothalamic-Pituitary-Gonadal Axis",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007559","Epididymis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007561","Epidural Space",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007562","Epiglottis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000758388","Tuft Cells",0,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000758617","Epicardial Adipose Tissue",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000758817","Inferior Olivary Complex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007592","Epiphyses",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000764128","Tibiofemoral Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000764491","Ganglionic Eminence",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M000764626","Extravillous Trophoblasts",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007689","Erythroblasts",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007711","Erythrocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007756","Esophagogastric Junction",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007761","Esophagus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007874","Ethmoid Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0007875","Ethmoid Sinus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008071","Extrapyramidal Tracts",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008082","Eye",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008101","Eyebrows",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008104","Eyelashes",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008107","Eyelids",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008111","Facial Bones",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008118","Facial Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008121","Facial Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008175","Fallopian Tubes",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008234","Fascia",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008235","Fascia Lata",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008311","Femoral Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008315","Femoral Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008316","Femoral Vein",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008317","Femur",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008319","Femur Head",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008323","Femur Neck",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008390","Fetal Blood",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008459","Fibula",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008501","Finger Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008654","Foam Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008715","Foot Bones",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008730","Foramen Magnum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008792","Fovea Centralis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008846","Frontal Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008847","Broca Area",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008848","Frontal Lobe",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008849","Frontal Sinus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008886","Fundus Oculi",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008957","Gallbladder",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008978","Ganglia",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008979","Ganglia, Autonomic",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008980","Ganglia, Parasympathetic",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008981","Ganglia, Spinal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008983","Ganglia, Sympathetic",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009004","Gastric Fundus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009010","Gastric Mucosa",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009150","Geniculate Bodies",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009153","Geniculate Ganglion",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009158","Genitalia",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009161","Genitalia, Female",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009164","Genitalia, Male",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009199","Germ Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009294","Globus Pallidus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009299","Glomerular Mesangium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009304","Glomus Jugulare",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009311","Glossopharyngeal Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009312","Glottis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009535","Golgi-Mazzoni Corpuscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009550","Gonads",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009571","Ovarian Follicle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009603","Granulocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009617","Granulosa Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009657","Growth Plate",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009719","Gyrus Cinguli",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009747","Hair Cells, Auditory",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009748","Hair Cells, Auditory, Inner",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009936","Heart",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009941","Heart Atria",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009948","Heart Conduction System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009968","Foramen Ovale",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009969","Heart Septum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009974","Heart Valves",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0009975","Heart Ventricles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010055","Hematopoietic Stem Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010057","Hematopoietic System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010101","Hemocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010196","Hepatic Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010197","Hepatic Duct, Common",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010203","Hepatic Veins",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010370","Hip Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010374","Hippocampus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010405","Histiocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010654","Humerus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010802","Hymen",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010806","Hyoid Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010898","Hypogastric Plexus",1,TRUE,"Anatomical Structure",3
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010898","Hypogastric Plexus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010900","Hypoglossal Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010914","Hypopharynx",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010931","Anterior Hypothalamic Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010932","Hypothalamic Area, Lateral",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010938","Hypothalamo-Hypophyseal System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010939","Hypothalamus",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010940","Hypothalamus, Anterior",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010942","Hypothalamus, Middle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0010943","Hypothalamus, Posterior",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011026","Ileocecal Valve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011030","Ileum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011031","Iliac Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011032","Iliac Vein",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011033","Ilium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011068","Immune System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011301","Inferior Colliculi",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011485","Intercostal Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011486","Intercostal Nerves",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011531","Interneurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011558","Intervertebral Disc",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011572","Intestinal Mucosa",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011584","Intestine, Large",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011585","Intestine, Small",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011586","Intestines",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011715","Iris",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011735","Ischium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011741","Islets of Langerhans",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011742","Glucagon-Secreting Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011743","Insulin-Secreting Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011825","Jaw",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011844","Jejunum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011865","Joints",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011872","Jugular Veins",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0011890","Juxtaglomerular Apparatus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012006","Kidney",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012010","Kidney Calices",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012012","Kidney Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012018","Kidney Glomerulus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012019","Kidney Medulla",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012023","Kidney Pelvis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012025","Kidney Tubules",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012026","Kidney Tubules, Collecting",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012027","Kidney Tubules, Distal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012028","Kidney Tubules, Proximal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012035","Killer Cells, Natural",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012068","Knee Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012083","Kupffer Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012133","Lacrimal Apparatus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012200","Langerhans Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012225","Laryngeal Cartilages",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012229","Laryngeal Mucosa",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012230","Laryngeal Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012232","Laryngeal Nerves",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012239","Larynx",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012282","Leg Bones",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012344","Lens Capsule, Crystalline",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012345","Lens Cortex, Crystalline",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012350","Lens Nucleus, Crystalline",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012351","Lens, Crystalline",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012411","Leukocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012412","Leukocytes, Mononuclear",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012443","Leydig Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012506","Ligaments",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012507","Ligaments, Articular",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012518","Limbic System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012525","Lingual Frenum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012526","Lingual Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012632","Liver",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012691","Loop of Henle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012724","Lumbar Vertebrae",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012725","Lumbosacral Plexus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012740","Lung",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012762","Luteal Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012778","Lymph",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012781","Lymph Nodes",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012796","Lymphatic System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012806","Lymphocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012815","Lymphoid Tissue",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012871","Macrophages",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012873","Macula Lutea",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012960","Mammary Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012964","Mammillary Bodies",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012975","Mandible",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012976","Mandibular Condyle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012981","Mandibular Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013015","Manubrium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013088","Masseter Muscle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013089","Mast Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013092","Masticatory Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013099","Mastoid",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013131","Maxillary Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013135","Maxillary Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013137","Maxillary Sinus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013162","Mechanoreceptors",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013177","Meckel Diverticulum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013189","Median Eminence",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013190","Medial Forebrain Bundle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013191","Median Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013280","Medulla Oblongata",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013294","Megakaryocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013298","Meibomian Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013359","Meningeal Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013361","Meninges",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013459","Cerebral Peduncle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013460","Mesencephalon",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013462","Mesenteric Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013466","Mesenteric Veins",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013497","Metacarpophalangeal Joint",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013529","Metatarsal Bones",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013530","Metatarsophalangeal Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013957","Mitral Valve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014033","Monocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014112","Motor Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014114","Motor Neurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014115","Motor Neurons, Gamma",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014126","Mouth",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014245","Muscle, Smooth",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014246","Muscle, Smooth, Vascular",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014247","Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014257","Musculocutaneous Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014260","Musculoskeletal System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014333","Myenteric Plexus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014344","Myocardium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014357","Myometrium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014484","Nasal Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014485","Nasal Cavity",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014486","Nasal Mucosa",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014489","Nasal Septum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014491","Nasolacrimal Duct",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014495","Nasopharynx",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014542","Neck Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014633","Nephrons",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014645","Nerve Endings",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014647","Nerve Fibers",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014650","Nerve Fibers, Myelinated",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014665","Nervous System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014691","Neurilemma",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014711","Neuroglia",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014729","Muscle Spindles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014736","Neurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014737","Neurons, Afferent",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014738","Neurons, Efferent",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014767","Neurosecretory Systems",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014784","Neutrophils",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014865","Nipples",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014937","Nociceptors",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0014938","Nodose Ganglion",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015010","Nose",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015078","Nucleus Accumbens",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015178","Obturator Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015180","Occipital Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015181","Occipital Lobe",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015216","Oculomotor Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015217","Oculomotor Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015218","Sphincter of Oddi",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015225","Odontoid Process",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015251","Olfactory Bulb",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015253","Olfactory Mucosa",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015254","Olfactory Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015257","Olfactory Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015259","Olfactory Tubercle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015269","Oligodendroglia",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015271","Satellite Cells, Perineuronal",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015285","Olivary Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015307","Oocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015309","Oogonia",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015324","Ophthalmic Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015326","Ophthalmic Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015353","Optic Chiasm",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015354","Optic Disk",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015357","Optic Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015376","Orbit",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015442","Oropharynx",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015596","Ovary",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015608","Ovum",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015737","Pacinian Corpuscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015760","Palatal Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015790","Pancreas",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015796","Pancreatic Ducts",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015833","Papillary Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015867","Paraganglia, Nonchromaffin",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015868","Glomus Tympanicum",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015894","Paranasal Sinuses",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015922","Parasympathetic Nervous System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015936","Paraventricular Hypothalamic Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015953","Parietal Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015954","Parietal Cells, Gastric",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015955","Parietal Lobe",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0015974","Parotid Gland",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016005","Patella",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016081","Pectoralis Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016100","Pelvic Bones",1,TRUE,"Anatomical Structure",2
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016161","Penis",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016292","Periaqueductal Gray",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016307","Pericardium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016349","Peripheral Nerves",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016374","Peroneal Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016439","Petrous Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016442","Peyer's Patches",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016451","Phagocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016480","Pharyngeal Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016486","Pharynx",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016754","Photoreceptor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016764","Phrenic Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016831","Pia Mater",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016848","Pigment Epithelium of Eye",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016849","Retinal Pigment Epithelium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016874","Pineal Gland",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016910","Pituitary Gland",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016911","Pituitary Gland, Anterior",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016912","Pituitary Gland, Posterior",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016933","Placenta",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016977","Plasma",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016978","Plasma Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0017040","Pleura",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0017282","Pons",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0017284","Popliteal Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0017286","Popliteal Vein",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0017338","Portal System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0017339","Portal Vein",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0017550","Preoptic Area",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0017563","Pressoreceptors",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0017823","Prostate",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018080","Pterygoid Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018084","Pubic Bone",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018085","Pubic Symphysis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018121","Pulmonary Alveoli",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018122","Pulmonary Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018138","Pulmonary Stretch Receptors",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018141","Pulmonary Valve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018144","Pulmonary Veins",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018161","Pupil",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018171","Purkinje Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018172","Purkinje Fibers",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018190","Putamen",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018198","Pyloric Antrum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018200","Pylorus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018216","Pyramidal Tracts",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018374","Radial Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018450","Radius",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018476","Raphe Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018618","Sensory Receptor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018661","Rectum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018665","Recurrent Laryngeal Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018669","Red Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018769","Renal Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018775","Renal Veins",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018888","Respiratory Center",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018898","Respiratory Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018913","Respiratory System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018930","Rete Testis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018932","Reticular Formation",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018934","Reticulocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018939","Retina",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018941","Retinal Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018946","Retinal Ganglion Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018951","Retinal Vein",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0018956","Retinal Vessels",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019053","Rhombencephalon",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019083","Ribs",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019339","Sacroiliac Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019340","Sacrum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019378","Salivary Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019379","Salivary Glands, Minor",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019418","Saphenous Vein",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019469","Scapula",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019523","Schwann Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019524","Sciatic Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019537","Sclera",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019566","Scrotum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019583","Sebaceous Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019625","Sella Turcica",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019637","Lunate Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019638","Trigeminal Ganglion",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019639","Seminal Vesicles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019640","Seminiferous Epithelium",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019641","Seminiferous Tubules",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019665","Septal Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019667","Septum Pellucidum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019691","Sertoli Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019702","Sesamoid Bones",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019803","Shoulder Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019835","Colon, Sigmoid",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019898","Sinoatrial Node",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019899","Sinus of Valsalva",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019920","Skeleton",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019925","Skin",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0019947","Skull",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020151","Somatosensory Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020274","Spermatic Cord",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020276","Spermatids",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020280","Spermatocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020285","Spermatogonia",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020286","Spermatozoa",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020291","Sphenoid Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020292","Sphenoid Sinus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020308","Spinal Canal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020309","Spinal Cord",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020321","Spinal Nerve Roots",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020324","Spinal Nerves",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020332","Spine",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020338","Spinothalamic Tracts",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020341","Spiral Ganglion",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020363","Splanchnic Nerves",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020364","Spleen",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020367","Splenic Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020372","Splenic Vein",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020417","Stapedius",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020471","Stellate Ganglion",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020516","Sternoclavicular Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020517","Sternocostal Joints",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020518","Sternum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020540","Stomach",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020647","Subarachnoid Space",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020649","Subclavian Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020651","Subclavian Vein",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020652","Subcommissural Organ",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020656","Subdural Space",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020657","Subfornical Organ",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020664","Sublingual Gland",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020666","Submandibular Gland",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020671","Submucous Plexus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020679","Substantia Gelatinosa",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020681","Substantia Innominata",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020683","Substantia Nigra",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020685","Subtalar Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020820","Superior Colliculi",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020848","Suprachiasmatic Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020850","Supraoptic Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020852","Sural Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020922","Sweat Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020944","Sympathetic Nervous System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020961","Synovial Fluid",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020962","Synovial Membrane",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020987","T-Lymphocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020988","T-Lymphocytes, Regulatory",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0020989","T-Lymphocytes, Cytotoxic",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021023","Talus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021042","Tarsal Bones",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021047","Tarsal Joints",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021061","Taste Buds",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021120","Tegmentum Mesencephali",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021130","Telencephalon",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021146","Temporal Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021148","Temporal Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021149","Temporal Lobe",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021150","Wernicke Area",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021151","Temporal Muscle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021152","Temporomandibular Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021158","Tendons",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021168","Tensor Tympani",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021193","Testis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021263","Thalamic Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021264","Thalamus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021274","Theca Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021309","Thermoreceptors",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021392","Thoracic Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021398","Thoracic Nerves",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021406","Thoracic Vertebrae",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021468","Thymus Gland",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021476","Thyroid Cartilage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021510","Tibia",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021512","Tibial Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021615","Toe Joint",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021656","Tongue",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021663","Palatine Tonsil",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021738","Trabecular Meshwork",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021743","Trachea",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021947","Tricuspid Valve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021964","Trigeminal Caudal Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021965","Trigeminal Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021967","Trigeminal Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021968","Trigeminal Nucleus, Spinal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022026","Trochlear Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022032","Trophoblasts",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022051","Truncus Arteriosus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022096","Tuber Cinereum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022166","Turbinates",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022227","Ulna",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022229","Ulnar Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022245","Umbilical Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022247","Umbilical Veins",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022322","Ureter",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022331","Urethra",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022372","Urinary Tract",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022393","Urogenital System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022439","Uterus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022442","Uvea",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022473","Vagina",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022493","Vagus Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022532","Vas Deferens",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022534","Vasa Vasorum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022568","Ampulla of Vater",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022581","Veins",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022584","Vena Cava, Inferior",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022585","Vena Cava, Superior",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022586","Venae Cavae",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022602","Ventromedial Hypothalamic Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022604","Venules",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022621","Vertebral Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022642","Vestibular Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022644","Vestibular Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022777","Primary Visual Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022778","Visual Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022820","Vitreous Body",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022826","Vocal Cords",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022855","Vulva",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023029","Wrist Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023069","Xiphoid Bone",1,TRUE,"Anatomical Structure",2
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023153","Zona Pellucida",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023159","Zygoma",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023163","Zygote",1,TRUE,"Anatomical Structure",2
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023699","Zona Fasciculata",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023700","Zona Glomerulosa",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023701","Zona Reticularis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023858","CD4-Positive T-Lymphocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023922","Follicular Fluid",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0023966","Epithelioid Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0024026","Erythroid Precursor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0024132","Giant Cells, Foreign-Body",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0024133","Giant Cells, Langhans",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0024242","Blood-Air Barrier",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0024623","Anterior Cruciate Ligament",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0024624","Posterior Cruciate Ligament",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0024625","Brachiocephalic Veins",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0024626","Brachiocephalic Trunk",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0025248","Prosencephalon",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0025277","Bruch Membrane",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0025385","Psoas Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0025409","Macrophages, Alveolar",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0025644","Limbus Corneae",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0025729","Tibial Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0025841","Rotator Cuff",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0025942","Neostriatum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026411","Prefrontal Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026592","Radial Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026593","Ulnar Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026594","Carotid Artery, Common",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026595","Mesenteric Artery, Inferior",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026596","Mesenteric Artery, Superior",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026599","Tunica Intima",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026602","Tunica Media",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026613","Solitary Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026617","Ventral Tegmental Area",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026631","Rectus Abdominis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026688","Enteric Nervous System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026693","Cochlear Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026694","Microglia",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026801","Bile Ducts, Extrahepatic",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026804","Macrophages, Peritoneal",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026820","Joint Capsule",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026864","Pelvic Floor",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026868","Parasympathetic Fibers, Postganglionic",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026870","Sympathetic Fibers, Postganglionic",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026873","Superior Cervical Ganglion",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026965","Ligamentum Flavum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026969","Longitudinal Ligaments",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0026970","Patellar Ligament",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027092","Peripheral Nervous System",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027109","Retinal Rod Photoreceptor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027110","Retinal Cone Photoreceptor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027111","Ganglia, Sensory",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027134","Pyramidal Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027220","Olfactory Receptor Neurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027259","Hair Cells, Vestibular",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027263","Hair Cells, Auditory, Outer",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027643","CD8-Positive T-Lymphocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027645","Th1 Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027646","Th2 Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027725","Muscle, Skeletal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0027726","Diaphyses",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028058","Entorhinal Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028212","Germinal Center",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028213","Hair Follicle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028216","Merkel Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028250","Dentate Gyrus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028360","Salivary Ducts",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028474","Epigastric Arteries",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028633","Temporomandibular Joint Disc",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028686","Epithalamus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028687","Habenula",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0028723","Skull Base",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0029063","Epithelium, Corneal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0029077","Neocortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0029078","Perforant Pathway",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0029079","Neuropil",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0029490","Gastrin-Secreting Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0029492","Somatostatin-Secreting Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0029509","Chief Cells, Gastric",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0029518","Paneth Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0029935","Pericytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0030034","Tooth Socket",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0030041","Goblet Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0030055","Dermis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328019","Entopeduncular Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328056","Respiratory Mucosa",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328394","Anterior Cerebral Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328418","Anterior Thalamic Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328425","Atrial Appendage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328427","Basal Nucleus of Meynert",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328442","Enterocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328454","Dendritic Cells, Follicular",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328456","Diagonal Band of Broca",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328482","Fornix, Brain",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328533","Fourth Ventricle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328537","Mediodorsal Thalamic Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328538","Metencephalon",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328542","Middle Cerebral Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328544","Midline Thalamic Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328545","Internal Capsule",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328548","Intralaminar Thalamic Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328550","Islands of Calleja",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328553","Parahippocampal Gyrus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328556","Posterior Cerebral Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328557","Lateral Thalamic Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328559","Posterior Thalamic Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328563","Pulvinar",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328564","Lateral Ventricles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328566","Septum of Brain",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328573","Spinocerebellar Tracts",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328575","Subthalamic Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328577","Subthalamus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328582","Third Ventricle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0328588","Ventral Thalamic Nuclei",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0332426","Ventral Striatum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0333074","Optic Tract",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0336787","Fibrocartilage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0336841","Palate, Hard",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0336842","Pancreas, Exocrine",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0337473","Zona Incerta",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0352484","Scaphoid Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0355508","Zygapophyseal Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0362090","Myeloid Progenitor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0370345","Gastroepiploic Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0373280","Amacrine Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0378494","Nitrergic Neurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0398498","Area Postrema",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0400427","Myocytes, Cardiac",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0400431","Myoblasts, Cardiac",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0401762","Foot Joints",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0407094","Cranial Fossa, Anterior",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0407251","Cranial Fossa, Middle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0409789","Nerve Fibers, Unmyelinated",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0439053","Upper Gastrointestinal Tract",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0439054","Lower Gastrointestinal Tract",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0439813","Gastrointestinal Tract",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0441093","Mammary Glands, Human",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0441193","Granulocyte Precursor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0441573","Lymphatic Vessels",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0443760","Colon, Ascending",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0443761","Colon, Transverse",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0443762","Colon, Descending",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0446826","Serum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0447015","Pedunculopontine Tegmental Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0454724","Neuroepithelial Bodies",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0454726","Neuroepithelial Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0456567","Adventitia",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0464456","Blood-Nerve Barrier",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0466566","Esophageal Sphincter, Lower",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0466574","Esophageal Sphincter, Upper",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0472875","Subcutaneous Fat",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0472882","Intra-Abdominal Fat",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0472886","Subcutaneous Fat, Abdominal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0472888","Abdominal Fat",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0473246","Podocytes",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0473609","Hand Bones",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0473616","Toe Phalanges",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0473618","Finger Phalanges",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0473619","Metacarpal Bones",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0473690","Bones of Lower Extremity",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0475038","Pancreatic Polypeptide-Secreting Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0475586","Bowman Capsule",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0475996","Mesangial Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0476074","Glomerular Basement Membrane",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0476239","Bowman Membrane",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0478061","Hand Joints",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0478070","Carpal Joints",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0479688","Pisiform Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0479692","Triquetrum Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0479693","Trapezium Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0479694","Trapezoid Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0479695","Capitate Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0479696","Hamate Bone",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0479891","Retinal Bipolar Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0479896","Retinal Horizontal Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0480577","Hyaline Cartilage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0480675","Elastic Cartilage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0483163","Quadriceps Muscle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0486891","Adipose Tissue, White",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0488565","Corticotrophs",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0488566","Gonadotrophs",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0488572","Lactotrophs",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0488576","Somatotrophs",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0488577","Thyrotrophs",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0488957","Pituitary Gland, Intermediate",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0488969","Melanotrophs",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0489052","Carpometacarpal Joints",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0489550","Foreskin",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0500190","Myelencephalon",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0500779","Superior Sagittal Sinus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0500783","Transverse Sinuses",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0501516","Atrial Septum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0501517","Ventricular Septum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0501519","Endocardial Cushions",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0504061","Coronary Sinus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0505623","Lymphoid Progenitor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0508245","von Ebner Glands",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0508604","Cumulus Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0512588","Granulocyte-Macrophage Progenitor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0512633","Megakaryocyte-Erythroid Progenitor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0512634","Megakaryocyte Progenitor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0512646","Monocyte-Macrophage Precursor Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0514761","Velopharyngeal Sphincter",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0514975","Nasal Cartilages",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0514991","Vomer",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0515670","Retinal Photoreceptor Cell Outer Segment",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0515673","Retinal Photoreceptor Cell Inner Segment",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0517574","Venous Valves",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0518844","Natural Killer T-Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0520261","Cranial Fontanelles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0520698","Microvessels",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0524978","Uterine Artery",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0525919","Pyriform Sinus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0527764","CA1 Region, Hippocampal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0528211","CA2 Region, Hippocampal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0528221","CA3 Region, Hippocampal",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0528952","Olecranon Process",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0529227","Alveolar Epithelial Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0534239","Cervical Rib",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0534242","Patellofemoral Joint",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0538439","Deltoid Muscle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0540316","Posterior Eye Segment",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0542307","Humeral Head",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0542928","Th17 Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0549236","Dopaminergic Neurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0549413","Serotonergic Neurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0549427","Cholinergic Neurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0549430","GABAergic Neurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0550363","Adrenergic Neurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0551031","Polar Bodies",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0553098","B-Lymphocytes, Regulatory",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0554334","Pudendal Nerve",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0555122","Glomerular Filtration Barrier",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0556524","Glenoid Cavity",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0578089","Ependymoglial Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0579781","Back Muscles",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0590591","Limbic Lobe",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591083","Cerebellar Vermis",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591189","Pontine Tegmentum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591193","Parabrachial Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591245","Abducens Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591246","Facial Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591274","Superior Olivary Complex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591281","Trapezoid Body",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591283","Barrington's Nucleus",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591287","Kolliker-Fuse Nucleus",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591288","Middle Cerebellar Peduncle",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591291","Oculomotor Nuclear Complex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591294","Edinger-Westphal Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591299","Pars Reticulata",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591302","Pars Compacta",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591311","Cerebral Crus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591315","Tectospinal Fibers",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591381","Nucleus Raphe Magnus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591382","Dorsal Raphe Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591385","Nucleus Raphe Pallidus",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0591393","Nucleus Raphe Obscurus",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0592761","Gray Matter",1,TRUE,"Anatomical Structure",2
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0592773","White Matter",1,TRUE,"Anatomical Structure",2
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0592790","Spinal Cord Dorsal Horn",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0592805","Cervical Cord",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0592813","Spinal Cord Ventral Horn",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0592817","Spinal Cord Lateral Horn",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0592909","Costal Cartilage",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0592917","Basal Forebrain",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593045","Sensorimotor Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593087","Piriform Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593298","Anterior Commissure, Brain",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593300","Posterior Cerebellar Commissure",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593315","Schaffer Collaterals",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593361","Pretectal Region",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593542","Interpeduncular Nucleus",0,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593549","Midbrain Reticular Formation",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593552","Trigeminal Motor Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593555","Midbrain Raphe Nuclei",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593583","External Capsule",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593589","Basolateral Nuclear Complex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593591","Central Amygdaloid Nucleus",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593621","Corticomedial Nuclear Complex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593622","Periamygdaloid Cortex",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593630","Organum Vasculosum",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593635","Circumventricular Organs",1,TRUE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593750","Renshaw Cells",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593756","Commissural Interneurons",1,TRUE,"Cell type.",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0012670","Locus Coeruleus",0,FALSE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0013130","Maxilla",0,FALSE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021395","Thoracic Duct",0,FALSE,"Anatomical Structure",1
+"llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0593321","Telencephalic Commissures",0,FALSE,"Anatomical Structure",1
