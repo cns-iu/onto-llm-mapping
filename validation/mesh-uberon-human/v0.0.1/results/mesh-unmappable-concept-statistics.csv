@@ -1,0 +1,12 @@
+"mesh_concept_group","concept_group","percent_subject_concept","exclusion_reason","concept_reason","percent_subject_concept_reasons"
+"Anatomical structure",43,0.039,"Connective tissue not in UBERON.",13,0.3
+"Anatomical structure",43,0.039,"Pathway not in UBERON.",9,0.21
+"Anatomical structure",43,0.039,"Vasculature not in UBERON.",7,0.16
+"Anatomical structure",43,0.039,"Musculoskeletal structure not in UBERON.",5,0.12
+"Anatomical structure",43,0.039,"System not in UBERON.",5,0.12
+"Anatomical structure",43,0.039,"Occular structure not in UBERON.",4,0.09
+"Cell structure",35,0.031,"Not in CL.",35,1
+"Cell type",30,0.027,"Not in CL.",28,0.93
+"Cell type",30,0.027,"Non-human cell type",2,0.07
+"Not relevant to HRA.",7,0.006,"Biomedical concept.",6,0.86
+"Not relevant to HRA.",7,0.006,"Non-human anatomical structure.",1,0.14
