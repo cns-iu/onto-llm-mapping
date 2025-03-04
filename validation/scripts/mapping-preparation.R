@@ -12,15 +12,6 @@ path_raw_data <- paste0("./raw-data/mesh-uberon-human/v0.0.1")
 path_eval_data <- paste0("./validation/evaluation_mappings")
 path_prep_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
 
-# #Load MeSH concepts used in LLM mapping analysis
-# source_concepts <- 
-#   read.csv(file=paste0(path_input_data,"/mesh-terms.csv"),
-#            header = T, encoding = "UFT-8")
-# #Load UBERON and CL concepts used in LLM mapping analysis
-# target_concepts <- 
-#   read.csv(file=paste0(path_input_data,"/uberon-terms.csv"),
-#            header = T, encoding = "UFT-8")
-
 #Load in LLM mappings 
 # currently selects for vector results.
 llm_mapping_paths <- 
@@ -38,7 +29,6 @@ mappable_concepts <-
   unique()
 
 #### Pre-process the data ####
-
 for(i in 1:length(llm_mapping_paths)){
   # Load LLM mapping results  
   data <- read.csv(file=llm_mapping_paths[i],
@@ -65,20 +55,20 @@ for(i in 1:length(llm_mapping_paths)){
   # Subset to keep only results for mappable concepts
   data <- data[data$subject_label %in% mappable_concepts,]
   
-  # Join mapping results with accurate mapping evaluation.
+  # Join 1: Evaluate mapping results using mapping evaluation look-up table.
   data <- join(data, evaluative_mappings[,c(2,11)], by="pair_id")
   
   # Set accuracy score for missing values, all to 0.
   data[is.na(data$accurate_mapping),]$accurate_mapping <- 0
   
-  # Add rank number to mapping results per source concept.
+  # Create concept_pair_rank values for subject concept mapping results.
   data <-
    data %>% 
     group_by(subject_id) %>% 
     mutate(concept_pair_rank = row_number()) %>%
     ungroup()
   
-  # Identify any missing concepts, and return concept level labels and mapping stats
+  #Identify any missing concepts, and return concept level labels and mapping stats
   tmp <-  
     data[,c(1,3,7,11)] %>%
     ddply(.(model, subject_id, subject_label),
@@ -86,6 +76,7 @@ for(i in 1:length(llm_mapping_paths)){
           accurate_mapping=max(accurate_mapping, na.rm = TRUE)) %>%
     mutate(model_analyzed = TRUE)
   
+  # Join 2: tmp concept level mapping results are joined to evaluation look up.
   tmp <-
     right_join(tmp, 
                unique(evaluative_mappings[
@@ -93,34 +84,57 @@ for(i in 1:length(llm_mapping_paths)){
                       by=c("subject_id","subject_label")) %>%
     fill(model, .direction="down")
   
-  # Clean up missing values
-  tmp[is.na(tmp$accurate_mapping),]$accurate_mapping <- 0
+  # Updates missing values for absent subject concepts.
   tmp[is.na(tmp$model_analyzed),]$model_analyzed <- FALSE
-  # Add hit miss column for concept.
-  tmp$hit_miss <- "Miss"
-  tmp[tmp$accurate_mapping==1,]$hit_miss <- "Hit"
   
-  tmp <- tmp[,c(1,2,3,5,8,6,4,7)]
+  # Creates hit_miss_concept variable.
+  tmp$hit_miss_concept <- "Miss"
   
-  # Combine missing subject concepts back into results.
-  data <- left_join(tmp,data, by=c("model","subject_id","subject_label"))
-  data <- data[,c(1,9,2,10:12,3,13,6,14,16,17,8,5,4)]
-  
-  # update hit_miss to hit_miss_concept and hit_miss_mapping
-  data$hit_miss_mapping <- data$hit_miss
-  data[data$accurate_mapping==0 | is.na(data$accurate_mapping)==T ,]$hit_miss_mapping <- "Miss"
-  names(data)[14] <- "hit_miss_concept"
-  
-  # Update mapping values for un-mapped concepts.
-  names(data)[11] <- "accurate_mapping"
-  data[is.na(data$accurate_mapping),]$accurate_mapping <- 0
+  # Update hit_miss_concept variable.
+  tmp[tmp$accurate_mapping==1 & !is.na(tmp$accurate_mapping),]$hit_miss_concept <- "Hit"
   
   # Reorder columns
-  data <- data[,c(1:14,16,15)]
+  tmp <- tmp[,c(1,2,3,5,8,6,4,7)]
+  
+  # Join 3: Combine missing subject concepts back into results.
+  data <- left_join(tmp, data, by=c("model","subject_id","subject_label"))
+  
+  # Reorder columns
+  data <- data[,c(1,9,2,10:12,3,13,6,14,16,17,8,5,4)]
+  
+  # Update name of variable
+  names(data)[11] <- "accurate_mapping"
+  
+  # Create hit_miss_mapping from hit_miss_concept
+  data$hit_miss_mapping <- data$hit_miss_concept
+  
+  # Update values for hit_miss_mapping, where accurate mapping values are 0.
+  data[data$accurate_mapping==0 | is.na(data$accurate_mapping)==T ,]$hit_miss_mapping <- "Miss"
+  
+  # Update mapping values for accurate_mapping for absent subject concepts variables.
+  data[is.na(data$accurate_mapping),]$accurate_mapping <- 0
+  
+  # Pivot 2: Calculate mapping result number (most subject concepts have 1 valid result).
+  tmp2 <- 
+    data[data$accurate_mapping==1,c("subject_id","pair_id","mapping_count")] %>%
+    group_by(subject_id) %>%  
+    mutate(mapping_result_number = row_number()) %>%
+    ungroup() %>%
+    select(pair_id,mapping_result_number)
+  
+  # Join 4
+  data <- join(data, tmp2, by="pair_id")
+  data[is.na(data$mapping_result_number)==T,]$mapping_result_number <- 0
+  
+  # Reorder columns
+  data <- data[,c(1:13,17,14,16,15)]
   
   # Export prepared results.
   write.csv(data,file=paste0(path_prep_data,"/",llm_result_file,"-prepared.csv"), row.names =F )
   
   # Clean up loop
-  rm(tmp, llm_result_file)
+  rm(tmp, tmp2, llm_result_file)
 }
+
+rm(i, data, llm_mapping_paths, evaluative_mappings, mappable_concepts, 
+   path_eval_data, path_prep_data, path_raw_data)
