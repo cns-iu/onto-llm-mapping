@@ -25,12 +25,12 @@ time node src/expand-descriptions.js $TARGET_TERMS $DIR/target.content.csv
 time node src/find-similar.js $DIR/source.content.csv $DIR/target.content.csv $DIR/vec-scores.csv
 
 ## Use an LLM to rank the similar terms from expanded content comparison
-time node ./src/rank-similar.js $SOURCE_TERMS $TARGET_TERMS $DIR/source.content.csv $DIR/target.content.csv $DIR/vec-scores.csv $DIR/ranked-vec-scores.csv
+# time node ./src/rank-similar.js $SOURCE_TERMS $TARGET_TERMS $DIR/source.content.csv $DIR/target.content.csv $DIR/vec-scores.csv $DIR/ranked-vec-scores.csv
 
 ## Compile results to SSSOM format
 ./src/create-sssom-scored.sh $SOURCE_TERMS $TARGET_TERMS $DIR/vec-scores.csv ${SSSOM_BASE}.llm-vec.sssom.csv
-./src/create-sssom-ranked.sh $SOURCE_TERMS $TARGET_TERMS $DIR/ranked-vec-scores.csv ${SSSOM_BASE}.llm-rank.sssom.csv
+# ./src/create-sssom-ranked.sh $SOURCE_TERMS $TARGET_TERMS $DIR/ranked-vec-scores.csv ${SSSOM_BASE}.llm-rank.sssom.csv
 
 ## Validate SSSOM files
 sssom validate ${SSSOM_BASE}.llm-vec.sssom.csv
-sssom validate ${SSSOM_BASE}.llm-rank.sssom.csv
+# sssom validate ${SSSOM_BASE}.llm-rank.sssom.csv

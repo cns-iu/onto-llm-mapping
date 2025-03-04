@@ -1,0 +1,36 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX uberon: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX cl: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX description1: <http://purl.obolibrary.org/obo/IAO_0000115>
+PREFIX description2: <http://purl.obolibrary.org/obo/UBPROP_0000010>
+
+#SELECT (COUNT(DISTINCT ?term) as ?count)
+SELECT DISTINCT (?term as ?iri) ?id ?name ?aka ?description
+FROM <https://purl.humanatlas.io/vocab/uberon>
+FROM <https://purl.humanatlas.io/vocab/cl>
+WHERE {
+  ?term rdfs:label ?name .
+
+  OPTIONAL { 
+    SELECT ?term (GROUP_CONCAT(DISTINCT ?akaLabel; SEPARATOR='; ') as ?aka)
+    WHERE {
+      ?term oboInOwl:hasExactSynonym ?akaLabel .
+    }
+    GROUP BY ?term
+  }
+  OPTIONAL { ?term oboInOwl:inSubset ?subset . }
+  OPTIONAL { ?term description1: ?description1 . }
+  OPTIONAL { ?term description2: ?description2 . }
+
+  BIND(IF(BOUND(?description1), ?description1, IF(BOUND(?description2), ?description2, ?name)) as ?description)
+  BIND(REPLACE(STR(?term), STR(obo:), '') as ?id)
+
+  # Keep Uberon human subset and all of CL ontology
+  FILTER(?subset = <http://purl.obolibrary.org/obo/uberon/core#human_subset> || STRSTARTS(STR(?id), "CL_"))
+  FILTER(!CONTAINS(?name, "obsolete "))
+}
+ORDER BY ?id
