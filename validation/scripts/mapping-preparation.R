@@ -47,7 +47,7 @@ for(i in 1:length(llm_mapping_paths)){
   
   # Creates concept pair id with concept labels.
   data$pair_id <- 
-    paste0(data$subject_label,"|",data$object_label)
+    paste0(data$subject_id,"|",data$object_id)
   
   # Re-order columns
   data <- data[,c(9,8,1,3,4,10,2,5,6,7)]
