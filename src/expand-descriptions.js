@@ -1,6 +1,7 @@
-import { closeSync, openSync, readFileSync, writeSync } from 'fs';
+import { closeSync, openSync, writeSync } from 'fs';
 import Papa from 'papaparse';
 import sh from 'shelljs';
+import { readCsv } from './utils.js';
 
 const INPUT_CSV = process.argv[2];
 const OUTPUT_CSV = process.argv[3];
@@ -11,8 +12,7 @@ const TEMPLATE = process.env['LLM_EXPAND_TEMPLATE'] ?? 'term-description';
 const results = openSync(OUTPUT_CSV, 'w');
 writeSync(results, 'id,content\n');
 
-const data = Papa.parse(readFileSync(INPUT_CSV).toString(), { skipEmptyLines: true, header: true }).data;
-for (const row of data) {
+for await (const row of readCsv(INPUT_CSV)) {
   console.log(row);
 
   const expanded = sh

@@ -1,6 +1,6 @@
-import { closeSync, openSync, readFileSync, writeSync } from 'fs';
-import Papa from 'papaparse';
+import { closeSync, openSync, writeSync } from 'fs';
 import sh from 'shelljs';
+import { readCsv } from './utils.js';
 sh.config.silent = true;
 
 const SOURCE_CSV = process.argv[2];
@@ -13,27 +13,21 @@ const MODEL = process.env['LLM_MODEL'];
 const MODEL_OPTS = process.env['LLM_MODEL_OPTS'] ?? '';
 const TEMPLATE = process.env['LLM_RANK_TEMPLATE'] ?? 'rank-similar';
 
-function readCsv(input) {
-  const csvString = readFileSync(input).toString();
-  const result = Papa.parse(csvString, { header: true, skipEmptyLines: true, dynamicTyping: true });
-  return result.data;
-}
-
-function getLookup(dataCsv, contentCsv) {
+async function getLookup(dataCsv, contentCsv) {
   const lookup = {};
-  for (const row of readCsv(dataCsv)) {
+  for await (const row of readCsv(dataCsv)) {
     lookup[row.id] = row;
   }
-  for (const row of readCsv(contentCsv)) {
+  for await (const row of readCsv(contentCsv)) {
     lookup[row.id].content = row.content;
   }
   return lookup;
 }
 
-const sources = getLookup(SOURCE_CSV, SOURCE_CONTENT_CSV);
-const targets = getLookup(TARGET_CSV, TARGET_CONTENT_CSV);
+const sources = await getLookup(SOURCE_CSV, SOURCE_CONTENT_CSV);
+const targets = await getLookup(TARGET_CSV, TARGET_CONTENT_CSV);
 
-for (const sim of readCsv(SIMILARITIES_CSV)) {
+for await (const sim of readCsv(SIMILARITIES_CSV)) {
   sources[sim.source].similar = sources[sim.source].similar ?? [];
   sources[sim.source].similar.push([sim.target, sim.score]);
 }
@@ -55,7 +49,11 @@ for (const source of Object.values(sources).filter((s) => s.similar?.length > 0)
       .slice(0, 3)
       .join('\n');
     const options = ['name', 'aka', 'content'].map((n) => `-p ${n} "${source[n]}"`).join(' ');
-    const simStr = sh.echo(content).exec(`llm -m ${MODEL} ${MODEL_OPTS} -t ${TEMPLATE} ${options}`).stdout.toString().trim();
+    const simStr = sh
+      .echo(content)
+      .exec(`llm -m ${MODEL} ${MODEL_OPTS} -t ${TEMPLATE} ${options}`)
+      .stdout.toString()
+      .trim();
 
     const sorted = similar
       .slice(0, 3)

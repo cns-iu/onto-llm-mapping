@@ -1,6 +1,7 @@
-import { closeSync, openSync, readFileSync, writeSync } from 'fs';
+import { closeSync, openSync, writeSync } from 'fs';
 import Papa from 'papaparse';
 import sh from 'shelljs';
+import { readCsv } from './utils.js';
 
 const SOURCE_CSV = process.argv[2];
 const TARGET_CSV = process.argv[3];
@@ -14,8 +15,8 @@ sh.exec(`llm embed-multi default -m ${EMBED_MODEL} -d ${DB} --format csv ${TARGE
 
 const results = openSync(OUTPUT_CSV, 'w');
 writeSync(results, 'source,target,score\n');
-const data = Papa.parse(readFileSync(SOURCE_CSV).toString(), { skipEmptyLines: true, header: true }).data;
-for (const row of data) {
+
+for await (const row of readCsv(SOURCE_CSV)) {
   console.log('source id', row.id);
   const simStr = sh.exec(`echo "${row.content}" | llm similar default -d ${DB} -i -`).stdout.toString().trim();
   const sims = simStr
