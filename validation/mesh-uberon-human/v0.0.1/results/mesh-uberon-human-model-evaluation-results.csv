@@ -1,3 +1,3 @@
-"model","mappable_concepts","mapped_concepts","skipped_concepts","mapped_concepts_percent","hit","hit_as","hit_ct","miss","miss_as","miss_ct","hit_percent","hit_as_percent","hit_ct_percent","miss_percent","miss_as_percent","miss_ct_percent","mean_precision","mean_recall","f_score"
-"mesh-uberon-human-mapping.llama3.2-3b.llm",998,994,4,0.996,959,822,137,39,38,1,0.96,0.96,0.99,0.04,0.04,0.01,0.0960921843687375,0.961923847695391,0.384502245198977
-"mesh-uberon-human-mapping.llama3.2-3b.llm",998,994,4,0.996,959,822,137,39,38,1,0.96,0.96,0.99,0.04,0.04,0.01,0.0960921843687375,0.961923847695391,0.528782421539275
+"model","mappable_concepts","mapped_concepts","skipped_concepts","mapped_concepts_percent","hit","hit_as","hit_ct","miss","miss_as","miss_ct","hit_percent","hit_as_percent","hit_ct_percent","miss_percent","miss_as_percent","miss_ct_percent","mean_precision","mean_recall","f_score","beta","mean_reciprocal_rank","mean_reciprocal_rank_sd"
+"mesh-uberon-human-mapping.llama3.2-3b.gpt4o.llm",998,866,132,0.868,137,1,136,861,859,2,0.14,0,0.99,0.86,1,0.01,0.0137274549098196,0.13627254509018,0.0489238434941161,2,0.148200538876058,0.350606482076351
+"mesh-uberon-human-mapping.llama3.2-3b.llm",998,994,4,0.996,959,822,137,39,38,1,0.96,0.96,0.99,0.04,0.04,0.01,0.0960921843687375,0.961923847695391,0.343288541954406,2,0.768361358627958,0.334278126993986
