@@ -16,7 +16,7 @@ path_prep_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
 # currently selects for vector results.
 llm_mapping_paths <- 
   list.files(path=paste0(path_raw_data,"/mappings"),
-             pattern="vec.sssom.csv", full.names = TRUE)
+             pattern="sssom.csv", full.names = TRUE)
 
 #Load Ground Truth mapping Data
 evaluative_mappings <- 
@@ -85,7 +85,9 @@ for(i in 1:length(llm_mapping_paths)){
     fill(model, .direction="down")
   
   # Updates missing values for absent subject concepts.
-  tmp[is.na(tmp$model_analyzed),]$model_analyzed <- FALSE
+  if(nrow(tmp[is.na(tmp$model_analyzed),])>0){ 
+    tmp[is.na(tmp$model_analyzed),]$model_analyzed <- FALSE
+    }
   
   # Creates hit_miss_concept variable.
   tmp$hit_miss_concept <- "Miss"
@@ -112,7 +114,9 @@ for(i in 1:length(llm_mapping_paths)){
   data[data$accurate_mapping==0 | is.na(data$accurate_mapping)==T ,]$hit_miss_mapping <- "Miss"
   
   # Update mapping values for accurate_mapping for absent subject concepts variables.
-  data[is.na(data$accurate_mapping),]$accurate_mapping <- 0
+  if(nrow(data[is.na(data$accurate_mapping),])>0){
+     data[is.na(data$accurate_mapping),]$accurate_mapping <- 0
+  }
   
   # Pivot 2: Calculate mapping result number (most subject concepts have 1 valid result).
   tmp2 <- 

@@ -30,7 +30,7 @@ target_concept <-
 # currently selects for vector results.
 llm_mapping_paths <- 
   list.files(path=path_prep_data,
-             pattern="llm-prepared.csv", full.names = TRUE)
+             pattern="prepared.csv", full.names = TRUE)
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 

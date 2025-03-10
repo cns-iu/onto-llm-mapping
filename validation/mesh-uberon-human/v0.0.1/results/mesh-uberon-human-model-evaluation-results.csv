@@ -1,4 +1,6 @@
-"model","mappable_concepts","mapped_concepts","skipped_concepts","mapped_concepts_percent","hit","hit_as","hit_ct","miss","miss_as","miss_ct","hit_percent","hit_as_percent","hit_ct_percent","miss_percent","miss_as_percent","miss_ct_percent","mean_precision","mean_recall","f_score","beta","mean_reciprocal_rank","mean_reciprocal_rank_sd"
-"mesh-uberon-human-mapping.gpt4o.llm",998,939,59,0.941,928,797,131,70,63,7,0.93,0.93,0.95,0.07,0.07,0.05,0.0929859719438878,0.930861723446894,0.332194923611259,2,0.935818246361377,0.197005182751835
-"mesh-uberon-human-mapping.llama3.2-3b.gpt4o.llm",998,866,132,0.868,137,1,136,861,859,2,0.14,0,0.99,0.86,1,0.01,0.0137274549098196,0.13627254509018,0.0489238434941161,2,0.148200538876058,0.350606482076351
-"mesh-uberon-human-mapping.llama3.2-3b.llm",998,994,4,0.996,959,822,137,39,38,1,0.96,0.96,0.99,0.04,0.04,0.01,0.0960921843687375,0.961923847695391,0.343288541954406,2,0.768361358627958,0.334278126993986
+model,mappable_concepts,mapped_concepts,skipped_concepts,mapped_concepts_percent,hit,hit_as,hit_ct,miss,miss_as,miss_ct,hit_percent,hit_as_percent,hit_ct_percent,miss_percent,miss_as_percent,miss_ct_percent,mean_precision,mean_recall,f_score,beta,mean_reciprocal_rank,mean_reciprocal_rank_sd
+mesh-uberon-human-mapping.curategpt,998,998,0,1,903,809,94,95,51,44,0.9,0.94,0.68,0.1,0.06,0.32,0.090480962,0.904809619,0.323146293,2,0.76339743,0.362970698
+mesh-uberon-human-mapping.llama3.2-3b.llm,998,994,4,0.996,959,822,137,39,38,1,0.96,0.96,0.99,0.04,0.04,0.01,0.096092184,0.961923848,0.343288542,2,0.768361359,0.334278127
+mesh-uberon-human-mapping.desc-vec,998,989,9,0.991,946,812,134,52,48,4,0.95,0.94,0.97,0.05,0.06,0.03,0.095348634,0.947895792,0.339957972,2,0.855053204,0.300173251
+mesh-uberon-human-mapping.phi4-14b.llm,998,980,18,0.982,931,800,131,67,60,7,0.93,0.93,0.95,0.07,0.07,0.05,0.093329516,0.933867735,0.333378101,2,0.799267493,0.324665869
+mesh-uberon-human-mapping.gpt4o.llm,998,939,59,0.941,928,797,131,70,63,7,0.93,0.93,0.95,0.07,0.07,0.05,0.092985972,0.930861723,0.332194924,2,0.935818246,0.197005183
