@@ -10,8 +10,10 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
+    "mathjs": "^14.3.1",
     "nodeenv": "^3.0.75",
-    "papaparse": "^5.4.1",
-    "shelljs": "^0.8.5"
+    "papaparse": "^5.5.2",
+    "shelljs": "^0.8.5",
+    "sqlite3": "^5.1.7"
   }
 }
