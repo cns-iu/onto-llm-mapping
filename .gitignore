@@ -135,8 +135,9 @@ dist
 .pnp.*
 .Rproj.user
 
-# Excel workbooks
+# Validation work and checks
 *.xlsx
+validation/*/checks/
 
 # R 
 .Rhistory
