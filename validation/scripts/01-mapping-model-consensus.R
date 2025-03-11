@@ -135,42 +135,46 @@ mapping_consensus <-
 mapping_consensus[is.na(mapping_consensus$ties),]$ties <- 0
 
 #### Evaluate votes based on current ground truth ####
-# # Create mapping pair identifier
-# mapping_consensus$pair_id <- paste0(mapping_consensus$subject_id,"|",mapping_consensus$object_id)
-# 
-# # Evaluate vote based model using ground truth data
-# mapping_consensus <-
-#   join(mapping_consensus,
-#        evaluative_mappings[evaluative_mappings$mappability=="Mappable",
-#                          c(2,9,11)],
-#        by="pair_id")
-# 
-# unmappable <- evaluative_mappings[evaluative_mappings$mappability=="Unmappable",
-#                     c(3)]
-# 
-# # Concept Mappability
-# mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$mappability <- "Unmappable"
-# mapping_consensus[mapping_consensus$mappability != "Unmappable" |
-#                   is.na(mapping_consensus$mappability) ,]$mappability <- "Mappable"
-# 
-# # Update accuracy for NA values.
-# mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$accurate_mapping <- 0
-# mapping_consensus[is.na(mapping_consensus$accurate_mapping),]$accurate_mapping <- 0
-# 
-# # re-order variables
-# mapping_consensus <-
-#   mapping_consensus %>%
-#   select(pair_id, subject_id, object_id, subject_label, object_label,
-#          mappability, mean_similarity, participants, opts, votes, share,
-#          human_desc_vec_sim, ties, accurate_mapping) %>%
-#   arrange(mappability, subject_id, desc(votes), 
-#           desc(ties), desc(mean_similarity)) %>%
-#   mutate(use = "")
- 
+#Create mapping pair identifier
+mapping_consensus$pair_id <- paste0(mapping_consensus$subject_id,"|",mapping_consensus$object_id)
 
+# Evaluate vote based model using ground truth data
+mapping_consensus <-
+  join(mapping_consensus,
+       evaluative_mappings[evaluative_mappings$mappability=="Mappable",
+                         c(2,9,11)],
+       by="pair_id")
+
+unmappable <- evaluative_mappings[evaluative_mappings$mappability=="Unmappable",
+                    c(3)]
+
+# Concept Mappability
+mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$mappability <- "Unmappable"
+mapping_consensus[mapping_consensus$mappability != "Unmappable" |
+                  is.na(mapping_consensus$mappability) ,]$mappability <- "Mappable"
+
+# Update accuracy for NA values.
+mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$accurate_mapping <- 0
+mapping_consensus[is.na(mapping_consensus$accurate_mapping),]$accurate_mapping <- 0
+
+# re-order variables
+mapping_consensus <-
+  mapping_consensus %>%
+  select(pair_id, subject_id, object_id, subject_label, object_label,
+         mappability, mean_similarity, participants, opts, votes, share,
+         human_desc_vec_sim, ties, accurate_mapping) %>%
+  arrange(mappability, subject_id, desc(votes),
+          desc(ties), desc(mean_similarity)) %>%
+  mutate(use = "")
 
 
 # Save results
 write.csv(mapping_consensus,
           file=paste0(path_eval_data,"/",mapping_project,"-model-consensus-results.csv"),
           row.names = F, fileEncoding = "UTF8")
+
+# # Clean up environment
+# rm(i, llm_mapping_paths, mapping_project, model, 
+#    path_eval_data, path_prep_data, path_raw_data,
+#    evaluative_mappings, human_desc, ties, tmp, 
+#    unmappable, mapping_consensus)
