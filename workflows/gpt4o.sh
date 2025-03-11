@@ -18,8 +18,9 @@ SSSOM_BASE=$MAPPINGS/${DATASET}-mapping.${WORKFLOW}
 mkdir -p $DIR $MAPPINGS
 
 ## Use an LLM to create an expanded description
-time node src/expand-descriptions.js $SOURCE_TERMS $DIR/source.content.csv
-time node src/expand-descriptions.js $TARGET_TERMS $DIR/target.content.csv
+time node src/expand-descriptions.js $SOURCE_TERMS $DIR/source.content.csv &
+time node src/expand-descriptions.js $TARGET_TERMS $DIR/target.content.csv &
+wait
 
 ## Create embeddings of source and target content
 ./src/create-embeddings.sh $DIR/source.content.csv $DIR/source.content.csv.db &

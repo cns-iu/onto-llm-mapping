@@ -14,8 +14,9 @@ SSSOM_BASE=$MAPPINGS/${DATASET}-mapping.${WORKFLOW}
 mkdir -p $DIR $MAPPINGS
 
 ## Create descriptions from raw data, no LLM
-node src/create-descriptions.js $SOURCE_TERMS $DIR/source.content.csv
-node src/create-descriptions.js $TARGET_TERMS $DIR/target.content.csv
+node src/create-descriptions.js $SOURCE_TERMS $DIR/source.content.csv &
+node src/create-descriptions.js $TARGET_TERMS $DIR/target.content.csv &
+wait
 
 ## Create embeddings of source and target content
 ./src/create-embeddings.sh $DIR/source.content.csv $DIR/source.content.csv.db &
