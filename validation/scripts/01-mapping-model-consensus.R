@@ -164,9 +164,19 @@ mapping_consensus <-
          mappability, mean_similarity, participants, opts, votes, share,
          human_desc_vec_sim, ties, accurate_mapping) %>%
   arrange(mappability, subject_id, desc(votes),
-          desc(ties), desc(mean_similarity)) %>%
-  mutate(use = "")
+          desc(ties), desc(mean_similarity))
 
+mapping_consensus <- 
+  mapping_consensus %>%
+  group_by(subject_id) %>% 
+    mutate(mapping_rank = row_number()) %>%
+    ungroup()
+
+# Top mapping vote getter is accuracy 
+mapping_consensus$top_vote_correct <- NA
+mapping_consensus[mapping_consensus$accurate_mapping==1 &
+                  mapping_consensus$mapping_rank==1 & 
+                  mapping_consensus$ties==0,]$top_vote_correct <- 1
 
 # Save results
 write.csv(mapping_consensus,
