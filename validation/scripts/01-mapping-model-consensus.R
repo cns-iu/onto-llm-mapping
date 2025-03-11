@@ -7,7 +7,6 @@ library(stringr)
 
 #### Load data ####
 # Set Paths
-# path_input_data <- paste0("./input-data/mesh-uberon-human/v0.0.1")
 path_raw_data <- paste0("./raw-data/mesh-uberon-human/v0.0.1")
 path_eval_data <- paste0("./validation/evaluation_mappings")
 path_prep_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
@@ -18,119 +17,160 @@ llm_mapping_paths <-
   list.files(path=paste0(path_raw_data,"/mappings"),
              pattern="sssom.csv", full.names = TRUE)
 
-#### Model consensus concept mapping ####
+# Identify mapping project from file path
+mapping_project <- unlist(str_split(llm_mapping_paths[1], pattern="\\/"))[[3]]
 
-#### Pre-process the data ####
+#Load Ground Truth mapping Data
+evaluative_mappings <- 
+  read.csv(file=paste0(path_eval_data,"/concept-mapping-evaluation-lookup-table-MGINDA.csv"),
+           header = T, encoding = "UFT-8")
+
+#### Model consensus concept mapping ####
+# Loop through data and select set of mappings
 for(i in 1:length(llm_mapping_paths)){
-  # Load LLM mapping results  
+  # Load data
   data <- read.csv(file=llm_mapping_paths[i],
                    header = T, encoding = "UFT-8")
-
-  # grab project and model for data.
-  llm_result_file <- tail(unlist(str_split(llm_mapping_paths[i], pattern="\\/")),1)
-  llm_result_file <- str_split(llm_result_file, pattern="-vec")[[1]][1]
   
-  # extracting mapping tool info?
-  #mapping_tool	
-  #mapping_tool_version
-  
-  # Creates model and project label for data set.
-  data$model <- llm_result_file
-  
-  # Creates concept pair id with concept labels.
-  data$pair_id <- 
-    paste0(data$subject_id,"|",data$object_id)
-  
-  # Re-order columns
-  data <- data[,c(9,8,1,3,4,10,2,5,6,7)]
-  
-  # Subset to keep only results for mappable concepts
-  data <- data[data$subject_label %in% mappable_concepts,]
-  
-  # Join 1: Evaluate mapping results using mapping evaluation look-up table.
-  data <- join(data, evaluative_mappings[,c(2,11)], by="pair_id")
-  
-  # Set accuracy score for missing values, all to 0.
-  data[is.na(data$accurate_mapping),]$accurate_mapping <- 0
-  
-  # Create concept_pair_rank values for subject concept mapping results.
-  data <-
-   data %>% 
-    group_by(subject_id) %>% 
-    mutate(concept_pair_rank = row_number()) %>%
-    ungroup()
-  
-  #Identify any missing concepts, and return concept level labels and mapping stats
-  tmp <-  
-    data[,c(1,3,7,11)] %>%
-    ddply(.(model, subject_id, subject_label),
-          summarise, 
-          accurate_mapping=max(accurate_mapping, na.rm = TRUE)) %>%
-    mutate(model_analyzed = TRUE)
-  
-  # Join 2: tmp concept level mapping results are joined to evaluation look up.
-  tmp <-
-    right_join(tmp, 
-               unique(evaluative_mappings[
-                      evaluative_mappings$mappability=="Mappable", c(3,4,8,12)]),
-                      by=c("subject_id","subject_label")) %>%
-    fill(model, .direction="down")
-  
-  # Updates missing values for absent subject concepts.
-  if(nrow(tmp[is.na(tmp$model_analyzed),])>0){ 
-    tmp[is.na(tmp$model_analyzed),]$model_analyzed <- FALSE
+  # Create temp data and extract project name
+  if(i==1){
+    tmp <- data[-c(1:nrow(data)),]
     }
+
+  model <- tail(unlist(str_split(llm_mapping_paths[i], pattern="\\/")),1) %>% 
+    str_remove(paste0(mapping_project,"-mapping.")) %>%
+    str_remove(".sssom.csv") %>%
+    str_remove("-vec")
   
-  # Creates hit_miss_concept variable.
-  tmp$hit_miss_concept <- "Miss"
-  
-  # Update hit_miss_concept variable.
-  tmp[tmp$accurate_mapping==1 & !is.na(tmp$accurate_mapping),]$hit_miss_concept <- "Hit"
-  
-  # Reorder columns
-  tmp <- tmp[,c(1,2,3,5,8,6,4,7)]
-  
-  # Join 3: Combine missing subject concepts back into results.
-  data <- left_join(tmp, data, by=c("model","subject_id","subject_label"))
-  
-  # Reorder columns
-  data <- data[,c(1,9,2,10:12,3,13,6,14,16,17,8,5,4)]
-  
-  # Update name of variable
-  names(data)[11] <- "accurate_mapping"
-  
-  # Create hit_miss_mapping from hit_miss_concept
-  data$hit_miss_mapping <- data$hit_miss_concept
-  
-  # Update values for hit_miss_mapping, where accurate mapping values are 0.
-  data[data$accurate_mapping==0 | is.na(data$accurate_mapping)==T ,]$hit_miss_mapping <- "Miss"
-  
-  # Update mapping values for accurate_mapping for absent subject concepts variables.
-  if(nrow(data[is.na(data$accurate_mapping),])>0){
-     data[is.na(data$accurate_mapping),]$accurate_mapping <- 0
-  }
-  
-  # Pivot 2: Calculate mapping result number (most subject concepts have 1 valid result).
-  tmp2 <- 
-    data[data$accurate_mapping==1,c("subject_id","pair_id","mapping_count")] %>%
-    group_by(subject_id) %>%  
-    mutate(mapping_result_number = row_number()) %>%
+  # Create concept_pair_rank values for subject concept mapping results, select results.
+  data <-
+    data %>% 
+    group_by(subject_id) %>% 
+    mutate(rank = row_number()) %>%
     ungroup() %>%
-    select(pair_id,mapping_result_number)
+    filter(rank==1)
   
-  # Join 4
-  data <- join(data, tmp2, by="pair_id")
-  data[is.na(data$mapping_result_number)==T,]$mapping_result_number <- 0
+  # Add model idenfitier
+  data$model <- model
+  data$vote <- 1
   
-  # Reorder columns
-  data <- data[,c(1:13,17,14,16,15)]
-  
-  # Export prepared results.
-  write.csv(data,file=paste0(path_prep_data,"/",llm_result_file,"-prepared.csv"), row.names =F )
-  
-  # Clean up loop
-  rm(tmp, tmp2, llm_result_file)
+  # Combine selected concept mappings to tmp data frame
+  tmp <- rbind(tmp,data)
+  rm(data)
 }
 
-rm(i, data, llm_mapping_paths, evaluative_mappings, mappable_concepts, 
-   path_eval_data, path_prep_data, path_raw_data)
+# Update desc model name to human descriptions.
+tmp[tmp$model=="desc",]$model <- "human descriptions"
+
+# Model Vote tabulation
+mapping_consensus <- 
+  tmp %>%
+  ddply(.(subject_id, object_id, subject_label, object_label, predicate_id), summarise,
+        mean_similarity = mean(similarity_score),
+        votes = sum(vote)) %>%
+  arrange(subject_id,desc(votes))
+
+# Mapping Models participating in vote
+mapping_participants <- 
+  tmp %>%
+  select(subject_id, model) %>%
+  distinct() %>%
+  ddply(.(subject_id), summarise,
+        participants = length(model))
+
+mapping_consensus <- 
+  left_join(mapping_consensus, mapping_participants, by="subject_id")
+
+# Mapping Options
+mapping_options <- 
+  mapping_consensus %>%
+  ddply(.(subject_id), nrow)
+
+names(mapping_options)[2] <- "opts"
+mapping_consensus <- left_join(mapping_consensus, mapping_options, by="subject_id")
+
+# Clean up
+rm(mapping_options,mapping_participants )
+mapping_consensus <- mapping_consensus[,c(1:6,8,7,9)]
+
+# Vote Share
+mapping_consensus$share <- mapping_consensus$votes/mapping_consensus$participants
+
+
+# Create subset of mappings votes based on similarity of human generated description 
+human_desc <- tmp[tmp$model=="human descriptions",c(1,4,11)]
+names(human_desc)[3] <- "human_desc_vec_sim"
+
+# Pull out human definition vector similarity vote and update NAs to 0
+mapping_consensus <- left_join(mapping_consensus, human_desc, by=c("subject_id","object_id"))
+mapping_consensus[is.na(mapping_consensus$human_desc_vec_sim),]$human_desc_vec_sim <- 0
+
+# Identify tied mappings (vote tallies)
+ties <- 
+  mapping_consensus %>%
+  select(subject_id, participants, votes) %>%
+  ddply(.(subject_id), summarise,
+        max_votes = max(votes),
+        participants = max(participants),
+        opts = length(votes)) %>%
+  mutate(ties=0, note="Not a tie.")
+names(ties)[2] <- "votes"
+
+# Pattern review - no consensus between models.
+ties[ties$participants==ties$opts, ]$ties <- 1 
+
+# Patter review - consensus ties, between 4 and 5 models
+ties[ties$participants==5 & ties$opts==3 & ties$votes==2, ]$ties <- 1
+ties[ties$participants==4 & ties$opts==2 & ties$votes==2, ]$ties <- 1
+
+ties <- 
+  ties %>% 
+  select(participants, opts, votes, ties) %>%
+  distinct()
+
+# Identify ties in mapping set and remove NAs
+mapping_consensus <- 
+  left_join(mapping_consensus, ties, 
+            by=c("votes", "participants", "opts"))
+mapping_consensus[is.na(mapping_consensus$ties),]$ties <- 0
+
+#### Evaluate votes based on current ground truth ####
+# # Create mapping pair identifier
+# mapping_consensus$pair_id <- paste0(mapping_consensus$subject_id,"|",mapping_consensus$object_id)
+# 
+# # Evaluate vote based model using ground truth data
+# mapping_consensus <-
+#   join(mapping_consensus,
+#        evaluative_mappings[evaluative_mappings$mappability=="Mappable",
+#                          c(2,9,11)],
+#        by="pair_id")
+# 
+# unmappable <- evaluative_mappings[evaluative_mappings$mappability=="Unmappable",
+#                     c(3)]
+# 
+# # Concept Mappability
+# mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$mappability <- "Unmappable"
+# mapping_consensus[mapping_consensus$mappability != "Unmappable" |
+#                   is.na(mapping_consensus$mappability) ,]$mappability <- "Mappable"
+# 
+# # Update accuracy for NA values.
+# mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$accurate_mapping <- 0
+# mapping_consensus[is.na(mapping_consensus$accurate_mapping),]$accurate_mapping <- 0
+# 
+# # re-order variables
+# mapping_consensus <-
+#   mapping_consensus %>%
+#   select(pair_id, subject_id, object_id, subject_label, object_label,
+#          mappability, mean_similarity, participants, opts, votes, share,
+#          human_desc_vec_sim, ties, accurate_mapping) %>%
+#   arrange(mappability, subject_id, desc(votes), 
+#           desc(ties), desc(mean_similarity)) %>%
+#   mutate(use = "")
+ 
+
+
+
+# Save results
+write.csv(mapping_consensus,
+          file=paste0(path_eval_data,"/",mapping_project,"-model-consensus-results.csv"),
+          row.names = F, fileEncoding = "UTF8")
