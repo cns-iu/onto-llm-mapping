@@ -134,3 +134,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 .Rproj.user
+
+# Excel workbooks
+*.xlsx
+
+# R 
+.Rhistory
