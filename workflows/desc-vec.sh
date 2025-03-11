@@ -14,11 +14,17 @@ SSSOM_BASE=$MAPPINGS/${DATASET}-mapping.${WORKFLOW}
 mkdir -p $DIR $MAPPINGS
 
 ## Create descriptions from raw data, no LLM
-node src/create-descriptions.js $SOURCE_TERMS $DIR/source.content.csv
-node src/create-descriptions.js $TARGET_TERMS $DIR/target.content.csv
+node src/create-descriptions.js $SOURCE_TERMS $DIR/source.content.csv &
+node src/create-descriptions.js $TARGET_TERMS $DIR/target.content.csv &
+wait
 
-## Find similar terms using vectorized versions of expanded content
-time node src/find-similar.js $DIR/source.content.csv $DIR/target.content.csv $DIR/vec-scores.csv
+## Create embeddings of source and target content
+./src/create-embeddings.sh $DIR/source.content.csv $DIR/source.content.csv.db &
+./src/create-embeddings.sh $DIR/target.content.csv $DIR/target.content.csv.db &
+wait
+
+## Find similar terms using vectorized versions of content
+time node src/parallel-find-similar.js $DIR/source.content.csv.db $DIR/target.content.csv.db $DIR/vec-scores.csv
 
 ## Compile results to SSSOM format
 ./src/create-sssom-scored.sh $SOURCE_TERMS $TARGET_TERMS $DIR/vec-scores.csv ${SSSOM_BASE}.sssom.csv

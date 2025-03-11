@@ -18,19 +18,20 @@ SSSOM_BASE=$MAPPINGS/${DATASET}-mapping.${WORKFLOW}
 mkdir -p $DIR $MAPPINGS
 
 ## Use an LLM to create an expanded description
-time node src/expand-descriptions.js $SOURCE_TERMS $DIR/source.content.csv
-time node src/expand-descriptions.js $TARGET_TERMS $DIR/target.content.csv
+time node src/expand-descriptions.js $SOURCE_TERMS $DIR/source.content.csv &
+time node src/expand-descriptions.js $TARGET_TERMS $DIR/target.content.csv &
+wait
 
-## Find similar terms using vectorized versions of expanded content
-time node src/find-similar.js $DIR/source.content.csv $DIR/target.content.csv $DIR/vec-scores.csv
+## Create embeddings of source and target content
+./src/create-embeddings.sh $DIR/source.content.csv $DIR/source.content.csv.db &
+./src/create-embeddings.sh $DIR/target.content.csv $DIR/target.content.csv.db &
+wait
 
-## Use an LLM to rank the similar terms from expanded content comparison
-# time node ./src/rank-similar.js $SOURCE_TERMS $TARGET_TERMS $DIR/source.content.csv $DIR/target.content.csv $DIR/vec-scores.csv $DIR/ranked-vec-scores.csv
+## Find similar terms using vectorized versions of content
+time node src/parallel-find-similar.js $DIR/source.content.csv.db $DIR/target.content.csv.db $DIR/vec-scores.csv
 
 ## Compile results to SSSOM format
 ./src/create-sssom-scored.sh $SOURCE_TERMS $TARGET_TERMS $DIR/vec-scores.csv ${SSSOM_BASE}.llm-vec.sssom.csv
-# ./src/create-sssom-ranked.sh $SOURCE_TERMS $TARGET_TERMS $DIR/ranked-vec-scores.csv ${SSSOM_BASE}.llm-rank.sssom.csv
 
 ## Validate SSSOM files
 sssom validate ${SSSOM_BASE}.llm-vec.sssom.csv
-# sssom validate ${SSSOM_BASE}.llm-rank.sssom.csv
