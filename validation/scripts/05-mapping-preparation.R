@@ -18,7 +18,15 @@ llm_mapping_paths <-
   list.files(path=paste0(path_raw_data,"/mappings"),
              pattern="sssom.csv", full.names = TRUE)
 
-#### Model consensus concept mapping ####
+#Load Ground Truth mapping Data
+evaluative_mappings <- 
+  read.csv(file=paste0(path_eval_data,"/concept-mapping-evaluation-lookup-table-MGINDA.csv"),
+           header = T, encoding = "UFT-8")
+
+# identify mappable concepts from initial set of subject concepts)
+mappable_concepts <- 
+  evaluative_mappings[evaluative_mappings$mappability=="Mappable",]$subject_label %>%
+  unique()
 
 #### Pre-process the data ####
 for(i in 1:length(llm_mapping_paths)){
