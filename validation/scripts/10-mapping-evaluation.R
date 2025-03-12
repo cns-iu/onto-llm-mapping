@@ -45,6 +45,7 @@ mappable_concepts <-
 #### Create evaluation result mapping data frame ####
 evaluation_results <- 
   data.frame(model = character(),
+             mapping_results = numeric(),
              mappable_concepts = numeric(),
              mapped_concepts = numeric(),
              skipped_concepts = numeric(),
@@ -61,6 +62,7 @@ evaluation_results <-
              miss_percent = numeric(),
              miss_as_percent = numeric(),
              miss_ct_percent = numeric(),
+             mean_k = numeric(),
              mean_precision = numeric(),
              mean_recall = numeric(),
              f_score = numeric(),
@@ -131,7 +133,6 @@ beta = 2
 # Evaluates mapped concepts, hit-miss stats, precision, recall, f-score, & MRR for LLM mapping results.
 # Loop through each data file to calculate top line stats, hit-miss rates,
 # f-scores, mrr and mac scores for each set of prepared model results.
-i=1
 for(i in 1:length(llm_mapping_paths)){
   # Load data
   data <- read.csv(file=llm_mapping_paths[i],
@@ -147,6 +148,7 @@ for(i in 1:length(llm_mapping_paths)){
     select(model,subject_id) %>% 
     distinct() %>%
     ddply(.(model), summarise,
+          mapping_results = nrow(data),
           mappable_concepts = mappable_concepts,
           mapped_concepts = length(subject_id),
           skipped_concepts = mappable_concepts - length(subject_id),
@@ -212,7 +214,9 @@ for(i in 1:length(llm_mapping_paths)){
           recall = sum(accurate_mapping)/max(mapping_count))
   
   # Save model precision and recall calculations
-  mapping_scores_tmp <- join(precision, recall, by=c("model", "subject_id"))
+  mapping_scores_tmp <- 
+    join(precision, recall, by=c("model", "subject_id"))
+  mapping_scores_tmp <- mapping_scores_tmp[,c(1:5,7:8)]
   write.csv(mapping_scores_tmp, 
             file=paste0(path_results_data,"/",model,
                         "-precision-recall-calculations.csv"),
@@ -220,13 +224,15 @@ for(i in 1:length(llm_mapping_paths)){
   
   # Mean Precision and Recall, calculate F-score at K
   results_fscore <- 
-    join(precision, recall, by=c("model", "subject_id")) %>% 
-    select(model, precision, recall) %>%
+    mapping_scores_tmp %>%
     ddply(.(model), summarise,
+          mean_k = mean(precision_k, na.rm=T),
           mean_precision = mean(precision, na.rm = T),
           mean_recall = mean(recall, na.rm = T)) %>%
     mutate(f_score=((1+beta^2)*mean_precision*mean_recall)/((beta^2*mean_precision)+mean_recall),
            beta = beta)
+  
+  # Clean up
   rm(precision, recall, mapping_scores_tmp)
   
   # Calculate Concept Level - Mean Reciprocal Rank (MRR)
@@ -272,17 +278,16 @@ for(i in 1:length(llm_mapping_paths)){
     left_join(., results_hit_miss_groups, by="model") %>%
     left_join(., results_fscore, by="model") %>%
     left_join(., results_mrr, by="model") %>%
-    select(model, mappable_concepts, mapped_concepts, 
-           skipped_concepts, mapped_concepts_percent,
+    select(model,  mapping_results, mappable_concepts,
+           mapped_concepts, skipped_concepts, mapped_concepts_percent,
            hit, hit_as, hit_ct, miss, miss_as, miss_ct, 
            hit_percent, hit_as_percent, hit_ct_percent, 
-           miss_percent, miss_as_percent, miss_ct_percent,
-           mean_precision, mean_recall, f_score, beta,
+           miss_percent, miss_as_percent, miss_ct_percent, 
+           mean_k, mean_precision, mean_recall, f_score, beta,
            mean_reciprocal_rank, mean_reciprocal_rank_sd)
   
    # Add model level statistics to data frame
    evaluation_results <- rbind(evaluation_results, evaluation_results_tmp)
-
 }
 
 # save model evaluation results

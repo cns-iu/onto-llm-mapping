@@ -9452,7 +9452,6 @@
 "mesh-uberon-human-mapping.gpt4o.llm",NA,"http://id.nlm.nih.gov/mesh/M0028686",NA,NA,NA,"Epithalamus",NA,"Anatomical structure",NA,0,NA,1,0,"Miss","Miss",FALSE
 "mesh-uberon-human-mapping.gpt4o.llm",NA,"http://id.nlm.nih.gov/mesh/M0029077",NA,NA,NA,"Neocortex",NA,"Anatomical structure",NA,0,NA,1,0,"Miss","Miss",FALSE
 "mesh-uberon-human-mapping.gpt4o.llm",NA,"http://id.nlm.nih.gov/mesh/M0328537",NA,NA,NA,"Mediodorsal Thalamic Nucleus",NA,"Anatomical structure",NA,0,NA,1,0,"Miss","Miss",FALSE
-"mesh-uberon-human-mapping.gpt4o.llm",NA,"http://id.nlm.nih.gov/mesh/M0328588|http://purl.obolibrary.org/obo/UBERON_0015234",NA,NA,NA,"Ventral Thalamic Nuclei",NA,"Anatomical structure",NA,0,NA,2,0,"Miss","Miss",FALSE
 "mesh-uberon-human-mapping.gpt4o.llm",NA,"http://id.nlm.nih.gov/mesh/M0336787",NA,NA,NA,"Fibrocartilage",NA,"Anatomical structure",NA,0,NA,1,0,"Miss","Miss",FALSE
 "mesh-uberon-human-mapping.gpt4o.llm",NA,"http://id.nlm.nih.gov/mesh/M0508245",NA,NA,NA,"von Ebner Glands",NA,"Anatomical structure",NA,0,NA,1,0,"Miss","Miss",FALSE
 "mesh-uberon-human-mapping.gpt4o.llm",NA,"http://id.nlm.nih.gov/mesh/M0534242",NA,NA,NA,"Patellofemoral Joint",NA,"Anatomical structure",NA,0,NA,1,0,"Miss","Miss",FALSE

@@ -9772,7 +9772,6 @@
 "mesh-uberon-human-mapping.phi4-14b.llm",NA,"http://id.nlm.nih.gov/mesh/M0019947",NA,NA,NA,"Skull",NA,"Anatomical structure",NA,0,NA,1,0,"Miss","Miss",FALSE
 "mesh-uberon-human-mapping.phi4-14b.llm",NA,"http://id.nlm.nih.gov/mesh/M0022585",NA,NA,NA,"Vena Cava, Superior",NA,"Anatomical structure",NA,0,NA,1,0,"Miss","Miss",FALSE
 "mesh-uberon-human-mapping.phi4-14b.llm",NA,"http://id.nlm.nih.gov/mesh/M0027134",NA,NA,NA,"Pyramidal Cells",NA,"Cell type",NA,0,NA,1,0,"Miss","Miss",FALSE
-"mesh-uberon-human-mapping.phi4-14b.llm",NA,"http://id.nlm.nih.gov/mesh/M0328588|http://purl.obolibrary.org/obo/UBERON_0015234",NA,NA,NA,"Ventral Thalamic Nuclei",NA,"Anatomical structure",NA,0,NA,2,0,"Miss","Miss",FALSE
 "mesh-uberon-human-mapping.phi4-14b.llm",NA,"http://id.nlm.nih.gov/mesh/M0336842",NA,NA,NA,"Pancreas, Exocrine",NA,"Anatomical structure",NA,0,NA,1,0,"Miss","Miss",FALSE
 "mesh-uberon-human-mapping.phi4-14b.llm",NA,"http://id.nlm.nih.gov/mesh/M0472888",NA,NA,NA,"Abdominal Fat",NA,"Anatomical structure",NA,0,NA,2,0,"Miss","Miss",FALSE
 "mesh-uberon-human-mapping.phi4-14b.llm",NA,"http://id.nlm.nih.gov/mesh/M0478070",NA,NA,NA,"Carpal Joints",NA,"Anatomical structure",NA,0,NA,1,0,"Miss","Miss",FALSE
