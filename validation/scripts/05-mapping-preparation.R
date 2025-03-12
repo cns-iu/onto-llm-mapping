@@ -18,9 +18,9 @@ llm_mapping_paths <-
   list.files(path=paste0(path_raw_data,"/mappings"),
              pattern="sssom.csv", full.names = TRUE)
 
-#Load Ground Truth mapping Data
+# Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/concept-mapping-evaluation-lookup-table-MGINDA.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluative-lookup-table-MGINDA.csv"),
            header = T, encoding = "UFT-8")
 
 # identify mappable concepts from initial set of subject concepts)
