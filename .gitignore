@@ -134,7 +134,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 .Rproj.user
+.Rhistory
 
 # Validation work and checks
 *.xlsx
 validation/*/checks/
+validation/references
