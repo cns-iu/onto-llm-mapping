@@ -22,7 +22,7 @@ mapping_project <- unlist(str_split(llm_mapping_paths[1], pattern="\\/"))[[3]]
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluative-lookup-table-MGINDA.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluated-lookup-table-MGINDA.csv"),
            header = T, encoding = "UFT-8")
 
 # Mappable concepts
@@ -82,7 +82,6 @@ mapping_participants <-
   distinct() %>%
   ddply(.(subject_id), summarise,
         participants = length(model))
-
 mapping_consensus <- 
   left_join(mapping_consensus, mapping_participants, by="subject_id")
 
@@ -90,17 +89,14 @@ mapping_consensus <-
 mapping_options <- 
   mapping_consensus %>%
   ddply(.(subject_id), nrow)
-
 names(mapping_options)[2] <- "opts"
 mapping_consensus <- left_join(mapping_consensus, mapping_options, by="subject_id")
 
-# Clean up
-rm(mapping_options,mapping_participants )
+# Combine mapping_options data to mapping_consensus
 mapping_consensus <- mapping_consensus[,c(1:6,8,7,9)]
 
 # Vote Share
 mapping_consensus$share <- mapping_consensus$votes/mapping_consensus$participants
-
 
 # Create subset of mappings votes based on similarity of human generated description 
 human_desc <- tmp[tmp$model=="human descriptions",c(1,4,11)]
@@ -138,7 +134,6 @@ mapping_consensus <-
   left_join(mapping_consensus, ties, 
             by=c("votes", "participants", "opts"))
 mapping_consensus[is.na(mapping_consensus$ties),]$ties <- 0
-rm(ties)
 
 #### Evaluate votes based on current ground truth ####
 #Create mapping pair identifier
@@ -148,7 +143,7 @@ mapping_consensus$pair_id <- paste0(mapping_consensus$subject_id,"|",mapping_con
 mapping_consensus <-
   join(mapping_consensus,
        evaluative_mappings[evaluative_mappings$mappability=="Mappable",
-                           c(2,9,11)],
+                           c(2,9,12)],
        by="pair_id")
 unmappable <- evaluative_mappings[evaluative_mappings$mappability=="Unmappable",
                     c(3)]
@@ -158,9 +153,12 @@ mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$mappability <- 
 mapping_consensus[mapping_consensus$mappability != "Unmappable" |
                   is.na(mapping_consensus$mappability) ,]$mappability <- "Mappable"
 
+
+rm(mapping_options,mapping_participants, ties)
+
 # Update accuracy for NA values.
-mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$accurate_mapping <- 0
-mapping_consensus[is.na(mapping_consensus$accurate_mapping),]$accurate_mapping <- 0
+mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$accurate_mapping_r_1 <- 0
+mapping_consensus[is.na(mapping_consensus$accurate_mapping),]$accurate_mapping_r_1 <- 0
 
 # Identify the number of mapping records that earned votes
 # 1. order by vote count and mean similarity score for mapping result candidate
@@ -175,13 +173,13 @@ mapping_consensus <-
 
 # Subject concept level variables: mesh_concept_group & mapping count
 mapping_consensus <- 
-  join(mapping_consensus, unique(evaluative_mappings[,c(3,8,12)]), by="subject_id")
+  join(mapping_consensus, unique(evaluative_mappings[,c(3,8,11)]), by="subject_id")
 
 # Mapping level variables: mapping_result_number & mapping_justification, model, model_analysis
 # mapping_result_number
 tmp <- 
   mapping_consensus %>%
-  filter(accurate_mapping==1) %>%
+  filter(accurate_mapping_r_1==1) %>%
   group_by(subject_id) %>%
   mutate(mapping_result_number=row_number()) %>%
   ungroup() %>%
@@ -191,13 +189,14 @@ mapping_consensus[is.na(mapping_consensus$mapping_result_number),]$mapping_resul
 rm(tmp)
 
 # mapping_justification
-mapping_consensus$mapping_justification <- "semapv:SemanticSimilarityK1_ModelConsensus"
+mapping_consensus$mapping_justification <- "semapv:SemanticSimilarity"
 
 # Mapping result model name
 mapping_consensus$model <- model <- paste0("pooled-K1-vec-vote")
 
 # model_analyzed
-tmp <- evaluative_mappings %>%
+tmp <- 
+  evaluative_mappings %>%
   select(subject_id) %>%
   distinct() %>%
   mutate(model_analyzed=TRUE)
@@ -209,7 +208,7 @@ rm(tmp)
 
 # Top mapping vote earner is accuracy 
 mapping_consensus$top_vote_correct <- NA
-mapping_consensus[mapping_consensus$accurate_mapping==1 &
+mapping_consensus[mapping_consensus$accurate_mapping_r_1==1 &
                   mapping_consensus$concept_pair_rank==1 & 
                   mapping_consensus$ties==0,]$top_vote_correct <- 1
 
@@ -218,7 +217,7 @@ mapping_consensus[mapping_consensus$accurate_mapping==1 &
 mapping_consensus$hit_miss_mapping <- "Miss"
 
 # Update hit_miss_mapping variable.
-mapping_consensus[mapping_consensus$accurate_mapping==1 & 
+mapping_consensus[mapping_consensus$accurate_mapping_r_1==1 & 
                   !is.na(mapping_consensus$accurate_mapping),]$hit_miss_mapping <- "Hit"
 
 # Create hit_miss_concept
@@ -236,14 +235,17 @@ rm(tmp)
 
 # Save data as mapping results evaluation look up table - working - all variables
 # Arrange variables for saving results
-names(mapping_consensus)[6] <- "similarity_score"
+names(mapping_consensus)[6] <- c("similarity_score")
+
 mapping_consensus_eval <-
   mapping_consensus %>%
   select(model, mapping_justification, subject_id,	predicate_id,	object_id,
          pair_id, subject_label, object_label, mappability, mesh_concept_group, 
          similarity_score, participants, opts, votes, share, human_desc_vec_sim,
-         ties, accurate_mapping, model_analyzed) %>%
-  mutate(accurate_mapping="")
+         ties, model_analyzed, accurate_mapping_r_1) %>%
+  mutate(accurate_mapping_r_1="",
+         confidence_r_1="",
+         reviewer_r_1="")
 
 # Save data
 write.csv(mapping_consensus_eval,
@@ -252,6 +254,7 @@ write.csv(mapping_consensus_eval,
 
 # Save data as mapping results for result evaluation - select variables
 # Filter out Un-mappable terms
+names(mapping_consensus)[15] <- c("accurate_mapping")
 mapping_consensus_filtered <-
   mapping_consensus %>%
   filter(mappability=="Mappable") %>%
@@ -266,8 +269,8 @@ write.csv(mapping_consensus_filtered,
           file=paste0(path_prep_data,"/",mapping_project,"-mapping.",model,"-prepared.csv"),
           row.names = F, fileEncoding = "UTF8")
 
-# # Clean up environment
-# rm(i, llm_mapping_paths, mapping_project, model, 
-#    path_eval_data, path_prep_data, path_raw_data,
-#    evaluative_mappings, human_desc, ties, tmp, 
-#    unmappable, mapping_consensus)
+# Clean up environment
+rm(i, llm_mapping_paths, mapping_project, model,
+   path_eval_data, path_prep_data, path_raw_data,
+   evaluative_mappings, human_desc, ties, tmp,
+   unmappable, mapping_consensus, mappable_concepts)

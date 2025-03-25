@@ -20,14 +20,15 @@ llm_mapping_paths <-
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluative-lookup-table-MGINDA.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluated-lookup-table-MGINDA.csv"),
            header = T, encoding = "UFT-8")
 
 # identify mappable concepts from initial set of subject concepts)
 mappable_concepts <- 
-  evaluative_mappings[evaluative_mappings$mappability=="Mappable",]$subject_label %>%
+  evaluative_mappings[evaluative_mappings$mappability =="Mappable",]$subject_label %>%
   unique()
 
+#i=2
 #### Pre-process the data ####
 for(i in 1:length(llm_mapping_paths)){
   # Load LLM mapping results  
@@ -38,7 +39,7 @@ for(i in 1:length(llm_mapping_paths)){
   llm_result_file <- tail(unlist(str_split(llm_mapping_paths[i], pattern="\\/")),1)
   llm_result_file <- str_split(llm_result_file, pattern="-vec")[[1]][1]
   
-  # extracting mapping tool info?
+    # extracting mapping tool info?
   #mapping_tool	
   #mapping_tool_version
   
@@ -56,10 +57,10 @@ for(i in 1:length(llm_mapping_paths)){
   data <- data[data$subject_label %in% mappable_concepts,]
   
   # Join 1: Evaluate mapping results using mapping evaluation look-up table.
-  data <- join(data, evaluative_mappings[,c(2,11)], by="pair_id")
+  data <- join(data, evaluative_mappings[,c(2,12)], by="pair_id")
   
   # Set accuracy score for missing values, all to 0.
-  data[is.na(data$accurate_mapping),]$accurate_mapping <- 0
+  data[is.na(data$accurate_mapping_r_1),]$accurate_mapping_r_1 <- 0
   
   # Create concept_pair_rank values for subject concept mapping results.
   data <-
@@ -73,14 +74,14 @@ for(i in 1:length(llm_mapping_paths)){
     data[,c(1,3,7,11)] %>%
     ddply(.(model, subject_id, subject_label),
           summarise, 
-          accurate_mapping=max(accurate_mapping, na.rm = TRUE)) %>%
+          accurate_mapping=max(accurate_mapping_r_1, na.rm = TRUE)) %>%
     mutate(model_analyzed = TRUE)
   
   # Join 2: tmp concept level mapping results are joined to evaluation look up.
   tmp <-
     right_join(tmp, 
                unique(evaluative_mappings[
-                      evaluative_mappings$mappability=="Mappable", c(3,4,8,12)]),
+                      evaluative_mappings$mappability=="Mappable", c(3,4,8,11)]),
                       by=c("subject_id","subject_label")) %>%
     fill(model, .direction="down")
   
@@ -89,7 +90,7 @@ for(i in 1:length(llm_mapping_paths)){
     tmp[is.na(tmp$model_analyzed),]$model_analyzed <- FALSE
     }
   
-  # Creates hit_miss_concept variable.
+  #### Creates hit_miss_concept variable. ####
   tmp$hit_miss_concept <- "Miss"
   
   # Update hit_miss_concept variable.
@@ -120,7 +121,8 @@ for(i in 1:length(llm_mapping_paths)){
   
   # Pivot 2: Calculate mapping result number (most subject concepts have 1 valid result).
   tmp2 <- 
-    data[data$accurate_mapping==1,c("subject_id","pair_id","mapping_count")] %>%
+    data[data$accurate_mapping==1, 
+         c("subject_id","pair_id")] %>%
     group_by(subject_id) %>%  
     mutate(mapping_result_number = row_number()) %>%
     ungroup() %>%

@@ -34,7 +34,7 @@ llm_mapping_paths <-
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluative-lookup-table-MGINDA.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluated-lookup-table-MGINDA.csv"),
            header = T, encoding = "UFT-8")
 
 # identify mappable concepts from initial set of subject concepts)
@@ -74,7 +74,7 @@ evaluation_results <-
 # Identify SSSOM mapping project
 project <- paste((str_split(llm_mapping_paths[1],"/")[[1]][3]))
 
-#### Concept Count Statitics ####
+#### Concept Count Statistics ####
 # MeSH Concept Counts
 subject_concepts <- nrow(source_concept)
 subject_concepts_as <- length(unique(evaluative_mappings[evaluative_mappings$mesh_concept_group=="Anatomical structure",]$subject_label))
