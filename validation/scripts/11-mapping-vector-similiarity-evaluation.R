@@ -192,14 +192,8 @@ theme_update(
   legend.key = element_rect(fill="White"))
 
 # Box Plot visualizing the distribution of similarity scores, by model and mapping accuracy.
-tiff(filename = paste0(path_results_data,"/figures/",mapping_project,
-                       ".boxplot-model_similiarity_score-byAccuracy.tiff"),
-     width=5.5, height=6.5, units="in", res=300, type="cairo", compression="lzw")
-jpeg(filename = paste0(path_results_data,"/figures/",mapping_project,
-                       ".boxplot-model_similiarity_score-byAccuracy.jpeg"),
-     width=5.5, height=6.5, units="in", res=300, type="windows")
-
-data %>%
+plot1 <-
+  data %>%
   filter(model_analyzed==TRUE) %>%
   select(model,hit_miss_mapping, similarity_score) %>%
   ggplot(aes(x=hit_miss_mapping)) + 
@@ -208,16 +202,20 @@ data %>%
     labs(x="Mapping Accuracy", 
          y="Similarity Score (values range 0-1)") +
     theme(panel.grid.major.y = element_line(color="#e1e6eb"))
+  tiff(filename = paste0(path_results_data,"/figures/",mapping_project,
+                       ".boxplot-model_similiarity_score-byAccuracy.tiff"),
+     width=5.5, height=6.5, units="in", res=300, type="cairo", compression="lzw")
+plot1
+dev.off()
+jpeg(filename = paste0(path_results_data,"/figures/",mapping_project,
+                       ".boxplot-model_similiarity_score-byAccuracy.jpeg"),
+     width=5.5, height=6.5, units="in", res=300, type="windows")
+plot1
 dev.off()
 
 # Density visualizing the distributions and overlap of similarity scores for mapping accuracy, by model.
-tiff(filename = paste0(path_results_data,"/figures/",mapping_project,
-                       ".density-model_similiarity_score-byAccuracy.tiff"),
-     width=5.5, height=5, units="in", res=300, type="cairo", compression="lzw")
-jpeg(filename = paste0(path_results_data,"/figures/",mapping_project,
-                       ".density-model_similiarity_score-byAccuracy.jpeg"),
-     width=5.5, height=5, units="in", res=300, type="windows")
-data %>%
+plot2 <-
+  data %>%
   filter(model_analyzed==TRUE) %>%
   select(model,hit_miss_mapping, similarity_score) %>%
   ggplot(aes(similarity_score)) +
@@ -228,5 +226,45 @@ data %>%
     labs(x="Similarity Score (values range 0-1)", 
          y="Density") +
     theme(panel.grid.major.y = element_line(color="#e1e6eb"))
+tiff(filename = paste0(path_results_data,"/figures/",mapping_project,
+                       ".density-model_similiarity_score-byAccuracy.tiff"),
+     width=5.5, height=5, units="in", res=300, type="cairo", compression="lzw")
+plot2
+dev.off()
+jpeg(filename = paste0(path_results_data,"/figures/",mapping_project,
+                       ".density-model_similiarity_score-byAccuracy.jpeg"),
+     width=5.5, height=5, units="in", res=300, type="windows")
+plot2
 dev.off()
 
+# Histogram visualizing the distribution accurate mapping rank, by model.
+plot3 <-
+  data %>%
+  filter(hit_miss_mapping=="Hit") %>%
+  select(model,rank, hit_miss_mapping) %>%
+  ggplot(aes(rank)) +
+    geom_bar() +
+    facet_wrap(facets=vars(model)) +
+    labs(x="Mapping Rank", 
+         y="Accurate Mapping (log)") +
+    scale_x_binned(nice.breaks=T, breaks=seq(0,10,1)) +
+    scale_y_log10() +
+    theme(panel.grid.major.y = element_line(color="#e1e6eb"))
+
+tiff(filename = paste0(path_results_data,"/figures/",mapping_project,
+                       ".histogram-accurate_mapping_rank_by_model.tiff"),
+     width=5.5, height=5, units="in", res=300, type="cairo", compression="lzw")
+plot3
+dev.off()
+
+jpeg(filename = paste0(path_results_data,"/figures/",mapping_project,
+                       ".histogram-accurate_mapping_rank_by_model.jpeg"),
+     width=5.5, height=5, units="in", res=300, type="windows")
+plot3
+dev.off()
+
+# Clean up environment
+rm(plot1,plot2,plot3)
+
+#### Analysis of Variance by Model and Mapping Accuracy ####
+# ANOVA analysis will be added here.
