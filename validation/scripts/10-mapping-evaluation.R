@@ -218,7 +218,7 @@ for(i in 1:length(llm_mapping_paths)){
     join(precision, recall, by=c("model", "subject_id"))
   mapping_scores_tmp <- mapping_scores_tmp[,c(1:5,7:8)]
   write.csv(mapping_scores_tmp, 
-            file=paste0(path_results_data,"/",model,
+            file=paste0(path_results_data,"/precision-recall/",model,
                         "-precision-recall-calculations.csv"),
             row.names = FALSE)
   
@@ -259,8 +259,8 @@ for(i in 1:length(llm_mapping_paths)){
   results_rr <- 
     union(tmp1,tmp2)
   write.csv(results_rr, 
-            file=paste0(path_results_data,"/",model,
-                        "-concept-reciprocal-recall-calculations.csv"),
+            file=paste0(path_results_data,"/reciprocal-rank/",model,
+                        "-concept-reciprocal-rank-calculations.csv"),
             row.names = FALSE)
   rm(tmp0, tmp1, tmp2)
   
