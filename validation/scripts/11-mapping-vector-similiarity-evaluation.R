@@ -141,8 +141,17 @@ descriptives_model_accuracy <-
   select(model, hit_miss_mapping, mappings_overall, mappings, percent_mappings,
          median, mean, sd, std_err, var, min, max, range)
 
-#### Visualization Distributions of model similarity scores and ranks ####
+# Save results
+write.csv(descriptives_model, 
+          file=paste0(path_results_data,"/descriptive_statistics/",mapping_project,
+                      ".model_similiarity_score_descriptives.csv"),
+          row.names = FALSE)
+write.csv(descriptives_model_accuracy, 
+          file=paste0(path_results_data,"/descriptive_statistics/",mapping_project,
+                      ".model+accuracy_similiarity_score_descriptives.csv"),
+          row.names = FALSE)
 
+#### Visualization Distributions of model similarity scores and ranks ####
 # Set up visualization themes
 theme_set(theme_grey())
 theme_update(
@@ -183,6 +192,13 @@ theme_update(
   legend.key = element_rect(fill="White"))
 
 # Box Plot visualizing the distribution of similarity scores, by model and mapping accuracy.
+tiff(filename = paste0(path_results_data,"/figures/",mapping_project,
+                       ".boxplot-model_similiarity_score-byAccuracy.tiff"),
+     width=5.5, height=6.5, units="in", res=300, type="cairo", compression="lzw")
+jpeg(filename = paste0(path_results_data,"/figures/",mapping_project,
+                       ".boxplot-model_similiarity_score-byAccuracy.jpeg"),
+     width=5.5, height=6.5, units="in", res=300, type="windows")
+
 data %>%
   filter(model_analyzed==TRUE) %>%
   select(model,hit_miss_mapping, similarity_score) %>%
@@ -192,8 +208,15 @@ data %>%
     labs(x="Mapping Accuracy", 
          y="Similarity Score (values range 0-1)") +
     theme(panel.grid.major.y = element_line(color="#e1e6eb"))
+dev.off()
 
-# Density visualizing the distributions and overlap of similarity scores formapping accuracy, by model.
+# Density visualizing the distributions and overlap of similarity scores for mapping accuracy, by model.
+tiff(filename = paste0(path_results_data,"/figures/",mapping_project,
+                       ".density-model_similiarity_score-byAccuracy.tiff"),
+     width=5.5, height=5, units="in", res=300, type="cairo", compression="lzw")
+jpeg(filename = paste0(path_results_data,"/figures/",mapping_project,
+                       ".density-model_similiarity_score-byAccuracy.jpeg"),
+     width=5.5, height=5, units="in", res=300, type="windows")
 data %>%
   filter(model_analyzed==TRUE) %>%
   select(model,hit_miss_mapping, similarity_score) %>%
@@ -204,5 +227,6 @@ data %>%
     facet_wrap(facets=vars(model)) +
     labs(x="Similarity Score (values range 0-1)", 
          y="Density") +
-     theme(panel.grid.major.y = element_line(color="#e1e6eb"))
+    theme(panel.grid.major.y = element_line(color="#e1e6eb"))
+dev.off()
 
