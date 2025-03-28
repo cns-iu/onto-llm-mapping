@@ -5,6 +5,9 @@ library(stringr)
 library(plyr)
 library(dplyr)
 library(ggplot2)
+#library(broom)
+library(car)
+library(AICcmodavg)
 
 #### Set Paths ####
 # Paths
@@ -106,7 +109,7 @@ descriptives_model <-
         min = min(similarity_score, na.rm = T),
         max = max(similarity_score, na.rm = T)) %>%
   left_join(model_mapping_counts, by="model") %>%
-  mutate(range = min-max,
+  mutate(range = max-min,
          std_err = sd/sqrt(mappings)) %>%
   select(model, mappings, median, mean, sd, std_err, var, min, max, range)
 
@@ -134,7 +137,7 @@ descriptives_model_accuracy <-
         min = min(similarity_score, na.rm = T),
         max = max(similarity_score, na.rm = T)) %>%
   left_join(model_hit_miss_counts, by=c("model","hit_miss_mapping")) %>%
-  mutate(range = min-max,
+  mutate(range = max-min,
          std_err = sd/sqrt(mappings)) %>%
   select(model, hit_miss_mapping, mappings_overall, mappings, percent_mappings,
          median, mean, sd, std_err, var, min, max, range)
@@ -269,6 +272,100 @@ dev.off()
 # Clean up environment
 rm(plot1,plot2,plot3)
 
-#### Analysis of Variance by Model and Mapping Accuracy ####
-# ANOVA analysis will be added here.
+#### Prepare additional categorical factor variables for ANOVA Test####
+# Definition Treatment Group
+data$treatment_groups <- "RAG Definition (Treatment)"
+data[data$model=="human descriptions",]$treatment_groups <- "Human Definitions (Control)"
+data$treatment_groups <- factor(data$treatment_groups, 
+                                levels=c("RAG Definition (Treatment)",
+                                         "Human Definitions (Control)"))
 
+# Mapping Accuracy
+data$accurate_mapping <- 
+  factor(data$accurate_mapping, 
+         levels=c(1,0),
+         labels=c("Accurate Mapping",
+                  "Inaccurate Mapping"))
+
+# Concept Group (Anatomical Structures & Cell Types)
+data$mesh_concept_group <- 
+  factor(data$mesh_concept_group,
+         levels=c("Anatomical structure",
+                  "Cell type"))
+
+# #### Analysis of Variance by Model and Mapping Accuracy ####
+
+# Select data where concepts have vector similarity analysis results
+data_anova <- data[data$model_analyzed==TRUE,]
+
+#### Evaluating ANOVA Test Assumptions ####
+
+# Chi Squared test if Independence of Variables (three ways)
+# model and accuracy
+chisq.test(table(data_anova$model, data_anova$accurate_mapping), correct = FALSE)
+summary(table(data_anova$model, data_anova$accurate_mapping))
+# model and concept group
+chisq.test(table(data_anova$model, data_anova$mesh_concept_group), correct = FALSE)
+summary(table(data_anova$model, data_anova$mesh_concept_group))
+# concept group and accuracy
+chisq.test(table(data_anova$mesh_concept_group, data_anova$accurate_mapping), correct = FALSE)
+summary(table(data_anova$mesh_concept_group, data_anova$accurate_mapping))
+
+# Test homogeneity of variance across groups1
+# H1
+leveneTest(similarity_score ~ model, data=data_anova, center=median)
+# H2
+leveneTest(similarity_score ~ model * accurate_mapping, data=data_anova, center=median)
+leveneTest(similarity_score ~ model * mesh_concept_group * accurate_mapping, data=data_anova, center=median)
+
+#### Compare ANOVA GLM models for Type I, II, & III ANOVA or MANOVA Analysis ####
+h1_anova_t1 <- 
+  glm(similarity_score ~ model,
+      data=data_anova)
+
+h2_anova_t2.1 <- 
+  glm(similarity_score ~ model * accurate_mapping,
+      data=data_anova)
+h2_anova_t2.2 <- 
+  glm(similarity_score ~ model * mesh_concept_group * accurate_mapping,
+      data=data_anova)
+
+# Compare H2. Type III models
+h3_anova_t3.1 <-
+  glm(similarity_score ~ model * accurate_mapping,
+      data=data_anova,
+      contrasts=list(model=contr.treatment,
+                     # mesh_concept_group = contr.treatment,
+                     accurate_mapping=contr.sum))
+h3_anova_t3.2 <-
+  glm(similarity_score ~ model * mesh_concept_group * accurate_mapping,
+      data=data_anova,
+      contrasts=list(model=contr.treatment,
+                     mesh_concept_group = contr.sum,
+                     accurate_mapping=contr.sum))
+
+# Compare model AIC
+model.set <- list(h1_anova_t1, h2_anova_t2.1, h2_anova_t2.2, h3_anova_t3.1, h3_anova_t3.2)
+model.names <- c("h1_anova_t1", "h2_anova_t2.1", "h2_anova_t2.2","h3_anova_t3.1","h3_anova_t3.2")
+mod_aic <- aictab(model.set, modnames = model.names)
+mod_aic
+
+# Analysis interpretation: Concept Type Factors account for more variance. Use a MANOVA.
+
+# Type I
+# Set-up ANOVA Models, relaxed assumptions of HoV
+# Testing Hypothesis 1 (H1) - Oneinstall.versions(-Way ANOVA
+h1_1w_anova <- 
+  aov(similarity_score ~ model, data=data_anova)
+
+# Type II
+h2_manova_t2 <-
+  Anova(mod=h2_anova_t2.2, multivariate=T, type="II", test.statistic=c("F"))
+
+# Type III
+h2_manova_t3 <-
+  Anova(mod=h3_anova_t3.2, type="III", test.statistic=c("F"))
+
+summary(h1_1w_anova)
+h2_manova_t2
+h2_manova_t3
