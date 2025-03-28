@@ -2,9 +2,12 @@
 library(magrittr)
 library(tidyr)
 library(stringr)
+library(multcomp)
 library(plyr)
 library(dplyr)
 library(ggplot2)
+library(car)
+library(AICcmodavg)
 
 #### Set Paths ####
 # Paths
@@ -87,7 +90,7 @@ data <-
   select(model,pair_id, subject_id, object_id, subject_label, object_label, 
          mesh_concept_group, hit_miss_mapping, accurate_mapping, similarity_score, rank, model_analyzed)
 
-#### Analysis of Concept Mapping Similarity Scores ####
+#### Descriptive Analysis of Concept Mapping Similarity Scores ####
 # Calculating Concept Mapping Similarity Score Descriptive Statistics, by Model
 model_mapping_counts <- 
   data %>% 
@@ -106,7 +109,7 @@ descriptives_model <-
         min = min(similarity_score, na.rm = T),
         max = max(similarity_score, na.rm = T)) %>%
   left_join(model_mapping_counts, by="model") %>%
-  mutate(range = min-max,
+  mutate(range = max-min,
          std_err = sd/sqrt(mappings)) %>%
   select(model, mappings, median, mean, sd, std_err, var, min, max, range)
 
@@ -134,7 +137,7 @@ descriptives_model_accuracy <-
         min = min(similarity_score, na.rm = T),
         max = max(similarity_score, na.rm = T)) %>%
   left_join(model_hit_miss_counts, by=c("model","hit_miss_mapping")) %>%
-  mutate(range = min-max,
+  mutate(range = max-min,
          std_err = sd/sqrt(mappings)) %>%
   select(model, hit_miss_mapping, mappings_overall, mappings, percent_mappings,
          median, mean, sd, std_err, var, min, max, range)
@@ -269,6 +272,195 @@ dev.off()
 # Clean up environment
 rm(plot1,plot2,plot3)
 
+#### Prepare additional categorical factor variables for ANOVA Test####
+# Definition Treatment Group
+data$treatment_groups <- "RAG Definition (Treatment)"
+data[data$model=="human descriptions",]$treatment_groups <- "Human Definitions (Control)"
+data$treatment_groups <- factor(data$treatment_groups, 
+                                levels=c("RAG Definition (Treatment)",
+                                         "Human Definitions (Control)"))
+
+# Mapping Accuracy
+data$accurate_mapping <- 
+  factor(data$accurate_mapping, 
+         levels=c(1,0),
+         labels=c("Accurate Mapping",
+                  "Inaccurate Mapping"))
+
+# Concept Group (Anatomical Structures & Cell Types)
+data$mesh_concept_group <- 
+  factor(data$mesh_concept_group,
+         levels=c("Anatomical structure",
+                  "Cell type"))
+
 #### Analysis of Variance by Model and Mapping Accuracy ####
-# ANOVA analysis will be added here.
+# Select data where concepts have vector similarity analysis results
+data_anova <- data[data$model_analyzed==TRUE,]
+
+# Normalize similarity scores
+data_anova$similarity_score_norm <- 
+  as.numeric(scale(data_anova$similarity_score, center=T, scale=T))
+
+#### Evaluating ANOVA Test Assumptions ####
+# Chi Squared test if Independence of Variables (three ways)
+# model and accuracy
+chisq.test(table(data_anova$model, data_anova$accurate_mapping), correct = FALSE)
+summary(table(data_anova$model, data_anova$accurate_mapping))
+# model and concept group
+chisq.test(table(data_anova$model, data_anova$mesh_concept_group), correct = FALSE)
+summary(table(data_anova$model, data_anova$mesh_concept_group))
+# concept group and accuracy
+chisq.test(table(data_anova$mesh_concept_group, data_anova$accurate_mapping), correct = FALSE)
+summary(table(data_anova$mesh_concept_group, data_anova$accurate_mapping))
+
+
+#### Compare ANOVA GLM models for Type I, II, & III ANOVA or MANOVA Analysis ####
+
+# H2. Type I1 models
+h1_anova_t1.1 <- 
+  glm(similarity_score_norm ~ model,
+      data=data_anova)
+h1_anova_t1.2 <- 
+  glm(similarity_score_norm ~ mesh_concept_group,
+      data=data_anova)
+h1_anova_t1.3 <- 
+  glm(similarity_score_norm ~ accurate_mapping,
+      data=data_anova)
+
+# H2. Type II models
+h2_anova_t2.1 <- 
+  glm(similarity_score_norm ~ model * accurate_mapping,
+      data=data_anova)
+h2_anova_t2.2 <- 
+  glm(similarity_score_norm ~ model * mesh_concept_group * accurate_mapping,
+      data=data_anova)
+
+# H2. Type III models
+h3_anova_t3.1 <-
+  glm(similarity_score_norm ~ model * accurate_mapping,
+      data=data_anova,
+      contrasts=list(model=contr.treatment,
+                     # mesh_concept_group = contr.treatment,
+                     accurate_mapping=contr.sum))
+h3_anova_t3.2 <-
+  glm(similarity_score_norm ~ model * mesh_concept_group * accurate_mapping,
+      data=data_anova,
+      contrasts=list(model=contr.treatment,
+                     mesh_concept_group = contr.sum,
+                     accurate_mapping=contr.sum))
+
+# Compare model AIC
+model.set <- list(h1_anova_t1.1, h1_anova_t1.2, h1_anova_t1.3, 
+                  h2_anova_t2.1, h2_anova_t2.2, 
+                  h3_anova_t3.1, h3_anova_t3.2)
+model.names <- c("h1_anova_t1.1", "h1_anova_t1.2","h1_anova_t1.3",
+                 "h2_anova_t2.1", "h2_anova_t2.2","h3_anova_t3.1","h3_anova_t3.2")
+mod_aic <- aictab(model.set, modnames = model.names)
+mod_aic
+# Analysis interpretation: Concept Type Factors account for more variance. Use a MANOVA.
+rm(h1_anova_t1.2, h1_anova_t1.3,h2_anova_t2.1, h3_anova_t3.1)
+
+#### Run ANOVA Test
+# Type I
+# Set-up ANOVA Models, relaxed assumptions of HoV
+# Testing Hypothesis 1 (H1) - Oneinstall.versions(-Way ANOVA
+h1_1w_anova <- 
+  aov(similarity_score ~ model, data=data_anova)
+
+# Type II
+h2_manova_t2 <-
+  Anova(mod=h2_anova_t2.2, multivariate=T, type="II", test.statistic=c("F"))
+
+# Type III
+h2_manova_t3 <-
+  Anova(mod=h3_anova_t3.2, type="III", test.statistic=c("F"))
+
+summary(h1_1w_anova)
+h2_manova_t2
+h2_manova_t3
+
+#### Post-hoc tests ####
+#### Test for Independence of Factor Variables ####
+durbinWatsonTest(h1_1w_anova)
+durbinWatsonTest(h2_anova_t2.2)
+
+#### Test for Normal Distribution ####
+# H1
+# Shapiro Wilks test (5000 sample)
+shapiro.test(sample(h1_1w_anova$residuals, 5000, replace=T))
+
+# Visual checks
+par(mfrow = c(1, 2)) # combine plots
+# histogram
+hist(h1_1w_anova$residuals)
+# QQ-plot
+qqPlot(h1_1w_anova$residuals,
+       id = FALSE)
+
+# H2 & H3
+# Shapiro Wilks test (5000 sample)
+shapiro.test(sample(h2_anova_t2.2$residuals, 5000, replace=T))
+
+# Visual checks
+par(mfrow = c(1, 2)) # combine plots
+# histogram
+hist(h2_anova_t2.2$residuals)
+# QQ-plot
+qqPlot(h2_anova_t2.2$residuals,
+       id = FALSE)
+
+#### Test Homogeneity of Variance ####
+# H1
+leveneTest(similarity_score_norm ~ model, 
+           data=data_anova, center=median)
+
+# H2
+leveneTest(similarity_score_norm ~ model * mesh_concept_group * accurate_mapping, 
+           data=data_anova, center=median)
+
+#### Failed all tests for ANOVA use. Move to non-parametric tests. ####
+
+#### Tukey HSD Test - Unreliable conclusions ####
+# H1
+post_test_h1 <- 
+  glht(h1_1w_anova,
+      linfct = mcp(model = "Tukey"))
+
+# H2 T2
+post_test_h2_m <- 
+  glht(h2_anova_t2.2,
+       linfct = mcp(model = "Tukey"))
+post_test_h2_am <- 
+  glht(h2_anova_t2.2,
+       linfct = mcp(accurate_mapping = "Tukey"))
+post_test_h2_c <- 
+  glht(h2_anova_t2.2,
+       linfct = mcp(mesh_concept_group = "Tukey"))
+
+# H2 T3
+post_test_h3_m <- 
+  glht(h3_anova_t3.2,
+       linfct = mcp(model = "Tukey"))
+post_test_h3_am <- 
+  glht(h3_anova_t3.2,
+       linfct = mcp(accurate_mapping = "Tukey"))
+post_test_h3_c <- 
+  glht(h3_anova_t3.2,
+       linfct = mcp(mesh_concept_group = "Tukey"))
+
+# Results of Tukey HSD
+summary(post_test_h1)
+
+summary(post_test_h2_m)
+# summary(post_test_h2_am)
+# summary(post_test_h2_c)
+
+summary(post_test_h3_m)
+# summary(post_test_h3_am)
+# summary(post_test_h3_c)
+par(mar = c(3, 15, 3, 3))
+plot(post_test_h1)
+plot(post_test_h3_m)
+plot(post_test_h2_m)
+dev.off()
 
