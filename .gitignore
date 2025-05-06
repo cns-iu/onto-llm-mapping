@@ -140,3 +140,4 @@ dist
 *.xlsx
 validation/*/checks/
 validation/references
+figures
