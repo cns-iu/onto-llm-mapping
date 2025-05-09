@@ -18,11 +18,12 @@ subject_source: http://id.nlm.nih.gov/mesh/
 object_source: https://lod.humanatlas.io/vocab/cl/v20240926
 object_source: https://lod.humanatlas.io/vocab/uberon:v20241125
 predicate_type: skos:mappingProperty
-mapping_provider: https://cns.iu.edu/
-    mapping_source: https://raw.githubusercontent.com/mapping-commons/mesh-mappings/refs/heads/first/mappings/obo-mesh.sssom.tsv
 mapping_provider: https://www.ebi.ac.uk
-    mapping_source: https://raw.githubusercontent.com/cns-iu/onto-llm-mapping/refs/heads/main/raw-data/mesh-uberon-human/v0.0.1/mappings/mesh-uberon-human-mapping.curategpt.sssom.csv
-    mapping_source: https://raw.githubusercontent.com/cns-iu/onto-llm-mapping/refs/heads/main/raw-data/mesh-uberon-human/v0.0.1/mappings/mesh-uberon-human-mapping.gpt4o.llm-vec.sssom.csv
-    mapping_source: https://raw.githubusercontent.com/cns-iu/onto-llm-mapping/refs/heads/main/raw-data/mesh-uberon-human/v0.0.1/mappings/mesh-uberon-human-mapping.llama3.2-3b.llm-vec.sssom.csv
-    mapping_source: https://raw.githubusercontent.com/cns-iu/onto-llm-mapping/refs/heads/main/raw-data/mesh-uberon-human/v0.0.1/mappings/mesh-uberon-human-mapping.phi4-14b.llm-vec.sssom.csv
-    mapping_source: https://raw.githubusercontent.com/cns-iu/onto-llm-mapping/refs/heads/main/raw-data/mesh-uberon-human/v0.0.1/mappings/mesh-uberon-human-mapping.desc-vec.sssom.csv
+    mapping_source: https://raw.githubusercontent.com/mapping-commons/mesh-mappings/refs/heads/first/mappings/obo-mesh.sssom.tsv
+mapping_provider: https://cns.iu.edu/
+    mapping_source: 
+     - https://raw.githubusercontent.com/cns-iu/onto-llm-mapping/refs/heads/main/raw-data/mesh-uberon-human/v0.0.1/mappings/mesh-uberon-human-mapping.curategpt.sssom.csv
+     - https://raw.githubusercontent.com/cns-iu/onto-llm-mapping/refs/heads/main/raw-data/mesh-uberon-human/v0.0.1/mappings/mesh-uberon-human-mapping.gpt4o.llm-vec.sssom.csv
+     - https://raw.githubusercontent.com/cns-iu/onto-llm-mapping/refs/heads/main/raw-data/mesh-uberon-human/v0.0.1/mappings/mesh-uberon-human-mapping.llama3.2-3b.llm-vec.sssom.csv
+     - https://raw.githubusercontent.com/cns-iu/onto-llm-mapping/refs/heads/main/raw-data/mesh-uberon-human/v0.0.1/mappings/mesh-uberon-human-mapping.phi4-14b.llm-vec.sssom.csv
+     - https://raw.githubusercontent.com/cns-iu/onto-llm-mapping/refs/heads/main/raw-data/mesh-uberon-human/v0.0.1/mappings/mesh-uberon-human-mapping.desc-vec.sssom.csv
