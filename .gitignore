@@ -135,9 +135,14 @@ dist
 .pnp.*
 .Rproj.user
 .Rhistory
+.RData
+*.Rproj
 
 # Validation work and checks
 *.xlsx
 validation/*/checks/
 validation/references
 figures
+.RData
+.Rhistory
+onto-llm-mapping.Rproj
