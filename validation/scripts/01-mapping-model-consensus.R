@@ -1,4 +1,5 @@
 #### Set up environment ####
+library(curl)
 library(magrittr)
 library(tidyr)
 library(plyr)
@@ -20,9 +21,10 @@ llm_mapping_paths <-
 # Identify mapping project from file path
 mapping_project <- unlist(str_split(llm_mapping_paths[1], pattern="\\/"))[[3]]
 
-# Load Ground Truth mapping Data
+#### Load Data ####
+# CNS Naive SSSOM Mappings
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluated-lookup-table-MGINDA.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.MGINDA.csv"),
            header = T, encoding = "UFT-8")
 
 # Mappable concepts
