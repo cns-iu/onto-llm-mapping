@@ -24,12 +24,12 @@ mapping_project <- unlist(str_split(llm_mapping_paths[1], pattern="\\/"))[[3]]
 #### Load Data ####
 # CNS Naive SSSOM Mappings
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.MGINDA.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.csv"),
            header = T, encoding = "UFT-8")
 
-# Mappable concepts
+# Mapped concepts
 mappable_concepts <- 
-  evaluative_mappings[evaluative_mappings$mappability=="Mappable",]$subject_label %>%
+  evaluative_mappings[evaluative_mappings$map_state=="Mapped",]$subject_label %>%
   unique()
 
 #### Model consensus concept mapping ####
@@ -144,22 +144,21 @@ mapping_consensus$pair_id <- paste0(mapping_consensus$subject_id,"|",mapping_con
 # Evaluate vote based model using ground truth data
 mapping_consensus <-
   join(mapping_consensus,
-       evaluative_mappings[evaluative_mappings$mappability=="Mappable",
+       evaluative_mappings[evaluative_mappings$map_state=="Mapped",
                            c(2,9,12)],
        by="pair_id")
-unmappable <- evaluative_mappings[evaluative_mappings$mappability=="Unmappable",
+Unmapped <- evaluative_mappings[evaluative_mappings$map_state=="Unmapped",
                     c(3)]
 
-# Concept Mappability
-mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$mappability <- "Unmappable"
-mapping_consensus[mapping_consensus$mappability != "Unmappable" |
-                  is.na(mapping_consensus$mappability) ,]$mappability <- "Mappable"
-
+# Concept map_state
+mapping_consensus[mapping_consensus$subject_id %in% Unmapped,]$map_state <- "Unmapped"
+mapping_consensus[mapping_consensus$map_state != "Unmapped" |
+                  is.na(mapping_consensus$map_state) ,]$map_state <- "Mapped"
 
 rm(mapping_options,mapping_participants, ties)
 
 # Update accuracy for NA values.
-mapping_consensus[mapping_consensus$subject_id %in% unmappable,]$accurate_mapping_r_1 <- 0
+mapping_consensus[mapping_consensus$subject_id %in% Unmapped,]$accurate_mapping_r_1 <- 0
 mapping_consensus[is.na(mapping_consensus$accurate_mapping),]$accurate_mapping_r_1 <- 0
 
 # Identify the number of mapping records that earned votes
@@ -167,7 +166,7 @@ mapping_consensus[is.na(mapping_consensus$accurate_mapping),]$accurate_mapping_r
 # 2. create ranking order variable
 mapping_consensus <-
   mapping_consensus %>%
-  arrange(mappability, subject_id, desc(votes),
+  arrange(map_state, subject_id, desc(votes),
           desc(mean_similarity)) %>%
   group_by(subject_id) %>%
   mutate(concept_pair_rank = row_number()) %>%
@@ -242,7 +241,7 @@ names(mapping_consensus)[6] <- c("similarity_score")
 mapping_consensus_eval <-
   mapping_consensus %>%
   select(model, mapping_justification, subject_id,	predicate_id,	object_id,
-         pair_id, subject_label, object_label, mappability, mesh_concept_group, 
+         pair_id, subject_label, object_label, map_state, mesh_concept_group, 
          similarity_score, participants, opts, votes, share, human_desc_vec_sim,
          ties, model_analyzed, accurate_mapping_r_1) %>%
   mutate(accurate_mapping_r_1="",
@@ -255,11 +254,11 @@ write.csv(mapping_consensus_eval,
           row.names = F, fileEncoding = "UTF8")
 
 # Save data as mapping results for result evaluation - select variables
-# Filter out Un-mappable terms
+# Filter out Un-Mapped terms
 names(mapping_consensus)[15] <- c("accurate_mapping")
 mapping_consensus_filtered <-
   mapping_consensus %>%
-  filter(mappability=="Mappable") %>%
+  filter(map_state=="Mapped") %>%
   select(model, mapping_justification, subject_id,	predicate_id,	object_id,
          pair_id, subject_label, object_label, mesh_concept_group, 
          similarity_score, accurate_mapping, concept_pair_rank, mapping_count, 
@@ -275,4 +274,4 @@ write.csv(mapping_consensus_filtered,
 rm(i, llm_mapping_paths, mapping_project, model,
    path_eval_data, path_prep_data, path_raw_data,
    evaluative_mappings, human_desc, ties, tmp,
-   unmappable, mapping_consensus, mappable_concepts)
+   Unmapped, mapping_consensus, mappable_concepts)

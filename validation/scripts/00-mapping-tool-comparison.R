@@ -28,7 +28,7 @@ if(file.exists(paste0(path_eval_data,"/obo_mesh.sssom.csv"))==F){
 
 ##### CNS Naive SSSOM Mappings ####
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.MGINDA.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.dev.csv"),
            header = T, encoding = "UFT-8")
 
 # Compare OBO and CNS Naive Mappings
@@ -78,7 +78,7 @@ mapping_comparison[is.na(mapping_comparison$weight),]$weight <- 0
 mapping_comparison <-
   mapping_comparison %>%
   select(rec_id,pair_id,subject_id.x,subject_label.x,predicate_id.x,
-         object_id.x,object_label.x,mesh_concept_group,mappability,
+         object_id.x,object_label.x,mesh_concept_group,map_state,
          exclusion_reason,mapping_count,accurate_mapping_r_1,weight,
          confidence_r_1, confidence,reviewer_1,author_id) %>%
   rename_with(~str_remove(., '.x')) %>%

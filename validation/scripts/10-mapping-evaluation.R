@@ -34,12 +34,12 @@ llm_mapping_paths <-
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluated-lookup-table-MGINDA.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluated-lookup-table.csv"),
            header = T, encoding = "UFT-8")
 
 # identify mappable concepts from initial set of subject concepts)
 mappable_concepts <- 
-  evaluative_mappings[evaluative_mappings$mappability=="Mappable",]$subject_label %>%
+  evaluative_mappings[evaluative_mappings$map_state=="Mapped",]$subject_label %>%
   unique()
 
 #### Create evaluation result mapping data frame ####
@@ -82,12 +82,12 @@ subject_concepts_ct <- length(unique(evaluative_mappings[evaluative_mappings$mes
 
 # Counts for mappable subject concepts
 # Mapping Recalls (non-unique subject IDs)
-mapping_recalls <- nrow(evaluative_mappings[evaluative_mappings$mappability=="Mappable",])
+mapping_recalls <- nrow(evaluative_mappings[evaluative_mappings$map_state=="Mapped",])
 # Unique concepts
-mappable_concepts <- length(unique(evaluative_mappings[evaluative_mappings$mappability=="Mappable",]$subject_id))
-mappable_concepts_as <- length(unique(evaluative_mappings[evaluative_mappings$mappability=="Mappable" &
+mappable_concepts <- length(unique(evaluative_mappings[evaluative_mappings$map_state=="Mapped",]$subject_id))
+mappable_concepts_as <- length(unique(evaluative_mappings[evaluative_mappings$map_state=="Mapped" &
                                                                   evaluative_mappings$mesh_concept_group=="Anatomical structure",]$subject_id))
-mappable_concepts_ct <- length(unique(evaluative_mappings[evaluative_mappings$mappability=="Mappable" & 
+mappable_concepts_ct <- length(unique(evaluative_mappings[evaluative_mappings$map_state=="Mapped" & 
                                                                   evaluative_mappings$mesh_concept_group=="Cell type",]$subject_id))
 
 # UBERON and CL Concept Counts
@@ -101,7 +101,7 @@ target_concepts_ct <- nrow(target_concept[grepl("http://purl.obolibrary.org/obo/
 # by concept groups
 tmp1 <- 
   evaluative_mappings %>%
-  filter(mappability=="Unmappable") %>% 
+  filter(map_state=="Unmapped") %>% 
   ddply(.(mesh_concept_group), summarise,
         concept_group = length(subject_id)) %>%
   arrange(mesh_concept_group, desc(concept_group)) %>%
@@ -110,7 +110,7 @@ tmp1 <-
 # by exclusion reason
 tmp2 <- 
   evaluative_mappings %>%
-  filter(mappability=="Unmappable") %>% 
+  filter(map_state=="Unmapped") %>% 
   ddply(.(mesh_concept_group, exclusion_reason), summarise,
         concept_reason = length(subject_id))
 

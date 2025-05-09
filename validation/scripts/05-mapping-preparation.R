@@ -20,12 +20,12 @@ llm_mapping_paths <-
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.MGINDA.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.csv"),
            header = T, encoding = "UFT-8")
 
 # identify mappable concepts from initial set of subject concepts)
 mappable_concepts <- 
-  evaluative_mappings[evaluative_mappings$mappability =="Mappable",]$subject_label %>%
+  evaluative_mappings[evaluative_mappings$map_state =="Mapped",]$subject_label %>%
   unique()
 
 #i=2
@@ -81,7 +81,7 @@ for(i in 1:length(llm_mapping_paths)){
   tmp <-
     right_join(tmp, 
                unique(evaluative_mappings[
-                      evaluative_mappings$mappability=="Mappable", c(3,4,8,11)]),
+                      evaluative_mappings$map_state=="Mapped", c(3,4,8,11)]),
                       by=c("subject_id","subject_label")) %>%
     fill(model, .direction="down")
   
