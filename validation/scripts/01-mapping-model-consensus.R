@@ -163,7 +163,7 @@ mapping_consensus[mapping_consensus$subject_id %in% unmapped$subject_id,]$map_st
 mapping_consensus[mapping_consensus$map_state != "Unmapped" |
                   is.na(mapping_consensus$map_state) ,]$map_state <- "Mapped"
 
-rm(mapping_options,mapping_participants, ties)
+rm(mapping_options,mapping_participants,ties)
 
 # Update accuracy score for records with NA values.
 mapping_consensus[mapping_consensus$map_state == "Unmapped",]$accuracy <- 0
@@ -263,11 +263,12 @@ write.csv(mapping_consensus_eval,
           file=paste0(path_eval_data,"/",mapping_project,"-mapping.",model,".lookup-table.csv"),
           row.names = F, fileEncoding = "UTF8")
 
-# Save data as mapping results for result evaluation - select variables
+# Save data as mapping results for evaluation - select variables
 # Filter out Un-Mapped terms
 mapping_consensus_filtered <-
   mapping_consensus %>%
-  filter(map_state=="Mapped") %>%
+  filter(map_state=="Mapped") %>% 
+  filter(model_analyzed==TRUE) %>%
   select(model, mapping_justification, subject_id,	predicate_id,	object_id,
          pair_id, subject_label, object_label, mesh_concept_group, 
          similarity_score, accuracy, concept_pair_rank, mapping_count, 
@@ -282,5 +283,5 @@ write.csv(mapping_consensus_filtered,
 # Clean up environment
 rm(i, llm_mapping_paths, mapping_project, model,
    path_eval_data, path_prep_data, path_raw_data,
-   evaluative_mappings, human_desc, ties, tmp,
+   evaluative_mappings, human_desc, tmp,
    unmapped, mapping_consensus, mappable_concepts)

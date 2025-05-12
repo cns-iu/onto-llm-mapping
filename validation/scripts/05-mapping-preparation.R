@@ -23,7 +23,7 @@ evaluative_mappings <-
   read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.csv"),
            header = T, encoding = "UFT-8")
 
-# identify mappable concepts from initial set of subject concepts)
+# Identify mapped concepts from initial set of subject concepts)
 mappable_concepts <- 
   evaluative_mappings[evaluative_mappings$map_state =="Mapped",]$subject_label %>%
   unique()
