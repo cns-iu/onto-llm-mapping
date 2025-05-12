@@ -57,7 +57,7 @@ for(i in 1:length(llm_mapping_paths)){
     ungroup() %>%
     filter(rank==1)
   
-  # Add model idenfitier
+  # Add model identifier
   data$model <- model
   data$vote <- 1
   
@@ -69,7 +69,7 @@ for(i in 1:length(llm_mapping_paths)){
 # Update desc model name to human descriptions.
 tmp[tmp$model=="desc",]$model <- "human descriptions"
 
-# Model Vote tabulation
+##### Model vote tabulation ####
 mapping_consensus <- 
   tmp %>%
   ddply(.(subject_id, object_id, subject_label, object_label, predicate_id), summarise,
@@ -77,7 +77,7 @@ mapping_consensus <-
         votes = sum(vote)) %>%
   arrange(subject_id,desc(votes))
 
-# Mapping Models participating in vote
+##### Mapping model vote participation ####
 mapping_participants <- 
   tmp %>%
   select(subject_id, model) %>%
@@ -87,15 +87,14 @@ mapping_participants <-
 mapping_consensus <- 
   left_join(mapping_consensus, mapping_participants, by="subject_id")
 
-# Mapping Options
+##### Mapping options ####
 mapping_options <- 
   mapping_consensus %>%
   ddply(.(subject_id), nrow)
 names(mapping_options)[2] <- "opts"
-mapping_consensus <- left_join(mapping_consensus, mapping_options, by="subject_id")
 
 # Combine mapping_options data to mapping_consensus
-mapping_consensus <- mapping_consensus[,c(1:6,8,7,9)]
+mapping_consensus <- left_join(mapping_consensus, mapping_options, by="subject_id")
 
 # Vote Share
 mapping_consensus$share <- mapping_consensus$votes/mapping_consensus$participants
@@ -108,7 +107,7 @@ names(human_desc)[3] <- "human_desc_vec_sim"
 mapping_consensus <- left_join(mapping_consensus, human_desc, by=c("subject_id","object_id"))
 mapping_consensus[is.na(mapping_consensus$human_desc_vec_sim),]$human_desc_vec_sim <- 0
 
-# Identify tied mappings (vote tallies)
+##### Identify tied mappings (vote tallies) #####
 ties <- 
   mapping_consensus %>%
   select(subject_id, participants, votes) %>%
@@ -138,30 +137,40 @@ mapping_consensus <-
 mapping_consensus[is.na(mapping_consensus$ties),]$ties <- 0
 
 #### Evaluate votes based on current ground truth ####
-#Create mapping pair identifier
-mapping_consensus$pair_id <- paste0(mapping_consensus$subject_id,"|",mapping_consensus$object_id)
+# Create mapping pair identifier
+mapping_consensus$pair_id <- 
+  paste0(mapping_consensus$subject_id,"|",mapping_consensus$object_id)
 
 # Evaluate vote based model using ground truth data
+# selects pair_id, map_state, and accuracy 
+tmp2 <- 
+  evaluative_mappings %>% 
+  select(pair_id, map_state, accuracy) %>%
+  filter(map_state == "Mapped")
 mapping_consensus <-
-  join(mapping_consensus,
-       evaluative_mappings[evaluative_mappings$map_state=="Mapped",
-                           c(2,9,12)],
+  join(mapping_consensus, tmp2,
        by="pair_id")
-Unmapped <- evaluative_mappings[evaluative_mappings$map_state=="Unmapped",
-                    c(3)]
+rm(tmp2)
 
-# Concept map_state
-mapping_consensus[mapping_consensus$subject_id %in% Unmapped,]$map_state <- "Unmapped"
+# Identify unmapped MeSH concepts
+unmapped <- 
+  evaluative_mappings %>%
+  filter(map_state == "Unmapped") %>%
+  select(subject_id)
+
+# Update concept map_state variable
+mapping_consensus[mapping_consensus$subject_id %in% unmapped$subject_id,]$map_state <- "Unmapped"
 mapping_consensus[mapping_consensus$map_state != "Unmapped" |
                   is.na(mapping_consensus$map_state) ,]$map_state <- "Mapped"
 
 rm(mapping_options,mapping_participants, ties)
 
-# Update accuracy for NA values.
-mapping_consensus[mapping_consensus$subject_id %in% Unmapped,]$accurate_mapping_r_1 <- 0
-mapping_consensus[is.na(mapping_consensus$accurate_mapping),]$accurate_mapping_r_1 <- 0
+# Update accuracy score for records with NA values.
+mapping_consensus[mapping_consensus$map_state == "Unmapped",]$accuracy <- 0
+mapping_consensus[mapping_consensus$map_state == "Mapped" &
+                  is.na(mapping_consensus$accuracy),]$accuracy <- 0
 
-# Identify the number of mapping records that earned votes
+##### Identify the number of mapping records that earned votes ####
 # 1. order by vote count and mean similarity score for mapping result candidate
 # 2. create ranking order variable
 mapping_consensus <-
@@ -172,22 +181,26 @@ mapping_consensus <-
   mutate(concept_pair_rank = row_number()) %>%
   ungroup()
 
-# Subject concept level variables: mesh_concept_group & mapping count
+##### Copy over subject concept: mesh_concept_group & mapping count
+tmp3 <- 
+  evaluative_mappings %>%
+  select(subject_id, mesh_concept_group, mapping_count)
 mapping_consensus <- 
-  join(mapping_consensus, unique(evaluative_mappings[,c(3,8,11)]), by="subject_id")
+  join(mapping_consensus, tmp3, by="subject_id")
+rm(tmp3)
 
 # Mapping level variables: mapping_result_number & mapping_justification, model, model_analysis
 # mapping_result_number
-tmp <- 
+tmp4 <- 
   mapping_consensus %>%
-  filter(accurate_mapping_r_1==1) %>%
+  filter(accuracy==1) %>%
   group_by(subject_id) %>%
   mutate(mapping_result_number=row_number()) %>%
   ungroup() %>%
   select(pair_id, mapping_result_number)
-mapping_consensus <- join(mapping_consensus, tmp, by="pair_id")
+mapping_consensus <- join(mapping_consensus, tmp4, by="pair_id")
 mapping_consensus[is.na(mapping_consensus$mapping_result_number),]$mapping_result_number <- 0
-rm(tmp)
+rm(tmp4)
 
 # mapping_justification
 mapping_consensus$mapping_justification <- "semapv:SemanticSimilarity"
@@ -196,20 +209,20 @@ mapping_consensus$mapping_justification <- "semapv:SemanticSimilarity"
 mapping_consensus$model <- model <- paste0("pooled-K1-vec-vote")
 
 # model_analyzed
-tmp <- 
+tmp5 <- 
   evaluative_mappings %>%
   select(subject_id) %>%
   distinct() %>%
   mutate(model_analyzed=TRUE)
-mapping_consensus <- join(mapping_consensus, tmp, by="subject_id")
+mapping_consensus <- join(mapping_consensus, tmp5, by="subject_id")
 if(nrow(mapping_consensus[is.na(mapping_consensus$model_analyzed),])>0) {
   mapping_consensus[is.na(mapping_consensus$model_analyzed),]$model_analyzed <- FALSE
 }
-rm(tmp)
+rm(tmp5)
 
 # Top mapping vote earner is accuracy 
 mapping_consensus$top_vote_correct <- NA
-mapping_consensus[mapping_consensus$accurate_mapping_r_1==1 &
+mapping_consensus[mapping_consensus$accuracy==1 &
                   mapping_consensus$concept_pair_rank==1 & 
                   mapping_consensus$ties==0,]$top_vote_correct <- 1
 
@@ -218,21 +231,20 @@ mapping_consensus[mapping_consensus$accurate_mapping_r_1==1 &
 mapping_consensus$hit_miss_mapping <- "Miss"
 
 # Update hit_miss_mapping variable.
-mapping_consensus[mapping_consensus$accurate_mapping_r_1==1 & 
-                  !is.na(mapping_consensus$accurate_mapping),]$hit_miss_mapping <- "Hit"
+mapping_consensus[mapping_consensus$accuracy==1,]$hit_miss_mapping <- "Hit"
 
 # Create hit_miss_concept
-tmp <-
+tmp6 <-
   mapping_consensus %>%
   filter(hit_miss_mapping=="Hit") %>%
   select(subject_id) %>%
   distinct() %>%
   mutate(hit_miss_concept="Hit")
-mapping_consensus <- join(mapping_consensus, tmp, by="subject_id")
+mapping_consensus <- join(mapping_consensus, tmp6, by="subject_id")
 if(nrow(mapping_consensus[is.na(mapping_consensus$hit_miss_concept),])>0) {
     mapping_consensus[is.na(mapping_consensus$hit_miss_concept),]$hit_miss_concept <- "Miss"
   }
-rm(tmp)
+rm(tmp6)
 
 # Save data as mapping results evaluation look up table - working - all variables
 # Arrange variables for saving results
@@ -240,38 +252,35 @@ names(mapping_consensus)[6] <- c("similarity_score")
 
 mapping_consensus_eval <-
   mapping_consensus %>%
-  select(model, mapping_justification, subject_id,	predicate_id,	object_id,
+  select(subject_id, predicate_id, object_id,
          pair_id, subject_label, object_label, map_state, mesh_concept_group, 
          similarity_score, participants, opts, votes, share, human_desc_vec_sim,
-         ties, model_analyzed, accurate_mapping_r_1) %>%
-  mutate(accurate_mapping_r_1="",
-         confidence_r_1="",
-         reviewer_r_1="")
+         ties, accuracy, model, model_analyzed, mapping_justification) %>%
+  mutate(reviewer_id="",confidence="")
 
 # Save data
 write.csv(mapping_consensus_eval,
-          file=paste0(path_eval_data,"/",mapping_project,"-mapping.",model,"-lookup-table.csv"),
+          file=paste0(path_eval_data,"/",mapping_project,"-mapping.",model,".lookup-table.csv"),
           row.names = F, fileEncoding = "UTF8")
 
 # Save data as mapping results for result evaluation - select variables
 # Filter out Un-Mapped terms
-names(mapping_consensus)[15] <- c("accurate_mapping")
 mapping_consensus_filtered <-
   mapping_consensus %>%
   filter(map_state=="Mapped") %>%
   select(model, mapping_justification, subject_id,	predicate_id,	object_id,
          pair_id, subject_label, object_label, mesh_concept_group, 
-         similarity_score, accurate_mapping, concept_pair_rank, mapping_count, 
+         similarity_score, accuracy, concept_pair_rank, mapping_count, 
          mapping_result_number, hit_miss_concept, hit_miss_mapping, 
          model_analyzed)
 
 # Save data
 write.csv(mapping_consensus_filtered,
-          file=paste0(path_prep_data,"/",mapping_project,"-mapping.",model,"-prepared.csv"),
+          file=paste0(path_prep_data,"/",mapping_project,"-mapping.",model,".prepared.csv"),
           row.names = F, fileEncoding = "UTF8")
 
 # Clean up environment
 rm(i, llm_mapping_paths, mapping_project, model,
    path_eval_data, path_prep_data, path_raw_data,
    evaluative_mappings, human_desc, ties, tmp,
-   Unmapped, mapping_consensus, mappable_concepts)
+   unmapped, mapping_consensus, mappable_concepts)
