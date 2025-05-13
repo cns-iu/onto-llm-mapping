@@ -34,10 +34,10 @@ llm_mapping_paths <-
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluated-lookup-table.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.csv"),
            header = T, encoding = "UFT-8")
 
-# identify mappable concepts from initial set of subject concepts)
+# Identify mapped concepts from initial set of subject concepts
 mappable_concepts <- 
   evaluative_mappings[evaluative_mappings$map_state=="Mapped",]$subject_label %>%
   unique()
@@ -97,7 +97,7 @@ target_concepts_as <- nrow(target_concept[grepl("http://purl.obolibrary.org/obo/
 target_concepts_ct <- nrow(target_concept[grepl("http://purl.obolibrary.org/obo/CL_",
                                                 target_concept$iri)==T,])
 
-#### Characterize unmappable MeSH Concepts ####
+#### Characterize unmapped MeSH Concepts ####
 # by concept groups
 tmp1 <- 
   evaluative_mappings %>%
@@ -114,7 +114,7 @@ tmp2 <-
   ddply(.(mesh_concept_group, exclusion_reason), summarise,
         concept_reason = length(subject_id))
 
-# Combine both calculation dataframes.
+# Combine both calculation data frames.
 mesh_unmappable_concept_statistics <- 
   join(tmp1, tmp2, by="mesh_concept_group") %>%
   arrange(mesh_concept_group, desc(concept_group), desc(concept_reason)) %>%
@@ -192,11 +192,11 @@ for(i in 1:length(llm_mapping_paths)){
   # Precision at L
   precision <- 
     data %>%
-    select(model, subject_id, accurate_mapping, concept_pair_rank) %>%
+    select(model, subject_id, accuracy, concept_pair_rank) %>%
     ddply(.(model, subject_id), summarise,
-          score_at_k = max(accurate_mapping),
+          score_at_k = max(accuracy),
           precision_k = max(concept_pair_rank),
-          precision = max(accurate_mapping)/max(concept_pair_rank))
+          precision = max(accuracy)/max(concept_pair_rank))
   
   # Clean up precision for concepts llm skipped.
   if(nrow(precision[is.na(precision$precision_k),])>0){ 
@@ -207,18 +207,18 @@ for(i in 1:length(llm_mapping_paths)){
   # Recall at L
   recall <- 
     data %>%
-    select(model, subject_id, accurate_mapping, mapping_count) %>%
+    select(model, subject_id, accuracy, mapping_count) %>%
     ddply(.(model, subject_id), summarise,
-          score_at_k = sum(accurate_mapping),
+          score_at_k = sum(accuracy),
           recall_k = max(mapping_count),
-          recall = sum(accurate_mapping)/max(mapping_count))
+          recall = sum(accuracy)/max(mapping_count))
   
   # Save model precision and recall calculations
   mapping_scores_tmp <- 
     join(precision, recall, by=c("model", "subject_id"))
   mapping_scores_tmp <- mapping_scores_tmp[,c(1:5,7:8)]
   write.csv(mapping_scores_tmp, 
-            file=paste0(path_results_data,"/precision-recall/",model,
+            file=paste0(path_results_data,"/precision_recall/",model,
                         "-precision-recall-calculations.csv"),
             row.names = FALSE)
   
@@ -259,7 +259,7 @@ for(i in 1:length(llm_mapping_paths)){
   results_rr <- 
     union(tmp1,tmp2)
   write.csv(results_rr, 
-            file=paste0(path_results_data,"/reciprocal-rank/",model,
+            file=paste0(path_results_data,"/reciprocal_rank/",model,
                         "-concept-reciprocal-rank-calculations.csv"),
             row.names = FALSE)
   rm(tmp0, tmp1, tmp2)

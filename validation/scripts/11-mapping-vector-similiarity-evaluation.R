@@ -3,19 +3,19 @@ library(magrittr)
 library(tidyr)
 library(stringr)
 library(multcomp)
-library(plyr)
 library(dplyr)
+library(plyr)
 library(ggplot2)
 library(car)
 library(AICcmodavg)
 
-#### Set Paths ####
+##### Set Paths ####
 # Paths
-path_prep_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
+path_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
 path_eval_data <- paste0("./validation/evaluation_mappings")
 
 # Create results directory and path 
-path_results_data  <- paste0(path_prep_data,"/results")
+path_results_data  <- paste0(path_data,"/results")
 if(dir.exists(path_results_data)==FALSE){
   dir.create(path_results_data) 
 }
@@ -24,7 +24,7 @@ if(dir.exists(path_results_data)==FALSE){
 # Load prepared in LLM mappings 
 # currently selects for vector results.
 llm_mapping_paths <- 
-  list.files(path=path_prep_data,
+  list.files(path=path_data,
              pattern="prepared.csv", full.names = TRUE) %>%
   as.data.frame()
 names(llm_mapping_paths) <- "path"
@@ -36,8 +36,7 @@ mapping_project <- unlist(str_split(llm_mapping_paths[1], pattern="\\/"))[[3]]
 llm_mapping_paths <- 
     llm_mapping_paths[-grep("pooled", llm_mapping_paths$path),]
 
-#### Combine prepared concept mapping sets ####
-# Loop through data and select set of mappings
+##### Combine prepared mapping data sets ####
 for(i in 1:length(llm_mapping_paths)){
   # Load data
   tmp <- read.csv(file=llm_mapping_paths[i],
@@ -83,12 +82,13 @@ data$model <- factor(data$model, levels=c("human descriptions","llama3.2-3b.llm"
 # Update rank for rank when model did not evaluate mapping.
 data[data$model_analyzed==FALSE,]$rank <- 0
 
-#### Data Selection ####
+##### Data Selection #####
 data <- 
   data %>%
-  #filter(model_analyzed=="TRUE") %>%
-  select(model,pair_id, subject_id, object_id, subject_label, object_label, 
-         mesh_concept_group, hit_miss_mapping, accurate_mapping, similarity_score, rank, model_analyzed)
+  filter(model_analyzed=="TRUE") %>%
+  dplyr::select(model,pair_id, subject_id, object_id, subject_label, object_label, 
+                mesh_concept_group, hit_miss_mapping, accuracy, similarity_score, 
+                rank, model_analyzed)
 
 #### Descriptive Analysis of Concept Mapping Similarity Scores ####
 # Calculating Concept Mapping Similarity Score Descriptive Statistics, by Model
@@ -111,7 +111,7 @@ descriptives_model <-
   left_join(model_mapping_counts, by="model") %>%
   mutate(range = max-min,
          std_err = sd/sqrt(mappings)) %>%
-  select(model, mappings, median, mean, sd, std_err, var, min, max, range)
+  dplyr::select(model, mappings, median, mean, sd, std_err, var, min, max, range)
 
 # Calculating Concept Mapping Similarity Score Descriptive Statistics, by Model & Accuracy #
 model_hit_miss_counts <- 
@@ -123,7 +123,7 @@ model_hit_miss_counts <-
   right_join(model_mapping_counts, by="model") %>% 
   rename(mappings="mappings.x", mappings_overall="mappings.y") %>%
   mutate(percent_mappings=round(mappings/mappings_overall*100,2)) %>%
-  select(model, hit_miss_mapping, mappings_overall, mappings, percent_mappings)
+  dplyr::select(model, hit_miss_mapping, mappings_overall, mappings, percent_mappings)
 
 descriptives_model_accuracy <- 
   data %>% 
@@ -139,20 +139,21 @@ descriptives_model_accuracy <-
   left_join(model_hit_miss_counts, by=c("model","hit_miss_mapping")) %>%
   mutate(range = max-min,
          std_err = sd/sqrt(mappings)) %>%
-  select(model, hit_miss_mapping, mappings_overall, mappings, percent_mappings,
-         median, mean, sd, std_err, var, min, max, range)
+  dplyr::select(model, hit_miss_mapping, mappings_overall, mappings, 
+                percent_mappings, median, mean, sd, std_err, var, min, max, 
+                range)
 
 # Save descriptive statistical analysis results
 write.csv(descriptives_model, 
-          file=paste0(path_results_data,"/descriptive_statistics/",mapping_project,
-                      ".model_similiarity_score_descriptives.csv"),
+          file=paste0(path_data,"/results/descriptive_statistics/",mapping_project,
+                      ".model-similiarity_score_descriptives.csv"),
           row.names = FALSE)
 write.csv(descriptives_model_accuracy, 
-          file=paste0(path_results_data,"/descriptive_statistics/",mapping_project,
-                      ".model+accuracy_similiarity_score_descriptives.csv"),
+          file=paste0(path_data,"/results/descriptive_statistics/",mapping_project,
+                      ".model+hit_miss-similiarity_score_descriptives.csv"),
           row.names = FALSE)
 
-#### Visualization Distributions of model similarity scores and ranks ####
+##### Visualization Distributions of model similarity scores and ranks #####
 # Set up visualization themes
 theme_set(theme_grey())
 theme_update(
@@ -196,7 +197,7 @@ theme_update(
 plot1 <-
   data %>%
   filter(model_analyzed==TRUE) %>%
-  select(model,hit_miss_mapping, similarity_score) %>%
+  dplyr::select(model,hit_miss_mapping, similarity_score) %>%
   ggplot(aes(x=hit_miss_mapping)) + 
     geom_boxplot(aes(y=similarity_score)) +
     facet_wrap(facets=vars(model)) +
@@ -208,7 +209,7 @@ plot1 <-
 plot2 <-
   data %>%
   filter(model_analyzed==TRUE) %>%
-  select(model,hit_miss_mapping, similarity_score) %>%
+  dplyr::select(model,hit_miss_mapping, similarity_score) %>%
   ggplot(aes(similarity_score)) +
     geom_density(aes(color=hit_miss_mapping, 
                      fill=hit_miss_mapping),
@@ -222,7 +223,7 @@ plot2 <-
 plot3 <-
   data %>%
   filter(hit_miss_mapping=="Hit") %>%
-  select(model,rank, hit_miss_mapping) %>%
+  dplyr::select(model,rank, hit_miss_mapping) %>%
   ggplot(aes(rank)) +
     geom_bar() +
     facet_wrap(facets=vars(model)) +
@@ -234,36 +235,36 @@ plot3 <-
 
 # Save plot results as TIFF and JPEG formatted files
 # Plot 1
-tiff(filename = paste0(path_results_data,"/figures/",mapping_project,
+tiff(filename = paste0(path_data,"/results/figures/",mapping_project,
                        ".boxplot-model_similiarity_score-byAccuracy.tiff"),
      width=5.5, height=6.5, units="in", res=300, type="cairo", compression="lzw")
 plot1
 dev.off()
-jpeg(filename = paste0(path_results_data,"/figures/",mapping_project,
+jpeg(filename = paste0(path_data,"/results/figures/",mapping_project,
                        ".boxplot-model_similiarity_score-byAccuracy.jpeg"),
      width=5.5, height=6.5, units="in", res=300, type="windows")
 plot1
 dev.off()
 # Plot 2
-tiff(filename = paste0(path_results_data,"/figures/",mapping_project,
+tiff(filename = paste0(path_data,"/results/figures/",mapping_project,
                        ".density-model_similiarity_score-byAccuracy.tiff"),
      width=5.5, height=5, units="in", res=300, type="cairo", compression="lzw")
 plot2
 dev.off()
-jpeg(filename = paste0(path_results_data,"/figures/",mapping_project,
+jpeg(filename = paste0(path_data,"/results/figures/",mapping_project,
                        ".density-model_similiarity_score-byAccuracy.jpeg"),
      width=5.5, height=5, units="in", res=300, type="windows")
 plot2
 dev.off()
 
 # Plot 3
-tiff(filename = paste0(path_results_data,"/figures/",mapping_project,
+tiff(filename = paste0(path_data,"/results/figures/",mapping_project,
                        ".histogram-accurate_mapping_rank_by_model.tiff"),
      width=5.5, height=5, units="in", res=300, type="cairo", compression="lzw")
 plot3
 dev.off()
 
-jpeg(filename = paste0(path_results_data,"/figures/",mapping_project,
+jpeg(filename = paste0(path_data,"/results/figures/",mapping_project,
                        ".histogram-accurate_mapping_rank_by_model.jpeg"),
      width=5.5, height=5, units="in", res=300, type="windows")
 plot3
@@ -272,7 +273,9 @@ dev.off()
 # Clean up environment
 rm(plot1,plot2,plot3)
 
-#### Prepare additional categorical factor variables for ANOVA Test####
+#### Analysis of Variance of Model Mapping Similarity Scores ####
+
+##### Prepare additional categorical factor variables for ANOVA Test####
 # Definition Treatment Group
 data$treatment_groups <- "RAG Definition (Treatment)"
 data[data$model=="human descriptions",]$treatment_groups <- "Human Definitions (Control)"
@@ -282,10 +285,10 @@ data$treatment_groups <- factor(data$treatment_groups,
 
 # Mapping Accuracy
 data$accurate_mapping <- 
-  factor(data$accurate_mapping, 
+  factor(data$accuracy, 
          levels=c(1,0),
-         labels=c("Accurate Mapping",
-                  "Inaccurate Mapping"))
+         labels=c("Accurate Mappings",
+                  "Inaccurate Mappings"))
 
 # Concept Group (Anatomical Structures & Cell Types)
 data$mesh_concept_group <- 
@@ -293,7 +296,7 @@ data$mesh_concept_group <-
          levels=c("Anatomical structure",
                   "Cell type"))
 
-#### Analysis of Variance by Model and Mapping Accuracy ####
+##### Set-up ANOVA: LLM (+Mapping Accuracy) Mapping Similarity Scores ####
 # Select data where concepts have vector similarity analysis results
 data_anova <- data[data$model_analyzed==TRUE,]
 
@@ -301,21 +304,30 @@ data_anova <- data[data$model_analyzed==TRUE,]
 data_anova$similarity_score_norm <- 
   as.numeric(scale(data_anova$similarity_score, center=T, scale=T))
 
-#### Evaluating ANOVA Test Assumptions ####
+##### Evaluating ANOVA Test Assumptions #####
 # Chi Squared test if Independence of Variables (three ways)
 # model and accuracy
 chisq.test(table(data_anova$model, data_anova$accurate_mapping), correct = FALSE)
 summary(table(data_anova$model, data_anova$accurate_mapping))
+
 # model and concept group
 chisq.test(table(data_anova$model, data_anova$mesh_concept_group), correct = FALSE)
 summary(table(data_anova$model, data_anova$mesh_concept_group))
+
 # concept group and accuracy
 chisq.test(table(data_anova$mesh_concept_group, data_anova$accurate_mapping), correct = FALSE)
 summary(table(data_anova$mesh_concept_group, data_anova$accurate_mapping))
 
+##### Test Homogeneity of Variance ####
+# H1
+leveneTest(similarity_score_norm ~ model, 
+           data=data_anova, center=median)
 
-#### Compare ANOVA GLM models for Type I, II, & III ANOVA or MANOVA Analysis ####
+# H2
+leveneTest(similarity_score_norm ~ model * mesh_concept_group * accurate_mapping, 
+           data=data_anova, center=median)
 
+##### Compare ANOVA GLM models for Type I, II, & III ANOVA or MANOVA Analysis #####
 # H2. Type I1 models
 h1_anova_t1.1 <- 
   glm(similarity_score_norm ~ model,
@@ -357,13 +369,14 @@ model.names <- c("h1_anova_t1.1", "h1_anova_t1.2","h1_anova_t1.3",
                  "h2_anova_t2.1", "h2_anova_t2.2","h3_anova_t3.1","h3_anova_t3.2")
 mod_aic <- aictab(model.set, modnames = model.names)
 mod_aic
+
 # Analysis interpretation: Concept Type Factors account for more variance. Use a MANOVA.
 rm(h1_anova_t1.2, h1_anova_t1.3,h2_anova_t2.1, h3_anova_t3.1)
 
 #### Run ANOVA Test
 # Type I
 # Set-up ANOVA Models, relaxed assumptions of HoV
-# Testing Hypothesis 1 (H1) - Oneinstall.versions(-Way ANOVA
+# Testing Hypothesis 1 (H1) - One-Way ANOVA
 h1_1w_anova <- 
   aov(similarity_score ~ model, data=data_anova)
 
@@ -376,15 +389,16 @@ h2_manova_t3 <-
   Anova(mod=h3_anova_t3.2, type="III", test.statistic=c("F"))
 
 summary(h1_1w_anova)
+
 h2_manova_t2
 h2_manova_t3
 
-#### Post-hoc tests ####
-#### Test for Independence of Factor Variables ####
+##### Post-hoc tests #####
+###### Test for Independence of Factor Variables ####
 durbinWatsonTest(h1_1w_anova)
 durbinWatsonTest(h2_anova_t2.2)
 
-#### Test for Normal Distribution ####
+###### Test for Normal Distribution ####
 # H1
 # Shapiro Wilks test (5000 sample)
 shapiro.test(sample(h1_1w_anova$residuals, 5000, replace=T))
@@ -409,18 +423,7 @@ hist(h2_anova_t2.2$residuals)
 qqPlot(h2_anova_t2.2$residuals,
        id = FALSE)
 
-#### Test Homogeneity of Variance ####
-# H1
-leveneTest(similarity_score_norm ~ model, 
-           data=data_anova, center=median)
-
-# H2
-leveneTest(similarity_score_norm ~ model * mesh_concept_group * accurate_mapping, 
-           data=data_anova, center=median)
-
-#### Failed all tests for ANOVA use. Move to non-parametric tests. ####
-
-#### Tukey HSD Test - Unreliable conclusions ####
+###### Tukey HSD Test - Unreliable conclusions ####
 # H1
 post_test_h1 <- 
   glht(h1_1w_anova,
@@ -458,8 +461,8 @@ summary(post_test_h2_m)
 summary(post_test_h3_m)
 # summary(post_test_h3_am)
 # summary(post_test_h3_c)
-par(mar = c(3, 15, 3, 3))
-plot(post_test_h1)
-plot(post_test_h3_m)
-plot(post_test_h2_m)
-dev.off()
+
+# Note on these results: Data does not meet the conditions required to reliably use ANOVA for 
+# drawing statistical conclusions about the data sets. 
+
+#### Non-Parametric Analysis of Variance ####
