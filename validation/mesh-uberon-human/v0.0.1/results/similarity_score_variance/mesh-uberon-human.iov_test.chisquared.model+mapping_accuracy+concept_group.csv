@@ -1,0 +1,4 @@
+"X.squared","df","p.val","method","data.name"
+4.55834428026627,4,0.335685306430745,"Pearson's Chi-squared test","data$model and data$accurate_mapping"
+0.46686869193318,4,0.976645130853158,"Pearson's Chi-squared test","data$model and data$mesh_concept_group"
+0.763133934211459,1,0.382349541976929,"Pearson's Chi-squared test","data$mesh_concept_group and data$accurate_mapping"
