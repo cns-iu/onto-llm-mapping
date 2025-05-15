@@ -18,6 +18,17 @@ if(dir.exists(path_results_data)==FALSE){
 }
 
 #### Load data ####
+# Load MeSH concepts used in LLM mapping analysis
+source_concept <-
+  read.csv(file=paste0(path_input_data,"/mesh-terms.csv"),
+           header = T, encoding = "UFT-8")
+names(source_concept)[1] <- "subject_id"
+
+# Load UBERON and CL concepts used in LLM mapping analysis
+target_concept <-
+  read.csv(file=paste0(path_input_data,"/uberon-terms.csv"),
+           header = T, encoding = "UFT-8")
+
 # Load prepared in LLM mappings 
 # currently selects for vector results.
 llm_mapping_paths <- 
@@ -65,6 +76,133 @@ evaluation_results <-
 
 # Identify SSSOM mapping project
 project <- paste((str_split(llm_mapping_paths[1],"/")[[1]][3]))
+
+#### Characterize MeSH Subject Concepts and Mappings ####
+# MeSH Subject Concept Counts - Overall and by Concept Grouping
+subject_concepts <- data.frame("group"=c("Overall"),
+                               "subject_concepts"=nrow(source_concept))
+subject_concepts_as <- data.frame("group"=c("Anatomical structure"),
+                                  "subject_concepts"=
+                                    length(unique(evaluative_mappings[evaluative_mappings$mesh_concept_group=="Anatomical structure",]$subject_label)))
+subject_concepts_ct <- data.frame("group"=c("Cell type"),
+                                  "subject_concepts"=
+                                    length(unique(evaluative_mappings[evaluative_mappings$mesh_concept_group=="Cell type",]$subject_label)))
+subject_concepts <- rbind(subject_concepts_as, subject_concepts_ct, subject_concepts)
+# subject_concepts_as_ct <- subject_concepts_as + subject_concepts_ct
+# subject_concepts_other <- subject_concepts - subject_concepts_as_ct
+
+##### Characterizing unmapped MeSH Concepts ####
+# by concept groups
+mesh_unmapped_concepts <- 
+  evaluative_mappings %>%
+  filter(map_state=="Unmapped") %>% 
+  ddply(.(mesh_concept_group), summarise,
+        unmapped_subject_concepts = length(subject_id)) %>%
+  arrange(mesh_concept_group, desc(unmapped_subject_concepts)) %>%
+  mutate(percent_subject_concept = round(unmapped_subject_concepts/
+                                         nrow(subject_concepts),2)) %>%
+  rename(c("group"="mesh_concept_group"))
+
+mesh_unmapped_concepts <-
+  rbind(mesh_unmapped_concepts, 
+        data.frame(group=c("Overall"),
+                   unmapped_subject_concepts=
+                     sum(mesh_unmapped_concepts$unmapped_subject_concepts),
+                   percent_subject_concept=round(sum(mesh_unmapped_concepts$unmapped_subject_concepts)/
+                                                 nrow(subject_concepts),2)))
+# Unmapped Subject Concepts Broken out by exclusion reason
+mesh_unmapped_concepts_rational <- 
+  evaluative_mappings %>%
+  filter(map_state=="Unmapped") %>% 
+  ddply(.(mesh_concept_group, exclusion_reason), summarise,
+        subject_concepts = length(subject_id)) %>%
+  rename(c("group"="mesh_concept_group"))
+
+# Combine both calculation data frames.
+mesh_unmapped_concepts_rational <- 
+  join(mesh_unmapped_concepts_rational, 
+       mesh_unmapped_concepts[,1:2], by="group") %>%
+  mutate(percent_group_unmapped_subject_concept = 
+           round(subject_concepts/
+                 unmapped_subject_concepts*100,2)) %>%
+  select(-unmapped_subject_concepts) %>%
+  arrange(group, desc(subject_concepts))
+
+# Save results and clean up environment
+write.csv(mesh_unmapped_concepts,
+          file=paste0(path_results_data,"/",project,".unmapped_subject_concepts.desc_statistics.csv"),
+          row.names = FALSE, fileEncoding = "UTF8")
+
+write.csv(mesh_unmapped_concepts_rational,
+          file=paste0(path_results_data,"/",project,".unmapped_subject_concepts.exclusions_breakout.csv"),
+          row.names = FALSE, fileEncoding = "UTF8")
+
+rm(mesh_unmapped_concepts_rational, mesh_unmapped_concepts)
+
+# Mapped Subject Concept Counts and Percentages - Overall and by Concept Grouping
+mapped_concepts <-
+  evaluative_mappings %>%
+  filter(map_state=="Mapped") %>%
+  select(subject_id, subject_label, mesh_concept_group, mapping_count) %>%
+  distinct() %>%
+  group_by("group"=mesh_concept_group) %>%
+  count() %>%
+  ungroup() %>% 
+  rename(c("mapped_subject_concepts"="n")) %>%
+  rbind(data.frame(group=c("Overall"),
+                   mapped_subject_concepts=length(mappable_concepts))) %>%
+  mutate(percentage_mapped_concepts =
+           round(mapped_subject_concepts/length(mappable_concepts)*100,2))
+
+mapped_concepts <-
+  left_join(subject_concepts, mapped_concepts, by="group") %>%
+  mutate(percent_subject_concepts_mapped =
+           round(mapped_subject_concepts/subject_concepts*100,2)) %>%
+  select(group, subject_concepts, mapped_subject_concepts, 
+         percent_subject_concepts_mapped, percentage_mapped_concepts)
+
+# Subject Concept Recalls (Mappings) - Overall and by Concept Grouping
+mapping_recalls <- data.frame(group=c("Overall"),
+                              mapping_recalls=
+                                nrow(evaluative_mappings[evaluative_mappings$map_state=="Mapped",]))
+mapping_recalls <-
+  evaluative_mappings %>%
+  filter(map_state=="Mapped") %>%
+  ddply(.(mesh_concept_group), summarise, 
+        mapping_recalls = length(subject_id)) %>%
+  rename(c("group"="mesh_concept_group")) %>%
+  rbind(mapping_recalls)
+
+# Combine mapped concepts and recall count and percentage statistics.
+mapped_concepts_desc <- 
+  join(mapped_concepts, mapping_recalls, by="group") %>%
+  mutate(avg_mapped_concept_recalls = 
+           round(mapping_recalls/mapped_subject_concepts, 2))
+
+# Save results and clean up environment
+write.csv(mapped_concepts_desc,
+          file=paste0(path_results_data,"/",project,".mapped_subject_concepts.desc_statistics.csv"),
+          row.names = FALSE, fileEncoding = "UTF8")
+
+rm(mapped_concepts_desc, mapping_recalls, mapped_concepts, 
+   subject_concepts, subject_concepts_as, subject_concepts_ct)
+
+# UBERON and CL Concept Counts
+target_concepts <- nrow(target_concept)
+target_concepts_as <- nrow(target_concept[grepl("http://purl.obolibrary.org/obo/UBERON_",
+                                                target_concept$iri)==T,])
+target_concepts_ct <- nrow(target_concept[grepl("http://purl.obolibrary.org/obo/CL_",
+                                                target_concept$iri)==T,])
+
+
+
+
+
+
+
+
+
+
 
 #### Evaluate LLM Mapping Results ####
 # Set F-score beta

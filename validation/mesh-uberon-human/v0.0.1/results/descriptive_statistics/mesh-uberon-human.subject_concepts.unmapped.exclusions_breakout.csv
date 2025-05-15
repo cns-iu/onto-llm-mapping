@@ -1,0 +1,14 @@
+"concept_group","exclusion_reason","subject_concepts"
+"Anatomical structure","Connective tissue not found in  UBERON.",13
+"Anatomical structure","Vasculature not found in  UBERON.",6
+"Anatomical structure","Pathway not found in  UBERON.",5
+"Anatomical structure","Ocular structure not found in  UBERON.",4
+"Anatomical structure","System not found in UBERON.",4
+"Anatomical structure","Musculoskeletal structure not found in  UBERON.",2
+"Anatomical structure","Brain structure not found in UBERON.",1
+"Anatomical structure","Fluid not found in UBERON.",1
+"Cell structure","Cell type not found in CL.",35
+"Cell type","Cell type not found in CL.",22
+"Cell type","Non-human cell type",2
+"Not relevant to HRA.","Biomedical concept.",6
+"Not relevant to HRA.","Non-human anatomical structure.",1
