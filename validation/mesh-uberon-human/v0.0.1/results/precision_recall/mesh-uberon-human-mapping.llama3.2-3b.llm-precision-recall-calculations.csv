@@ -254,7 +254,7 @@
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008730",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008792",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008846",1,10,0.1,1,1
-"mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008847",1,10,0.1,4,0.5
+"mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008847",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008848",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008849",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0008886",1,10,0.1,1,1
@@ -504,7 +504,7 @@
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016292",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016307",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016349",1,10,0.1,1,1
-"mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016374",1,10,0.1,1,1
+"mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016374",1,10,0.1,2,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016439",1,10,0.1,2,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016442",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0016451",1,10,0.1,1,1
@@ -682,7 +682,7 @@
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021967",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0021968",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022026",1,10,0.1,1,1
-"mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022032",1,10,0.1,1,1
+"mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022032",1,10,0.1,2,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022051",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022096",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0022166",1,10,0.1,1,1
@@ -955,7 +955,7 @@
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0555122",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0556524",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0578089",1,10,0.1,1,1
-"mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0579781",1,10,0.1,2,1
+"mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0579781",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0579783",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0579811",1,10,0.1,1,1
 "mesh-uberon-human-mapping.llama3.2-3b.llm","http://id.nlm.nih.gov/mesh/M0590591",1,10,0.1,1,1

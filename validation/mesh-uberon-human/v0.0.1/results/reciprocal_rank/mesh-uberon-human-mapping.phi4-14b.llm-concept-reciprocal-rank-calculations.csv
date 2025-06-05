@@ -466,7 +466,7 @@
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0016292",1
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0016307",1
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0016349",1
-"mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0016374",0.5
+"mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0016374",1
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0016439",1
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0016442",0.333333333333333
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0016451",1
@@ -638,7 +638,7 @@
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0021967",0.5
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0021968",1
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0022026",1
-"mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0022032",0.5
+"mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0022032",1
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0022051",1
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0022096",1
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0022166",0.25
@@ -891,7 +891,7 @@
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0555122",1
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0556524",1
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0578089",1
-"mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0579781",1
+"mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0579781",0.5
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0590591",0.2
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0591083",0.5
 "mesh-uberon-human-mapping.phi4-14b.llm","http://id.nlm.nih.gov/mesh/M0591189",0.333333333333333

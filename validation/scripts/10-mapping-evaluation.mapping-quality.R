@@ -37,13 +37,22 @@ llm_mapping_paths <-
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-tool.csv"),
            header = T, encoding = "UFT-8")
 
 # Identify mapped concepts from initial set of subject concepts
 mappable_concepts <- 
   evaluative_mappings[evaluative_mappings$map_state=="Mapped",]$subject_id %>%
   unique()
+
+# Counts of mappable concepts
+mappable_concepts_total <- length(mappable_concepts)
+mappable_concepts_as <- 
+  nrow(evaluative_mappings[evaluative_mappings$map_state=="Mapped" &
+                      evaluative_mappings$mesh_concept_group=="Anatomical structure",])
+mappable_concepts_ct <- 
+  nrow(evaluative_mappings[evaluative_mappings$map_state=="Mapped" &
+                             evaluative_mappings$mesh_concept_group=="Cell type",])
 
 #### Create evaluation result mapping data frame ####
 evaluation_results <- 
@@ -150,9 +159,9 @@ mapped_concepts <-
   ungroup() %>% 
   rename(c("mapped_subject_concepts"="n")) %>%
   rbind(data.frame(group=c("Overall"),
-                   mapped_subject_concepts=length(mappable_concepts))) %>%
+                   mapped_subject_concepts=mappable_concepts_total)) %>%
   mutate(percentage_mapped_concepts =
-           round(mapped_subject_concepts/length(mappable_concepts)*100,2))
+           round(mapped_subject_concepts/mappable_concepts_total*100,2))
 
 mapped_concepts <-
   left_join(subject_concepts, mapped_concepts, by="group") %>%
@@ -197,13 +206,6 @@ target_concepts_ct <- nrow(target_concept[grepl("http://purl.obolibrary.org/obo/
 
 
 
-
-
-
-
-
-
-
 #### Evaluate LLM Mapping Results ####
 # Set F-score beta
 beta = 2
@@ -228,7 +230,7 @@ for(i in 1:length(llm_mapping_paths)){
     distinct() %>%
     ddply(.(model), summarise,
           mapping_results = nrow(data),
-          mappable_concepts = mappable_concepts,
+          mappable_concepts = mappable_concepts_total,
           mapped_concepts = length(subject_id),
           skipped_concepts = mappable_concepts - length(subject_id),
           mapped_concepts_percent = round(length(subject_id)/mappable_concepts, 3))
@@ -243,8 +245,8 @@ for(i in 1:length(llm_mapping_paths)){
                 names_from = hit_miss_concept,
                 values_from = value,
                 values_fn = length) %>%
-    mutate(hit_percent = round(Hit/mappable_concepts,2),
-           miss_percent = round(Miss/mappable_concepts,2)) %>%
+    mutate(hit_percent = round(Hit/mappable_concepts_total,2),
+           miss_percent = round(Miss/mappable_concepts_total,2)) %>%
     select(model,Hit,Miss,hit_percent, miss_percent)
   names(results_hit_miss)[2:3] <- c("hit","miss")
   
