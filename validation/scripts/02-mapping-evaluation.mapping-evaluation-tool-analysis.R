@@ -107,7 +107,7 @@ write.csv(mesh_unmapped_concepts_rational,
 mapped_concepts <-
   evaluative_mappings %>%
   filter(map_state=="Mapped") %>%
-  select(subject_id, subject_label, mesh_concept_group, record_count) %>%
+  select(subject_id, subject_label, mesh_concept_group, mapping_count) %>%
   distinct() %>%
   group_by("concept_group"=mesh_concept_group) %>%
   count() %>%

@@ -24,7 +24,7 @@ mapping_project <- unlist(str_split(llm_mapping_paths[1], pattern="\\/"))[[3]]
 #### Load Data ####
 # CNS Naive SSSOM Mappings
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-tool.csv"),
            header = T, encoding = "UFT-8")
 
 # Mapped concepts
