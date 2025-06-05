@@ -1,4 +1,4 @@
 "concept_group","subject_concepts","mapped_subject_concepts","percent_subject_concepts_mapped","percentage_mapped_concepts","mapping_recalls","avg_mapped_concept_recalls"
-"Anatomical structure",901,865,96,85.56,877,1.01
-"Cell type",172,148,86.05,14.64,150,1.01
-"Total",1113,1011,90.84,100,1027,1.02
+"Anatomical structure",901,865,96,85.56,874,1.01
+"Cell type",172,148,86.05,14.64,151,1.02
+"Total",1113,1011,90.84,100,1025,1.01

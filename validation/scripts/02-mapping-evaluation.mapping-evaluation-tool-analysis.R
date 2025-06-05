@@ -34,7 +34,7 @@ target_concept <-
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-lookup-table.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-tool.csv"),
            header = T, encoding = "UFT-8")
 
 # Identify mapped and unmapped concepts from initial set of subject concepts
@@ -107,7 +107,7 @@ write.csv(mesh_unmapped_concepts_rational,
 mapped_concepts <-
   evaluative_mappings %>%
   filter(map_state=="Mapped") %>%
-  select(subject_id, subject_label, mesh_concept_group, mapping_count) %>%
+  select(subject_id, subject_label, mesh_concept_group, record_count) %>%
   distinct() %>%
   group_by("concept_group"=mesh_concept_group) %>%
   count() %>%
