@@ -464,5 +464,3 @@ summary(post_test_h3_m)
 
 # Note on these results: Data does not meet the conditions required to reliably use ANOVA for 
 # drawing statistical conclusions about the data sets. 
-
-#### Non-Parametric Analysis of Variance ####
