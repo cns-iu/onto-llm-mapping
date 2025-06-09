@@ -7,10 +7,12 @@ library(stringr)
 
 #### Load data ####
 # Set Paths
-# path_input_data <- paste0("./input-data/mesh-uberon-human/v0.0.1")
 path_raw_data <- paste0("./raw-data/mesh-uberon-human/v0.0.1")
 path_eval_data <- paste0("./validation/evaluation_mappings")
 path_prep_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
+
+# Project
+project <- "mesh-uberon-human"
 
 #Load in LLM mappings 
 # currently selects for vector results.
@@ -28,13 +30,20 @@ mappable_concepts <-
   evaluative_mappings[evaluative_mappings$map_state =="Mapped",]$subject_label %>%
   unique()
 
-#i=2
+# Data table of LLM mapping records and filtered record counts.
+mapping_result_counts <- 
+  data.frame(model= as.character(),
+             mapping_count = as.numeric(),
+             evaluated_mapping_count = as.numeric())
+
 #### Pre-process the data ####
+#i=2 # For testing loop
+
 for(i in 1:length(llm_mapping_paths)){
   ##### Load LLM mapping results and update data file #### 
   data <- read.csv(file=llm_mapping_paths[i],
                    header = T, encoding = "UFT-8")
-
+  
   # grab project and model for data.
   llm_result_file <- tail(unlist(str_split(llm_mapping_paths[i], pattern="\\/")),1)
   llm_result_file <- str_split(llm_result_file, pattern="-vec")[[1]][1]
@@ -49,13 +58,29 @@ for(i in 1:length(llm_mapping_paths)){
   # Re-order columns
   data <- data[,c(9,8,1,3,4,10,2,5,6,7)]
   
+  # Count mappings in model result.
+  tmp0_a <-
+    data %>% 
+    ddply(.(model), summarise, 
+          mapping_count = length(pair_id))
+  
   # Subset to keep only results for mapped concepts
   data <- data[data$subject_label %in% mappable_concepts,]
+  
+  # Count mappings after filtering concepts that cannot be mapped
+  tmp0_b <-
+    data %>% 
+    ddply(.(model), summarise, 
+          evaluated_mapping_count = length(pair_id))
+  
+  # Add mapping counts to descriptive stat data table
+  mapping_result_counts <- rbind(mapping_result_counts, cbind(tmp0_a, tmp0_b[2]))
+  rm(tmp0_a, tmp0_b)
   
   ##### Join 1: Evaluate mapping results using mapping evaluation look-up table. ####
   tmp1 <- 
     evaluative_mappings %>%
-    select(pair_id, accuracy) %>%
+    dplyr::select(pair_id, accuracy) %>%
     distinct()
   data <- join(data, tmp1, by="pair_id")
   rm(tmp1)
@@ -74,7 +99,7 @@ for(i in 1:length(llm_mapping_paths)){
   # Set of concepts missed by model in mapping process
   tmp2 <-  
     data %>%
-    select(model, subject_id, subject_label, accuracy) %>%
+    dplyr::select(model, subject_id, subject_label, accuracy) %>%
     ddply(.(model, subject_id, subject_label),
           summarise, 
           accurate_mapping=max(accuracy, na.rm = TRUE)) %>%
@@ -83,8 +108,8 @@ for(i in 1:length(llm_mapping_paths)){
   # Unique set of mapped concepts 
   tmp3 <-  
     evaluative_mappings %>%
-    select(subject_id, subject_label, map_state, mapping_count, 
-           mesh_concept_group, accuracy) %>%
+    dplyr::select(subject_id, subject_label, map_state, mapping_count, 
+                  mesh_concept_group, accuracy) %>%
     filter(map_state=="Mapped") %>%
     distinct()
   
@@ -109,8 +134,8 @@ for(i in 1:length(llm_mapping_paths)){
   # Select and Reorder columns, unique concepts 
   tmp2 <-
     tmp2 %>%
-    select(model, subject_id, subject_label, mesh_concept_group, mapping_count,
-           model_analyzed, hit_miss_concept, accurate_mapping) %>%
+    dplyr::select(model, subject_id, subject_label, mesh_concept_group, mapping_count,
+                  model_analyzed, hit_miss_concept, accurate_mapping) %>%
     distinct()
   
   # Join selected data
@@ -119,10 +144,10 @@ for(i in 1:length(llm_mapping_paths)){
   # Reorder columns
   data <- 
     data %>% 
-    select(model, mapping_justification, subject_id, predicate_id, object_id, 
-           pair_id, subject_label, object_label, mesh_concept_group, 
-           similarity_score, accurate_mapping, accuracy, concept_pair_rank, 
-           mapping_count, hit_miss_concept,	model_analyzed)
+    dplyr::select(model, mapping_justification, subject_id, predicate_id, object_id, 
+                  pair_id, subject_label, object_label, mesh_concept_group, 
+                  similarity_score, accurate_mapping, accuracy, concept_pair_rank, 
+                  mapping_count, hit_miss_concept,	model_analyzed)
   
   ##### Create hit_miss_mapping from hit_miss_concept ####
   data$hit_miss_mapping <- data$hit_miss_concept
@@ -142,7 +167,7 @@ for(i in 1:length(llm_mapping_paths)){
     group_by(subject_id) %>%  
     mutate(mapping_result_number = row_number()) %>%
     ungroup() %>%
-    select(pair_id,mapping_result_number)
+    dplyr::select(pair_id,mapping_result_number)
   
   # Join 4
   data <- join(data, tmp4, by="pair_id")
@@ -158,5 +183,7 @@ for(i in 1:length(llm_mapping_paths)){
   rm(tmp2, tmp3, tmp4, llm_result_file)
 }
 
+write.csv(mapping_result_counts,
+          file=paste0(path_prep_data,"/results/",project,".model_mapping_result_counts.csv"), row.names =F )
 rm(i, data, llm_mapping_paths, evaluative_mappings, mappable_concepts, 
-   path_eval_data, path_prep_data, path_raw_data)
+   path_eval_data, path_prep_data, path_raw_data, project, mapping_result_counts)

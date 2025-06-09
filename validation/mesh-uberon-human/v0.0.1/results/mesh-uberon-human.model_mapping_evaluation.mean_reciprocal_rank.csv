@@ -1,0 +1,7 @@
+"model","mean_reciprocal_rank","mean_reciprocal_rank_sd"
+"mesh-uberon-human-mapping.curategpt.sssom.csv",0.772554283830248,0.359494549273175
+"mesh-uberon-human-mapping.desc",0.856890583911542,0.29779267621391
+"mesh-uberon-human-mapping.gpt4o.llm",0.943112513144059,0.188718820715845
+"mesh-uberon-human-mapping.llama3.2-3b.llm",0.757366293091219,0.340338312076668
+"mesh-uberon-human-mapping.phi4-14b.llm",0.798372655486682,0.327365657643898
+"pooled-K1-vec-vote",0.911721068249258,0.241813702412624

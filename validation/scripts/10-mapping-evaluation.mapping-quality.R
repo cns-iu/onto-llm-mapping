@@ -1,8 +1,8 @@
 #### Set up environment ####
 library(magrittr)
 library(tidyr)
-library(plyr)
 library(dplyr)
+library(plyr)
 library(stringr)
 
 #### Set Paths ####
@@ -56,9 +56,16 @@ mappable_concepts_as <-
 mappable_concepts_ct <- 
   nrow(evaluative_mappings[evaluative_mappings$map_state=="Mapped" &
                              evaluative_mappings$mesh_concept_group=="Cell type",])
-#### Characterize MeSH Subject Concepts and Mappings ####
-# MeSH Subject Concept Counts - Overall and by Concept Grouping
-subject_concepts <- data.frame("group"=c("Overall"),
+
+# LLM Model result mapping counts descriptive
+model_mapping_counts <- 
+  read.csv(file=paste0(path_prep_data,"/results/mesh-uberon-human.model_mapping_result_counts.csv"),
+           header = T)
+
+
+#### Characterize subject and target concepts and mappings ####
+# MeSH Subject Concept Counts - All Concepts and by Concept Grouping
+subject_concepts <- data.frame("group"=c("All Concepts"),
                                "subject_concepts"=nrow(source_concept))
 subject_concepts_as <- data.frame("group"=c("Anatomical structure"),
                                   "subject_concepts"=
@@ -68,7 +75,22 @@ subject_concepts_ct <- data.frame("group"=c("Cell type"),
                                     length(unique(evaluative_mappings[evaluative_mappings$mesh_concept_group=="Cell type",]$subject_label)))
 subject_concepts <- rbind(subject_concepts_as, subject_concepts_ct, subject_concepts)
 
-##### Characterizing unmapped MeSH Concepts ####
+# UBERON and CL Concept Counts- All Concepts and by Concept Grouping
+target_concepts <- data.frame("group"=c("All Concepts"),
+                              "target_concepts"=nrow(target_concept))
+target_concepts_as <- data.frame("group"=c("Anatomical structure"),
+                                 "target_concepts"=
+                                   nrow(target_concept[grepl("http://purl.obolibrary.org/obo/UBERON_",
+                                        target_concept$iri)==T,]))
+target_concepts_ct <- data.frame("group"=c("Cell type"),
+                                 "target_concepts"=
+                                   nrow(target_concept[grepl("http://purl.obolibrary.org/obo/CL_",
+                                        target_concept$iri)==T,]))
+target_concepts <- rbind(target_concepts_as, target_concepts_ct, target_concepts)
+rm(subject_concepts_as, subject_concepts_ct, 
+   target_concepts_as, target_concepts_ct)
+
+##### Characterizing unmapped MeSH concepts ####
 # by concept groups
 mesh_unmapped_concepts <- 
   evaluative_mappings %>%
@@ -82,7 +104,7 @@ mesh_unmapped_concepts <-
 
 mesh_unmapped_concepts <-
   rbind(mesh_unmapped_concepts, 
-        data.frame(group=c("Overall"),
+        data.frame(group=c("Total"),
                    unmapped_subject_concepts=
                      sum(mesh_unmapped_concepts$unmapped_subject_concepts),
                    percent_subject_concept=round(sum(mesh_unmapped_concepts$unmapped_subject_concepts)/
@@ -102,44 +124,48 @@ mesh_unmapped_concepts_rational <-
   mutate(percent_group_unmapped_subject_concept = 
            round(subject_concepts/
                  unmapped_subject_concepts*100,2)) %>%
-  select(-unmapped_subject_concepts) %>%
+  dplyr::select(-unmapped_subject_concepts) %>%
   arrange(group, desc(subject_concepts))
 
 # Save results and clean up environment
+# Used in Table 2
 write.csv(mesh_unmapped_concepts,
           file=paste0(path_results_data,"/",project,".unmapped_subject_concepts.desc_statistics.csv"),
           row.names = FALSE, fileEncoding = "UTF8")
 
+# Used in Table 3
 write.csv(mesh_unmapped_concepts_rational,
           file=paste0(path_results_data,"/",project,".unmapped_subject_concepts.exclusions_breakout.csv"),
           row.names = FALSE, fileEncoding = "UTF8")
 
 rm(mesh_unmapped_concepts_rational, mesh_unmapped_concepts)
 
+##### Characterizing mapped MeSH concepts ####
 # Mapped Subject Concept Counts and Percentages - Overall and by Concept Grouping
 mapped_concepts <-
   evaluative_mappings %>%
   filter(map_state=="Mapped") %>%
-  select(subject_id, subject_label, mesh_concept_group, mapping_count) %>%
+  dplyr::select(subject_id, subject_label, 
+                mesh_concept_group, mapping_count) %>%
   distinct() %>%
   group_by("group"=mesh_concept_group) %>%
   count() %>%
   ungroup() %>% 
   rename(c("mapped_subject_concepts"="n")) %>%
-  rbind(data.frame(group=c("Overall"),
+  rbind(data.frame(group=c("All Concepts"),
                    mapped_subject_concepts=mappable_concepts_total)) %>%
   mutate(percentage_mapped_concepts =
            round(mapped_subject_concepts/mappable_concepts_total*100,2))
 
 mapped_concepts <-
   left_join(subject_concepts, mapped_concepts, by="group") %>%
-  mutate(percent_subject_concepts_mapped =
+  mutate(percent_group_mapped =
            round(mapped_subject_concepts/subject_concepts*100,2)) %>%
-  select(group, subject_concepts, mapped_subject_concepts, 
-         percent_subject_concepts_mapped, percentage_mapped_concepts)
+  dplyr::select(group, subject_concepts, mapped_subject_concepts, 
+                percent_group_mapped, percentage_mapped_concepts)
 
-# Subject Concept Recalls (Mappings) - Overall and by Concept Grouping
-mapping_recalls <- data.frame(group=c("Overall"),
+# Subject concept recalls (Mappings): all concepts and by concept group (AS & CT)
+mapping_recalls <- data.frame(group=c("All Concepts"),
                               mapping_recalls=
                                 nrow(evaluative_mappings[evaluative_mappings$map_state=="Mapped",]))
 mapping_recalls <-
@@ -157,21 +183,14 @@ mapped_concepts_desc <-
            round(mapping_recalls/mapped_subject_concepts, 2))
 
 # Save results and clean up environment
+# Used in Table 1
 write.csv(mapped_concepts_desc,
           file=paste0(path_results_data,"/",project,".mapped_subject_concepts.desc_statistics.csv"),
           row.names = FALSE, fileEncoding = "UTF8")
 
-rm(mapped_concepts_desc, mapping_recalls, mapped_concepts, 
-   subject_concepts, subject_concepts_as, subject_concepts_ct)
+rm(mapped_concepts_desc, mapping_recalls, mapped_concepts)
 
-# UBERON and CL Concept Counts
-target_concepts <- nrow(target_concept)
-target_concepts_as <- nrow(target_concept[grepl("http://purl.obolibrary.org/obo/UBERON_",
-                                                target_concept$iri)==T,])
-target_concepts_ct <- nrow(target_concept[grepl("http://purl.obolibrary.org/obo/CL_",
-                                                target_concept$iri)==T,])
-
-#### LLM Mapping Evaluation Results ####
+#### Evaluation of LLM Mapping Results ####
 ##### Create evaluation result mapping data frame ####
 evaluation_results <- 
   data.frame(model = character(),
@@ -209,7 +228,6 @@ evaluation_results <-
 
 # Set F-score beta
 beta = 2
-
 for(i in 1:length(llm_mapping_paths)){
   # Load data
   data <- read.csv(file=llm_mapping_paths[i],
@@ -222,7 +240,7 @@ for(i in 1:length(llm_mapping_paths)){
   results_subject_concepts_mapped <- 
     data %>% 
     filter(model_analyzed==TRUE) %>% 
-    select(model,subject_id) %>% 
+    dplyr::select(model,subject_id) %>% 
     distinct() %>%
     ddply(.(model), summarise,
           mapping_results = nrow(data),
@@ -230,11 +248,11 @@ for(i in 1:length(llm_mapping_paths)){
           mapped_concepts = length(subject_id),
           skipped_concepts = mappable_concepts - length(subject_id),
           mapped_concepts_percent = round(length(subject_id)/mappable_concepts, 3))
-
+  
   # Calculate hit and miss statistics for model results
   results_hit_miss <-
     data %>%
-    select(model, subject_id, hit_miss_concept) %>%
+    dplyr::select(model, subject_id, hit_miss_concept) %>%
     distinct() %>%
     mutate(value=1) %>% 
     pivot_wider(id_cols = model, 
@@ -243,22 +261,23 @@ for(i in 1:length(llm_mapping_paths)){
                 values_fn = length) %>%
     mutate(hit_percent = round(Hit/mappable_concepts_total,2),
            miss_percent = round(Miss/mappable_concepts_total,2)) %>%
-    select(model,Hit,Miss,hit_percent, miss_percent)
+    dplyr::select(model,Hit,Miss,hit_percent, miss_percent)
   names(results_hit_miss)[2:3] <- c("hit","miss")
   
   # Calculate hit and miss statistics for model results - Group level
   results_hit_miss_groups <-
     data %>%
-      select(model, subject_id, mesh_concept_group, hit_miss_concept) %>%
-      distinct() %>%
-      mutate(Value=1) %>%
-      pivot_wider(id_cols = model, 
-                  names_from = c(hit_miss_concept, mesh_concept_group), 
-                  values_from = Value,
-                  values_fn = length) %>%
-    select(model,'Hit_Anatomical structure','Miss_Anatomical structure',
-           'Hit_Cell type', 'Miss_Cell type',)
+    dplyr::select(model, subject_id, mesh_concept_group, hit_miss_concept) %>%
+    distinct() %>%
+    mutate(Value=1) %>%
+    pivot_wider(id_cols = model, 
+                names_from = c(hit_miss_concept, mesh_concept_group), 
+                values_from = Value,
+                values_fn = length) %>%
+    dplyr::select(model,'Hit_Anatomical structure','Miss_Anatomical structure',
+                 'Hit_Cell type', 'Miss_Cell type',)
   names(results_hit_miss_groups)[2:5] <- c("hit_as","miss_as","hit_ct","miss_ct")
+  
   results_hit_miss_groups <-
     results_hit_miss_groups %>%
     mutate(hit_as_percent= round(hit_as/mappable_concepts_as,2), 
@@ -269,7 +288,7 @@ for(i in 1:length(llm_mapping_paths)){
   # Precision at L
   precision <- 
     data %>%
-    select(model, subject_id, accuracy, concept_pair_rank) %>%
+    dplyr::select(model, subject_id, accuracy, concept_pair_rank) %>%
     ddply(.(model, subject_id), summarise,
           score_at_k = max(accuracy),
           precision_k = max(concept_pair_rank),
@@ -284,7 +303,7 @@ for(i in 1:length(llm_mapping_paths)){
   # Recall at L
   recall <- 
     data %>%
-    select(model, subject_id, accuracy, mapping_count) %>%
+    dplyr::select(model, subject_id, accuracy, mapping_count) %>%
     ddply(.(model, subject_id), summarise,
           score_at_k = sum(accuracy),
           recall_k = max(mapping_count),
@@ -294,6 +313,8 @@ for(i in 1:length(llm_mapping_paths)){
   mapping_scores_tmp <- 
     join(precision, recall, by=c("model", "subject_id"))
   mapping_scores_tmp <- mapping_scores_tmp[,c(1:5,7:8)]
+  
+  # Used in Appendix: Model level precision and recall
   write.csv(mapping_scores_tmp, 
             file=paste0(path_results_data,"/precision_recall/",model,
                         "-precision-recall-calculations.csv"),
@@ -309,8 +330,14 @@ for(i in 1:length(llm_mapping_paths)){
     mutate(f_score=((1+beta^2)*mean_precision*mean_recall)/((beta^2*mean_precision)+mean_recall),
            beta = beta)
   
+  # Used in Table 5
+  write.csv(results_fscore, 
+            file=paste0(path_results_data,"/",project,
+                        ".fscore-mean_precision+recall-calculations.csv"),
+            row.names = FALSE)
+  
   # Clean up
-  rm(precision, recall, mapping_scores_tmp)
+  #rm(precision, recall, mapping_scores_tmp)
   
   # Calculate Concept Level - Mean Reciprocal Rank (MRR)
   # 1. Calculate reciprocal rank values for mapping records.
@@ -322,7 +349,7 @@ for(i in 1:length(llm_mapping_paths)){
   tmp1 <-
     tmp0 %>%
     filter(mapping_result_number==1) %>%
-    select(model, subject_id, reciprocal_rank)
+    dplyr::select(model, subject_id, reciprocal_rank)
   
   # 3. Calculate reciprocal rank for missed concepts.
   tmp2 <- 
@@ -347,6 +374,10 @@ for(i in 1:length(llm_mapping_paths)){
     ddply(.(model), summarise,
           mean_reciprocal_rank = mean(reciprocal_rank, na.rm=TRUE),
           mean_reciprocal_rank_sd = sd(reciprocal_rank, na.rm=TRUE))
+  write.csv(results_rr, 
+            file=paste0(path_results_data,"/reciprocal_rank/",model,
+                        "-mean-reciprocal-rank-calculations.csv"),
+            row.names = FALSE)
   
   # Combine model evaluation statistics and organize variables.
   evaluation_results_tmp <- 
@@ -355,20 +386,69 @@ for(i in 1:length(llm_mapping_paths)){
     left_join(., results_hit_miss_groups, by="model") %>%
     left_join(., results_fscore, by="model") %>%
     left_join(., results_mrr, by="model") %>%
-    select(model,  mapping_results, mappable_concepts,
-           mapped_concepts, skipped_concepts, mapped_concepts_percent,
-           hit, hit_as, hit_ct, miss, miss_as, miss_ct, 
-           hit_percent, hit_as_percent, hit_ct_percent, 
-           miss_percent, miss_as_percent, miss_ct_percent, 
-           mean_k, mean_precision, mean_recall, f_score, beta,
-           mean_reciprocal_rank, mean_reciprocal_rank_sd)
-  
+    dplyr::select(model,  mapping_results, mappable_concepts,
+                  mapped_concepts, skipped_concepts, mapped_concepts_percent,
+                  hit, hit_as, hit_ct, miss, miss_as, miss_ct, 
+                  hit_percent, hit_as_percent, hit_ct_percent, 
+                  miss_percent, miss_as_percent, miss_ct_percent, 
+                  mean_k, mean_precision, mean_recall, f_score, beta,
+                  mean_reciprocal_rank, mean_reciprocal_rank_sd)
+          
    # Add model level statistics to data frame
    evaluation_results <- rbind(evaluation_results, evaluation_results_tmp)
 }
 
-# save model evaluation results
+rm(evaluation_results_tmp, precision, recall, results_fscore, 
+   results_hit_miss, results_hit_miss_groups, results_mrr, results_rr, 
+   results_subject_concepts_mapped, mapping_scores_tmp, data, beta, i,
+   model)
+   
+##### Export analysis results for publication ####
+# Combined LLM mapping record set analysis
+# Save overall model evaluation results
 write.csv(evaluation_results, 
           file=paste0(path_results_data,"/",project,
-                      "-model-evaluation-results.csv"),
+                      ".model-evaluation-results.csv"),
           row.names = FALSE)
+
+# Subset columns for publication data tables
+# Use for Table 4 - Mapping results, mapped concepts, and skipped concepts
+#                   descriptive statistics
+model_mapping_stats <-
+  right_join(model_mapping_counts, 
+       evaluation_results[,c(1,2,4:6)],
+       by="model")
+
+# Update pooled-vote NA values
+model_mapping_stats[is.na(model_mapping_stats$mapping_count),c(2,3)] <- 
+    model_mapping_stats[is.na(model_mapping_stats$mapping_count),]$mapping_results
+
+write.csv(model_mapping_stats, 
+          file=paste0(path_results_data,"/",project,
+                      ".model_mapping_evaluation.mapping_descriptives.csv"),
+          row.names = FALSE)
+
+# Use for Table 5 - Mean K (count mapping results per concept), 
+#                   Precision, Recall, F-Score statistics
+prf_stats <- evaluation_results[,c(1,19:23)]
+write.csv(prf_stats, 
+          file=paste0(path_results_data,"/",project,
+                      ".model_mapping_evaluation.precision_recall+fscore.csv"),
+          row.names = FALSE)
+
+# Use for Table 6 - Hit and Miss statistics
+hm_stats <- evaluation_results[,c(1,3,7:9,13:15,10:12,16:18)]
+write.csv(hm_stats, 
+          file=paste0(path_results_data,"/",project,
+                      ".model_mapping_evaluation.hit_miss.csv"),
+          row.names = FALSE)
+
+# Use for Table 7 - MRR and SD statistics
+mrr_stats <- evaluation_results[,c(1,24:25)]
+write.csv(mrr_stats, 
+          file=paste0(path_results_data,"/",project,
+                      ".model_mapping_evaluation.mean_reciprocal_rank.csv"),
+          row.names = FALSE)
+
+# Clean up script space
+#rm(list = ls())

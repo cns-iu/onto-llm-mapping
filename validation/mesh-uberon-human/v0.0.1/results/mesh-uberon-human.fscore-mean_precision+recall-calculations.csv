@@ -1,0 +1,2 @@
+"model","mean_k","mean_precision","mean_recall","f_score","beta"
+"pooled-K1-vec-vote",1.96439169139466,0.625980877019453,0.997032640949555,0.891361303071473,2

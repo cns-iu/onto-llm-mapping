@@ -73,11 +73,12 @@ for(i in 1:length(llm_mapping_paths)){
 rm(i,model)
 
 # Update model name 
-data[data$model=="desc",]$model <- "human descriptions"
+data[data$model=="desc",]$model <- "human definitions"
 
 # Create factor variable
-data$model <- factor(data$model, levels=c("human descriptions","llama3.2-3b.llm","gpt4o.llm",
-                                          "phi4-14b.llm","curategpt"))
+data$model <- factor(data$model, levels=c("human definitions","curategpt",
+                                          "llama3.2-3b.llm","gpt4o.llm",
+                                          "phi4-14b.llm"))
 
 # Update rank for rank when model did not evaluate mapping.
 data[data$model_analyzed==FALSE,]$rank <- 0
@@ -202,7 +203,7 @@ plot1 <-
     geom_boxplot(aes(y=similarity_score)) +
     facet_wrap(facets=vars(model)) +
     labs(x="Mapping Accuracy", 
-         y="Similarity Score (values range 0-1)") +
+         y="Similarity Score (values range 0.5-1)") +
     theme(panel.grid.major.y = element_line(color="#e1e6eb"))
 
 # Plot 2: Density visualizing the distributions and overlap of similarity scores for mapping accuracy, by model.
@@ -215,7 +216,7 @@ plot2 <-
                      fill=hit_miss_mapping),
                  alpha=.4) +
     facet_wrap(facets=vars(model)) +
-    labs(x="Similarity Score (values range 0-1)", 
+    labs(x="Similarity Score (values range 0.5-1)", 
          y="Density") +
     theme(panel.grid.major.y = element_line(color="#e1e6eb"))
 
