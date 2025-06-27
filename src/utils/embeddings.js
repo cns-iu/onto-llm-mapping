@@ -1,4 +1,11 @@
+import { existsSync, readFileSync } from 'node:fs';
 import { Database, select } from './sqlite.js';
+
+let SKIP = new Set();
+if (existsSync('skip.txt')) {
+  const ids = readFileSync('skip.txt', 'utf-8').split('\n');
+  SKIP = new Set(ids);
+}
 
 function decode(binary) {
   const floatArray = [];
@@ -13,6 +20,8 @@ export async function* readEmbeddings(filePath) {
   const query = 'SELECT id, embedding FROM embeddings';
 
   for await (const { id, embedding } of select(db, query)) {
-    yield { id: id, embedding: decode(embedding) };
+    if (!SKIP.has(id)) {
+      yield { id: id, embedding: decode(embedding) };
+    }
   }
 }
