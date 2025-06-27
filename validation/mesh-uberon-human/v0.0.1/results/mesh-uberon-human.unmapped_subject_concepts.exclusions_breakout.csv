@@ -1,0 +1,14 @@
+"group","exclusion_reason","subject_concepts","percent_group_unmapped_subject_concept"
+"Anatomical structure","Connective tissue not found in UBERON.",13,36.11
+"Anatomical structure","Vasculature not found in UBERON.",6,16.67
+"Anatomical structure","Pathway not found in UBERON.",5,13.89
+"Anatomical structure","Ocular structure not found in UBERON.",4,11.11
+"Anatomical structure","System not found in UBERON.",4,11.11
+"Anatomical structure","Musculoskeletal structure not found in UBERON.",2,5.56
+"Anatomical structure","Brain structure not found in UBERON.",1,2.78
+"Anatomical structure","Fluid not found in UBERON.",1,2.78
+"Cell structure","Cell structure not found in CL or UBERON.",35,100
+"Cell type","Cell type not found in CL.",22,91.67
+"Cell type","Non-human cell type.",2,8.33
+"Not relevant to HRA.","Biomedical concept.",6,85.71
+"Not relevant to HRA.","Non-human anatomical structure.",1,14.29

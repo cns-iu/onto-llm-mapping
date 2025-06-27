@@ -1,0 +1,7 @@
+"model","mappable_concepts","hit","hit_as","hit_ct","hit_percent","hit_as_percent","hit_ct_percent","miss","miss_as","miss_ct","miss_percent","miss_as_percent","miss_ct_percent"
+"mesh-uberon-human-mapping.curategpt.sssom.csv",1011,920,818,102,0.91,0.94,0.67,91,45,46,0.09,0.05,0.3
+"mesh-uberon-human-mapping.desc",1011,960,818,142,0.95,0.94,0.93,42,38,4,0.04,0.04,0.03
+"mesh-uberon-human-mapping.gpt4o.llm",1011,941,801,140,0.93,0.92,0.92,10,8,2,0.01,0.01,0.01
+"mesh-uberon-human-mapping.llama3.2-3b.llm",1011,964,818,146,0.95,0.94,0.95,43,41,2,0.04,0.05,0.01
+"mesh-uberon-human-mapping.phi4-14b.llm",1011,938,800,138,0.93,0.92,0.9,53,44,9,0.05,0.05,0.06
+"pooled-K1-vec-vote",1011,973,832,141,0.96,0.95,0.92,38,31,7,0.04,0.04,0.05

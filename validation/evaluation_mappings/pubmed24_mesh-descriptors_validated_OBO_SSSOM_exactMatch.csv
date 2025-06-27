@@ -1,0 +1,1114 @@
+uri,uri_d,ui_c,ui_d,concept_label,concept_aka,accurate_mapping,exclude,in_hralit_set
+http://id.nlm.nih.gov/mesh/M0000009,http://id.nlm.nih.gov/mesh/D000009,M0000009,D000009,Abdominal Muscles,"Abdominal Muscle; Muscle, Abdominal; Muscles, Abdominal",1,0,1
+http://id.nlm.nih.gov/mesh/M0000010,http://id.nlm.nih.gov/mesh/D000010,M0000010,D000010,Abducens Nerve,"Nerve, Abducens",1,0,1
+http://id.nlm.nih.gov/mesh/M0000076,http://id.nlm.nih.gov/mesh/D000050,M0000076,D000050,Acanthocytes,Acanthocyte,0,0,1
+http://id.nlm.nih.gov/mesh/M0000081,http://id.nlm.nih.gov/mesh/D000055,M0000081,D000055,Accessory Nerve,"Accessory Nerves; Nerve, Accessory; Nerves, Accessory",1,0,1
+http://id.nlm.nih.gov/mesh/M0000110,http://id.nlm.nih.gov/mesh/D000077,M0000110,D000077,Acetabulum,Acetabulums,1,0,1
+http://id.nlm.nih.gov/mesh/M0000199,http://id.nlm.nih.gov/mesh/D000125,M0000199,D000125,Achilles Tendon,"Tendon, Achilles",1,0,1
+http://id.nlm.nih.gov/mesh/M0000241,http://id.nlm.nih.gov/mesh/D000159,M0000241,D000159,Vestibulocochlear Nerve,"Nerve, Vestibulocochlear; Nerves, Vestibulocochlear; Vestibulocochlear Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0000262,http://id.nlm.nih.gov/mesh/D000173,M0000262,D000173,Acromioclavicular Joint,"Acromioclavicular Joints; Joint, Acromioclavicular; Joints, Acromioclavicular",1,0,1
+http://id.nlm.nih.gov/mesh/M0000263,http://id.nlm.nih.gov/mesh/D000174,M0000263,D000174,Acromion,Acromions,1,0,1
+http://id.nlm.nih.gov/mesh/M0000267,http://id.nlm.nih.gov/mesh/D000177,M0000267,D000177,Acrosome,Acrosomes,0,0,1
+http://id.nlm.nih.gov/mesh/M0000365,http://id.nlm.nih.gov/mesh/D000234,M0000365,D000234,Adenoids,Adenoid,1,0,1
+http://id.nlm.nih.gov/mesh/M0000425,http://id.nlm.nih.gov/mesh/D000273,M0000425,D000273,Adipose Tissue,"Tissue, Adipose",1,0,1
+http://id.nlm.nih.gov/mesh/M0000455,http://id.nlm.nih.gov/mesh/D000290,M0000455,D000290,Adnexa Uteri,,1,0,1
+http://id.nlm.nih.gov/mesh/M0000476,http://id.nlm.nih.gov/mesh/D000302,M0000476,D000302,Adrenal Cortex,"Cortex, Adrenal",1,0,1
+http://id.nlm.nih.gov/mesh/M0000486,http://id.nlm.nih.gov/mesh/D000311,M0000486,D000311,Adrenal Glands,"Adrenal Gland; Gland, Adrenal; Glands, Adrenal",1,0,1
+http://id.nlm.nih.gov/mesh/M0000489,http://id.nlm.nih.gov/mesh/D000313,M0000489,D000313,Adrenal Medulla,"Adrenal Medullas; Medulla, Adrenal; Medullas, Adrenal",1,0,1
+http://id.nlm.nih.gov/mesh/M0000496,http://id.nlm.nih.gov/mesh/D000320,M0000496,D000320,Adrenergic Fibers,"Adrenergic Fiber; Fiber, Adrenergic; Fibers, Adrenergic",0,0,1
+http://id.nlm.nih.gov/mesh/M0000529,http://id.nlm.nih.gov/mesh/D000344,M0000529,D000344,Afferent Pathways,"Afferent Pathway; Pathway, Afferent; Pathways, Afferent",0,0,1
+http://id.nlm.nih.gov/mesh/M0000834,http://id.nlm.nih.gov/mesh/D000539,M0000834,D000539,Alveolar Process,"Alveolar Processes; Process, Alveolar; Processes, Alveolar",1,0,1
+http://id.nlm.nih.gov/mesh/M0001044,http://id.nlm.nih.gov/mesh/D000679,M0001044,D000679,Amygdala,,1,0,1
+http://id.nlm.nih.gov/mesh/M0001253,http://id.nlm.nih.gov/mesh/D000843,M0001253,D000843,Ankle Joint,"Ankle Joints; Joint, Ankle; Joints, Ankle",1,0,1
+http://id.nlm.nih.gov/mesh/M0001297,http://id.nlm.nih.gov/mesh/D000867,M0001297,D000867,Anterior Chamber,"Anterior Chambers; Chamber, Anterior; Chambers, Anterior",1,0,1
+http://id.nlm.nih.gov/mesh/M0001299,http://id.nlm.nih.gov/mesh/D000869,M0001299,D000869,Anterior Eye Segment,"Anterior Eye Segments; Eye Segment, Anterior; Eye Segments, Anterior; Segment, Anterior Eye; Segments, Anterior Eye",1,0,1
+http://id.nlm.nih.gov/mesh/M0001300,http://id.nlm.nih.gov/mesh/D000870,M0001300,D000870,Anterior Horn Cells,"Anterior Horn Cell; Cell, Anterior Horn; Cells, Anterior Horn",1,0,1
+http://id.nlm.nih.gov/mesh/M0001371,http://id.nlm.nih.gov/mesh/D000921,M0001371,D000921,Antibody-Producing Cells,Antibody Producing Cells,1,0,1
+http://id.nlm.nih.gov/mesh/M0001402,http://id.nlm.nih.gov/mesh/D000938,M0001402,D000938,Antigen-Presenting Cells,Antigen Presenting Cells,1,0,1
+http://id.nlm.nih.gov/mesh/M0001526,http://id.nlm.nih.gov/mesh/D001003,M0001526,D001003,Anal Canal,,1,0,1
+http://id.nlm.nih.gov/mesh/M0001539,http://id.nlm.nih.gov/mesh/D001011,M0001539,D001011,Aorta,Aortas,1,0,1
+http://id.nlm.nih.gov/mesh/M0001541,http://id.nlm.nih.gov/mesh/D001012,M0001541,D001012,"Aorta, Abdominal","Abdominal Aortas; Aortas, Abdominal",1,0,1
+http://id.nlm.nih.gov/mesh/M0001542,http://id.nlm.nih.gov/mesh/D001013,M0001542,D001013,"Aorta, Thoracic",,1,0,1
+http://id.nlm.nih.gov/mesh/M0001548,http://id.nlm.nih.gov/mesh/D001016,M0001548,D001016,Aortic Bodies,"Aortic Body; Bodies, Aortic; Body, Aortic",1,0,1
+http://id.nlm.nih.gov/mesh/M0001553,http://id.nlm.nih.gov/mesh/D001021,M0001553,D001021,Aortic Valve,"Aortic Valves; Valve, Aortic; Valves, Aortic",1,0,1
+http://id.nlm.nih.gov/mesh/M0001590,http://id.nlm.nih.gov/mesh/D001050,M0001590,D001050,Apocrine Glands,"Apocrine Gland; Gland, Apocrine; Glands, Apocrine",1,0,1
+http://id.nlm.nih.gov/mesh/M0001611,http://id.nlm.nih.gov/mesh/D001065,M0001611,D001065,Appendix,,1,0,1
+http://id.nlm.nih.gov/mesh/M0001636,http://id.nlm.nih.gov/mesh/D001082,M0001636,D001082,Aqueous Humor,"Aqueous Humors; Humor, Aqueous; Humors, Aqueous",1,0,1
+http://id.nlm.nih.gov/mesh/M0001655,http://id.nlm.nih.gov/mesh/D001099,M0001655,D001099,Arachnoid,Arachnoids,1,0,1
+http://id.nlm.nih.gov/mesh/M0001670,http://id.nlm.nih.gov/mesh/D001111,M0001670,D001111,Arcuate Nucleus of Hypothalamus,Hypothalamus Arcuate Nucleus,1,0,1
+http://id.nlm.nih.gov/mesh/M0001698,http://id.nlm.nih.gov/mesh/D001133,M0001698,D001133,Bones of Upper Extremity,Upper Extremity Bone; Upper Extremity Bones,1,0,1
+http://id.nlm.nih.gov/mesh/M0001699,http://id.nlm.nih.gov/mesh/D050280,M0001699,D050280,Arm Bones,"Arm Bone; Bone, Arm; Bones, Arm",1,0,1
+http://id.nlm.nih.gov/mesh/M0001731,http://id.nlm.nih.gov/mesh/D001158,M0001731,D001158,Arteries,Artery,1,0,1
+http://id.nlm.nih.gov/mesh/M0001733,http://id.nlm.nih.gov/mesh/D001160,M0001733,D001160,Arterioles,Arteriole,1,0,1
+http://id.nlm.nih.gov/mesh/M0001736,http://id.nlm.nih.gov/mesh/D001163,M0001736,D001163,Arteriovenous Anastomosis,"Anastomoses, Arteriovenous; Anastomosis, Arteriovenous",0,0,1
+http://id.nlm.nih.gov/mesh/M0001782,http://id.nlm.nih.gov/mesh/D001193,M0001782,D001193,Arytenoid Cartilage,"Arytenoid Cartilages; Cartilage, Arytenoid; Cartilages, Arytenoid",1,0,1
+http://id.nlm.nih.gov/mesh/M0001890,http://id.nlm.nih.gov/mesh/D001253,M0001890,D001253,Astrocytes,Astrocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0001911,http://id.nlm.nih.gov/mesh/D001268,M0001911,D001268,Atlanto-Axial Joint,"Atlanto-Axial Joints; Joint, Atlanto-Axial; Joints, Atlanto-Axial",1,0,1
+http://id.nlm.nih.gov/mesh/M0001912,http://id.nlm.nih.gov/mesh/D001269,M0001912,D001269,Atlanto-Occipital Joint,"Atlanto Occipital Joint; Atlanto-Occipital Joints; Joint, Atlanto-Occipital; Joints, Atlanto-Occipital",1,0,1
+http://id.nlm.nih.gov/mesh/M0001913,http://id.nlm.nih.gov/mesh/D001270,M0001913,D001270,Cervical Atlas,,1,0,1
+http://id.nlm.nih.gov/mesh/M0001928,http://id.nlm.nih.gov/mesh/D001283,M0001928,D001283,Atrioventricular Node,"Atrioventricular Nodes; Node, Atrioventricular; Nodes, Atrioventricular",1,0,1
+http://id.nlm.nih.gov/mesh/M0001963,http://id.nlm.nih.gov/mesh/D001303,M0001963,D001303,Auditory Cortex,"Cortex, Auditory",1,0,1
+http://id.nlm.nih.gov/mesh/M0001967,http://id.nlm.nih.gov/mesh/D001306,M0001967,D001306,Auditory Pathways,"Auditory Pathway; Pathway, Auditory; Pathways, Auditory",0,0,1
+http://id.nlm.nih.gov/mesh/M0002008,http://id.nlm.nih.gov/mesh/D001338,M0002008,D001338,"Autonomic Fibers, Postganglionic","Autonomic Fiber, Postganglionic; Fiber, Postganglionic Autonomic; Fibers, Postganglionic Autonomic; Postganglionic Autonomic Fiber; Postganglionic Autonomic Fibers",1,0,1
+http://id.nlm.nih.gov/mesh/M0002009,http://id.nlm.nih.gov/mesh/D001339,M0002009,D001339,"Autonomic Fibers, Preganglionic","Autonomic Fiber, Preganglionic; Fiber, Preganglionic Autonomic; Fibers, Preganglionic Autonomic; Preganglionic Autonomic Fiber; Preganglionic Autonomic Fibers",1,0,1
+http://id.nlm.nih.gov/mesh/M0002013,http://id.nlm.nih.gov/mesh/D001341,M0002013,D001341,Autonomic Nervous System,"Autonomic Nervous Systems; Nervous System, Autonomic; Nervous Systems, Autonomic; System, Autonomic Nervous; Systems, Autonomic Nervous",1,0,1
+http://id.nlm.nih.gov/mesh/M0002049,http://id.nlm.nih.gov/mesh/D001366,M0002049,D001366,Axillary Artery,"Arteries, Axillary; Artery, Axillary; Axillary Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0002050,http://id.nlm.nih.gov/mesh/D001367,M0002050,D001367,Axillary Vein,"Axillary Veins; Vein, Axillary; Veins, Axillary",1,0,1
+http://id.nlm.nih.gov/mesh/M0002051,http://id.nlm.nih.gov/mesh/D001368,M0002051,D001368,"Axis, Cervical Vertebra",,1,0,1
+http://id.nlm.nih.gov/mesh/M0002052,http://id.nlm.nih.gov/mesh/D001369,M0002052,D001369,Axons,Axon,0,0,1
+http://id.nlm.nih.gov/mesh/M0002096,http://id.nlm.nih.gov/mesh/D001401,M0002096,D001401,Azygos Vein,"Azygos Veins; Vein, Azygos; Veins, Azygos",1,0,1
+http://id.nlm.nih.gov/mesh/M0002097,http://id.nlm.nih.gov/mesh/D001402,M0002097,D001402,B-Lymphocytes,B Lymphocytes,1,0,1
+http://id.nlm.nih.gov/mesh/M0002187,http://id.nlm.nih.gov/mesh/D001472,M0002187,D001472,Bartholin's Glands,"Bartholin Glands; Bartholins Glands; Glands, Bartholin's",1,0,1
+http://id.nlm.nih.gov/mesh/M0002196,http://id.nlm.nih.gov/mesh/D001479,M0002196,D001479,Basal Ganglia,,1,0,1
+http://id.nlm.nih.gov/mesh/M0002197,http://id.nlm.nih.gov/mesh/D000079482,M0002197,D000079482,Claustrum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0002218,http://id.nlm.nih.gov/mesh/D001488,M0002218,D001488,Basilar Artery,"Arteries, Basilar; Artery, Basilar; Basilar Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0002222,http://id.nlm.nih.gov/mesh/D001491,M0002222,D001491,Basophils,Basophil,1,0,1
+http://id.nlm.nih.gov/mesh/M0002477,http://id.nlm.nih.gov/mesh/D001648,M0002477,D001648,Bile Canaliculi,"Bile Canaliculus; Canaliculi, Bile; Canaliculus, Bile",1,0,1
+http://id.nlm.nih.gov/mesh/M0002482,http://id.nlm.nih.gov/mesh/D001652,M0002482,D001652,Bile Ducts,"Bile Duct; Duct, Bile; Ducts, Bile",1,0,1
+http://id.nlm.nih.gov/mesh/M0002483,http://id.nlm.nih.gov/mesh/D001653,M0002483,D001653,"Bile Ducts, Intrahepatic","Bile Duct, Intrahepatic; Duct, Intrahepatic Bile; Ducts, Intrahepatic Bile; Intrahepatic Bile Duct; Intrahepatic Bile Ducts",1,0,1
+http://id.nlm.nih.gov/mesh/M0002490,http://id.nlm.nih.gov/mesh/D001659,M0002490,D001659,Biliary Tract,"Tract, Biliary",1,0,1
+http://id.nlm.nih.gov/mesh/M0002628,http://id.nlm.nih.gov/mesh/D001743,M0002628,D001743,Urinary Bladder,"Bladder, Urinary",1,0,1
+http://id.nlm.nih.gov/mesh/M0002669,http://id.nlm.nih.gov/mesh/D001769,M0002669,D001769,Blood,,1,0,1
+http://id.nlm.nih.gov/mesh/M0002677,http://id.nlm.nih.gov/mesh/D001773,M0002677,D001773,Blood Cells,"Blood Cell; Cell, Blood; Cells, Blood",1,0,1
+http://id.nlm.nih.gov/mesh/M0002704,http://id.nlm.nih.gov/mesh/D001792,M0002704,D001792,Blood Platelets,"Blood Platelet; Platelet, Blood; Platelets, Blood",1,0,1
+http://id.nlm.nih.gov/mesh/M0002726,http://id.nlm.nih.gov/mesh/D001808,M0002726,D001808,Blood Vessels,"Blood Vessel; Vessel, Blood; Vessels, Blood",1,0,1
+http://id.nlm.nih.gov/mesh/M0002730,http://id.nlm.nih.gov/mesh/D001812,M0002730,D001812,Blood-Brain Barrier,"Barrier, Blood-Brain; Barriers, Blood-Brain; Blood Brain Barrier; Blood-Brain Barriers",1,0,1
+http://id.nlm.nih.gov/mesh/M0002731,http://id.nlm.nih.gov/mesh/D001813,M0002731,D001813,Blood-Retinal Barrier,"Barrier, Blood-Retinal; Barriers, Blood-Retinal; Blood Retinal Barrier; Blood-Retinal Barriers",1,0,1
+http://id.nlm.nih.gov/mesh/M0002732,http://id.nlm.nih.gov/mesh/D001814,M0002732,D001814,Blood-Testis Barrier,"Barrier, Blood-Testis; Barriers, Blood-Testis; Blood Testis Barrier; Blood-Testis Barriers",1,0,1
+http://id.nlm.nih.gov/mesh/M0002767,http://id.nlm.nih.gov/mesh/D001842,M0002767,D001842,Bone and Bones,,1,0,1
+http://id.nlm.nih.gov/mesh/M0002783,http://id.nlm.nih.gov/mesh/D001853,M0002783,D001853,Bone Marrow,"Marrow, Bone",1,0,1
+http://id.nlm.nih.gov/mesh/M0002787,http://id.nlm.nih.gov/mesh/D001854,M0002787,D001854,Bone Marrow Cells,"Bone Marrow Cell; Cell, Bone Marrow; Cells, Bone Marrow; Marrow Cell, Bone; Marrow Cells, Bone",1,0,1
+http://id.nlm.nih.gov/mesh/M0002855,http://id.nlm.nih.gov/mesh/D001916,M0002855,D001916,Brachial Artery,"Arteries, Brachial; Artery, Brachial; Brachial Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0002856,http://id.nlm.nih.gov/mesh/D001917,M0002856,D001917,Brachial Plexus,"Plexus, Brachial",1,0,1
+http://id.nlm.nih.gov/mesh/M0002865,http://id.nlm.nih.gov/mesh/D001921,M0002865,D001921,Brain,,1,0,1
+http://id.nlm.nih.gov/mesh/M0002866,http://id.nlm.nih.gov/mesh/D054022,M0002866,D054022,Cerebrum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0002886,http://id.nlm.nih.gov/mesh/D001933,M0002886,D001933,Brain Stem,Brain Stems,1,0,1
+http://id.nlm.nih.gov/mesh/M0002904,http://id.nlm.nih.gov/mesh/D001940,M0002904,D001940,Breast,Breasts,1,0,1
+http://id.nlm.nih.gov/mesh/M0002925,http://id.nlm.nih.gov/mesh/D001956,M0002925,D001956,Broad Ligament,"Broad Ligaments; Ligament, Broad; Ligaments, Broad",1,0,1
+http://id.nlm.nih.gov/mesh/M0002960,http://id.nlm.nih.gov/mesh/D001980,M0002960,D001980,Bronchi,Bronchus,1,0,1
+http://id.nlm.nih.gov/mesh/M0002961,http://id.nlm.nih.gov/mesh/D055745,M0002961,D055745,Bronchioles,,1,0,1
+http://id.nlm.nih.gov/mesh/M0002962,http://id.nlm.nih.gov/mesh/D001981,M0002962,D001981,Bronchial Arteries,"Arteries, Bronchial; Artery, Bronchial; Bronchial Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0002984,http://id.nlm.nih.gov/mesh/D002001,M0002984,D002001,"Adipose Tissue, Brown","Tissue, Brown Adipose",1,0,1
+http://id.nlm.nih.gov/mesh/M0002993,http://id.nlm.nih.gov/mesh/D002011,M0002993,D002011,Brunner Glands,"Gland, Brunner; Glands, Brunner",1,0,1
+http://id.nlm.nih.gov/mesh/M0003019,http://id.nlm.nih.gov/mesh/D002030,M0003019,D002030,Bulbourethral Glands,"Bulbourethral Gland; Gland, Bulbourethral; Glands, Bulbourethral",1,0,1
+http://id.nlm.nih.gov/mesh/M0003026,http://id.nlm.nih.gov/mesh/D002036,M0003026,D002036,Bundle of His,His Bundle,1,0,1
+http://id.nlm.nih.gov/mesh/M0003068,http://id.nlm.nih.gov/mesh/D002060,M0003068,D002060,Bursa of Fabricius,Fabricius Bursa,1,0,1
+http://id.nlm.nih.gov/mesh/M0003069,http://id.nlm.nih.gov/mesh/D002061,M0003069,D002061,"Bursa, Synovial","Bursas, Synovial; Synovial Bursa; Synovial Bursas",1,0,1
+http://id.nlm.nih.gov/mesh/M0003140,http://id.nlm.nih.gov/mesh/D002111,M0003140,D002111,Calcaneus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0003289,http://id.nlm.nih.gov/mesh/D002196,M0003289,D002196,Capillaries,Capillary,1,0,1
+http://id.nlm.nih.gov/mesh/M0003449,http://id.nlm.nih.gov/mesh/D002299,M0003449,D002299,Cardia,Cardias,1,0,1
+http://id.nlm.nih.gov/mesh/M0003475,http://id.nlm.nih.gov/mesh/D002319,M0003475,D002319,Cardiovascular System,Cardiovascular Systems,1,0,1
+http://id.nlm.nih.gov/mesh/M0003539,http://id.nlm.nih.gov/mesh/D002339,M0003539,D002339,Carotid Arteries,"Arteries, Carotid; Artery, Carotid; Carotid Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0003544,http://id.nlm.nih.gov/mesh/D002342,M0003544,D002342,"Carotid Artery, External","Arteries, External Carotid; Artery, External Carotid; Carotid Arteries, External; External Carotid Arteries; External Carotid Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0003545,http://id.nlm.nih.gov/mesh/D002343,M0003545,D002343,"Carotid Artery, Internal","Arteries, Internal Carotid; Artery, Internal Carotid; Carotid Arteries, Internal; Internal Carotid Arteries; Internal Carotid Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0003546,http://id.nlm.nih.gov/mesh/D002344,M0003546,D002344,Carotid Body,"Bodies, Carotid; Body, Carotid; Carotid Bodies",1,0,1
+http://id.nlm.nih.gov/mesh/M0003548,http://id.nlm.nih.gov/mesh/D002346,M0003548,D002346,Carotid Sinus,"Sinus, Carotid",1,0,1
+http://id.nlm.nih.gov/mesh/M0003552,http://id.nlm.nih.gov/mesh/D002348,M0003552,D002348,Carpal Bones,"Bone, Carpal; Bones, Carpal; Carpal Bone",1,0,1
+http://id.nlm.nih.gov/mesh/M0003567,http://id.nlm.nih.gov/mesh/D002356,M0003567,D002356,Cartilage,Cartilages,1,0,1
+http://id.nlm.nih.gov/mesh/M0003569,http://id.nlm.nih.gov/mesh/D002358,M0003569,D002358,"Cartilage, Articular","Articular Cartilage; Articular Cartilages; Cartilages, Articular",1,0,1
+http://id.nlm.nih.gov/mesh/M0003689,http://id.nlm.nih.gov/mesh/D002420,M0003689,D002420,Cauda Equina,"Equina, Cauda",1,0,1
+http://id.nlm.nih.gov/mesh/M0003691,http://id.nlm.nih.gov/mesh/D002421,M0003691,D002421,Caudate Nucleus,"Nucleus, Caudate",1,0,1
+http://id.nlm.nih.gov/mesh/M0003697,http://id.nlm.nih.gov/mesh/D002426,M0003697,D002426,Cavernous Sinus,"Sinus, Cavernous",1,0,1
+http://id.nlm.nih.gov/mesh/M0003712,http://id.nlm.nih.gov/mesh/D002432,M0003712,D002432,Cecum,Cecums,1,0,1
+http://id.nlm.nih.gov/mesh/M0003735,http://id.nlm.nih.gov/mesh/D002445,M0003735,D002445,Celiac Artery,"Arteries, Celiac; Artery, Celiac; Celiac Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0003739,http://id.nlm.nih.gov/mesh/D002447,M0003739,D002447,Celiac Plexus,"Plexus, Celiac",1,0,1
+http://id.nlm.nih.gov/mesh/M0003801,http://id.nlm.nih.gov/mesh/D002490,M0003801,D002490,Central Nervous System,"Central Nervous Systems; Nervous System, Central; Nervous Systems, Central; Systems, Central Nervous",1,0,1
+http://id.nlm.nih.gov/mesh/M0003857,http://id.nlm.nih.gov/mesh/D002525,M0003857,D002525,Cerebellar Cortex,"Cortex, Cerebellar",1,0,1
+http://id.nlm.nih.gov/mesh/M0003861,http://id.nlm.nih.gov/mesh/D002529,M0003861,D002529,Cerebellar Nuclei,"Cerebellar Nucleus; Nuclei, Cerebellar; Nucleus, Cerebellar",1,0,1
+http://id.nlm.nih.gov/mesh/M0003866,http://id.nlm.nih.gov/mesh/D002530,M0003866,D002530,Cerebellopontine Angle,"Angle, Cerebellopontine; Angles, Cerebellopontine; Cerebellopontine Angles",1,0,1
+http://id.nlm.nih.gov/mesh/M0003867,http://id.nlm.nih.gov/mesh/D002531,M0003867,D002531,Cerebellum,Cerebellums,1,0,1
+http://id.nlm.nih.gov/mesh/M0003873,http://id.nlm.nih.gov/mesh/D002535,M0003873,D002535,Cerebral Aqueduct,"Aqueduct, Cerebral; Aqueducts, Cerebral; Cerebral Aqueducts",1,0,1
+http://id.nlm.nih.gov/mesh/M0003874,http://id.nlm.nih.gov/mesh/D002536,M0003874,D002536,Cerebral Arteries,"Arteries, Cerebral; Artery, Cerebral; Cerebral Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0003878,http://id.nlm.nih.gov/mesh/D002540,M0003878,D002540,Cerebral Cortex,"Cerebral Cortices; Cortex, Cerebral",1,0,1
+http://id.nlm.nih.gov/mesh/M0003879,http://id.nlm.nih.gov/mesh/D000087623,M0003879,D000087623,Insular Cortex,"Cortex, Insular; Insular Cortices",1,0,1
+http://id.nlm.nih.gov/mesh/M0003897,http://id.nlm.nih.gov/mesh/D002550,M0003897,D002550,Cerebral Veins,"Cerebral Vein; Vein, Cerebral; Veins, Cerebral",1,0,1
+http://id.nlm.nih.gov/mesh/M0003903,http://id.nlm.nih.gov/mesh/D002552,M0003903,D002552,Cerebral Ventricles,"Cerebral Ventricle; Ventricle, Cerebral; Ventricles, Cerebral",1,0,1
+http://id.nlm.nih.gov/mesh/M0003929,http://id.nlm.nih.gov/mesh/D002572,M0003929,D002572,Cervical Plexus,"Plexus, Cervical",1,0,1
+http://id.nlm.nih.gov/mesh/M0003931,http://id.nlm.nih.gov/mesh/D002574,M0003931,D002574,Cervical Vertebrae,"Vertebrae, Cervical",1,0,1
+http://id.nlm.nih.gov/mesh/M0003947,http://id.nlm.nih.gov/mesh/D002584,M0003947,D002584,Cervix Uteri,,1,0,1
+http://id.nlm.nih.gov/mesh/M0004020,http://id.nlm.nih.gov/mesh/D002628,M0004020,D002628,Chemoreceptor Cells,"Cell, Chemoreceptor; Cells, Chemoreceptor; Chemoreceptor Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0004089,http://id.nlm.nih.gov/mesh/D002680,M0004089,D002680,Chin,,1,0,1
+http://id.nlm.nih.gov/mesh/M0004293,http://id.nlm.nih.gov/mesh/D002799,M0004293,D002799,Cholinergic Fibers,"Cholinergic Fiber; Fiber, Cholinergic; Fibers, Cholinergic",0,0,1
+http://id.nlm.nih.gov/mesh/M0004330,http://id.nlm.nih.gov/mesh/D002814,M0004330,D002814,Chorda Tympani Nerve,"Chorda Tympani Nerves; Nerve, Chorda Tympani; Nerves, Chorda Tympani; Tympani Nerve, Chorda; Tympani Nerves, Chorda",1,0,1
+http://id.nlm.nih.gov/mesh/M0004331,http://id.nlm.nih.gov/mesh/D002815,M0004331,D002815,Chordae Tendineae,"Tendineae, Chordae",1,0,1
+http://id.nlm.nih.gov/mesh/M0004341,http://id.nlm.nih.gov/mesh/D002824,M0004341,D002824,Chorionic Villi,"Chorionic Villus; Villi, Chorionic; Villus, Chorionic",1,0,1
+http://id.nlm.nih.gov/mesh/M0004346,http://id.nlm.nih.gov/mesh/D002829,M0004346,D002829,Choroid,Choroids,1,0,1
+http://id.nlm.nih.gov/mesh/M0004348,http://id.nlm.nih.gov/mesh/D002831,M0004348,D002831,Choroid Plexus,"Plexus, Choroid",1,0,1
+http://id.nlm.nih.gov/mesh/M0004454,http://id.nlm.nih.gov/mesh/D002913,M0004454,D002913,Chyle,Chyles,1,0,1
+http://id.nlm.nih.gov/mesh/M0004476,http://id.nlm.nih.gov/mesh/D002924,M0004476,D002924,Ciliary Body,"Bodies, Ciliary; Body, Ciliary; Ciliary Bodies",1,0,1
+http://id.nlm.nih.gov/mesh/M0004501,http://id.nlm.nih.gov/mesh/D002941,M0004501,D002941,Circle of Willis,,1,0,1
+http://id.nlm.nih.gov/mesh/M0004510,http://id.nlm.nih.gov/mesh/D002946,M0004510,D002946,Cisterna Magna,"Magna, Cisterna",1,0,1
+http://id.nlm.nih.gov/mesh/M0004545,http://id.nlm.nih.gov/mesh/D002968,M0004545,D002968,Clavicle,Clavicles,1,0,1
+http://id.nlm.nih.gov/mesh/M0004573,http://id.nlm.nih.gov/mesh/D002987,M0004573,D002987,Clitoris,,1,0,1
+http://id.nlm.nih.gov/mesh/M0004681,http://id.nlm.nih.gov/mesh/D003050,M0004681,D003050,Coccyx,,1,0,1
+http://id.nlm.nih.gov/mesh/M0004688,http://id.nlm.nih.gov/mesh/D003056,M0004688,D003056,Cochlear Nerve,"Cochlear Nerves; Nerve, Cochlear; Nerves, Cochlear",1,0,1
+http://id.nlm.nih.gov/mesh/M0004808,http://id.nlm.nih.gov/mesh/D003106,M0004808,D003106,Colon,,1,0,1
+http://id.nlm.nih.gov/mesh/M0004860,http://id.nlm.nih.gov/mesh/D003135,M0004860,D003135,Common Bile Duct,"Bile Duct, Common; Common Bile Ducts; Duct, Common Bile",1,0,1
+http://id.nlm.nih.gov/mesh/M0005012,http://id.nlm.nih.gov/mesh/D003228,M0005012,D003228,Conjunctiva,Conjunctivas,1,0,1
+http://id.nlm.nih.gov/mesh/M0005176,http://id.nlm.nih.gov/mesh/D003315,M0005176,D003315,Cornea,Corneas,1,0,1
+http://id.nlm.nih.gov/mesh/M0005184,http://id.nlm.nih.gov/mesh/D003319,M0005184,D003319,Corneal Stroma,"Corneal Stromas; Stroma, Corneal; Stromas, Corneal",1,0,1
+http://id.nlm.nih.gov/mesh/M0005197,http://id.nlm.nih.gov/mesh/D003331,M0005197,D003331,Coronary Vessels,"Coronary Vessel; Vessel, Coronary; Vessels, Coronary",1,0,1
+http://id.nlm.nih.gov/mesh/M0005203,http://id.nlm.nih.gov/mesh/D003335,M0005203,D003335,Corpora Allata,"Allata, Corpora",1,0,1
+http://id.nlm.nih.gov/mesh/M0005205,http://id.nlm.nih.gov/mesh/D003336,M0005205,D003336,Tectum Mesencephali,"Mesencephalus, Tectum; Tectum Mesencephalus",1,0,1
+http://id.nlm.nih.gov/mesh/M0005206,http://id.nlm.nih.gov/mesh/D003337,M0005206,D003337,Corpus Callosum,"Callosum, Corpus; Callosums, Corpus; Corpus Callosums",1,0,1
+http://id.nlm.nih.gov/mesh/M0005207,http://id.nlm.nih.gov/mesh/D003338,M0005207,D003338,Corpus Luteum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0005212,http://id.nlm.nih.gov/mesh/D003342,M0005212,D003342,Corpus Striatum,"Striatum, Corpus",1,0,1
+http://id.nlm.nih.gov/mesh/M0005277,http://id.nlm.nih.gov/mesh/D003388,M0005277,D003388,"Cranial Fossa, Posterior","Cranial Fossas, Posterior; Fossa, Posterior Cranial; Fossas, Posterior Cranial; Posterior Cranial Fossa; Posterior Cranial Fossas",1,0,1
+http://id.nlm.nih.gov/mesh/M0005281,http://id.nlm.nih.gov/mesh/D003391,M0005281,D003391,Cranial Nerves,"Cranial Nerve; Nerve, Cranial; Nerves, Cranial",1,0,1
+http://id.nlm.nih.gov/mesh/M0005282,http://id.nlm.nih.gov/mesh/D003392,M0005282,D003392,Cranial Sinuses,"Sinuses, Cranial",1,0,1
+http://id.nlm.nih.gov/mesh/M0005283,http://id.nlm.nih.gov/mesh/D003393,M0005283,D003393,Cranial Sutures,"Cranial Suture; Suture, Cranial; Sutures, Cranial",1,0,1
+http://id.nlm.nih.gov/mesh/M0005321,http://id.nlm.nih.gov/mesh/D003413,M0005321,D003413,Cricoid Cartilage,"Cartilage, Cricoid; Cartilages, Cricoid; Cricoid Cartilages",1,0,1
+http://id.nlm.nih.gov/mesh/M0005550,http://id.nlm.nih.gov/mesh/D003549,M0005550,D003549,Cystic Duct,"Cystic Ducts; Duct, Cystic; Ducts, Cystic",1,0,1
+http://id.nlm.nih.gov/mesh/M0005719,http://id.nlm.nih.gov/mesh/D003656,M0005719,D003656,Decidua,Deciduas,1,0,1
+http://id.nlm.nih.gov/mesh/M0005720,http://id.nlm.nih.gov/mesh/D033301,M0005720,D033301,Deciduoma,Deciduomas,0,0,1
+http://id.nlm.nih.gov/mesh/M0005769,http://id.nlm.nih.gov/mesh/D003689,M0005769,D003689,"Vestibular Nucleus, Lateral","Nucleus, Lateral Vestibular",1,0,1
+http://id.nlm.nih.gov/mesh/M0005827,http://id.nlm.nih.gov/mesh/D003712,M0005827,D003712,Dendrites,Dendrite,0,0,1
+http://id.nlm.nih.gov/mesh/M0005828,http://id.nlm.nih.gov/mesh/D003713,M0005828,D003713,Dendritic Cells,"Cell, Dendritic; Cells, Dendritic; Dendritic Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0005843,http://id.nlm.nih.gov/mesh/D003724,M0005843,D003724,Dental Arch,,1,0,1
+http://id.nlm.nih.gov/mesh/M0005965,http://id.nlm.nih.gov/mesh/D003817,M0005965,D003817,Dentition,Dentitions,1,0,1
+http://id.nlm.nih.gov/mesh/M000605189,http://id.nlm.nih.gov/mesh/D000069236,M000605189,D000069236,Pericardial Fluid,"Fluid, Pericardial; Fluids, Pericardial; Pericardial Fluids",1,0,1
+http://id.nlm.nih.gov/mesh/M000605281,http://id.nlm.nih.gov/mesh/D000087643,M000605281,D000087643,Dorsolateral Prefrontal Cortex,"Cortex, Dorsolateral Prefrontal; Dorsolateral Prefrontal Cortices",1,0,1
+http://id.nlm.nih.gov/mesh/M000605286,http://id.nlm.nih.gov/mesh/D000069262,M000605286,D000069262,Plantar Plate,"Plantar Plates; Plate, Plantar; Plates, Plantar",0,0,1
+http://id.nlm.nih.gov/mesh/M000605508,http://id.nlm.nih.gov/mesh/D000069343,M000605508,D000069343,Bone-Implant Interface,"Bone Implant Interface; Bone-Implant Interfaces; Interface, Bone-Implant; Interfaces, Bone-Implant",0,1,0
+http://id.nlm.nih.gov/mesh/M000606072,http://id.nlm.nih.gov/mesh/D012404,M000606072,D012404,Round Ligament of Uterus,Uterus Round Ligament; Uterus Round Ligaments,1,0,1
+http://id.nlm.nih.gov/mesh/M000606073,http://id.nlm.nih.gov/mesh/D000069592,M000606073,D000069592,Round Ligament of Liver,Liver Round Ligament; Liver Round Ligaments,1,0,1
+http://id.nlm.nih.gov/mesh/M000606074,http://id.nlm.nih.gov/mesh/D000069593,M000606074,D000069593,Round Ligament of Femur,Femur Round Ligament; Femur Round Ligaments,0,0,1
+http://id.nlm.nih.gov/mesh/M0006068,http://id.nlm.nih.gov/mesh/D003886,M0006068,D003886,Descemet Membrane,"Descemet Membranes; Membrane, Descemet; Membranes, Descemet",1,0,1
+http://id.nlm.nih.gov/mesh/M000607750,http://id.nlm.nih.gov/mesh/D000069796,M000607750,D000069796,"Adipose Tissue, Beige","Adipose Tissues, Beige; Beige Adipose Tissues; Tissue, Beige Adipose; Tissues, Beige Adipose",0,0,1
+http://id.nlm.nih.gov/mesh/M000611239,http://id.nlm.nih.gov/mesh/D000070597,M000611239,D000070597,Coracoid Process,Coracoid Processes,1,0,1
+http://id.nlm.nih.gov/mesh/M000611246,http://id.nlm.nih.gov/mesh/D000070606,M000611246,D000070606,Aponeurosis,,1,0,1
+http://id.nlm.nih.gov/mesh/M000611270,http://id.nlm.nih.gov/mesh/D000070602,M000611270,D000070602,Rib Cage,Rib Cages,1,0,1
+http://id.nlm.nih.gov/mesh/M000611362,http://id.nlm.nih.gov/mesh/D000070614,M000611362,D000070614,Nucleus Pulposus,,1,0,1
+http://id.nlm.nih.gov/mesh/M000611368,http://id.nlm.nih.gov/mesh/D000070616,M000611368,D000070616,Annulus Fibrosus,,1,0,1
+http://id.nlm.nih.gov/mesh/M000611425,http://id.nlm.nih.gov/mesh/D000070632,M000611425,D000070632,Hamstring Tendons,"Hamstring Tendon; Tendon, Hamstring; Tendons, Hamstring",0,0,1
+http://id.nlm.nih.gov/mesh/M000611429,http://id.nlm.nih.gov/mesh/D000070633,M000611429,D000070633,Hamstring Muscles,"Hamstring Muscle; Muscle, Hamstring; Muscles, Hamstring",1,0,1
+http://id.nlm.nih.gov/mesh/M000611470,http://id.nlm.nih.gov/mesh/D000070637,M000611470,D000070637,"Collateral Ligament, Ulnar","Collateral Ligaments, Ulnar; Ligament, Ulnar Collateral; Ligaments, Ulnar Collateral",0,0,1
+http://id.nlm.nih.gov/mesh/M000612947,http://id.nlm.nih.gov/mesh/D000071036,M000612947,D000071036,Sentinel Lymph Node,"Lymph Node, Sentinel; Lymph Nodes, Sentinel; Sentinel Lymph Nodes",0,0,1
+http://id.nlm.nih.gov/mesh/M000612948,http://id.nlm.nih.gov/mesh/D000071037,M000612948,D000071037,Place Cells,"Cell, Place; Cells, Place; Place Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M000612949,http://id.nlm.nih.gov/mesh/D000071038,M000612949,D000071038,Grid Cells,"Cell, Grid; Cells, Grid; Grid Cell",0,0,1
+http://id.nlm.nih.gov/mesh/M000612951,http://id.nlm.nih.gov/mesh/D000071039,M000612951,D000071039,Perirhinal Cortex,"Cortex, Perirhinal; Perirhinal Cortices",1,0,1
+http://id.nlm.nih.gov/mesh/M000612953,http://id.nlm.nih.gov/mesh/D000071040,M000612953,D000071040,Axon Initial Segment,,0,0,1
+http://id.nlm.nih.gov/mesh/M000612954,http://id.nlm.nih.gov/mesh/D000071041,M000612954,D000071041,Esophageal Mucosa,"Mucosa, Esophageal",1,0,1
+http://id.nlm.nih.gov/mesh/M000615196,http://id.nlm.nih.gov/mesh/D000071596,M000615196,D000071596,Abdominal Oblique Muscles,"Abdominal Oblique Muscle; Muscle, Abdominal Oblique; Muscles, Abdominal Oblique",1,0,1
+http://id.nlm.nih.gov/mesh/M000616163,http://id.nlm.nih.gov/mesh/D000071976,M000616163,D000071976,Gracilis Muscle,"Gracilis Muscles; Muscle, Gracilis; Muscles, Gracilis",1,0,1
+http://id.nlm.nih.gov/mesh/M000616234,http://id.nlm.nih.gov/mesh/D000072600,M000616234,D000072600,Meniscus,,1,0,1
+http://id.nlm.nih.gov/mesh/M000616943,http://id.nlm.nih.gov/mesh/D000072336,M000616943,D000072336,Mucosal-Associated Invariant T Cells,Mucosal Associated Invariant T Cells,1,0,1
+http://id.nlm.nih.gov/mesh/M000617918,http://id.nlm.nih.gov/mesh/D000072717,M000617918,D000072717,Tertiary Lymphoid Structures,"Lymphoid Structure, Tertiary; Lymphoid Structures, Tertiary; Tertiary Lymphoid Structure",0,0,1
+http://id.nlm.nih.gov/mesh/M000620791,http://id.nlm.nih.gov/mesh/D000073183,M000620791,D000073183,Platelet-Rich Fibrin,"Fibrin, Platelet-Rich; Platelet Rich Fibrin",0,1,0
+http://id.nlm.nih.gov/mesh/M0006209,http://id.nlm.nih.gov/mesh/D003964,M0006209,D003964,Diaphragm,Diaphragms,1,0,1
+http://id.nlm.nih.gov/mesh/M000622733,http://id.nlm.nih.gov/mesh/D000073637,M000622733,D000073637,Oligodendrocyte Precursor Cells,"Cell, Oligodendrocyte Precursor; Cells, Oligodendrocyte Precursor; Oligodendrocyte Precursor Cell; Precursor Cell, Oligodendrocyte; Precursor Cells, Oligodendrocyte",1,0,1
+http://id.nlm.nih.gov/mesh/M000626819,http://id.nlm.nih.gov/mesh/D000074523,M000626819,D000074523,Suprachiasmatic Nucleus Neurons,Suprachiasmatic Nucleus Neuron,1,0,1
+http://id.nlm.nih.gov/mesh/M000631720,http://id.nlm.nih.gov/mesh/D000075942,M000631720,D000075942,Intraepithelial Lymphocytes,,1,0,1
+http://id.nlm.nih.gov/mesh/M0006319,http://id.nlm.nih.gov/mesh/D004027,M0006319,D004027,Diencephalon,,1,0,1
+http://id.nlm.nih.gov/mesh/M0006371,http://id.nlm.nih.gov/mesh/D004064,M0006371,D004064,Digestive System,,1,0,1
+http://id.nlm.nih.gov/mesh/M000640738,http://id.nlm.nih.gov/mesh/D000077426,M000640738,D000077426,Gastric Artery,"Arteries, Gastric; Artery, Gastric; Gastric Arteries",0,0,1
+http://id.nlm.nih.gov/mesh/M000640812,http://id.nlm.nih.gov/mesh/D000077502,M000640812,D000077502,Glymphatic System,,1,0,1
+http://id.nlm.nih.gov/mesh/M000647224,http://id.nlm.nih.gov/mesh/D000080383,M000647224,D000080383,Mental Foramen,,1,0,1
+http://id.nlm.nih.gov/mesh/M000648549,http://id.nlm.nih.gov/mesh/D000080869,M000648549,D000080869,Jugular Foramina,"Foramina, Jugular",1,0,1
+http://id.nlm.nih.gov/mesh/M000648572,http://id.nlm.nih.gov/mesh/D000080884,M000648572,D000080884,Infratemporal Fossa,"Fossa, Infratemporal",1,0,1
+http://id.nlm.nih.gov/mesh/M000648575,http://id.nlm.nih.gov/mesh/D000080886,M000648575,D000080886,Parapharyngeal Space,,1,0,1
+http://id.nlm.nih.gov/mesh/M000648723,http://id.nlm.nih.gov/mesh/D000080906,M000648723,D000080906,Cerebellar Golgi Cells,"Cerebellar Golgi Cell; Golgi Cell, Cerebellar; Golgi Cells, Cerebellar",1,0,1
+http://id.nlm.nih.gov/mesh/M0006763,http://id.nlm.nih.gov/mesh/D004302,M0006763,D004302,Dorsomedial Hypothalamic Nucleus,"Nucleus, Dorsomedial Hypothalamic",1,0,1
+http://id.nlm.nih.gov/mesh/M000677381,http://id.nlm.nih.gov/mesh/D000082702,M000677381,D000082702,Default Mode Network,"Network, Default Mode",0,0,1
+http://id.nlm.nih.gov/mesh/M000679091,http://id.nlm.nih.gov/mesh/D000083382,M000679091,D000083382,Uncinate Fasciculus,"Fasciculus, Uncinate",1,0,1
+http://id.nlm.nih.gov/mesh/M000679153,http://id.nlm.nih.gov/mesh/D000083442,M000679153,D000083442,Vertebral Body,"Body, Vertebral; Vertebral Bodies",1,0,1
+http://id.nlm.nih.gov/mesh/M000682877,http://id.nlm.nih.gov/mesh/D000084522,M000682877,D000084522,T Follicular Helper Cells,,1,0,1
+http://id.nlm.nih.gov/mesh/M000682937,http://id.nlm.nih.gov/mesh/D000084582,M000682937,D000084582,Tumor-Associated Macrophages,"Macrophage, Tumor-Associated; Tumor Associated Macrophages",0,0,1
+http://id.nlm.nih.gov/mesh/M000682957,http://id.nlm.nih.gov/mesh/D000084602,M000682957,D000084602,Sympathoadrenal System,,0,0,1
+http://id.nlm.nih.gov/mesh/M0006876,http://id.nlm.nih.gov/mesh/D004373,M0006876,D004373,Ductus Arteriosus,"Arteriosus, Ductus",1,0,1
+http://id.nlm.nih.gov/mesh/M0006890,http://id.nlm.nih.gov/mesh/D004386,M0006890,D004386,Duodenum,Duodenums,1,0,1
+http://id.nlm.nih.gov/mesh/M0006892,http://id.nlm.nih.gov/mesh/D004388,M0006892,D004388,Dura Mater,,1,0,1
+http://id.nlm.nih.gov/mesh/M0006939,http://id.nlm.nih.gov/mesh/D004425,M0006939,D004425,Ear Cartilage,"Cartilage, Ear; Cartilages, Ear",1,0,1
+http://id.nlm.nih.gov/mesh/M0006956,http://id.nlm.nih.gov/mesh/D004439,M0006956,D004439,Eccrine Glands,"Eccrine Gland; Gland, Eccrine; Glands, Eccrine",1,0,1
+http://id.nlm.nih.gov/mesh/M0007118,http://id.nlm.nih.gov/mesh/D004525,M0007118,D004525,Efferent Pathways,"Efferent Pathway; Pathway, Efferent; Pathways, Efferent",1,0,1
+http://id.nlm.nih.gov/mesh/M0007146,http://id.nlm.nih.gov/mesh/D004543,M0007146,D004543,Ejaculatory Ducts,"Duct, Ejaculatory; Ducts, Ejaculatory; Ejaculatory Duct",1,0,1
+http://id.nlm.nih.gov/mesh/M0007155,http://id.nlm.nih.gov/mesh/D004551,M0007155,D004551,Elbow Joint,"Elbow Joints; Joint, Elbow; Joints, Elbow",1,0,1
+http://id.nlm.nih.gov/mesh/M0007395,http://id.nlm.nih.gov/mesh/D004699,M0007395,D004699,Endocardium,Endocardiums,1,0,1
+http://id.nlm.nih.gov/mesh/M000740445,http://id.nlm.nih.gov/mesh/D000088263,M000740445,D000088263,Mandibular Canal,"Canal, Mandibular; Mandibular Canals",1,0,1
+http://id.nlm.nih.gov/mesh/M0007416,http://id.nlm.nih.gov/mesh/D004717,M0007416,D004717,Endometrium,,1,0,1
+http://id.nlm.nih.gov/mesh/M0007433,http://id.nlm.nih.gov/mesh/D004728,M0007433,D004728,"Endothelium, Corneal",,1,0,1
+http://id.nlm.nih.gov/mesh/M0007435,http://id.nlm.nih.gov/mesh/D004729,M0007435,D004729,"Endothelium, Lymphatic",,1,0,1
+http://id.nlm.nih.gov/mesh/M0007437,http://id.nlm.nih.gov/mesh/D004730,M0007437,D004730,"Endothelium, Vascular",,1,0,1
+http://id.nlm.nih.gov/mesh/M0007477,http://id.nlm.nih.gov/mesh/D004759,M0007477,D004759,Enterochromaffin Cells,"Cell, Enterochromaffin; Cells, Enterochromaffin; Enterochromaffin Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M000748185,http://id.nlm.nih.gov/mesh/D000091245,M000748185,D000091245,Memory B Cells,"B Cell, Memory; Memory B Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M000748186,http://id.nlm.nih.gov/mesh/D000091246,M000748186,D000091246,Memory T Cells,"Memory T Cell; T Cell, Memory",1,0,1
+http://id.nlm.nih.gov/mesh/M000752489,http://id.nlm.nih.gov/mesh/D000092662,M000752489,D000092662,Schlemm's Canal,"Canal, Schlemm's; Schlemm's Canals; Schlemms Canal",1,0,1
+http://id.nlm.nih.gov/mesh/M0007534,http://id.nlm.nih.gov/mesh/D004804,M0007534,D004804,Eosinophils,Eosinophil,1,0,1
+http://id.nlm.nih.gov/mesh/M0007535,http://id.nlm.nih.gov/mesh/D004805,M0007535,D004805,Ependyma,Ependymas,1,0,1
+http://id.nlm.nih.gov/mesh/M0007554,http://id.nlm.nih.gov/mesh/D004817,M0007554,D004817,Epidermis,,1,0,1
+http://id.nlm.nih.gov/mesh/M000755725,http://id.nlm.nih.gov/mesh/D000094242,M000755725,D000094242,Medium Spiny Neurons,"Medium Spiny Neuron; Neuron, Medium Spiny",1,0,1
+http://id.nlm.nih.gov/mesh/M000755890,http://id.nlm.nih.gov/mesh/D000094364,M000755890,D000094364,Myotendinous Junction,"Junction, Myotendinous; Myotendinous Junctions",1,0,1
+http://id.nlm.nih.gov/mesh/M000755891,http://id.nlm.nih.gov/mesh/D000094365,M000755891,D000094365,Hypothalamic-Pituitary-Gonadal Axis,"Axis, Hypothalamic-Pituitary-Gonadal; Hypothalamic Pituitary Gonadal Axis",1,0,1
+http://id.nlm.nih.gov/mesh/M0007559,http://id.nlm.nih.gov/mesh/D004822,M0007559,D004822,Epididymis,,1,0,1
+http://id.nlm.nih.gov/mesh/M0007561,http://id.nlm.nih.gov/mesh/D004824,M0007561,D004824,Epidural Space,"Epidural Spaces; Space, Epidural; Spaces, Epidural",1,0,1
+http://id.nlm.nih.gov/mesh/M0007562,http://id.nlm.nih.gov/mesh/D004825,M0007562,D004825,Epiglottis,,1,0,1
+http://id.nlm.nih.gov/mesh/M000758388,http://id.nlm.nih.gov/mesh/D000095491,M000758388,D000095491,Tuft Cells,"Cell, Tuft; Tuft Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M000758617,http://id.nlm.nih.gov/mesh/D000095543,M000758617,D000095543,Epicardial Adipose Tissue,"Adipose Tissue, Epicardial; Epicardial Adipose Tissues; Tissue, Epicardial Adipose",1,0,1
+http://id.nlm.nih.gov/mesh/M000758817,http://id.nlm.nih.gov/mesh/D000095746,M000758817,D000095746,Inferior Olivary Complex,"Olivary Complex, Inferior",1,0,1
+http://id.nlm.nih.gov/mesh/M0007592,http://id.nlm.nih.gov/mesh/D004838,M0007592,D004838,Epiphyses,,1,0,1
+http://id.nlm.nih.gov/mesh/M000764128,http://id.nlm.nih.gov/mesh/D000097547,M000764128,D000097547,Tibiofemoral Joint,"Joint, Tibiofemoral; Tibiofemoral Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M000764491,http://id.nlm.nih.gov/mesh/D000097803,M000764491,D000097803,Ganglionic Eminence,"Eminence, Ganglionic",1,0,1
+http://id.nlm.nih.gov/mesh/M000764626,http://id.nlm.nih.gov/mesh/D000097862,M000764626,D000097862,Extravillous Trophoblasts,"Extravillous Trophoblast; Trophoblast, Extravillous",1,0,1
+http://id.nlm.nih.gov/mesh/M000766884,http://id.nlm.nih.gov/mesh/D000098559,M000766884,D000098559,Mesolimbic System,,0,0,1
+http://id.nlm.nih.gov/mesh/M0007689,http://id.nlm.nih.gov/mesh/D004900,M0007689,D004900,Erythroblasts,Erythroblast,1,0,1
+http://id.nlm.nih.gov/mesh/M0007700,http://id.nlm.nih.gov/mesh/D004908,M0007700,D004908,Erythrocyte Inclusions,"Erythrocyte Inclusion; Inclusion, Erythrocyte; Inclusions, Erythrocyte",0,0,1
+http://id.nlm.nih.gov/mesh/M0007708,http://id.nlm.nih.gov/mesh/D004910,M0007708,D004910,Erythrocyte Membrane,"Erythrocyte Membranes; Membrane, Erythrocyte",0,0,1
+http://id.nlm.nih.gov/mesh/M0007711,http://id.nlm.nih.gov/mesh/D004912,M0007711,D004912,Erythrocytes,Erythrocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0007712,http://id.nlm.nih.gov/mesh/D004913,M0007712,D004913,"Erythrocytes, Abnormal",,0,0,1
+http://id.nlm.nih.gov/mesh/M0007756,http://id.nlm.nih.gov/mesh/D004943,M0007756,D004943,Esophagogastric Junction,"Junction, Esophagogastric",1,0,1
+http://id.nlm.nih.gov/mesh/M0007761,http://id.nlm.nih.gov/mesh/D004947,M0007761,D004947,Esophagus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0007874,http://id.nlm.nih.gov/mesh/D005004,M0007874,D005004,Ethmoid Bone,"Bone, Ethmoid; Bones, Ethmoid; Ethmoid Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0007875,http://id.nlm.nih.gov/mesh/D005005,M0007875,D005005,Ethmoid Sinus,"Sinus, Ethmoid",1,0,1
+http://id.nlm.nih.gov/mesh/M0008071,http://id.nlm.nih.gov/mesh/D005116,M0008071,D005116,Extrapyramidal Tracts,"Extrapyramidal Tract; Tract, Extrapyramidal",1,0,1
+http://id.nlm.nih.gov/mesh/M0008082,http://id.nlm.nih.gov/mesh/D005123,M0008082,D005123,Eye,Eyes,1,0,1
+http://id.nlm.nih.gov/mesh/M0008101,http://id.nlm.nih.gov/mesh/D005138,M0008101,D005138,Eyebrows,Eyebrow,1,0,1
+http://id.nlm.nih.gov/mesh/M0008104,http://id.nlm.nih.gov/mesh/D005140,M0008104,D005140,Eyelashes,,1,0,1
+http://id.nlm.nih.gov/mesh/M0008107,http://id.nlm.nih.gov/mesh/D005143,M0008107,D005143,Eyelids,Eyelid,1,0,1
+http://id.nlm.nih.gov/mesh/M0008111,http://id.nlm.nih.gov/mesh/D005147,M0008111,D005147,Facial Bones,"Bone, Facial; Bones, Facial; Facial Bone",1,0,1
+http://id.nlm.nih.gov/mesh/M0008118,http://id.nlm.nih.gov/mesh/D005152,M0008118,D005152,Facial Muscles,"Facial Muscle; Muscle, Facial; Muscles, Facial",1,0,1
+http://id.nlm.nih.gov/mesh/M0008121,http://id.nlm.nih.gov/mesh/D005154,M0008121,D005154,Facial Nerve,"Facial Nerves; Nerve, Facial",1,0,1
+http://id.nlm.nih.gov/mesh/M0008175,http://id.nlm.nih.gov/mesh/D005187,M0008175,D005187,Fallopian Tubes,"Tube, Fallopian; Tubes, Fallopian",1,0,1
+http://id.nlm.nih.gov/mesh/M0008234,http://id.nlm.nih.gov/mesh/D005205,M0008234,D005205,Fascia,,1,0,1
+http://id.nlm.nih.gov/mesh/M0008235,http://id.nlm.nih.gov/mesh/D005206,M0008235,D005206,Fascia Lata,"Fascia Latas; Lata, Fascia; Latas, Fascia",1,0,1
+http://id.nlm.nih.gov/mesh/M0008311,http://id.nlm.nih.gov/mesh/D005263,M0008311,D005263,Femoral Artery,"Arteries, Femoral; Artery, Femoral; Femoral Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0008315,http://id.nlm.nih.gov/mesh/D005267,M0008315,D005267,Femoral Nerve,"Femoral Nerves; Nerve, Femoral; Nerves, Femoral",1,0,1
+http://id.nlm.nih.gov/mesh/M0008316,http://id.nlm.nih.gov/mesh/D005268,M0008316,D005268,Femoral Vein,"Femoral Veins; Vein, Femoral; Veins, Femoral",1,0,1
+http://id.nlm.nih.gov/mesh/M0008317,http://id.nlm.nih.gov/mesh/D005269,M0008317,D005269,Femur,Femurs,1,0,1
+http://id.nlm.nih.gov/mesh/M0008319,http://id.nlm.nih.gov/mesh/D005270,M0008319,D005270,Femur Head,"Femur Heads; Head, Femur",1,0,1
+http://id.nlm.nih.gov/mesh/M0008323,http://id.nlm.nih.gov/mesh/D005272,M0008323,D005272,Femur Neck,"Neck, Femur",1,0,1
+http://id.nlm.nih.gov/mesh/M0008390,http://id.nlm.nih.gov/mesh/D005312,M0008390,D005312,Fetal Blood,"Blood, Fetal; Bloods, Fetal; Fetal Bloods",0,0,1
+http://id.nlm.nih.gov/mesh/M0008401,http://id.nlm.nih.gov/mesh/D005318,M0008401,D005318,Fetal Heart,"Fetal Hearts; Heart, Fetal; Hearts, Fetal",0,0,1
+http://id.nlm.nih.gov/mesh/M0008459,http://id.nlm.nih.gov/mesh/D005360,M0008459,D005360,Fibula,Fibulas,1,0,1
+http://id.nlm.nih.gov/mesh/M0008501,http://id.nlm.nih.gov/mesh/D005384,M0008501,D005384,Finger Joint,"Finger Joints; Joint, Finger; Joints, Finger",1,0,1
+http://id.nlm.nih.gov/mesh/M0008654,http://id.nlm.nih.gov/mesh/D005487,M0008654,D005487,Foam Cells,"Cell, Foam; Cells, Foam; Foam Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0008715,http://id.nlm.nih.gov/mesh/D005529,M0008715,D005529,Foot Bones,"Bone, Foot; Bones, Foot",1,0,1
+http://id.nlm.nih.gov/mesh/M0008730,http://id.nlm.nih.gov/mesh/D005539,M0008730,D005539,Foramen Magnum,"Foramen Magnums; Magnum, Foramen; Magnums, Foramen",1,0,1
+http://id.nlm.nih.gov/mesh/M0008792,http://id.nlm.nih.gov/mesh/D005584,M0008792,D005584,Fovea Centralis,,1,0,1
+http://id.nlm.nih.gov/mesh/M0008846,http://id.nlm.nih.gov/mesh/D005624,M0008846,D005624,Frontal Bone,"Bone, Frontal; Bones, Frontal; Frontal Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0008847,http://id.nlm.nih.gov/mesh/D065711,M0008847,D065711,Broca Area,"Area, Broca",1,0,1
+http://id.nlm.nih.gov/mesh/M0008848,http://id.nlm.nih.gov/mesh/D005625,M0008848,D005625,Frontal Lobe,"Frontal Lobes; Lobe, Frontal",1,0,1
+http://id.nlm.nih.gov/mesh/M0008849,http://id.nlm.nih.gov/mesh/D005626,M0008849,D005626,Frontal Sinus,"Sinus, Frontal",1,0,1
+http://id.nlm.nih.gov/mesh/M0008886,http://id.nlm.nih.gov/mesh/D005654,M0008886,D005654,Fundus Oculi,,1,0,1
+http://id.nlm.nih.gov/mesh/M0008957,http://id.nlm.nih.gov/mesh/D005704,M0008957,D005704,Gallbladder,Gallbladders,1,0,1
+http://id.nlm.nih.gov/mesh/M0008978,http://id.nlm.nih.gov/mesh/D005724,M0008978,D005724,Ganglia,,1,0,1
+http://id.nlm.nih.gov/mesh/M0008979,http://id.nlm.nih.gov/mesh/D005725,M0008979,D005725,"Ganglia, Autonomic",,1,0,1
+http://id.nlm.nih.gov/mesh/M0008980,http://id.nlm.nih.gov/mesh/D005726,M0008980,D005726,"Ganglia, Parasympathetic",,1,0,1
+http://id.nlm.nih.gov/mesh/M0008981,http://id.nlm.nih.gov/mesh/D005727,M0008981,D005727,"Ganglia, Spinal",,1,0,1
+http://id.nlm.nih.gov/mesh/M0008983,http://id.nlm.nih.gov/mesh/D005728,M0008983,D005728,"Ganglia, Sympathetic",,1,0,1
+http://id.nlm.nih.gov/mesh/M0009004,http://id.nlm.nih.gov/mesh/D005748,M0009004,D005748,Gastric Fundus,"Fundus, Gastric",1,0,1
+http://id.nlm.nih.gov/mesh/M0009010,http://id.nlm.nih.gov/mesh/D005753,M0009010,D005753,Gastric Mucosa,"Gastric Mucosas; Mucosa, Gastric; Mucosas, Gastric",1,0,1
+http://id.nlm.nih.gov/mesh/M0009150,http://id.nlm.nih.gov/mesh/D005829,M0009150,D005829,Geniculate Bodies,"Bodies, Geniculate; Geniculate Body",0,0,1
+http://id.nlm.nih.gov/mesh/M0009153,http://id.nlm.nih.gov/mesh/D005830,M0009153,D005830,Geniculate Ganglion,"Ganglion, Geniculate",1,0,1
+http://id.nlm.nih.gov/mesh/M0009158,http://id.nlm.nih.gov/mesh/D005835,M0009158,D005835,Genitalia,,1,0,1
+http://id.nlm.nih.gov/mesh/M0009161,http://id.nlm.nih.gov/mesh/D005836,M0009161,D005836,"Genitalia, Female",Female Genitalia,1,0,1
+http://id.nlm.nih.gov/mesh/M0009164,http://id.nlm.nih.gov/mesh/D005837,M0009164,D005837,"Genitalia, Male",Male Genitalia,1,0,1
+http://id.nlm.nih.gov/mesh/M0009199,http://id.nlm.nih.gov/mesh/D005854,M0009199,D005854,Germ Cells,"Cell, Germ; Cells, Germ; Germ Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0009294,http://id.nlm.nih.gov/mesh/D005917,M0009294,D005917,Globus Pallidus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0009299,http://id.nlm.nih.gov/mesh/D005920,M0009299,D005920,Glomerular Mesangium,"Glomerular Mesangiums; Mesangiums, Glomerular",1,0,1
+http://id.nlm.nih.gov/mesh/M0009304,http://id.nlm.nih.gov/mesh/D005924,M0009304,D005924,Glomus Jugulare,"Jugulare, Glomus",1,0,1
+http://id.nlm.nih.gov/mesh/M0009311,http://id.nlm.nih.gov/mesh/D005930,M0009311,D005930,Glossopharyngeal Nerve,"Glossopharyngeal Nerves; Nerve, Glossopharyngeal; Nerves, Glossopharyngeal",1,0,1
+http://id.nlm.nih.gov/mesh/M0009312,http://id.nlm.nih.gov/mesh/D005931,M0009312,D005931,Glottis,,1,0,1
+http://id.nlm.nih.gov/mesh/M0009535,http://id.nlm.nih.gov/mesh/D006057,M0009535,D006057,Golgi-Mazzoni Corpuscles,"Corpuscles, Golgi-Mazzoni; Golgi Mazzoni Corpuscles",1,0,1
+http://id.nlm.nih.gov/mesh/M0009550,http://id.nlm.nih.gov/mesh/D006066,M0009550,D006066,Gonads,Gonad,1,0,1
+http://id.nlm.nih.gov/mesh/M0009571,http://id.nlm.nih.gov/mesh/D006080,M0009571,D006080,Ovarian Follicle,"Follicle, Ovarian; Follicles, Ovarian",1,0,1
+http://id.nlm.nih.gov/mesh/M0009603,http://id.nlm.nih.gov/mesh/D006098,M0009603,D006098,Granulocytes,Granulocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0009617,http://id.nlm.nih.gov/mesh/D006107,M0009617,D006107,Granulosa Cells,"Cell, Granulosa; Cells, Granulosa; Granulosa Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0009657,http://id.nlm.nih.gov/mesh/D006132,M0009657,D006132,Growth Plate,"Growth Plates; Plate, Growth; Plates, Growth",1,0,1
+http://id.nlm.nih.gov/mesh/M0009719,http://id.nlm.nih.gov/mesh/D006179,M0009719,D006179,Gyrus Cinguli,,1,0,1
+http://id.nlm.nih.gov/mesh/M0009747,http://id.nlm.nih.gov/mesh/D006198,M0009747,D006198,"Hair Cells, Auditory","Auditory Hair Cell; Hair Cell, Auditory",1,0,1
+http://id.nlm.nih.gov/mesh/M0009748,http://id.nlm.nih.gov/mesh/D006199,M0009748,D006199,"Hair Cells, Auditory, Inner",,1,0,1
+http://id.nlm.nih.gov/mesh/M0009936,http://id.nlm.nih.gov/mesh/D006321,M0009936,D006321,Heart,,1,0,1
+http://id.nlm.nih.gov/mesh/M0009941,http://id.nlm.nih.gov/mesh/D006325,M0009941,D006325,Heart Atria,"Atria, Heart",1,0,1
+http://id.nlm.nih.gov/mesh/M0009948,http://id.nlm.nih.gov/mesh/D006329,M0009948,D006329,Heart Conduction System,"Conduction System, Heart; Conduction Systems, Heart; Heart Conduction Systems; System, Heart Conduction; Systems, Heart Conduction",1,0,1
+http://id.nlm.nih.gov/mesh/M0009968,http://id.nlm.nih.gov/mesh/D054085,M0009968,D054085,Foramen Ovale,,1,0,1
+http://id.nlm.nih.gov/mesh/M0009969,http://id.nlm.nih.gov/mesh/D006346,M0009969,D006346,Heart Septum,"Septum, Heart",1,0,1
+http://id.nlm.nih.gov/mesh/M0009974,http://id.nlm.nih.gov/mesh/D006351,M0009974,D006351,Heart Valves,"Heart Valve; Valve, Heart; Valves, Heart",1,0,1
+http://id.nlm.nih.gov/mesh/M0009975,http://id.nlm.nih.gov/mesh/D006352,M0009975,D006352,Heart Ventricles,,1,0,1
+http://id.nlm.nih.gov/mesh/M0009997,http://id.nlm.nih.gov/mesh/D006366,M0009997,D006366,Heinz Bodies,"Bodies, Heinz",0,0,1
+http://id.nlm.nih.gov/mesh/M0010015,http://id.nlm.nih.gov/mesh/D006377,M0010015,D006377,"T-Lymphocytes, Helper-Inducer","Helper-Inducer T-Lymphocyte; T Lymphocytes, Helper Inducer; T-Lymphocyte, Helper-Inducer",0,0,1
+http://id.nlm.nih.gov/mesh/M0010055,http://id.nlm.nih.gov/mesh/D006412,M0010055,D006412,Hematopoietic Stem Cells,"Cell, Hematopoietic Stem; Cells, Hematopoietic Stem; Hematopoietic Stem Cell; Stem Cell, Hematopoietic",1,0,1
+http://id.nlm.nih.gov/mesh/M0010057,http://id.nlm.nih.gov/mesh/D006413,M0010057,D006413,Hematopoietic System,"Hematopoietic Systems; System, Hematopoietic",1,0,1
+http://id.nlm.nih.gov/mesh/M0010071,http://id.nlm.nih.gov/mesh/D006424,M0010071,D006424,Hemic and Immune Systems,,1,0,1
+http://id.nlm.nih.gov/mesh/M0010101,http://id.nlm.nih.gov/mesh/D006434,M0010101,D006434,Hemocytes,Hemocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0010196,http://id.nlm.nih.gov/mesh/D006499,M0010196,D006499,Hepatic Artery,"Arteries, Hepatic; Artery, Hepatic; Hepatic Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0010197,http://id.nlm.nih.gov/mesh/D006500,M0010197,D006500,"Hepatic Duct, Common",,1,0,1
+http://id.nlm.nih.gov/mesh/M0010203,http://id.nlm.nih.gov/mesh/D006503,M0010203,D006503,Hepatic Veins,"Hepatic Vein; Vein, Hepatic; Veins, Hepatic",1,0,1
+http://id.nlm.nih.gov/mesh/M0010370,http://id.nlm.nih.gov/mesh/D006621,M0010370,D006621,Hip Joint,"Hip Joints; Joint, Hip; Joints, Hip",1,0,1
+http://id.nlm.nih.gov/mesh/M0010374,http://id.nlm.nih.gov/mesh/D006624,M0010374,D006624,Hippocampus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0010405,http://id.nlm.nih.gov/mesh/D006644,M0010405,D006644,Histiocytes,Histiocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0010654,http://id.nlm.nih.gov/mesh/D006811,M0010654,D006811,Humerus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0010802,http://id.nlm.nih.gov/mesh/D006924,M0010802,D006924,Hymen,,1,0,1
+http://id.nlm.nih.gov/mesh/M0010806,http://id.nlm.nih.gov/mesh/D006928,M0010806,D006928,Hyoid Bone,"Bone, Hyoid; Bones, Hyoid; Hyoid Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0010898,http://id.nlm.nih.gov/mesh/D007001,M0010898,D007001,Hypogastric Plexus,"Plexus, Hypogastric",1,0,1
+http://id.nlm.nih.gov/mesh/M0010900,http://id.nlm.nih.gov/mesh/D007002,M0010900,D007002,Hypoglossal Nerve,"Hypoglossal Nerves; Nerve, Hypoglossal; Nerves, Hypoglossal",1,0,1
+http://id.nlm.nih.gov/mesh/M0010914,http://id.nlm.nih.gov/mesh/D007013,M0010914,D007013,Hypopharynx,,1,0,1
+http://id.nlm.nih.gov/mesh/M0010931,http://id.nlm.nih.gov/mesh/D007025,M0010931,D007025,Anterior Hypothalamic Nucleus,"Hypothalamic Nucleus, Anterior; Nucleus, Anterior Hypothalamic",1,0,1
+http://id.nlm.nih.gov/mesh/M0010932,http://id.nlm.nih.gov/mesh/D007026,M0010932,D007026,"Hypothalamic Area, Lateral","Area, Lateral Hypothalamic; Areas, Lateral Hypothalamic; Hypothalamic Areas, Lateral; Lateral Hypothalamic Areas",1,0,1
+http://id.nlm.nih.gov/mesh/M0010938,http://id.nlm.nih.gov/mesh/D007030,M0010938,D007030,Hypothalamo-Hypophyseal System,Hypothalamo Hypophyseal System,1,0,1
+http://id.nlm.nih.gov/mesh/M0010939,http://id.nlm.nih.gov/mesh/D007031,M0010939,D007031,Hypothalamus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0010940,http://id.nlm.nih.gov/mesh/D007032,M0010940,D007032,"Hypothalamus, Anterior",Anterior Hypothalamus,1,0,1
+http://id.nlm.nih.gov/mesh/M0010942,http://id.nlm.nih.gov/mesh/D007033,M0010942,D007033,"Hypothalamus, Middle",Middle Hypothalamus,1,0,1
+http://id.nlm.nih.gov/mesh/M0010943,http://id.nlm.nih.gov/mesh/D007034,M0010943,D007034,"Hypothalamus, Posterior",,1,0,1
+http://id.nlm.nih.gov/mesh/M0011026,http://id.nlm.nih.gov/mesh/D007080,M0011026,D007080,Ileocecal Valve,"Ileocecal Valves; Valve, Ileocecal; Valves, Ileocecal",1,0,1
+http://id.nlm.nih.gov/mesh/M0011030,http://id.nlm.nih.gov/mesh/D007082,M0011030,D007082,Ileum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0011031,http://id.nlm.nih.gov/mesh/D007083,M0011031,D007083,Iliac Artery,"Arteries, Iliac; Artery, Iliac; Iliac Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0011032,http://id.nlm.nih.gov/mesh/D007084,M0011032,D007084,Iliac Vein,"Iliac Veins; Vein, Iliac; Veins, Iliac",1,0,1
+http://id.nlm.nih.gov/mesh/M0011033,http://id.nlm.nih.gov/mesh/D007085,M0011033,D007085,Ilium,Iliums,1,0,1
+http://id.nlm.nih.gov/mesh/M0011068,http://id.nlm.nih.gov/mesh/D007107,M0011068,D007107,Immune System,"Immune Systems; System, Immune; Systems, Immune",1,0,1
+http://id.nlm.nih.gov/mesh/M0011301,http://id.nlm.nih.gov/mesh/D007245,M0011301,D007245,Inferior Colliculi,"Colliculi, Inferior",1,0,1
+http://id.nlm.nih.gov/mesh/M0011485,http://id.nlm.nih.gov/mesh/D007366,M0011485,D007366,Intercostal Muscles,"Intercostal Muscle; Muscle, Intercostal; Muscles, Intercostal",1,0,1
+http://id.nlm.nih.gov/mesh/M0011486,http://id.nlm.nih.gov/mesh/D007367,M0011486,D007367,Intercostal Nerves,"Intercostal Nerve; Nerve, Intercostal; Nerves, Intercostal",1,0,1
+http://id.nlm.nih.gov/mesh/M0011531,http://id.nlm.nih.gov/mesh/D007395,M0011531,D007395,Interneurons,Interneuron,1,0,1
+http://id.nlm.nih.gov/mesh/M0011558,http://id.nlm.nih.gov/mesh/D007403,M0011558,D007403,Intervertebral Disc,,1,0,1
+http://id.nlm.nih.gov/mesh/M0011572,http://id.nlm.nih.gov/mesh/D007413,M0011572,D007413,Intestinal Mucosa,"Mucosa, Intestinal",1,0,1
+http://id.nlm.nih.gov/mesh/M0011584,http://id.nlm.nih.gov/mesh/D007420,M0011584,D007420,"Intestine, Large",,1,0,1
+http://id.nlm.nih.gov/mesh/M0011585,http://id.nlm.nih.gov/mesh/D007421,M0011585,D007421,"Intestine, Small","Intestines, Small; Small Intestines",1,0,1
+http://id.nlm.nih.gov/mesh/M0011586,http://id.nlm.nih.gov/mesh/D007422,M0011586,D007422,Intestines,Intestine,1,0,1
+http://id.nlm.nih.gov/mesh/M0011715,http://id.nlm.nih.gov/mesh/D007498,M0011715,D007498,Iris,,1,0,1
+http://id.nlm.nih.gov/mesh/M0011735,http://id.nlm.nih.gov/mesh/D007512,M0011735,D007512,Ischium,,1,0,1
+http://id.nlm.nih.gov/mesh/M0011741,http://id.nlm.nih.gov/mesh/D007515,M0011741,D007515,Islets of Langerhans,Langerhans Islets,1,0,1
+http://id.nlm.nih.gov/mesh/M0011742,http://id.nlm.nih.gov/mesh/D050416,M0011742,D050416,Glucagon-Secreting Cells,"Cell, Glucagon-Secreting; Cells, Glucagon-Secreting; Glucagon Secreting Cells; Glucagon-Secreting Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0011743,http://id.nlm.nih.gov/mesh/D050417,M0011743,D050417,Insulin-Secreting Cells,"Cell, Insulin-Secreting; Cells, Insulin-Secreting; Insulin Secreting Cells; Insulin-Secreting Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0011825,http://id.nlm.nih.gov/mesh/D007568,M0011825,D007568,Jaw,Jaws,1,0,1
+http://id.nlm.nih.gov/mesh/M0011844,http://id.nlm.nih.gov/mesh/D007583,M0011844,D007583,Jejunum,Jejunums,1,0,1
+http://id.nlm.nih.gov/mesh/M0011865,http://id.nlm.nih.gov/mesh/D007596,M0011865,D007596,Joints,Joint,1,0,1
+http://id.nlm.nih.gov/mesh/M0011872,http://id.nlm.nih.gov/mesh/D007601,M0011872,D007601,Jugular Veins,"Jugular Vein; Vein, Jugular; Veins, Jugular",1,0,1
+http://id.nlm.nih.gov/mesh/M0011890,http://id.nlm.nih.gov/mesh/D007606,M0011890,D007606,Juxtaglomerular Apparatus,"Apparatus, Juxtaglomerular",1,0,1
+http://id.nlm.nih.gov/mesh/M0012006,http://id.nlm.nih.gov/mesh/D007668,M0012006,D007668,Kidney,,1,0,1
+http://id.nlm.nih.gov/mesh/M0012010,http://id.nlm.nih.gov/mesh/D007670,M0012010,D007670,Kidney Calices,"Calice, Kidney; Calices, Kidney; Kidney Calice",1,0,1
+http://id.nlm.nih.gov/mesh/M0012012,http://id.nlm.nih.gov/mesh/D007672,M0012012,D007672,Kidney Cortex,"Cortex, Kidney",1,0,1
+http://id.nlm.nih.gov/mesh/M0012018,http://id.nlm.nih.gov/mesh/D007678,M0012018,D007678,Kidney Glomerulus,"Glomerulus, Kidney",1,0,1
+http://id.nlm.nih.gov/mesh/M0012019,http://id.nlm.nih.gov/mesh/D007679,M0012019,D007679,Kidney Medulla,"Kidney Medullas; Medulla, Kidney; Medullas, Kidney",1,0,1
+http://id.nlm.nih.gov/mesh/M0012023,http://id.nlm.nih.gov/mesh/D007682,M0012023,D007682,Kidney Pelvis,"Pelvis, Kidney",1,0,1
+http://id.nlm.nih.gov/mesh/M0012025,http://id.nlm.nih.gov/mesh/D007684,M0012025,D007684,Kidney Tubules,"Kidney Tubule; Tubule, Kidney; Tubules, Kidney",1,0,1
+http://id.nlm.nih.gov/mesh/M0012026,http://id.nlm.nih.gov/mesh/D007685,M0012026,D007685,"Kidney Tubules, Collecting",,1,0,1
+http://id.nlm.nih.gov/mesh/M0012027,http://id.nlm.nih.gov/mesh/D007686,M0012027,D007686,"Kidney Tubules, Distal","Distal Kidney Tubules; Kidney Tubule, Distal; Tubule, Distal Kidney; Tubules, Distal Kidney",1,0,1
+http://id.nlm.nih.gov/mesh/M0012028,http://id.nlm.nih.gov/mesh/D007687,M0012028,D007687,"Kidney Tubules, Proximal","Kidney Tubule, Proximal; Proximal Kidney Tubules; Tubule, Proximal Kidney; Tubules, Proximal Kidney",1,0,1
+http://id.nlm.nih.gov/mesh/M0012035,http://id.nlm.nih.gov/mesh/D007694,M0012035,D007694,"Killer Cells, Natural",,1,0,1
+http://id.nlm.nih.gov/mesh/M0012068,http://id.nlm.nih.gov/mesh/D007719,M0012068,D007719,Knee Joint,"Joint, Knee; Knee Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0012083,http://id.nlm.nih.gov/mesh/D007728,M0012083,D007728,Kupffer Cells,"Cells, Kupffer",1,0,1
+http://id.nlm.nih.gov/mesh/M0012133,http://id.nlm.nih.gov/mesh/D007765,M0012133,D007765,Lacrimal Apparatus,"Apparatus, Lacrimal",1,0,1
+http://id.nlm.nih.gov/mesh/M0012200,http://id.nlm.nih.gov/mesh/D007801,M0012200,D007801,Langerhans Cells,,1,0,1
+http://id.nlm.nih.gov/mesh/M0012225,http://id.nlm.nih.gov/mesh/D007817,M0012225,D007817,Laryngeal Cartilages,"Cartilage, Laryngeal; Cartilages, Laryngeal; Laryngeal Cartilage",1,0,1
+http://id.nlm.nih.gov/mesh/M0012229,http://id.nlm.nih.gov/mesh/D007820,M0012229,D007820,Laryngeal Mucosa,"Mucosa, Laryngeal",1,0,1
+http://id.nlm.nih.gov/mesh/M0012230,http://id.nlm.nih.gov/mesh/D007821,M0012230,D007821,Laryngeal Muscles,"Laryngeal Muscle; Muscle, Laryngeal; Muscles, Laryngeal",1,0,1
+http://id.nlm.nih.gov/mesh/M0012232,http://id.nlm.nih.gov/mesh/D007823,M0012232,D007823,Laryngeal Nerves,"Laryngeal Nerve; Nerve, Laryngeal; Nerves, Laryngeal",1,0,1
+http://id.nlm.nih.gov/mesh/M0012239,http://id.nlm.nih.gov/mesh/D007830,M0012239,D007830,Larynx,,1,0,1
+http://id.nlm.nih.gov/mesh/M0012282,http://id.nlm.nih.gov/mesh/D007867,M0012282,D007867,Leg Bones,"Bone, Leg; Bones, Leg; Leg Bone",1,0,1
+http://id.nlm.nih.gov/mesh/M0012344,http://id.nlm.nih.gov/mesh/D007903,M0012344,D007903,"Lens Capsule, Crystalline","Capsule, Crystalline Lens; Capsules, Crystalline Lens; Crystalline Lens Capsule; Crystalline Lens Capsules; Lens Capsules, Crystalline",1,0,1
+http://id.nlm.nih.gov/mesh/M0012345,http://id.nlm.nih.gov/mesh/D007904,M0012345,D007904,"Lens Cortex, Crystalline","Cortex, Crystalline Lens; Crystalline Lens Cortex",1,0,1
+http://id.nlm.nih.gov/mesh/M0012350,http://id.nlm.nih.gov/mesh/D007907,M0012350,D007907,"Lens Nucleus, Crystalline","Crystalline Lens Nucleus; Nucleus, Crystalline Lens",1,0,1
+http://id.nlm.nih.gov/mesh/M0012351,http://id.nlm.nih.gov/mesh/D007908,M0012351,D007908,"Lens, Crystalline",,1,0,1
+http://id.nlm.nih.gov/mesh/M0012411,http://id.nlm.nih.gov/mesh/D007962,M0012411,D007962,Leukocytes,Leukocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0012412,http://id.nlm.nih.gov/mesh/D007963,M0012412,D007963,"Leukocytes, Mononuclear",,1,0,1
+http://id.nlm.nih.gov/mesh/M0012443,http://id.nlm.nih.gov/mesh/D007985,M0012443,D007985,Leydig Cells,,1,0,1
+http://id.nlm.nih.gov/mesh/M0012506,http://id.nlm.nih.gov/mesh/D008022,M0012506,D008022,Ligaments,Ligament,1,0,1
+http://id.nlm.nih.gov/mesh/M0012507,http://id.nlm.nih.gov/mesh/D008023,M0012507,D008023,"Ligaments, Articular","Articular Ligament; Articular Ligaments; Ligament, Articular",1,0,1
+http://id.nlm.nih.gov/mesh/M0012518,http://id.nlm.nih.gov/mesh/D008032,M0012518,D008032,Limbic System,"Limbic Systems; System, Limbic; Systems, Limbic",1,0,1
+http://id.nlm.nih.gov/mesh/M0012525,http://id.nlm.nih.gov/mesh/D008035,M0012525,D008035,Lingual Frenum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0012526,http://id.nlm.nih.gov/mesh/D008036,M0012526,D008036,Lingual Nerve,"Lingual Nerves; Nerve, Lingual; Nerves, Lingual",1,0,1
+http://id.nlm.nih.gov/mesh/M0012632,http://id.nlm.nih.gov/mesh/D008099,M0012632,D008099,Liver,,1,0,1
+http://id.nlm.nih.gov/mesh/M0012670,http://id.nlm.nih.gov/mesh/D008125,M0012670,D008125,Locus Coeruleus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0012691,http://id.nlm.nih.gov/mesh/D008138,M0012691,D008138,Loop of Henle,Henle Loop,1,0,1
+http://id.nlm.nih.gov/mesh/M0012724,http://id.nlm.nih.gov/mesh/D008159,M0012724,D008159,Lumbar Vertebrae,"Vertebrae, Lumbar",1,0,1
+http://id.nlm.nih.gov/mesh/M0012725,http://id.nlm.nih.gov/mesh/D008160,M0012725,D008160,Lumbosacral Plexus,"Plexus, Lumbosacral",1,0,1
+http://id.nlm.nih.gov/mesh/M0012740,http://id.nlm.nih.gov/mesh/D008168,M0012740,D008168,Lung,Lungs,1,0,1
+http://id.nlm.nih.gov/mesh/M0012762,http://id.nlm.nih.gov/mesh/D008184,M0012762,D008184,Luteal Cells,"Cell, Luteal; Cells, Luteal; Luteal Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0012778,http://id.nlm.nih.gov/mesh/D008196,M0012778,D008196,Lymph,Lymphs,1,0,1
+http://id.nlm.nih.gov/mesh/M0012781,http://id.nlm.nih.gov/mesh/D008198,M0012781,D008198,Lymph Nodes,"Lymph Node; Node, Lymph; Nodes, Lymph",1,0,1
+http://id.nlm.nih.gov/mesh/M0012796,http://id.nlm.nih.gov/mesh/D008208,M0012796,D008208,Lymphatic System,Lymphatic Systems,1,0,1
+http://id.nlm.nih.gov/mesh/M0012806,http://id.nlm.nih.gov/mesh/D008214,M0012806,D008214,Lymphocytes,Lymphocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0012808,http://id.nlm.nih.gov/mesh/D008215,M0012808,D008215,"Lymphocytes, Null","Lymphocyte, Null; Null Lymphocyte; Null Lymphocytes",0,0,1
+http://id.nlm.nih.gov/mesh/M0012815,http://id.nlm.nih.gov/mesh/D008221,M0012815,D008221,Lymphoid Tissue,"Lymphoid Tissues; Tissue, Lymphoid; Tissues, Lymphoid",1,0,1
+http://id.nlm.nih.gov/mesh/M0012871,http://id.nlm.nih.gov/mesh/D008264,M0012871,D008264,Macrophages,,1,0,1
+http://id.nlm.nih.gov/mesh/M0012873,http://id.nlm.nih.gov/mesh/D008266,M0012873,D008266,Macula Lutea,"Lutea, Macula; Luteas, Macula; Macula Luteas",1,0,1
+http://id.nlm.nih.gov/mesh/M0012960,http://id.nlm.nih.gov/mesh/D008323,M0012960,D008323,Mammary Arteries,"Arteries, Mammary; Artery, Mammary; Mammary Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0012964,http://id.nlm.nih.gov/mesh/D008326,M0012964,D008326,Mammillary Bodies,"Bodies, Mammillary; Body, Mammillary; Mammillary Body",1,0,1
+http://id.nlm.nih.gov/mesh/M0012975,http://id.nlm.nih.gov/mesh/D008334,M0012975,D008334,Mandible,Mandibles,1,0,1
+http://id.nlm.nih.gov/mesh/M0012976,http://id.nlm.nih.gov/mesh/D008335,M0012976,D008335,Mandibular Condyle,"Condyle, Mandibular; Condyles, Mandibular; Mandibular Condyles",1,0,1
+http://id.nlm.nih.gov/mesh/M0012981,http://id.nlm.nih.gov/mesh/D008340,M0012981,D008340,Mandibular Nerve,"Mandibular Nerves; Nerve, Mandibular",1,0,1
+http://id.nlm.nih.gov/mesh/M0013015,http://id.nlm.nih.gov/mesh/D008371,M0013015,D008371,Manubrium,,1,0,1
+http://id.nlm.nih.gov/mesh/M0013088,http://id.nlm.nih.gov/mesh/D008406,M0013088,D008406,Masseter Muscle,"Masseter Muscles; Muscle, Masseter; Muscles, Masseter",1,0,1
+http://id.nlm.nih.gov/mesh/M0013089,http://id.nlm.nih.gov/mesh/D008407,M0013089,D008407,Mast Cells,"Cell, Mast; Cells, Mast; Mast Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0013092,http://id.nlm.nih.gov/mesh/D008410,M0013092,D008410,Masticatory Muscles,"Masticatory Muscle; Muscle, Masticatory; Muscles, Masticatory",1,0,1
+http://id.nlm.nih.gov/mesh/M0013099,http://id.nlm.nih.gov/mesh/D008416,M0013099,D008416,Mastoid,Mastoids,1,0,1
+http://id.nlm.nih.gov/mesh/M0013130,http://id.nlm.nih.gov/mesh/D008437,M0013130,D008437,Maxilla,Maxillas,1,0,1
+http://id.nlm.nih.gov/mesh/M0013131,http://id.nlm.nih.gov/mesh/D008438,M0013131,D008438,Maxillary Artery,"Arteries, Maxillary; Artery, Maxillary; Maxillary Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0013135,http://id.nlm.nih.gov/mesh/D008442,M0013135,D008442,Maxillary Nerve,"Maxillary Nerves; Nerve, Maxillary; Nerves, Maxillary",1,0,1
+http://id.nlm.nih.gov/mesh/M0013137,http://id.nlm.nih.gov/mesh/D008443,M0013137,D008443,Maxillary Sinus,"Sinus, Maxillary",1,0,1
+http://id.nlm.nih.gov/mesh/M0013162,http://id.nlm.nih.gov/mesh/D008465,M0013162,D008465,Mechanoreceptors,,1,0,1
+http://id.nlm.nih.gov/mesh/M0013177,http://id.nlm.nih.gov/mesh/D008467,M0013177,D008467,Meckel Diverticulum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0013189,http://id.nlm.nih.gov/mesh/D008473,M0013189,D008473,Median Eminence,"Eminence, Median",1,0,1
+http://id.nlm.nih.gov/mesh/M0013190,http://id.nlm.nih.gov/mesh/D008474,M0013190,D008474,Medial Forebrain Bundle,"Bundle, Medial Forebrain; Bundles, Medial Forebrain; Forebrain Bundle, Medial; Forebrain Bundles, Medial; Medial Forebrain Bundles",1,0,1
+http://id.nlm.nih.gov/mesh/M0013191,http://id.nlm.nih.gov/mesh/D008475,M0013191,D008475,Median Nerve,"Median Nerves; Nerve, Median; Nerves, Median",1,0,1
+http://id.nlm.nih.gov/mesh/M0013280,http://id.nlm.nih.gov/mesh/D008526,M0013280,D008526,Medulla Oblongata,Medulla Oblongatas,1,0,1
+http://id.nlm.nih.gov/mesh/M0013294,http://id.nlm.nih.gov/mesh/D008533,M0013294,D008533,Megakaryocytes,Megakaryocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0013295,http://id.nlm.nih.gov/mesh/D008534,M0013295,D008534,Megaloblasts,Megaloblast,0,0,1
+http://id.nlm.nih.gov/mesh/M0013298,http://id.nlm.nih.gov/mesh/D008537,M0013298,D008537,Meibomian Glands,"Gland, Meibomian; Meibomian Gland",1,0,1
+http://id.nlm.nih.gov/mesh/M0013359,http://id.nlm.nih.gov/mesh/D008576,M0013359,D008576,Meningeal Arteries,"Arteries, Meningeal; Artery, Meningeal; Meningeal Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0013361,http://id.nlm.nih.gov/mesh/D008578,M0013361,D008578,Meninges,,1,0,1
+http://id.nlm.nih.gov/mesh/M0013377,http://id.nlm.nih.gov/mesh/D008592,M0013377,D008592,"Menisci, Tibial",,0,0,1
+http://id.nlm.nih.gov/mesh/M0013459,http://id.nlm.nih.gov/mesh/D065850,M0013459,D065850,Cerebral Peduncle,"Peduncle, Cerebral; Peduncles, Cerebral",1,0,1
+http://id.nlm.nih.gov/mesh/M0013460,http://id.nlm.nih.gov/mesh/D008636,M0013460,D008636,Mesencephalon,Mesencephalons,1,0,1
+http://id.nlm.nih.gov/mesh/M0013462,http://id.nlm.nih.gov/mesh/D008638,M0013462,D008638,Mesenteric Arteries,"Arteries, Mesenteric; Artery, Mesenteric; Mesenteric Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0013466,http://id.nlm.nih.gov/mesh/D008642,M0013466,D008642,Mesenteric Veins,"Mesenteric Vein; Vein, Mesenteric; Veins, Mesenteric",1,0,1
+http://id.nlm.nih.gov/mesh/M0013497,http://id.nlm.nih.gov/mesh/D008662,M0013497,D008662,Metacarpophalangeal Joint,"Joint, Metacarpophalangeal; Joints, Metacarpophalangeal; Metacarpophalangeal Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0013529,http://id.nlm.nih.gov/mesh/D008682,M0013529,D008682,Metatarsal Bones,"Bone, Metatarsal; Bones, Metatarsal; Metatarsal Bone",1,0,1
+http://id.nlm.nih.gov/mesh/M0013530,http://id.nlm.nih.gov/mesh/D008683,M0013530,D008683,Metatarsophalangeal Joint,"Joint, Metatarsophalangeal; Joints, Metatarsophalangeal; Metatarsophalangeal Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0013957,http://id.nlm.nih.gov/mesh/D008943,M0013957,D008943,Mitral Valve,"Mitral Valves; Valve, Mitral; Valves, Mitral",1,0,1
+http://id.nlm.nih.gov/mesh/M0014033,http://id.nlm.nih.gov/mesh/D009000,M0014033,D009000,Monocytes,,1,0,1
+http://id.nlm.nih.gov/mesh/M0014112,http://id.nlm.nih.gov/mesh/D009044,M0014112,D009044,Motor Cortex,"Cortex, Motor",1,0,1
+http://id.nlm.nih.gov/mesh/M0014113,http://id.nlm.nih.gov/mesh/D009045,M0014113,D009045,Motor Endplate,"Endplate, Motor; Endplates, Motor; Motor Endplates",0,0,1
+http://id.nlm.nih.gov/mesh/M0014114,http://id.nlm.nih.gov/mesh/D009046,M0014114,D009046,Motor Neurons,"Motor Neuron; Neuron, Motor",1,0,1
+http://id.nlm.nih.gov/mesh/M0014115,http://id.nlm.nih.gov/mesh/D009047,M0014115,D009047,"Motor Neurons, Gamma","Gamma Motor Neuron; Gamma Motor Neurons; Motor Neuron, Gamma; Neuron, Gamma Motor",1,0,1
+http://id.nlm.nih.gov/mesh/M0014126,http://id.nlm.nih.gov/mesh/D009055,M0014126,D009055,Mouth,,1,0,1
+http://id.nlm.nih.gov/mesh/M0014245,http://id.nlm.nih.gov/mesh/D009130,M0014245,D009130,"Muscle, Smooth","Muscles, Smooth; Smooth Muscles",1,0,1
+http://id.nlm.nih.gov/mesh/M0014246,http://id.nlm.nih.gov/mesh/D009131,M0014246,D009131,"Muscle, Smooth, Vascular",,1,0,1
+http://id.nlm.nih.gov/mesh/M0014247,http://id.nlm.nih.gov/mesh/D009132,M0014247,D009132,Muscles,Muscle,1,0,1
+http://id.nlm.nih.gov/mesh/M0014257,http://id.nlm.nih.gov/mesh/D009138,M0014257,D009138,Musculocutaneous Nerve,"Musculocutaneous Nerves; Nerve, Musculocutaneous; Nerves, Musculocutaneous",1,0,1
+http://id.nlm.nih.gov/mesh/M0014260,http://id.nlm.nih.gov/mesh/D009141,M0014260,D009141,Musculoskeletal System,"Musculoskeletal Systems; System, Musculoskeletal; Systems, Musculoskeletal",1,0,1
+http://id.nlm.nih.gov/mesh/M0014320,http://id.nlm.nih.gov/mesh/D009186,M0014320,D009186,Myelin Sheath,"Myelin Sheaths; Sheath, Myelin; Sheaths, Myelin",0,0,1
+http://id.nlm.nih.gov/mesh/M0014333,http://id.nlm.nih.gov/mesh/D009197,M0014333,D009197,Myenteric Plexus,"Plexus, Myenteric",1,0,1
+http://id.nlm.nih.gov/mesh/M0014344,http://id.nlm.nih.gov/mesh/D009206,M0014344,D009206,Myocardium,,1,0,1
+http://id.nlm.nih.gov/mesh/M0014357,http://id.nlm.nih.gov/mesh/D009215,M0014357,D009215,Myometrium,,1,0,1
+http://id.nlm.nih.gov/mesh/M0014484,http://id.nlm.nih.gov/mesh/D009295,M0014484,D009295,Nasal Bone,"Bone, Nasal; Bones, Nasal",1,0,1
+http://id.nlm.nih.gov/mesh/M0014485,http://id.nlm.nih.gov/mesh/D009296,M0014485,D009296,Nasal Cavity,"Cavities, Nasal; Cavity, Nasal",1,0,1
+http://id.nlm.nih.gov/mesh/M0014486,http://id.nlm.nih.gov/mesh/D009297,M0014486,D009297,Nasal Mucosa,"Mucosa, Nasal",1,0,1
+http://id.nlm.nih.gov/mesh/M0014489,http://id.nlm.nih.gov/mesh/D009300,M0014489,D009300,Nasal Septum,"Nasal Septums; Septum, Nasal; Septums, Nasal",1,0,1
+http://id.nlm.nih.gov/mesh/M0014491,http://id.nlm.nih.gov/mesh/D009301,M0014491,D009301,Nasolacrimal Duct,"Duct, Nasolacrimal; Ducts, Nasolacrimal; Nasolacrimal Ducts",1,0,1
+http://id.nlm.nih.gov/mesh/M0014495,http://id.nlm.nih.gov/mesh/D009305,M0014495,D009305,Nasopharynx,,1,0,1
+http://id.nlm.nih.gov/mesh/M0014542,http://id.nlm.nih.gov/mesh/D009334,M0014542,D009334,Neck Muscles,"Muscle, Neck; Muscles, Neck; Neck Muscle",1,0,1
+http://id.nlm.nih.gov/mesh/M0014633,http://id.nlm.nih.gov/mesh/D009399,M0014633,D009399,Nephrons,Nephron,1,0,1
+http://id.nlm.nih.gov/mesh/M0014645,http://id.nlm.nih.gov/mesh/D009411,M0014645,D009411,Nerve Endings,"Ending, Nerve; Endings, Nerve; Nerve Ending",1,0,1
+http://id.nlm.nih.gov/mesh/M0014647,http://id.nlm.nih.gov/mesh/D009412,M0014647,D009412,Nerve Fibers,Nerve Fiber,1,0,1
+http://id.nlm.nih.gov/mesh/M0014650,http://id.nlm.nih.gov/mesh/D009413,M0014650,D009413,"Nerve Fibers, Myelinated","Fiber, Myelinated Nerve; Fibers, Myelinated Nerve; Myelinated Nerve Fiber; Myelinated Nerve Fibers; Nerve Fiber, Myelinated",1,0,1
+http://id.nlm.nih.gov/mesh/M0014658,http://id.nlm.nih.gov/mesh/D009415,M0014658,D009415,Nerve Net,"Nerve Nets; Net, Nerve; Nets, Nerve",0,0,1
+http://id.nlm.nih.gov/mesh/M0014665,http://id.nlm.nih.gov/mesh/D009420,M0014665,D009420,Nervous System,"Nervous Systems; System, Nervous; Systems, Nervous",1,0,1
+http://id.nlm.nih.gov/mesh/M0014676,http://id.nlm.nih.gov/mesh/D009430,M0014676,D009430,Neural Analyzers,"Analyzer, Neural; Neural Analyzer",0,0,1
+http://id.nlm.nih.gov/mesh/M0014681,http://id.nlm.nih.gov/mesh/D009434,M0014681,D009434,Neural Pathways,"Neural Pathway; Pathway, Neural; Pathways, Neural",1,0,1
+http://id.nlm.nih.gov/mesh/M0014691,http://id.nlm.nih.gov/mesh/D009441,M0014691,D009441,Neurilemma,,1,0,1
+http://id.nlm.nih.gov/mesh/M0014705,http://id.nlm.nih.gov/mesh/D009451,M0014705,D009451,Neuroeffector Junction,"Junction, Neuroeffector; Junctions, Neuroeffector; Neuroeffector Junctions",0,0,1
+http://id.nlm.nih.gov/mesh/M0014708,http://id.nlm.nih.gov/mesh/D009454,M0014708,D009454,Neurofibrils,Neurofibril,0,0,1
+http://id.nlm.nih.gov/mesh/M0014711,http://id.nlm.nih.gov/mesh/D009457,M0014711,D009457,Neuroglia,Neuroglias,1,0,1
+http://id.nlm.nih.gov/mesh/M0014727,http://id.nlm.nih.gov/mesh/D009469,M0014727,D009469,Neuromuscular Junction,"Junction, Neuromuscular; Junctions, Neuromuscular; Neuromuscular Junctions",0,0,1
+http://id.nlm.nih.gov/mesh/M0014729,http://id.nlm.nih.gov/mesh/D009470,M0014729,D009470,Muscle Spindles,"Muscle Spindle; Spindle, Muscle; Spindles, Muscle",1,0,1
+http://id.nlm.nih.gov/mesh/M0014736,http://id.nlm.nih.gov/mesh/D009474,M0014736,D009474,Neurons,Neuron,1,0,1
+http://id.nlm.nih.gov/mesh/M0014737,http://id.nlm.nih.gov/mesh/D009475,M0014737,D009475,"Neurons, Afferent",,1,0,1
+http://id.nlm.nih.gov/mesh/M0014738,http://id.nlm.nih.gov/mesh/D009476,M0014738,D009476,"Neurons, Efferent","Efferent Neuron; Neuron, Efferent",1,0,1
+http://id.nlm.nih.gov/mesh/M0014767,http://id.nlm.nih.gov/mesh/D009490,M0014767,D009490,Neurosecretory Systems,"Neurosecretory System; System, Neurosecretory; Systems, Neurosecretory",1,0,1
+http://id.nlm.nih.gov/mesh/M0014784,http://id.nlm.nih.gov/mesh/D009504,M0014784,D009504,Neutrophils,Neutrophil,1,0,1
+http://id.nlm.nih.gov/mesh/M0014865,http://id.nlm.nih.gov/mesh/D009558,M0014865,D009558,Nipples,Nipple,1,0,1
+http://id.nlm.nih.gov/mesh/M0014870,http://id.nlm.nih.gov/mesh/D009562,M0014870,D009562,Nissl Bodies,"Bodies, Nissl",0,0,1
+http://id.nlm.nih.gov/mesh/M0014937,http://id.nlm.nih.gov/mesh/D009619,M0014937,D009619,Nociceptors,Nociceptor,1,0,1
+http://id.nlm.nih.gov/mesh/M0014938,http://id.nlm.nih.gov/mesh/D009620,M0014938,D009620,Nodose Ganglion,"Ganglion, Nodose",1,0,1
+http://id.nlm.nih.gov/mesh/M0015010,http://id.nlm.nih.gov/mesh/D009666,M0015010,D009666,Nose,Noses,1,0,1
+http://id.nlm.nih.gov/mesh/M0015078,http://id.nlm.nih.gov/mesh/D009714,M0015078,D009714,Nucleus Accumbens,"Accumbens, Nucleus",1,0,1
+http://id.nlm.nih.gov/mesh/M0015178,http://id.nlm.nih.gov/mesh/D009776,M0015178,D009776,Obturator Nerve,"Nerve, Obturator; Nerves, Obturator; Obturator Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0015180,http://id.nlm.nih.gov/mesh/D009777,M0015180,D009777,Occipital Bone,"Bone, Occipital; Bones, Occipital; Occipital Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0015181,http://id.nlm.nih.gov/mesh/D009778,M0015181,D009778,Occipital Lobe,"Lobe, Occipital; Lobes, Occipital; Occipital Lobes",1,0,1
+http://id.nlm.nih.gov/mesh/M0015216,http://id.nlm.nih.gov/mesh/D009801,M0015216,D009801,Oculomotor Muscles,"Muscle, Oculomotor; Muscles, Oculomotor; Oculomotor Muscle",1,0,1
+http://id.nlm.nih.gov/mesh/M0015217,http://id.nlm.nih.gov/mesh/D009802,M0015217,D009802,Oculomotor Nerve,"Nerve, Oculomotor; Nerves, Oculomotor; Oculomotor Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0015218,http://id.nlm.nih.gov/mesh/D009803,M0015218,D009803,Sphincter of Oddi,Oddi Sphincter,1,0,1
+http://id.nlm.nih.gov/mesh/M0015225,http://id.nlm.nih.gov/mesh/D009809,M0015225,D009809,Odontoid Process,"Odontoid Processes; Process, Odontoid; Processes, Odontoid",1,0,1
+http://id.nlm.nih.gov/mesh/M0015251,http://id.nlm.nih.gov/mesh/D009830,M0015251,D009830,Olfactory Bulb,"Bulb, Olfactory; Bulbs, Olfactory; Olfactory Bulbs",1,0,1
+http://id.nlm.nih.gov/mesh/M0015253,http://id.nlm.nih.gov/mesh/D009831,M0015253,D009831,Olfactory Mucosa,"Mucosa, Olfactory",1,0,1
+http://id.nlm.nih.gov/mesh/M0015254,http://id.nlm.nih.gov/mesh/D009832,M0015254,D009832,Olfactory Nerve,"Nerve, Olfactory; Nerves, Olfactory; Olfactory Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0015255,http://id.nlm.nih.gov/mesh/D009833,M0015255,D009833,Olfactory Pathways,"Olfactory Pathway; Pathway, Olfactory; Pathways, Olfactory",1,0,1
+http://id.nlm.nih.gov/mesh/M0015257,http://id.nlm.nih.gov/mesh/D066194,M0015257,D066194,Olfactory Cortex,"Cortex, Olfactory",1,0,1
+http://id.nlm.nih.gov/mesh/M0015259,http://id.nlm.nih.gov/mesh/D066208,M0015259,D066208,Olfactory Tubercle,"Olfactory Tubercles; Tubercle, Olfactory; Tubercles, Olfactory",1,0,1
+http://id.nlm.nih.gov/mesh/M0015269,http://id.nlm.nih.gov/mesh/D009836,M0015269,D009836,Oligodendroglia,,1,0,1
+http://id.nlm.nih.gov/mesh/M0015271,http://id.nlm.nih.gov/mesh/D027161,M0015271,D027161,"Satellite Cells, Perineuronal","Cell, Perineuronal Satellite; Cells, Perineuronal Satellite; Perineuronal Satellite Cell; Satellite Cell, Perineuronal",1,0,1
+http://id.nlm.nih.gov/mesh/M0015285,http://id.nlm.nih.gov/mesh/D009847,M0015285,D009847,Olivary Nucleus,"Nucleus, Olivary",1,0,1
+http://id.nlm.nih.gov/mesh/M0015307,http://id.nlm.nih.gov/mesh/D009865,M0015307,D009865,Oocytes,Oocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0015309,http://id.nlm.nih.gov/mesh/D009867,M0015309,D009867,Oogonia,,1,0,1
+http://id.nlm.nih.gov/mesh/M0015324,http://id.nlm.nih.gov/mesh/D009880,M0015324,D009880,Ophthalmic Artery,"Arteries, Ophthalmic; Artery, Ophthalmic; Ophthalmic Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0015326,http://id.nlm.nih.gov/mesh/D009882,M0015326,D009882,Ophthalmic Nerve,"Nerve, Ophthalmic; Nerves, Ophthalmic; Ophthalmic Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0015353,http://id.nlm.nih.gov/mesh/D009897,M0015353,D009897,Optic Chiasm,"Chiasm, Optic; Chiasms, Optic; Optic Chiasms",1,0,1
+http://id.nlm.nih.gov/mesh/M0015354,http://id.nlm.nih.gov/mesh/D009898,M0015354,D009898,Optic Disk,"Disk, Optic; Optic Disks",1,0,1
+http://id.nlm.nih.gov/mesh/M0015357,http://id.nlm.nih.gov/mesh/D009900,M0015357,D009900,Optic Nerve,"Nerve, Optic; Nerves, Optic; Optic Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0015376,http://id.nlm.nih.gov/mesh/D009915,M0015376,D009915,Orbit,Orbits,1,0,1
+http://id.nlm.nih.gov/mesh/M0015442,http://id.nlm.nih.gov/mesh/D009960,M0015442,D009960,Oropharynx,Oropharynxs,1,0,1
+http://id.nlm.nih.gov/mesh/M0015596,http://id.nlm.nih.gov/mesh/D010053,M0015596,D010053,Ovary,,1,0,1
+http://id.nlm.nih.gov/mesh/M0015608,http://id.nlm.nih.gov/mesh/D010063,M0015608,D010063,Ovum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0015737,http://id.nlm.nih.gov/mesh/D010141,M0015737,D010141,Pacinian Corpuscles,,1,0,1
+http://id.nlm.nih.gov/mesh/M0015760,http://id.nlm.nih.gov/mesh/D010156,M0015760,D010156,Palatal Muscles,"Muscle, Palatal; Muscles, Palatal; Palatal Muscle",1,0,1
+http://id.nlm.nih.gov/mesh/M0015790,http://id.nlm.nih.gov/mesh/D010179,M0015790,D010179,Pancreas,,1,0,1
+http://id.nlm.nih.gov/mesh/M0015796,http://id.nlm.nih.gov/mesh/D010183,M0015796,D010183,Pancreatic Ducts,"Duct, Pancreatic; Ducts, Pancreatic; Pancreatic Duct",1,0,1
+http://id.nlm.nih.gov/mesh/M0015833,http://id.nlm.nih.gov/mesh/D010210,M0015833,D010210,Papillary Muscles,"Muscle, Papillary; Muscles, Papillary; Papillary Muscle",1,0,1
+http://id.nlm.nih.gov/mesh/M0015867,http://id.nlm.nih.gov/mesh/D010234,M0015867,D010234,"Paraganglia, Nonchromaffin",Nonchromaffin Paraganglia,1,0,1
+http://id.nlm.nih.gov/mesh/M0015868,http://id.nlm.nih.gov/mesh/D043485,M0015868,D043485,Glomus Tympanicum,"Tympanicum, Glomus",1,0,1
+http://id.nlm.nih.gov/mesh/M0015894,http://id.nlm.nih.gov/mesh/D010256,M0015894,D010256,Paranasal Sinuses,,1,0,1
+http://id.nlm.nih.gov/mesh/M0015922,http://id.nlm.nih.gov/mesh/D010275,M0015922,D010275,Parasympathetic Nervous System,"Nervous System, Parasympathetic; Nervous Systems, Parasympathetic; Parasympathetic Nervous Systems; System, Parasympathetic Nervous; Systems, Parasympathetic Nervous",1,0,1
+http://id.nlm.nih.gov/mesh/M0015936,http://id.nlm.nih.gov/mesh/D010286,M0015936,D010286,Paraventricular Hypothalamic Nucleus,"Hypothalamic Nucleus, Paraventricular; Nucleus, Paraventricular Hypothalamic",1,0,1
+http://id.nlm.nih.gov/mesh/M0015953,http://id.nlm.nih.gov/mesh/D010294,M0015953,D010294,Parietal Bone,"Bone, Parietal; Bones, Parietal; Parietal Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0015954,http://id.nlm.nih.gov/mesh/D010295,M0015954,D010295,"Parietal Cells, Gastric","Cell, Gastric Parietal; Cells, Gastric Parietal; Gastric Parietal Cell; Parietal Cell, Gastric",1,0,1
+http://id.nlm.nih.gov/mesh/M0015955,http://id.nlm.nih.gov/mesh/D010296,M0015955,D010296,Parietal Lobe,"Lobe, Parietal; Parietal Lobes",1,0,1
+http://id.nlm.nih.gov/mesh/M0015974,http://id.nlm.nih.gov/mesh/D010306,M0015974,D010306,Parotid Gland,"Gland, Parotid; Glands, Parotid; Parotid Glands",1,0,1
+http://id.nlm.nih.gov/mesh/M0016005,http://id.nlm.nih.gov/mesh/D010329,M0016005,D010329,Patella,Patellas,1,0,1
+http://id.nlm.nih.gov/mesh/M0016081,http://id.nlm.nih.gov/mesh/D010369,M0016081,D010369,Pectoralis Muscles,"Muscle, Pectoralis; Pectoralis Muscle",1,0,1
+http://id.nlm.nih.gov/mesh/M0016100,http://id.nlm.nih.gov/mesh/D010384,M0016100,D010384,Pelvic Bones,"Bone, Pelvic; Bones, Pelvic; Pelvic Bone",1,0,1
+http://id.nlm.nih.gov/mesh/M0016161,http://id.nlm.nih.gov/mesh/D010413,M0016161,D010413,Penis,,1,0,1
+http://id.nlm.nih.gov/mesh/M0016292,http://id.nlm.nih.gov/mesh/D010487,M0016292,D010487,Periaqueductal Gray,,1,0,1
+http://id.nlm.nih.gov/mesh/M0016307,http://id.nlm.nih.gov/mesh/D010496,M0016307,D010496,Pericardium,,1,0,1
+http://id.nlm.nih.gov/mesh/M0016349,http://id.nlm.nih.gov/mesh/D010525,M0016349,D010525,Peripheral Nerves,"Nerve, Peripheral; Nerves, Peripheral; Peripheral Nerve",1,0,1
+http://id.nlm.nih.gov/mesh/M0016374,http://id.nlm.nih.gov/mesh/D010543,M0016374,D010543,Peroneal Nerve,"Nerve, Peroneal; Nerves, Peroneal; Peroneal Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0016439,http://id.nlm.nih.gov/mesh/D010579,M0016439,D010579,Petrous Bone,"Bone, Petrous; Petrous Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0016442,http://id.nlm.nih.gov/mesh/D010581,M0016442,D010581,Peyer's Patches,"Patches, Peyer's; Peyer Patches; Peyers Patches",1,0,1
+http://id.nlm.nih.gov/mesh/M0016451,http://id.nlm.nih.gov/mesh/D010586,M0016451,D010586,Phagocytes,,1,0,1
+http://id.nlm.nih.gov/mesh/M0016480,http://id.nlm.nih.gov/mesh/D010609,M0016480,D010609,Pharyngeal Muscles,"Muscle, Pharyngeal; Muscles, Pharyngeal; Pharyngeal Muscle",1,0,1
+http://id.nlm.nih.gov/mesh/M0016486,http://id.nlm.nih.gov/mesh/D010614,M0016486,D010614,Pharynx,Pharynxs,1,0,1
+http://id.nlm.nih.gov/mesh/M0016754,http://id.nlm.nih.gov/mesh/D010786,M0016754,D010786,Photoreceptor Cells,"Cell, Photoreceptor; Cells, Photoreceptor; Photoreceptor Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0016764,http://id.nlm.nih.gov/mesh/D010791,M0016764,D010791,Phrenic Nerve,"Nerve, Phrenic; Nerves, Phrenic; Phrenic Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0016831,http://id.nlm.nih.gov/mesh/D010841,M0016831,D010841,Pia Mater,"Mater, Pia; Maters, Pia; Pia Maters",1,0,1
+http://id.nlm.nih.gov/mesh/M0016848,http://id.nlm.nih.gov/mesh/D010857,M0016848,D010857,Pigment Epithelium of Eye,Eye Pigment Epithelium,1,0,1
+http://id.nlm.nih.gov/mesh/M0016849,http://id.nlm.nih.gov/mesh/D055213,M0016849,D055213,Retinal Pigment Epithelium,"Pigment Epithelium, Retinal",1,0,1
+http://id.nlm.nih.gov/mesh/M0016874,http://id.nlm.nih.gov/mesh/D010870,M0016874,D010870,Pineal Gland,"Gland, Pineal; Pineal Glands",1,0,1
+http://id.nlm.nih.gov/mesh/M0016910,http://id.nlm.nih.gov/mesh/D010902,M0016910,D010902,Pituitary Gland,"Gland, Pituitary; Glands, Pituitary; Pituitary Glands",1,0,1
+http://id.nlm.nih.gov/mesh/M0016911,http://id.nlm.nih.gov/mesh/D010903,M0016911,D010903,"Pituitary Gland, Anterior","Anterior Pituitary Glands; Pituitary Glands, Anterior",1,0,1
+http://id.nlm.nih.gov/mesh/M0016912,http://id.nlm.nih.gov/mesh/D010904,M0016912,D010904,"Pituitary Gland, Posterior","Gland, Posterior Pituitary; Posterior Pituitary Gland; Posterior Pituitary Glands",1,0,1
+http://id.nlm.nih.gov/mesh/M0016933,http://id.nlm.nih.gov/mesh/D010920,M0016933,D010920,Placenta,Placentas,1,0,1
+http://id.nlm.nih.gov/mesh/M0016977,http://id.nlm.nih.gov/mesh/D010949,M0016977,D010949,Plasma,Plasmas,1,0,1
+http://id.nlm.nih.gov/mesh/M0016978,http://id.nlm.nih.gov/mesh/D010950,M0016978,D010950,Plasma Cells,"Cell, Plasma; Cells, Plasma; Plasma Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0017040,http://id.nlm.nih.gov/mesh/D010994,M0017040,D010994,Pleura,,1,0,1
+http://id.nlm.nih.gov/mesh/M0017282,http://id.nlm.nih.gov/mesh/D011149,M0017282,D011149,Pons,,1,0,1
+http://id.nlm.nih.gov/mesh/M0017284,http://id.nlm.nih.gov/mesh/D011150,M0017284,D011150,Popliteal Artery,"Artery, Popliteal; Popliteal Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0017286,http://id.nlm.nih.gov/mesh/D011152,M0017286,D011152,Popliteal Vein,"Popliteal Veins; Vein, Popliteal; Veins, Popliteal",1,0,1
+http://id.nlm.nih.gov/mesh/M0017338,http://id.nlm.nih.gov/mesh/D011168,M0017338,D011168,Portal System,"Portal Systems; System, Portal; Systems, Portal",1,0,1
+http://id.nlm.nih.gov/mesh/M0017339,http://id.nlm.nih.gov/mesh/D011169,M0017339,D011169,Portal Vein,"Portal Veins; Vein, Portal; Veins, Portal",1,0,1
+http://id.nlm.nih.gov/mesh/M0017550,http://id.nlm.nih.gov/mesh/D011301,M0017550,D011301,Preoptic Area,"Area, Preoptic; Areas, Preoptic; Preoptic Areas",1,0,1
+http://id.nlm.nih.gov/mesh/M0017563,http://id.nlm.nih.gov/mesh/D011311,M0017563,D011311,Pressoreceptors,Pressoreceptor,1,0,1
+http://id.nlm.nih.gov/mesh/M0017823,http://id.nlm.nih.gov/mesh/D011467,M0017823,D011467,Prostate,Prostates,1,0,1
+http://id.nlm.nih.gov/mesh/M0018080,http://id.nlm.nih.gov/mesh/D011626,M0018080,D011626,Pterygoid Muscles,"Muscle, Pterygoid; Muscles, Pterygoid; Pterygoid Muscle",1,0,1
+http://id.nlm.nih.gov/mesh/M0018084,http://id.nlm.nih.gov/mesh/D011630,M0018084,D011630,Pubic Bone,"Bone, Pubic; Bones, Pubic; Pubic Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0018085,http://id.nlm.nih.gov/mesh/D011631,M0018085,D011631,Pubic Symphysis,"Pubic Symphyses; Symphyses, Pubic; Symphysis, Pubic",1,0,1
+http://id.nlm.nih.gov/mesh/M0018121,http://id.nlm.nih.gov/mesh/D011650,M0018121,D011650,Pulmonary Alveoli,,1,0,1
+http://id.nlm.nih.gov/mesh/M0018122,http://id.nlm.nih.gov/mesh/D011651,M0018122,D011651,Pulmonary Artery,,1,0,1
+http://id.nlm.nih.gov/mesh/M0018138,http://id.nlm.nih.gov/mesh/D011661,M0018138,D011661,Pulmonary Stretch Receptors,,1,0,1
+http://id.nlm.nih.gov/mesh/M0018141,http://id.nlm.nih.gov/mesh/D011664,M0018141,D011664,Pulmonary Valve,,1,0,1
+http://id.nlm.nih.gov/mesh/M0018144,http://id.nlm.nih.gov/mesh/D011667,M0018144,D011667,Pulmonary Veins,,1,0,1
+http://id.nlm.nih.gov/mesh/M0018161,http://id.nlm.nih.gov/mesh/D011680,M0018161,D011680,Pupil,Pupils,1,0,1
+http://id.nlm.nih.gov/mesh/M0018171,http://id.nlm.nih.gov/mesh/D011689,M0018171,D011689,Purkinje Cells,"Cells, Purkinje",1,0,1
+http://id.nlm.nih.gov/mesh/M0018172,http://id.nlm.nih.gov/mesh/D011690,M0018172,D011690,Purkinje Fibers,,1,0,1
+http://id.nlm.nih.gov/mesh/M0018190,http://id.nlm.nih.gov/mesh/D011699,M0018190,D011699,Putamen,Putamens,1,0,1
+http://id.nlm.nih.gov/mesh/M0018198,http://id.nlm.nih.gov/mesh/D011706,M0018198,D011706,Pyloric Antrum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0018200,http://id.nlm.nih.gov/mesh/D011708,M0018200,D011708,Pylorus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0018216,http://id.nlm.nih.gov/mesh/D011712,M0018216,D011712,Pyramidal Tracts,"Pyramidal Tract; Tract, Pyramidal; Tracts, Pyramidal",1,0,1
+http://id.nlm.nih.gov/mesh/M0018374,http://id.nlm.nih.gov/mesh/D011826,M0018374,D011826,Radial Nerve,"Nerve, Radial; Nerves, Radial; Radial Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0018450,http://id.nlm.nih.gov/mesh/D011884,M0018450,D011884,Radius,,1,0,1
+http://id.nlm.nih.gov/mesh/M0018474,http://id.nlm.nih.gov/mesh/D011901,M0018474,D011901,Ranvier's Nodes,"Nodes, Ranvier's; Ranviers Nodes",0,0,1
+http://id.nlm.nih.gov/mesh/M0018476,http://id.nlm.nih.gov/mesh/D011903,M0018476,D011903,Raphe Nuclei,"Nuclei, Raphe; Nucleus, Raphe; Raphe Nucleus",1,0,1
+http://id.nlm.nih.gov/mesh/M0018618,http://id.nlm.nih.gov/mesh/D011984,M0018618,D011984,Sensory Receptor Cells,"Receptor Cell, Sensory; Receptor Cells, Sensory; Sensory Receptor Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0018661,http://id.nlm.nih.gov/mesh/D012007,M0018661,D012007,Rectum,Rectums,1,0,1
+http://id.nlm.nih.gov/mesh/M0018665,http://id.nlm.nih.gov/mesh/D012009,M0018665,D012009,Recurrent Laryngeal Nerve,"Laryngeal Nerve, Recurrent; Laryngeal Nerves, Recurrent; Nerve, Recurrent Laryngeal; Nerves, Recurrent Laryngeal; Recurrent Laryngeal Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0018669,http://id.nlm.nih.gov/mesh/D012012,M0018669,D012012,Red Nucleus,"Nucleus, Red",1,0,1
+http://id.nlm.nih.gov/mesh/M0018769,http://id.nlm.nih.gov/mesh/D012077,M0018769,D012077,Renal Artery,"Arteries, Renal; Artery, Renal; Renal Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0018775,http://id.nlm.nih.gov/mesh/D012082,M0018775,D012082,Renal Veins,"Renal Vein; Vein, Renal; Veins, Renal",1,0,1
+http://id.nlm.nih.gov/mesh/M0018888,http://id.nlm.nih.gov/mesh/D012125,M0018888,D012125,Respiratory Center,"Center, Respiratory; Centers, Respiratory; Respiratory Centers",1,0,1
+http://id.nlm.nih.gov/mesh/M0018898,http://id.nlm.nih.gov/mesh/D012132,M0018898,D012132,Respiratory Muscles,"Muscle, Respiratory; Muscles, Respiratory",1,0,1
+http://id.nlm.nih.gov/mesh/M0018913,http://id.nlm.nih.gov/mesh/D012137,M0018913,D012137,Respiratory System,"Respiratory Systems; System, Respiratory",1,0,1
+http://id.nlm.nih.gov/mesh/M0018930,http://id.nlm.nih.gov/mesh/D012152,M0018930,D012152,Rete Testis,"Testis, Rete",1,0,1
+http://id.nlm.nih.gov/mesh/M0018932,http://id.nlm.nih.gov/mesh/D012154,M0018932,D012154,Reticular Formation,"Formation, Reticular; Formations, Reticular; Reticular Formations",1,0,1
+http://id.nlm.nih.gov/mesh/M0018934,http://id.nlm.nih.gov/mesh/D012156,M0018934,D012156,Reticulocytes,Reticulocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0018935,http://id.nlm.nih.gov/mesh/D012157,M0018935,D012157,Mononuclear Phagocyte System,"Phagocyte System, Mononuclear; System, Mononuclear Phagocyte",0,0,1
+http://id.nlm.nih.gov/mesh/M0018939,http://id.nlm.nih.gov/mesh/D012160,M0018939,D012160,Retina,,1,0,1
+http://id.nlm.nih.gov/mesh/M0018941,http://id.nlm.nih.gov/mesh/D012161,M0018941,D012161,Retinal Artery,"Arteries, Retinal; Artery, Retinal; Retinal Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0018946,http://id.nlm.nih.gov/mesh/D012165,M0018946,D012165,Retinal Ganglion Cells,"Cell, Retinal Ganglion; Cells, Retinal Ganglion; Ganglion Cell, Retinal; Ganglion Cells, Retinal; Retinal Ganglion Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0018951,http://id.nlm.nih.gov/mesh/D012169,M0018951,D012169,Retinal Vein,"Retinal Veins; Vein, Retinal; Veins, Retinal",1,0,1
+http://id.nlm.nih.gov/mesh/M0018956,http://id.nlm.nih.gov/mesh/D012171,M0018956,D012171,Retinal Vessels,"Retinal Vessel; Vessel, Retinal",1,0,1
+http://id.nlm.nih.gov/mesh/M0019053,http://id.nlm.nih.gov/mesh/D012249,M0019053,D012249,Rhombencephalon,Rhombencephalons,1,0,1
+http://id.nlm.nih.gov/mesh/M0019083,http://id.nlm.nih.gov/mesh/D012272,M0019083,D012272,Ribs,Rib,1,0,1
+http://id.nlm.nih.gov/mesh/M0019236,http://id.nlm.nih.gov/mesh/D012374,M0019236,D012374,Rod Cell Outer Segment,,0,0,1
+http://id.nlm.nih.gov/mesh/M0019283,http://id.nlm.nih.gov/mesh/D000069590,M0019283,D000069590,Round Ligaments,"Ligament, Round; Ligaments, Round",0,0,1
+http://id.nlm.nih.gov/mesh/M0019339,http://id.nlm.nih.gov/mesh/D012446,M0019339,D012446,Sacroiliac Joint,"Joint, Sacroiliac; Joints, Sacroiliac; Sacroiliac Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0019340,http://id.nlm.nih.gov/mesh/D012447,M0019340,D012447,Sacrum,Sacrums,1,0,1
+http://id.nlm.nih.gov/mesh/M0019378,http://id.nlm.nih.gov/mesh/D012469,M0019378,D012469,Salivary Glands,"Gland, Salivary; Glands, Salivary; Salivary Gland",1,0,1
+http://id.nlm.nih.gov/mesh/M0019379,http://id.nlm.nih.gov/mesh/D012470,M0019379,D012470,"Salivary Glands, Minor","Gland, Minor Salivary; Glands, Minor Salivary; Minor Salivary Gland; Minor Salivary Glands; Salivary Gland, Minor",1,0,1
+http://id.nlm.nih.gov/mesh/M0019418,http://id.nlm.nih.gov/mesh/D012501,M0019418,D012501,Saphenous Vein,"Saphenous Veins; Vein, Saphenous; Veins, Saphenous",1,0,1
+http://id.nlm.nih.gov/mesh/M0019469,http://id.nlm.nih.gov/mesh/D012540,M0019469,D012540,Scapula,,1,0,1
+http://id.nlm.nih.gov/mesh/M0019523,http://id.nlm.nih.gov/mesh/D012583,M0019523,D012583,Schwann Cells,,1,0,1
+http://id.nlm.nih.gov/mesh/M0019524,http://id.nlm.nih.gov/mesh/D012584,M0019524,D012584,Sciatic Nerve,"Nerve, Sciatic; Nerves, Sciatic; Sciatic Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0019537,http://id.nlm.nih.gov/mesh/D012590,M0019537,D012590,Sclera,Scleras,1,0,1
+http://id.nlm.nih.gov/mesh/M0019566,http://id.nlm.nih.gov/mesh/D012611,M0019566,D012611,Scrotum,Scrotums,1,0,1
+http://id.nlm.nih.gov/mesh/M0019583,http://id.nlm.nih.gov/mesh/D012627,M0019583,D012627,Sebaceous Glands,"Gland, Sebaceous; Glands, Sebaceous; Sebaceous Gland",1,0,1
+http://id.nlm.nih.gov/mesh/M0019625,http://id.nlm.nih.gov/mesh/D012658,M0019625,D012658,Sella Turcica,"Sella Turcicas; Turcica, Sella; Turcicas, Sella",1,0,1
+http://id.nlm.nih.gov/mesh/M0019637,http://id.nlm.nih.gov/mesh/D012667,M0019637,D012667,Lunate Bone,"Bone, Lunate; Bones, Lunate; Lunate Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0019638,http://id.nlm.nih.gov/mesh/D012668,M0019638,D012668,Trigeminal Ganglion,"Ganglion, Trigeminal; Trigeminal Ganglions",1,0,1
+http://id.nlm.nih.gov/mesh/M0019639,http://id.nlm.nih.gov/mesh/D012669,M0019639,D012669,Seminal Vesicles,"Seminal Vesicle; Vesicle, Seminal; Vesicles, Seminal",1,0,1
+http://id.nlm.nih.gov/mesh/M0019640,http://id.nlm.nih.gov/mesh/D012670,M0019640,D012670,Seminiferous Epithelium,"Epithelium, Seminiferous; Epitheliums, Seminiferous; Seminiferous Epitheliums",1,0,1
+http://id.nlm.nih.gov/mesh/M0019641,http://id.nlm.nih.gov/mesh/D012671,M0019641,D012671,Seminiferous Tubules,"Seminiferous Tubule; Tubule, Seminiferous; Tubules, Seminiferous",1,0,1
+http://id.nlm.nih.gov/mesh/M0019665,http://id.nlm.nih.gov/mesh/D012686,M0019665,D012686,Septal Nuclei,"Nuclei, Septal",1,0,1
+http://id.nlm.nih.gov/mesh/M0019667,http://id.nlm.nih.gov/mesh/D012688,M0019667,D012688,Septum Pellucidum,"Pellucidum, Septum",1,0,1
+http://id.nlm.nih.gov/mesh/M0019691,http://id.nlm.nih.gov/mesh/D012708,M0019691,D012708,Sertoli Cells,"Cells, Sertoli",1,0,1
+http://id.nlm.nih.gov/mesh/M0019702,http://id.nlm.nih.gov/mesh/D012716,M0019702,D012716,Sesamoid Bones,"Bone, Sesamoid; Bones, Sesamoid; Sesamoid Bone",1,0,1
+http://id.nlm.nih.gov/mesh/M0019803,http://id.nlm.nih.gov/mesh/D012785,M0019803,D012785,Shoulder Joint,"Joint, Shoulder; Joints, Shoulder; Shoulder Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0019835,http://id.nlm.nih.gov/mesh/D012809,M0019835,D012809,"Colon, Sigmoid",,1,0,1
+http://id.nlm.nih.gov/mesh/M0019898,http://id.nlm.nih.gov/mesh/D012849,M0019898,D012849,Sinoatrial Node,"Node, Sinoatrial; Nodes, Sinoatrial; Sinoatrial Nodes",1,0,1
+http://id.nlm.nih.gov/mesh/M0019899,http://id.nlm.nih.gov/mesh/D012850,M0019899,D012850,Sinus of Valsalva,Valsalva Sinus,1,0,1
+http://id.nlm.nih.gov/mesh/M0019920,http://id.nlm.nih.gov/mesh/D012863,M0019920,D012863,Skeleton,Skeletons,1,0,1
+http://id.nlm.nih.gov/mesh/M0019925,http://id.nlm.nih.gov/mesh/D012867,M0019925,D012867,Skin,,1,0,1
+http://id.nlm.nih.gov/mesh/M0019947,http://id.nlm.nih.gov/mesh/D012886,M0019947,D012886,Skull,Skulls,1,0,1
+http://id.nlm.nih.gov/mesh/M0020151,http://id.nlm.nih.gov/mesh/D013003,M0020151,D013003,Somatosensory Cortex,"Cortex, Somatosensory",1,0,1
+http://id.nlm.nih.gov/mesh/M0020265,http://id.nlm.nih.gov/mesh/D013077,M0020265,D013077,Sperm Head,"Head, Sperm; Heads, Sperm; Sperm Heads",0,0,1
+http://id.nlm.nih.gov/mesh/M0020269,http://id.nlm.nih.gov/mesh/D013082,M0020269,D013082,Sperm Tail,"Sperm Tails; Tail, Sperm; Tails, Sperm",0,0,1
+http://id.nlm.nih.gov/mesh/M0020274,http://id.nlm.nih.gov/mesh/D013085,M0020274,D013085,Spermatic Cord,"Cord, Spermatic; Cords, Spermatic; Spermatic Cords",1,0,1
+http://id.nlm.nih.gov/mesh/M0020276,http://id.nlm.nih.gov/mesh/D013087,M0020276,D013087,Spermatids,Spermatid,1,0,1
+http://id.nlm.nih.gov/mesh/M0020280,http://id.nlm.nih.gov/mesh/D013090,M0020280,D013090,Spermatocytes,Spermatocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0020285,http://id.nlm.nih.gov/mesh/D013093,M0020285,D013093,Spermatogonia,Spermatogonias,1,0,1
+http://id.nlm.nih.gov/mesh/M0020286,http://id.nlm.nih.gov/mesh/D013094,M0020286,D013094,Spermatozoa,,1,0,1
+http://id.nlm.nih.gov/mesh/M0020291,http://id.nlm.nih.gov/mesh/D013100,M0020291,D013100,Sphenoid Bone,"Bone, Sphenoid; Sphenoid Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0020292,http://id.nlm.nih.gov/mesh/D013101,M0020292,D013101,Sphenoid Sinus,"Sinus, Sphenoid",1,0,1
+http://id.nlm.nih.gov/mesh/M0020293,http://id.nlm.nih.gov/mesh/D013102,M0020293,D013102,Spherocytes,Spherocyte,0,0,1
+http://id.nlm.nih.gov/mesh/M0020308,http://id.nlm.nih.gov/mesh/D013115,M0020308,D013115,Spinal Canal,"Canal, Spinal; Spinal Canals",1,0,1
+http://id.nlm.nih.gov/mesh/M0020309,http://id.nlm.nih.gov/mesh/D013116,M0020309,D013116,Spinal Cord,"Cord, Spinal; Cords, Spinal; Spinal Cords",1,0,1
+http://id.nlm.nih.gov/mesh/M0020321,http://id.nlm.nih.gov/mesh/D013126,M0020321,D013126,Spinal Nerve Roots,"Nerve Root, Spinal; Nerve Roots, Spinal; Root, Spinal Nerve; Roots, Spinal Nerve; Spinal Nerve Root",1,0,1
+http://id.nlm.nih.gov/mesh/M0020324,http://id.nlm.nih.gov/mesh/D013127,M0020324,D013127,Spinal Nerves,"Nerve, Spinal; Nerves, Spinal; Spinal Nerve",1,0,1
+http://id.nlm.nih.gov/mesh/M0020332,http://id.nlm.nih.gov/mesh/D013131,M0020332,D013131,Spine,,1,0,1
+http://id.nlm.nih.gov/mesh/M0020338,http://id.nlm.nih.gov/mesh/D013133,M0020338,D013133,Spinothalamic Tracts,"Spinothalamic Tract; Tract, Spinothalamic; Tracts, Spinothalamic",1,0,1
+http://id.nlm.nih.gov/mesh/M0020341,http://id.nlm.nih.gov/mesh/D013136,M0020341,D013136,Spiral Ganglion,"Ganglion, Spiral",1,0,1
+http://id.nlm.nih.gov/mesh/M0020363,http://id.nlm.nih.gov/mesh/D013153,M0020363,D013153,Splanchnic Nerves,"Nerve, Splanchnic; Nerves, Splanchnic; Splanchnic Nerve",1,0,1
+http://id.nlm.nih.gov/mesh/M0020364,http://id.nlm.nih.gov/mesh/D013154,M0020364,D013154,Spleen,,1,0,1
+http://id.nlm.nih.gov/mesh/M0020367,http://id.nlm.nih.gov/mesh/D013157,M0020367,D013157,Splenic Artery,"Arteries, Splenic; Artery, Splenic; Splenic Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0020372,http://id.nlm.nih.gov/mesh/D013162,M0020372,D013162,Splenic Vein,"Splenic Veins; Vein, Splenic; Veins, Splenic",1,0,1
+http://id.nlm.nih.gov/mesh/M0020417,http://id.nlm.nih.gov/mesh/D013198,M0020417,D013198,Stapedius,,1,0,1
+http://id.nlm.nih.gov/mesh/M0020471,http://id.nlm.nih.gov/mesh/D013233,M0020471,D013233,Stellate Ganglion,"Ganglion, Stellate",1,0,1
+http://id.nlm.nih.gov/mesh/M0020516,http://id.nlm.nih.gov/mesh/D013247,M0020516,D013247,Sternoclavicular Joint,"Joint, Sternoclavicular; Joints, Sternoclavicular; Sternoclavicular Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0020517,http://id.nlm.nih.gov/mesh/D013248,M0020517,D013248,Sternocostal Joints,"Joint, Sternocostal; Joints, Sternocostal; Sternocostal Joint",1,0,1
+http://id.nlm.nih.gov/mesh/M0020518,http://id.nlm.nih.gov/mesh/D013249,M0020518,D013249,Sternum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0020540,http://id.nlm.nih.gov/mesh/D013270,M0020540,D013270,Stomach,Stomachs,1,0,1
+http://id.nlm.nih.gov/mesh/M0020647,http://id.nlm.nih.gov/mesh/D013346,M0020647,D013346,Subarachnoid Space,"Space, Subarachnoid; Spaces, Subarachnoid; Subarachnoid Spaces",1,0,1
+http://id.nlm.nih.gov/mesh/M0020649,http://id.nlm.nih.gov/mesh/D013348,M0020649,D013348,Subclavian Artery,"Arteries, Subclavian; Artery, Subclavian; Subclavian Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0020651,http://id.nlm.nih.gov/mesh/D013350,M0020651,D013350,Subclavian Vein,"Subclavian Veins; Vein, Subclavian; Veins, Subclavian",1,0,1
+http://id.nlm.nih.gov/mesh/M0020652,http://id.nlm.nih.gov/mesh/D013351,M0020652,D013351,Subcommissural Organ,"Organ, Subcommissural; Organs, Subcommissural; Subcommissural Organs",1,0,1
+http://id.nlm.nih.gov/mesh/M0020656,http://id.nlm.nih.gov/mesh/D013355,M0020656,D013355,Subdural Space,"Space, Subdural; Subdural Spaces",1,0,1
+http://id.nlm.nih.gov/mesh/M0020657,http://id.nlm.nih.gov/mesh/D013356,M0020657,D013356,Subfornical Organ,"Organ, Subfornical; Organs, Subfornical; Subfornical Organs",1,0,1
+http://id.nlm.nih.gov/mesh/M0020664,http://id.nlm.nih.gov/mesh/D013361,M0020664,D013361,Sublingual Gland,"Gland, Sublingual; Glands, Sublingual; Sublingual Glands",1,0,1
+http://id.nlm.nih.gov/mesh/M0020666,http://id.nlm.nih.gov/mesh/D013363,M0020666,D013363,Submandibular Gland,"Gland, Submandibular; Glands, Submandibular; Submandibular Glands",1,0,1
+http://id.nlm.nih.gov/mesh/M0020671,http://id.nlm.nih.gov/mesh/D013368,M0020671,D013368,Submucous Plexus,"Plexus, Submucous",1,0,1
+http://id.nlm.nih.gov/mesh/M0020679,http://id.nlm.nih.gov/mesh/D013376,M0020679,D013376,Substantia Gelatinosa,"Gelatinosa, Substantia; Gelatinosas, Substantia; Substantia Gelatinosas",1,0,1
+http://id.nlm.nih.gov/mesh/M0020681,http://id.nlm.nih.gov/mesh/D013377,M0020681,D013377,Substantia Innominata,"Innominata, Substantia",1,0,1
+http://id.nlm.nih.gov/mesh/M0020683,http://id.nlm.nih.gov/mesh/D013378,M0020683,D013378,Substantia Nigra,"Nigra, Substantia; Nigras, Substantia; Substantia Nigras",1,0,1
+http://id.nlm.nih.gov/mesh/M0020685,http://id.nlm.nih.gov/mesh/D013380,M0020685,D013380,Subtalar Joint,"Joint, Subtalar; Joints, Subtalar; Subtalar Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0020820,http://id.nlm.nih.gov/mesh/D013477,M0020820,D013477,Superior Colliculi,"Colliculi, Superior",1,0,1
+http://id.nlm.nih.gov/mesh/M0020848,http://id.nlm.nih.gov/mesh/D013493,M0020848,D013493,Suprachiasmatic Nucleus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0020850,http://id.nlm.nih.gov/mesh/D013495,M0020850,D013495,Supraoptic Nucleus,"Nucleus, Supraoptic",1,0,1
+http://id.nlm.nih.gov/mesh/M0020852,http://id.nlm.nih.gov/mesh/D013497,M0020852,D013497,Sural Nerve,"Nerve, Sural; Nerves, Sural; Sural Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0020922,http://id.nlm.nih.gov/mesh/D013545,M0020922,D013545,Sweat Glands,"Gland, Sweat; Glands, Sweat; Sweat Gland",1,0,1
+http://id.nlm.nih.gov/mesh/M0020944,http://id.nlm.nih.gov/mesh/D013564,M0020944,D013564,Sympathetic Nervous System,"Nervous System, Sympathetic; Nervous Systems, Sympathetic; Sympathetic Nervous Systems; System, Sympathetic Nervous; Systems, Sympathetic Nervous",1,0,1
+http://id.nlm.nih.gov/mesh/M0020950,http://id.nlm.nih.gov/mesh/D013569,M0020950,D013569,Synapses,,0,0,1
+http://id.nlm.nih.gov/mesh/M0020951,http://id.nlm.nih.gov/mesh/D013570,M0020951,D013570,Synaptic Membranes,"Membrane, Synaptic; Membranes, Synaptic; Synaptic Membrane",0,0,1
+http://id.nlm.nih.gov/mesh/M0020952,http://id.nlm.nih.gov/mesh/D013572,M0020952,D013572,Synaptic Vesicles,"Synaptic Vesicle; Vesicle, Synaptic; Vesicles, Synaptic",0,0,1
+http://id.nlm.nih.gov/mesh/M0020961,http://id.nlm.nih.gov/mesh/D013582,M0020961,D013582,Synovial Fluid,"Fluid, Synovial; Fluids, Synovial; Synovial Fluids",1,0,1
+http://id.nlm.nih.gov/mesh/M0020962,http://id.nlm.nih.gov/mesh/D013583,M0020962,D013583,Synovial Membrane,"Membrane, Synovial; Membranes, Synovial; Synovial Membranes",1,0,1
+http://id.nlm.nih.gov/mesh/M0020987,http://id.nlm.nih.gov/mesh/D013601,M0020987,D013601,T-Lymphocytes,T Lymphocytes; T-Lymphocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0020988,http://id.nlm.nih.gov/mesh/D050378,M0020988,D050378,"T-Lymphocytes, Regulatory","T Lymphocytes, Regulatory",1,0,1
+http://id.nlm.nih.gov/mesh/M0020989,http://id.nlm.nih.gov/mesh/D013602,M0020989,D013602,"T-Lymphocytes, Cytotoxic","Cytotoxic T-Lymphocyte; T Lymphocytes, Cytotoxic; T-Lymphocyte, Cytotoxic",1,0,1
+http://id.nlm.nih.gov/mesh/M0021023,http://id.nlm.nih.gov/mesh/D013628,M0021023,D013628,Talus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0021042,http://id.nlm.nih.gov/mesh/D013639,M0021042,D013639,Tarsal Bones,"Bone, Tarsal; Bones, Tarsal; Tarsal Bone",1,0,1
+http://id.nlm.nih.gov/mesh/M0021047,http://id.nlm.nih.gov/mesh/D013640,M0021047,D013640,Tarsal Joints,"Joint, Tarsal; Joints, Tarsal",1,0,1
+http://id.nlm.nih.gov/mesh/M0021061,http://id.nlm.nih.gov/mesh/D013650,M0021061,D013650,Taste Buds,"Bud, Taste; Buds, Taste; Taste Bud",1,0,1
+http://id.nlm.nih.gov/mesh/M0021120,http://id.nlm.nih.gov/mesh/D013681,M0021120,D013681,Tegmentum Mesencephali,"Mesencephali, Tegmentum; Mesencephalus, Tegmentum; Tegmentum Mesencephalus",1,0,1
+http://id.nlm.nih.gov/mesh/M0021130,http://id.nlm.nih.gov/mesh/D013687,M0021130,D013687,Telencephalon,,1,0,1
+http://id.nlm.nih.gov/mesh/M0021146,http://id.nlm.nih.gov/mesh/D013699,M0021146,D013699,Temporal Arteries,"Arteries, Temporal; Artery, Temporal; Temporal Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0021148,http://id.nlm.nih.gov/mesh/D013701,M0021148,D013701,Temporal Bone,"Bone, Temporal; Temporal Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0021149,http://id.nlm.nih.gov/mesh/D013702,M0021149,D013702,Temporal Lobe,"Lobe, Temporal; Temporal Lobes",1,0,1
+http://id.nlm.nih.gov/mesh/M0021150,http://id.nlm.nih.gov/mesh/D065813,M0021150,D065813,Wernicke Area,"Area, Wernicke",1,0,1
+http://id.nlm.nih.gov/mesh/M0021151,http://id.nlm.nih.gov/mesh/D013703,M0021151,D013703,Temporal Muscle,"Muscle, Temporal; Muscles, Temporal; Temporal Muscles",1,0,1
+http://id.nlm.nih.gov/mesh/M0021152,http://id.nlm.nih.gov/mesh/D013704,M0021152,D013704,Temporomandibular Joint,"Joint, Temporomandibular; Joints, Temporomandibular; Temporomandibular Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0021158,http://id.nlm.nih.gov/mesh/D013710,M0021158,D013710,Tendons,Tendon,1,0,1
+http://id.nlm.nih.gov/mesh/M0021168,http://id.nlm.nih.gov/mesh/D013719,M0021168,D013719,Tensor Tympani,"Tensor Tympanus; Tympani, Tensor; Tympanus, Tensor",1,0,1
+http://id.nlm.nih.gov/mesh/M0021193,http://id.nlm.nih.gov/mesh/D013737,M0021193,D013737,Testis,,1,0,1
+http://id.nlm.nih.gov/mesh/M0021263,http://id.nlm.nih.gov/mesh/D013787,M0021263,D013787,Thalamic Nuclei,"Nuclei, Thalamic",1,0,1
+http://id.nlm.nih.gov/mesh/M0021264,http://id.nlm.nih.gov/mesh/D013788,M0021264,D013788,Thalamus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0021274,http://id.nlm.nih.gov/mesh/D013799,M0021274,D013799,Theca Cells,"Cell, Theca; Cells, Theca; Theca Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0021309,http://id.nlm.nih.gov/mesh/D013823,M0021309,D013823,Thermoreceptors,Thermoreceptor,1,0,1
+http://id.nlm.nih.gov/mesh/M0021392,http://id.nlm.nih.gov/mesh/D013895,M0021392,D013895,Thoracic Arteries,"Arteries, Thoracic; Artery, Thoracic; Thoracic Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0021395,http://id.nlm.nih.gov/mesh/D013897,M0021395,D013897,Thoracic Duct,"Duct, Thoracic; Ducts, Thoracic; Thoracic Ducts",1,0,1
+http://id.nlm.nih.gov/mesh/M0021398,http://id.nlm.nih.gov/mesh/D013900,M0021398,D013900,Thoracic Nerves,"Nerve, Thoracic; Nerves, Thoracic; Thoracic Nerve",1,0,1
+http://id.nlm.nih.gov/mesh/M0021406,http://id.nlm.nih.gov/mesh/D013904,M0021406,D013904,Thoracic Vertebrae,"Vertebrae, Thoracic",1,0,1
+http://id.nlm.nih.gov/mesh/M0021468,http://id.nlm.nih.gov/mesh/D013950,M0021468,D013950,Thymus Gland,"Gland, Thymus; Glands, Thymus; Thymus Glands",1,0,1
+http://id.nlm.nih.gov/mesh/M0021476,http://id.nlm.nih.gov/mesh/D013957,M0021476,D013957,Thyroid Cartilage,"Cartilage, Thyroid; Cartilages, Thyroid; Thyroid Cartilages",1,0,1
+http://id.nlm.nih.gov/mesh/M0021510,http://id.nlm.nih.gov/mesh/D013977,M0021510,D013977,Tibia,Tibias,1,0,1
+http://id.nlm.nih.gov/mesh/M0021512,http://id.nlm.nih.gov/mesh/D013979,M0021512,D013979,Tibial Nerve,"Nerve, Tibial; Nerves, Tibial; Tibial Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0021615,http://id.nlm.nih.gov/mesh/D014033,M0021615,D014033,Toe Joint,"Joint, Toe; Joints, Toe; Toe Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0021656,http://id.nlm.nih.gov/mesh/D014059,M0021656,D014059,Tongue,Tongues,1,0,1
+http://id.nlm.nih.gov/mesh/M0021663,http://id.nlm.nih.gov/mesh/D014066,M0021663,D014066,Palatine Tonsil,"Palatine Tonsils; Tonsils, Palatine",1,0,1
+http://id.nlm.nih.gov/mesh/M0021738,http://id.nlm.nih.gov/mesh/D014129,M0021738,D014129,Trabecular Meshwork,"Meshwork, Trabecular; Meshworks, Trabecular; Trabecular Meshworks",1,0,1
+http://id.nlm.nih.gov/mesh/M0021743,http://id.nlm.nih.gov/mesh/D014132,M0021743,D014132,Trachea,Tracheas,1,0,1
+http://id.nlm.nih.gov/mesh/M0021947,http://id.nlm.nih.gov/mesh/D014261,M0021947,D014261,Tricuspid Valve,"Tricuspid Valves; Valve, Tricuspid; Valves, Tricuspid",1,0,1
+http://id.nlm.nih.gov/mesh/M0021964,http://id.nlm.nih.gov/mesh/D014275,M0021964,D014275,Trigeminal Caudal Nucleus,"Nucleus, Trigeminal Caudal",1,0,1
+http://id.nlm.nih.gov/mesh/M0021965,http://id.nlm.nih.gov/mesh/D014276,M0021965,D014276,Trigeminal Nerve,"Nerve, Trigeminal; Trigeminal Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0021967,http://id.nlm.nih.gov/mesh/D014278,M0021967,D014278,Trigeminal Nuclei,"Nuclei, Trigeminal; Nucleus, Trigeminal; Trigeminal Nucleus",1,0,1
+http://id.nlm.nih.gov/mesh/M0021968,http://id.nlm.nih.gov/mesh/D014279,M0021968,D014279,"Trigeminal Nucleus, Spinal","Nucleus, Spinal Trigeminal; Spinal Trigeminal Nucleus",1,0,1
+http://id.nlm.nih.gov/mesh/M0022026,http://id.nlm.nih.gov/mesh/D014321,M0022026,D014321,Trochlear Nerve,"Nerve, Trochlear; Nerves, Trochlear; Trochlear Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0022032,http://id.nlm.nih.gov/mesh/D014327,M0022032,D014327,Trophoblasts,,1,0,1
+http://id.nlm.nih.gov/mesh/M0022051,http://id.nlm.nih.gov/mesh/D014338,M0022051,D014338,Truncus Arteriosus,"Arteriosus, Truncus",1,0,1
+http://id.nlm.nih.gov/mesh/M0022096,http://id.nlm.nih.gov/mesh/D014371,M0022096,D014371,Tuber Cinereum,"Cinereum, Tuber; Cinereums, Tuber; Tuber Cinereums",1,0,1
+http://id.nlm.nih.gov/mesh/M0022166,http://id.nlm.nih.gov/mesh/D014420,M0022166,D014420,Turbinates,Turbinate,1,0,1
+http://id.nlm.nih.gov/mesh/M0022227,http://id.nlm.nih.gov/mesh/D014457,M0022227,D014457,Ulna,Ulnas,1,0,1
+http://id.nlm.nih.gov/mesh/M0022229,http://id.nlm.nih.gov/mesh/D014459,M0022229,D014459,Ulnar Nerve,"Nerve, Ulnar; Nerves, Ulnar; Ulnar Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0022245,http://id.nlm.nih.gov/mesh/D014469,M0022245,D014469,Umbilical Arteries,"Arteries, Umbilical; Artery, Umbilical; Umbilical Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0022247,http://id.nlm.nih.gov/mesh/D014471,M0022247,D014471,Umbilical Veins,"Umbilical Vein; Vein, Umbilical; Veins, Umbilical",1,0,1
+http://id.nlm.nih.gov/mesh/M0022322,http://id.nlm.nih.gov/mesh/D014513,M0022322,D014513,Ureter,,1,0,1
+http://id.nlm.nih.gov/mesh/M0022331,http://id.nlm.nih.gov/mesh/D014521,M0022331,D014521,Urethra,Urethras,1,0,1
+http://id.nlm.nih.gov/mesh/M0022372,http://id.nlm.nih.gov/mesh/D014551,M0022372,D014551,Urinary Tract,"Tract, Urinary; Tracts, Urinary; Urinary Tracts",1,0,1
+http://id.nlm.nih.gov/mesh/M0022393,http://id.nlm.nih.gov/mesh/D014566,M0022393,D014566,Urogenital System,"System, Urogenital; Systems, Urogenital; Urogenital Systems",1,0,1
+http://id.nlm.nih.gov/mesh/M0022439,http://id.nlm.nih.gov/mesh/D014599,M0022439,D014599,Uterus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0022442,http://id.nlm.nih.gov/mesh/D014602,M0022442,D014602,Uvea,Uveas,1,0,1
+http://id.nlm.nih.gov/mesh/M0022473,http://id.nlm.nih.gov/mesh/D014621,M0022473,D014621,Vagina,Vaginas,1,0,1
+http://id.nlm.nih.gov/mesh/M0022493,http://id.nlm.nih.gov/mesh/D014630,M0022493,D014630,Vagus Nerve,"Nerve, Vagus; Nerves, Vagus; Vagus Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0022532,http://id.nlm.nih.gov/mesh/D014649,M0022532,D014649,Vas Deferens,"Deferens, Vas",1,0,1
+http://id.nlm.nih.gov/mesh/M0022533,http://id.nlm.nih.gov/mesh/D014650,M0022533,D014650,Vasa Nervorum,"Nervorum, Vasa; Nervorums, Vasa; Vasa Nervorums",0,0,1
+http://id.nlm.nih.gov/mesh/M0022534,http://id.nlm.nih.gov/mesh/D014651,M0022534,D014651,Vasa Vasorum,"Vasa Vasorums; Vasorum, Vasa; Vasorums, Vasa",1,0,1
+http://id.nlm.nih.gov/mesh/M0022560,http://id.nlm.nih.gov/mesh/D014666,M0022560,D014666,Vasomotor System,"System, Vasomotor; Systems, Vasomotor; Vasomotor Systems",0,0,1
+http://id.nlm.nih.gov/mesh/M0022568,http://id.nlm.nih.gov/mesh/D014670,M0022568,D014670,Ampulla of Vater,Vater Ampulla,1,0,1
+http://id.nlm.nih.gov/mesh/M0022581,http://id.nlm.nih.gov/mesh/D014680,M0022581,D014680,Veins,Vein,1,0,1
+http://id.nlm.nih.gov/mesh/M0022584,http://id.nlm.nih.gov/mesh/D014682,M0022584,D014682,"Vena Cava, Inferior","Inferior Vena Cavas; Vena Cavas, Inferior",1,0,1
+http://id.nlm.nih.gov/mesh/M0022585,http://id.nlm.nih.gov/mesh/D014683,M0022585,D014683,"Vena Cava, Superior","Superior Vena Cavas; Vena Cavas, Superior",1,0,1
+http://id.nlm.nih.gov/mesh/M0022586,http://id.nlm.nih.gov/mesh/D014684,M0022586,D014684,Venae Cavae,"Cavae, Venae",1,0,1
+http://id.nlm.nih.gov/mesh/M0022602,http://id.nlm.nih.gov/mesh/D014697,M0022602,D014697,Ventromedial Hypothalamic Nucleus,"Nucleus, Ventromedial Hypothalamic",1,0,1
+http://id.nlm.nih.gov/mesh/M0022604,http://id.nlm.nih.gov/mesh/D014699,M0022604,D014699,Venules,Venule,1,0,1
+http://id.nlm.nih.gov/mesh/M0022621,http://id.nlm.nih.gov/mesh/D014711,M0022621,D014711,Vertebral Artery,"Arteries, Vertebral; Artery, Vertebral",1,0,1
+http://id.nlm.nih.gov/mesh/M0022642,http://id.nlm.nih.gov/mesh/D014725,M0022642,D014725,Vestibular Nerve,"Nerve, Vestibular; Nerves, Vestibular; Vestibular Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0022644,http://id.nlm.nih.gov/mesh/D014726,M0022644,D014726,Vestibular Nuclei,"Nuclei, Vestibular",1,0,1
+http://id.nlm.nih.gov/mesh/M0022777,http://id.nlm.nih.gov/mesh/D000087642,M0022777,D000087642,Primary Visual Cortex,"Cortex, Primary Visual; Primary Visual Cortices; Visual Cortex, Primary",1,0,1
+http://id.nlm.nih.gov/mesh/M0022778,http://id.nlm.nih.gov/mesh/D014793,M0022778,D014793,Visual Cortex,"Cortex, Visual",1,0,1
+http://id.nlm.nih.gov/mesh/M0022780,http://id.nlm.nih.gov/mesh/D014795,M0022780,D014795,Visual Pathways,"Pathway, Visual; Pathways, Visual; Visual Pathway",1,0,1
+http://id.nlm.nih.gov/mesh/M0022820,http://id.nlm.nih.gov/mesh/D014822,M0022820,D014822,Vitreous Body,"Bodies, Vitreous; Body, Vitreous; Vitreous Bodies",1,0,1
+http://id.nlm.nih.gov/mesh/M0022826,http://id.nlm.nih.gov/mesh/D014827,M0022826,D014827,Vocal Cords,"Cord, Vocal; Cords, Vocal; Vocal Cord",1,0,1
+http://id.nlm.nih.gov/mesh/M0022855,http://id.nlm.nih.gov/mesh/D014844,M0022855,D014844,Vulva,Vulvas,1,0,1
+http://id.nlm.nih.gov/mesh/M0023029,http://id.nlm.nih.gov/mesh/D014955,M0023029,D014955,Wrist Joint,"Joint, Wrist; Joints, Wrist; Wrist Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0023069,http://id.nlm.nih.gov/mesh/D014989,M0023069,D014989,Xiphoid Bone,Xiphoid Bones,1,0,1
+http://id.nlm.nih.gov/mesh/M0023153,http://id.nlm.nih.gov/mesh/D015044,M0023153,D015044,Zona Pellucida,,1,0,1
+http://id.nlm.nih.gov/mesh/M0023159,http://id.nlm.nih.gov/mesh/D015050,M0023159,D015050,Zygoma,Zygomas,1,0,1
+http://id.nlm.nih.gov/mesh/M0023163,http://id.nlm.nih.gov/mesh/D015053,M0023163,D015053,Zygote,Zygotes,1,0,1
+http://id.nlm.nih.gov/mesh/M0023699,http://id.nlm.nih.gov/mesh/D015383,M0023699,D015383,Zona Fasciculata,"Fasciculata, Zona",1,0,1
+http://id.nlm.nih.gov/mesh/M0023700,http://id.nlm.nih.gov/mesh/D015384,M0023700,D015384,Zona Glomerulosa,"Glomerulosa, Zona",1,0,1
+http://id.nlm.nih.gov/mesh/M0023701,http://id.nlm.nih.gov/mesh/D015385,M0023701,D015385,Zona Reticularis,"Reticularis, Zona",1,0,1
+http://id.nlm.nih.gov/mesh/M0023858,http://id.nlm.nih.gov/mesh/D015496,M0023858,D015496,CD4-Positive T-Lymphocytes,"CD4 Positive T Lymphocytes; CD4-Positive T-Lymphocyte; T-Lymphocyte, CD4-Positive; T-Lymphocytes, CD4-Positive",1,0,1
+http://id.nlm.nih.gov/mesh/M0023922,http://id.nlm.nih.gov/mesh/D015571,M0023922,D015571,Follicular Fluid,"Fluid, Follicular; Follicular Fluids",1,0,1
+http://id.nlm.nih.gov/mesh/M0023966,http://id.nlm.nih.gov/mesh/D015622,M0023966,D015622,Epithelioid Cells,"Cell, Epithelioid; Cells, Epithelioid; Epithelioid Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0024026,http://id.nlm.nih.gov/mesh/D015672,M0024026,D015672,Erythroid Precursor Cells,"Cell, Erythroid Precursor; Cells, Erythroid Precursor; Erythroid Precursor Cell; Precursor Cell, Erythroid; Precursor Cells, Erythroid",1,0,1
+http://id.nlm.nih.gov/mesh/M0024132,http://id.nlm.nih.gov/mesh/D015743,M0024132,D015743,"Giant Cells, Foreign-Body","Cell, Foreign-Body Giant; Cells, Foreign-Body Giant; Foreign-Body Giant Cell; Foreign-Body Giant Cells; Giant Cell, Foreign-Body; Giant Cells, Foreign Body",1,0,1
+http://id.nlm.nih.gov/mesh/M0024133,http://id.nlm.nih.gov/mesh/D015744,M0024133,D015744,"Giant Cells, Langhans",,1,0,1
+http://id.nlm.nih.gov/mesh/M0024242,http://id.nlm.nih.gov/mesh/D015824,M0024242,D015824,Blood-Air Barrier,"Barrier, Blood-Air; Barriers, Blood-Air; Blood Air Barrier; Blood-Air Barriers",1,0,1
+http://id.nlm.nih.gov/mesh/M0024414,http://id.nlm.nih.gov/mesh/D015979,M0024414,D015979,"Killer Cells, Lymphokine-Activated","Cell, Lymphokine-Activated Killer; Cells, Lymphokine-Activated Killer; Killer Cell, Lymphokine-Activated; Killer Cells, Lymphokine Activated; Lymphokine-Activated Killer Cell",0,0,1
+http://id.nlm.nih.gov/mesh/M0024623,http://id.nlm.nih.gov/mesh/D016118,M0024623,D016118,Anterior Cruciate Ligament,,1,0,1
+http://id.nlm.nih.gov/mesh/M0024624,http://id.nlm.nih.gov/mesh/D016119,M0024624,D016119,Posterior Cruciate Ligament,,1,0,1
+http://id.nlm.nih.gov/mesh/M0024625,http://id.nlm.nih.gov/mesh/D016121,M0024625,D016121,Brachiocephalic Veins,"Brachiocephalic Vein; Vein, Brachiocephalic; Veins, Brachiocephalic",1,0,1
+http://id.nlm.nih.gov/mesh/M0024626,http://id.nlm.nih.gov/mesh/D016122,M0024626,D016122,Brachiocephalic Trunk,"Brachiocephalic Trunks; Trunk, Brachiocephalic; Trunks, Brachiocephalic",1,0,1
+http://id.nlm.nih.gov/mesh/M0024633,http://id.nlm.nih.gov/mesh/D016131,M0024633,D016131,Lymphocyte Subsets,"Lymphocyte Subset; Subset, Lymphocyte; Subsets, Lymphocyte",0,0,1
+http://id.nlm.nih.gov/mesh/M0024692,http://id.nlm.nih.gov/mesh/D016175,M0024692,D016175,B-Lymphocyte Subsets,B Lymphocyte Subsets; B-Lymphocyte Subset,0,0,1
+http://id.nlm.nih.gov/mesh/M0024693,http://id.nlm.nih.gov/mesh/D016176,M0024693,D016176,T-Lymphocyte Subsets,T Lymphocyte Subsets,0,0,1
+http://id.nlm.nih.gov/mesh/M0024809,http://id.nlm.nih.gov/mesh/D016246,M0024809,D016246,"Lymphocytes, Tumor-Infiltrating",,0,0,1
+http://id.nlm.nih.gov/mesh/M0024854,http://id.nlm.nih.gov/mesh/D016260,M0024854,D016260,"Monocytes, Activated Killer",,0,0,1
+http://id.nlm.nih.gov/mesh/M0025196,http://id.nlm.nih.gov/mesh/D016501,M0025196,D016501,Neurites,Neurite,0,0,1
+http://id.nlm.nih.gov/mesh/M0025248,http://id.nlm.nih.gov/mesh/D016548,M0025248,D016548,Prosencephalon,,1,0,1
+http://id.nlm.nih.gov/mesh/M0025277,http://id.nlm.nih.gov/mesh/D016570,M0025277,D016570,Bruch Membrane,,1,0,1
+http://id.nlm.nih.gov/mesh/M0025385,http://id.nlm.nih.gov/mesh/D016658,M0025385,D016658,Psoas Muscles,"Muscle, Psoas; Muscles, Psoas; Psoas Muscle",1,0,1
+http://id.nlm.nih.gov/mesh/M0025409,http://id.nlm.nih.gov/mesh/D016676,M0025409,D016676,"Macrophages, Alveolar",,1,0,1
+http://id.nlm.nih.gov/mesh/M0025644,http://id.nlm.nih.gov/mesh/D016850,M0025644,D016850,Limbus Corneae,,1,0,1
+http://id.nlm.nih.gov/mesh/M0025677,http://id.nlm.nih.gov/mesh/D016874,M0025677,D016874,Neurofibrillary Tangles,"Neurofibrillary Tangle; Tangle, Neurofibrillary; Tangles, Neurofibrillary",0,0,1
+http://id.nlm.nih.gov/mesh/M0025729,http://id.nlm.nih.gov/mesh/D016909,M0025729,D016909,Tibial Arteries,"Arteries, Tibial; Artery, Tibial; Tibial Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0025841,http://id.nlm.nih.gov/mesh/D017006,M0025841,D017006,Rotator Cuff,,1,0,1
+http://id.nlm.nih.gov/mesh/M0025942,http://id.nlm.nih.gov/mesh/D017072,M0025942,D017072,Neostriatum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0026411,http://id.nlm.nih.gov/mesh/D017397,M0026411,D017397,Prefrontal Cortex,"Cortex, Prefrontal",1,0,1
+http://id.nlm.nih.gov/mesh/M0026592,http://id.nlm.nih.gov/mesh/D017534,M0026592,D017534,Radial Artery,"Arteries, Radial; Artery, Radial; Radial Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0026593,http://id.nlm.nih.gov/mesh/D017535,M0026593,D017535,Ulnar Artery,"Arteries, Ulnar; Artery, Ulnar; Ulnar Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0026594,http://id.nlm.nih.gov/mesh/D017536,M0026594,D017536,"Carotid Artery, Common","Arteries, Common Carotid; Artery, Common Carotid; Carotid Arteries, Common; Common Carotid Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0026595,http://id.nlm.nih.gov/mesh/D017537,M0026595,D017537,"Mesenteric Artery, Inferior","Arteries, Inferior Mesenteric; Artery, Inferior Mesenteric; Inferior Mesenteric Arteries; Inferior Mesenteric Artery; Mesenteric Arteries, Inferior",1,0,1
+http://id.nlm.nih.gov/mesh/M0026596,http://id.nlm.nih.gov/mesh/D017538,M0026596,D017538,"Mesenteric Artery, Superior","Arteries, Superior Mesenteric; Artery, Superior Mesenteric; Mesenteric Arteries, Superior; Superior Mesenteric Arteries; Superior Mesenteric Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0026599,http://id.nlm.nih.gov/mesh/D017539,M0026599,D017539,Tunica Intima,,1,0,1
+http://id.nlm.nih.gov/mesh/M0026602,http://id.nlm.nih.gov/mesh/D017540,M0026602,D017540,Tunica Media,,1,0,1
+http://id.nlm.nih.gov/mesh/M0026613,http://id.nlm.nih.gov/mesh/D017552,M0026613,D017552,Solitary Nucleus,"Nucleus, Solitary",1,0,1
+http://id.nlm.nih.gov/mesh/M0026617,http://id.nlm.nih.gov/mesh/D017557,M0026617,D017557,Ventral Tegmental Area,"Tegmental Area, Ventral",1,0,1
+http://id.nlm.nih.gov/mesh/M0026631,http://id.nlm.nih.gov/mesh/D017568,M0026631,D017568,Rectus Abdominis,,1,0,1
+http://id.nlm.nih.gov/mesh/M0026688,http://id.nlm.nih.gov/mesh/D017615,M0026688,D017615,Enteric Nervous System,"Enteric Nervous Systems; Nervous System, Enteric; Nervous Systems, Enteric; System, Enteric Nervous; Systems, Enteric Nervous",1,0,1
+http://id.nlm.nih.gov/mesh/M0026693,http://id.nlm.nih.gov/mesh/D017626,M0026693,D017626,Cochlear Nucleus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0026694,http://id.nlm.nih.gov/mesh/D017628,M0026694,D017628,Microglia,Microglias,1,0,1
+http://id.nlm.nih.gov/mesh/M0026794,http://id.nlm.nih.gov/mesh/D017729,M0026794,D017729,Presynaptic Terminals,"Presynaptic Terminal; Terminal, Presynaptic; Terminals, Presynaptic",0,0,1
+http://id.nlm.nih.gov/mesh/M0026801,http://id.nlm.nih.gov/mesh/D017734,M0026801,D017734,"Bile Ducts, Extrahepatic","Bile Duct, Extrahepatic; Duct, Extrahepatic Bile; Ducts, Extrahepatic Bile; Extrahepatic Bile Duct; Extrahepatic Bile Ducts",1,0,1
+http://id.nlm.nih.gov/mesh/M0026804,http://id.nlm.nih.gov/mesh/D017737,M0026804,D017737,"Macrophages, Peritoneal",,1,0,1
+http://id.nlm.nih.gov/mesh/M0026820,http://id.nlm.nih.gov/mesh/D017746,M0026820,D017746,Joint Capsule,"Capsule, Joint; Joint Capsules",1,0,1
+http://id.nlm.nih.gov/mesh/M0026864,http://id.nlm.nih.gov/mesh/D017773,M0026864,D017773,Pelvic Floor,"Floor, Pelvic",1,0,1
+http://id.nlm.nih.gov/mesh/M0026867,http://id.nlm.nih.gov/mesh/D017776,M0026867,D017776,Autonomic Pathways,"Autonomic Pathway; Pathway, Autonomic; Pathways, Autonomic",0,0,1
+http://id.nlm.nih.gov/mesh/M0026868,http://id.nlm.nih.gov/mesh/D017777,M0026868,D017777,"Parasympathetic Fibers, Postganglionic","Fiber, Postganglionic Parasympathetic; Fibers, Postganglionic Parasympathetic; Parasympathetic Fiber, Postganglionic; Postganglionic Parasympathetic Fiber; Postganglionic Parasympathetic Fibers",1,0,1
+http://id.nlm.nih.gov/mesh/M0026870,http://id.nlm.nih.gov/mesh/D017779,M0026870,D017779,"Sympathetic Fibers, Postganglionic","Fiber, Postganglionic Sympathetic; Fibers, Postganglionic Sympathetic; Postganglionic Sympathetic Fiber; Postganglionic Sympathetic Fibers; Sympathetic Fiber, Postganglionic",1,0,1
+http://id.nlm.nih.gov/mesh/M0026873,http://id.nlm.nih.gov/mesh/D017783,M0026873,D017783,Superior Cervical Ganglion,"Cervical Ganglion, Superior; Ganglion, Superior Cervical",1,0,1
+http://id.nlm.nih.gov/mesh/M0026944,http://id.nlm.nih.gov/mesh/D017833,M0026944,D017833,Visceral Afferents,"Afferent, Visceral; Afferents, Visceral; Visceral Afferent",0,0,1
+http://id.nlm.nih.gov/mesh/M0026965,http://id.nlm.nih.gov/mesh/D017843,M0026965,D017843,Ligamentum Flavum,,1,0,1
+http://id.nlm.nih.gov/mesh/M0026966,http://id.nlm.nih.gov/mesh/D017844,M0026966,D017844,"Lateral Ligament, Ankle","Ankle Lateral Ligaments; Lateral Ligaments, Ankle; Ligament, Ankle Lateral; Ligaments, Ankle Lateral",0,0,1
+http://id.nlm.nih.gov/mesh/M0026969,http://id.nlm.nih.gov/mesh/D017846,M0026969,D017846,Longitudinal Ligaments,"Ligament, Longitudinal; Ligaments, Longitudinal; Longitudinal Ligament",1,0,1
+http://id.nlm.nih.gov/mesh/M0026970,http://id.nlm.nih.gov/mesh/D017847,M0026970,D017847,Patellar Ligament,"Ligament, Patellar; Ligaments, Patellar; Patellar Ligaments",1,0,1
+http://id.nlm.nih.gov/mesh/M0027018,http://id.nlm.nih.gov/mesh/D017885,M0027018,D017885,Collateral Ligaments,,0,0,1
+http://id.nlm.nih.gov/mesh/M0027031,http://id.nlm.nih.gov/mesh/D017888,M0027031,D017888,"Medial Collateral Ligament, Knee",,0,0,1
+http://id.nlm.nih.gov/mesh/M0027092,http://id.nlm.nih.gov/mesh/D017933,M0027092,D017933,Peripheral Nervous System,"Nervous System, Peripheral; Nervous Systems, Peripheral; Peripheral Nervous Systems; System, Peripheral Nervous; Systems, Peripheral Nervous",1,0,1
+http://id.nlm.nih.gov/mesh/M0027109,http://id.nlm.nih.gov/mesh/D017948,M0027109,D017948,Retinal Rod Photoreceptor Cells,,1,0,1
+http://id.nlm.nih.gov/mesh/M0027110,http://id.nlm.nih.gov/mesh/D017949,M0027110,D017949,Retinal Cone Photoreceptor Cells,,1,0,1
+http://id.nlm.nih.gov/mesh/M0027111,http://id.nlm.nih.gov/mesh/D017950,M0027111,D017950,"Ganglia, Sensory",,1,0,1
+http://id.nlm.nih.gov/mesh/M0027114,http://id.nlm.nih.gov/mesh/D017952,M0027114,D017952,"Ganglia, Invertebrate",,0,1,0
+http://id.nlm.nih.gov/mesh/M0027121,http://id.nlm.nih.gov/mesh/D017956,M0027121,D017956,"Photoreceptor Cells, Invertebrate","Cell, Invertebrate Photoreceptor; Cells, Invertebrate Photoreceptor; Invertebrate Photoreceptor Cell; Photoreceptor Cell, Invertebrate",0,1,0
+http://id.nlm.nih.gov/mesh/M0027134,http://id.nlm.nih.gov/mesh/D017966,M0027134,D017966,Pyramidal Cells,"Cell, Pyramidal; Cells, Pyramidal; Pyramidal Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0027220,http://id.nlm.nih.gov/mesh/D018034,M0027220,D018034,Olfactory Receptor Neurons,"Neuron, Olfactory Receptor; Receptor Neuron, Olfactory; Receptor Neurons, Olfactory",1,0,1
+http://id.nlm.nih.gov/mesh/M0027259,http://id.nlm.nih.gov/mesh/D018069,M0027259,D018069,"Hair Cells, Vestibular","Hair Cell, Vestibular; Vestibular Hair Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0027263,http://id.nlm.nih.gov/mesh/D018072,M0027263,D018072,"Hair Cells, Auditory, Outer",,1,0,1
+http://id.nlm.nih.gov/mesh/M0027643,http://id.nlm.nih.gov/mesh/D018414,M0027643,D018414,CD8-Positive T-Lymphocytes,"CD8 Positive T Lymphocytes; CD8-Positive T-Lymphocyte; T-Lymphocyte, CD8-Positive; T-Lymphocytes, CD8-Positive",1,0,1
+http://id.nlm.nih.gov/mesh/M0027645,http://id.nlm.nih.gov/mesh/D018417,M0027645,D018417,Th1 Cells,"Cell, Th1; Cells, Th1; Th1 Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0027646,http://id.nlm.nih.gov/mesh/D018418,M0027646,D018418,Th2 Cells,,1,0,1
+http://id.nlm.nih.gov/mesh/M0027725,http://id.nlm.nih.gov/mesh/D018482,M0027725,D018482,"Muscle, Skeletal","Muscles, Skeletal; Skeletal Muscles",1,0,1
+http://id.nlm.nih.gov/mesh/M0027726,http://id.nlm.nih.gov/mesh/D018483,M0027726,D018483,Diaphyses,,1,0,1
+http://id.nlm.nih.gov/mesh/M0027779,http://id.nlm.nih.gov/mesh/D018530,M0027779,D018530,Gastric Stump,"Gastric Stumps; Stump, Gastric; Stumps, Gastric",0,1,0
+http://id.nlm.nih.gov/mesh/M0028058,http://id.nlm.nih.gov/mesh/D018728,M0028058,D018728,Entorhinal Cortex,"Cortex, Entorhinal",1,0,1
+http://id.nlm.nih.gov/mesh/M0028212,http://id.nlm.nih.gov/mesh/D018858,M0028212,D018858,Germinal Center,"Center, Germinal; Centers, Germinal; Germinal Centers",1,0,1
+http://id.nlm.nih.gov/mesh/M0028213,http://id.nlm.nih.gov/mesh/D018859,M0028213,D018859,Hair Follicle,"Follicle, Hair; Follicles, Hair; Hair Follicles",1,0,1
+http://id.nlm.nih.gov/mesh/M0028216,http://id.nlm.nih.gov/mesh/D018862,M0028216,D018862,Merkel Cells,,1,0,1
+http://id.nlm.nih.gov/mesh/M0028250,http://id.nlm.nih.gov/mesh/D018891,M0028250,D018891,Dentate Gyrus,"Gyrus, Dentate",1,0,1
+http://id.nlm.nih.gov/mesh/M0028285,http://id.nlm.nih.gov/mesh/D018916,M0028285,D018916,Blood-Aqueous Barrier,"Barrier, Blood-Aqueous; Barriers, Blood-Aqueous; Blood Aqueous Barrier; Blood-Aqueous Barriers",0,0,1
+http://id.nlm.nih.gov/mesh/M0028360,http://id.nlm.nih.gov/mesh/D018987,M0028360,D018987,Salivary Ducts,"Duct, Salivary; Ducts, Salivary; Salivary Duct",1,0,1
+http://id.nlm.nih.gov/mesh/M0028474,http://id.nlm.nih.gov/mesh/D019074,M0028474,D019074,Epigastric Arteries,"Arteries, Epigastric; Artery, Epigastric; Epigastric Artery",1,0,1
+http://id.nlm.nih.gov/mesh/M0028573,http://id.nlm.nih.gov/mesh/D019169,M0028573,D019169,Jurkat Cells,"Cell, Jurkat; Cells, Jurkat; Jurkat Cell",0,0,1
+http://id.nlm.nih.gov/mesh/M0028633,http://id.nlm.nih.gov/mesh/D019224,M0028633,D019224,Temporomandibular Joint Disc,"Disc, Temporomandibular Joint; Discs, Temporomandibular Joint; Joint Disc, Temporomandibular; Joint Discs, Temporomandibular; Temporomandibular Joint Discs",1,0,1
+http://id.nlm.nih.gov/mesh/M0028686,http://id.nlm.nih.gov/mesh/D019261,M0028686,D019261,Epithalamus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0028687,http://id.nlm.nih.gov/mesh/D019262,M0028687,D019262,Habenula,Habenulas,1,0,1
+http://id.nlm.nih.gov/mesh/M0028723,http://id.nlm.nih.gov/mesh/D019291,M0028723,D019291,Skull Base,"Base, Skull",1,0,1
+http://id.nlm.nih.gov/mesh/M0029063,http://id.nlm.nih.gov/mesh/D019573,M0029063,D019573,"Epithelium, Corneal",,1,0,1
+http://id.nlm.nih.gov/mesh/M0029077,http://id.nlm.nih.gov/mesh/D019579,M0029077,D019579,Neocortex,Neocortices,1,0,1
+http://id.nlm.nih.gov/mesh/M0029078,http://id.nlm.nih.gov/mesh/D019580,M0029078,D019580,Perforant Pathway,"Pathway, Perforant; Pathways, Perforant; Perforant Pathways",1,0,1
+http://id.nlm.nih.gov/mesh/M0029079,http://id.nlm.nih.gov/mesh/D019581,M0029079,D019581,Neuropil,Neuropils,1,0,1
+http://id.nlm.nih.gov/mesh/M0029098,http://id.nlm.nih.gov/mesh/D019599,M0029098,D019599,"Mossy Fibers, Hippocampal",,0,0,1
+http://id.nlm.nih.gov/mesh/M0029099,http://id.nlm.nih.gov/mesh/D019600,M0029099,D019600,Neuropil Threads,Neuropil Thread,0,0,1
+http://id.nlm.nih.gov/mesh/M0029452,http://id.nlm.nih.gov/mesh/D019842,M0029452,D019842,Ciliary Arteries,"Arteries, Ciliary; Artery, Ciliary; Ciliary Artery",0,0,1
+http://id.nlm.nih.gov/mesh/M0029490,http://id.nlm.nih.gov/mesh/D019863,M0029490,D019863,Gastrin-Secreting Cells,"Cell, Gastrin-Secreting; Cells, Gastrin-Secreting; Gastrin Secreting Cells; Gastrin-Secreting Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0029492,http://id.nlm.nih.gov/mesh/D019864,M0029492,D019864,Somatostatin-Secreting Cells,Somatostatin Secreting Cells; Somatostatin-Secreting Cell,1,0,1
+http://id.nlm.nih.gov/mesh/M0029509,http://id.nlm.nih.gov/mesh/D019872,M0029509,D019872,"Chief Cells, Gastric","Chief Cell, Gastric; Gastric Chief Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0029518,http://id.nlm.nih.gov/mesh/D019879,M0029518,D019879,Paneth Cells,"Cells, Paneth",1,0,1
+http://id.nlm.nih.gov/mesh/M0029935,http://id.nlm.nih.gov/mesh/D020286,M0029935,D020286,Pericytes,Pericyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0030034,http://id.nlm.nih.gov/mesh/D020390,M0030034,D020390,Tooth Socket,"Socket, Tooth; Sockets, Tooth; Tooth Sockets",1,0,1
+http://id.nlm.nih.gov/mesh/M0030041,http://id.nlm.nih.gov/mesh/D020397,M0030041,D020397,Goblet Cells,"Cell, Goblet; Cells, Goblet; Goblet Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0030055,http://id.nlm.nih.gov/mesh/D020405,M0030055,D020405,Dermis,,1,0,1
+http://id.nlm.nih.gov/mesh/M0030076,http://id.nlm.nih.gov/mesh/D020419,M0030076,D020419,"Photoreceptor Cells, Vertebrate","Cell, Vertebrate Photoreceptor; Cells, Vertebrate Photoreceptor; Photoreceptor Cell, Vertebrate; Vertebrate Photoreceptor Cell",0,0,1
+http://id.nlm.nih.gov/mesh/M0328019,http://id.nlm.nih.gov/mesh/D020392,M0328019,D020392,Entopeduncular Nucleus,"Nucleus, Entopeduncular",1,0,1
+http://id.nlm.nih.gov/mesh/M0328056,http://id.nlm.nih.gov/mesh/D020545,M0328056,D020545,Respiratory Mucosa,"Mucosa, Respiratory",1,0,1
+http://id.nlm.nih.gov/mesh/M0328394,http://id.nlm.nih.gov/mesh/D020771,M0328394,D020771,Anterior Cerebral Artery,"Anterior Cerebral Arteries; Arteries, Anterior Cerebral; Artery, Anterior Cerebral; Cerebral Arteries, Anterior",1,0,1
+http://id.nlm.nih.gov/mesh/M0328418,http://id.nlm.nih.gov/mesh/D020643,M0328418,D020643,Anterior Thalamic Nuclei,"Nuclei, Anterior Thalamic; Thalamic Nuclei, Anterior",1,0,1
+http://id.nlm.nih.gov/mesh/M0328425,http://id.nlm.nih.gov/mesh/D020517,M0328425,D020517,Atrial Appendage,"Appendage, Atrial; Appendages, Atrial; Atrial Appendages",1,0,1
+http://id.nlm.nih.gov/mesh/M0328427,http://id.nlm.nih.gov/mesh/D020532,M0328427,D020532,Basal Nucleus of Meynert,Meynert Basal Nucleus,1,0,1
+http://id.nlm.nih.gov/mesh/M0328442,http://id.nlm.nih.gov/mesh/D020895,M0328442,D020895,Enterocytes,Enterocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0328454,http://id.nlm.nih.gov/mesh/D020566,M0328454,D020566,"Dendritic Cells, Follicular","Dendritic Cell, Follicular; Follicular Dendritic Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0328456,http://id.nlm.nih.gov/mesh/D020667,M0328456,D020667,Diagonal Band of Broca,Broca Diagonal Band,1,0,1
+http://id.nlm.nih.gov/mesh/M0328482,http://id.nlm.nih.gov/mesh/D020712,M0328482,D020712,"Fornix, Brain","Brain Fornices; Brain Fornix; Fornices, Brain",1,0,1
+http://id.nlm.nih.gov/mesh/M0328533,http://id.nlm.nih.gov/mesh/D020546,M0328533,D020546,Fourth Ventricle,"Fourth Ventricles; Ventricle, Fourth; Ventricles, Fourth",1,0,1
+http://id.nlm.nih.gov/mesh/M0328537,http://id.nlm.nih.gov/mesh/D020645,M0328537,D020645,Mediodorsal Thalamic Nucleus,"Nucleus, Mediodorsal Thalamic; Thalamic Nucleus, Mediodorsal",1,0,1
+http://id.nlm.nih.gov/mesh/M0328538,http://id.nlm.nih.gov/mesh/D020540,M0328538,D020540,Metencephalon,Metencephalons,1,0,1
+http://id.nlm.nih.gov/mesh/M0328542,http://id.nlm.nih.gov/mesh/D020768,M0328542,D020768,Middle Cerebral Artery,"Arteries, Middle Cerebral; Artery, Middle Cerebral; Cerebral Arteries, Middle; Middle Cerebral Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0328544,http://id.nlm.nih.gov/mesh/D020644,M0328544,D020644,Midline Thalamic Nuclei,"Midline Thalamic Nucleus; Nuclei, Midline Thalamic; Nucleus, Midline Thalamic; Thalamic Nuclei, Midline; Thalamic Nucleus, Midline",1,0,1
+http://id.nlm.nih.gov/mesh/M0328545,http://id.nlm.nih.gov/mesh/D020772,M0328545,D020772,Internal Capsule,"Capsule, Internal; Capsules, Internal; Internal Capsules",1,0,1
+http://id.nlm.nih.gov/mesh/M0328548,http://id.nlm.nih.gov/mesh/D020646,M0328548,D020646,Intralaminar Thalamic Nuclei,"Nuclei, Intralaminar Thalamic; Nucleus, Intralaminar Thalamic; Thalamic Nuclei, Intralaminar; Thalamic Nucleus, Intralaminar",1,0,1
+http://id.nlm.nih.gov/mesh/M0328550,http://id.nlm.nih.gov/mesh/D020670,M0328550,D020670,Islands of Calleja,Calleja Islands,1,0,1
+http://id.nlm.nih.gov/mesh/M0328553,http://id.nlm.nih.gov/mesh/D020534,M0328553,D020534,Parahippocampal Gyrus,"Gyrus, Parahippocampal",1,0,1
+http://id.nlm.nih.gov/mesh/M0328556,http://id.nlm.nih.gov/mesh/D020769,M0328556,D020769,Posterior Cerebral Artery,"Arteries, Posterior Cerebral; Artery, Posterior Cerebral; Cerebral Arteries, Posterior; Posterior Cerebral Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0328557,http://id.nlm.nih.gov/mesh/D020647,M0328557,D020647,Lateral Thalamic Nuclei,"Nuclei, Lateral Thalamic; Nucleus, Lateral Thalamic; Thalamic Nuclei, Lateral",1,0,1
+http://id.nlm.nih.gov/mesh/M0328558,http://id.nlm.nih.gov/mesh/D020671,M0328558,D020671,Posterior Horn Cells,"Cell, Posterior Horn; Cells, Posterior Horn; Posterior Horn Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0328559,http://id.nlm.nih.gov/mesh/D020656,M0328559,D020656,Posterior Thalamic Nuclei,"Nuclei, Posterior Thalamic; Posterior Thalamic Nucleus; Thalamic Nuclei, Posterior; Thalamic Nucleus, Posterior",1,0,1
+http://id.nlm.nih.gov/mesh/M0328563,http://id.nlm.nih.gov/mesh/D020649,M0328563,D020649,Pulvinar,Pulvinars,1,0,1
+http://id.nlm.nih.gov/mesh/M0328564,http://id.nlm.nih.gov/mesh/D020547,M0328564,D020547,Lateral Ventricles,"Lateral Ventricle; Ventricle, Lateral; Ventricles, Lateral",1,0,1
+http://id.nlm.nih.gov/mesh/M0328566,http://id.nlm.nih.gov/mesh/D020665,M0328566,D020665,Septum of Brain,Brain Septum; Brain Septums,1,0,1
+http://id.nlm.nih.gov/mesh/M0328573,http://id.nlm.nih.gov/mesh/D020824,M0328573,D020824,Spinocerebellar Tracts,"Spinocerebellar Tract; Tract, Spinocerebellar; Tracts, Spinocerebellar",1,0,1
+http://id.nlm.nih.gov/mesh/M0328575,http://id.nlm.nih.gov/mesh/D020531,M0328575,D020531,Subthalamic Nucleus,"Nucleus, Subthalamic",1,0,1
+http://id.nlm.nih.gov/mesh/M0328577,http://id.nlm.nih.gov/mesh/D020530,M0328577,D020530,Subthalamus,,1,0,1
+http://id.nlm.nih.gov/mesh/M0328582,http://id.nlm.nih.gov/mesh/D020542,M0328582,D020542,Third Ventricle,"Third Ventricles; Ventricle, Third; Ventricles, Third",1,0,1
+http://id.nlm.nih.gov/mesh/M0328588,http://id.nlm.nih.gov/mesh/D020651,M0328588,D020651,Ventral Thalamic Nuclei,"Nuclei, Ventral Thalamic; Nucleus, Ventral Thalamic; Thalamic Nuclei, Ventral; Thalamic Nucleus, Ventral; Ventral Thalamic Nucleus",1,0,1
+http://id.nlm.nih.gov/mesh/M0332426,http://id.nlm.nih.gov/mesh/D066328,M0332426,D066328,Ventral Striatum,"Striatum, Ventral",1,0,1
+http://id.nlm.nih.gov/mesh/M0333074,http://id.nlm.nih.gov/mesh/D065866,M0333074,D065866,Optic Tract,"Optic Tracts; Tract, Optic; Tracts, Optic",1,0,1
+http://id.nlm.nih.gov/mesh/M0336787,http://id.nlm.nih.gov/mesh/D051445,M0336787,D051445,Fibrocartilage,,1,0,1
+http://id.nlm.nih.gov/mesh/M0336841,http://id.nlm.nih.gov/mesh/D021362,M0336841,D021362,"Palate, Hard","Hard Palates; Palates, Hard",1,0,1
+http://id.nlm.nih.gov/mesh/M0336842,http://id.nlm.nih.gov/mesh/D046790,M0336842,D046790,"Pancreas, Exocrine",,1,0,1
+http://id.nlm.nih.gov/mesh/M0337473,http://id.nlm.nih.gov/mesh/D065820,M0337473,D065820,Zona Incerta,,1,0,1
+http://id.nlm.nih.gov/mesh/M0352484,http://id.nlm.nih.gov/mesh/D021361,M0352484,D021361,Scaphoid Bone,"Bone, Scaphoid; Bones, Scaphoid; Scaphoid Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0355508,http://id.nlm.nih.gov/mesh/D021801,M0355508,D021801,Zygapophyseal Joint,"Joint, Zygapophyseal; Joints, Zygapophyseal; Zygapophyseal Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0362090,http://id.nlm.nih.gov/mesh/D023461,M0362090,D023461,Myeloid Progenitor Cells,"Cell, Myeloid Progenitor; Cells, Myeloid Progenitor; Myeloid Progenitor Cell; Progenitor Cell, Myeloid; Progenitor Cells, Myeloid",1,0,1
+http://id.nlm.nih.gov/mesh/M0370345,http://id.nlm.nih.gov/mesh/D024405,M0370345,D024405,Gastroepiploic Artery,"Arteries, Gastroepiploic; Artery, Gastroepiploic; Gastroepiploic Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0373280,http://id.nlm.nih.gov/mesh/D025042,M0373280,D025042,Amacrine Cells,"Amacrine Cell; Cell, Amacrine; Cells, Amacrine",1,0,1
+http://id.nlm.nih.gov/mesh/M0378494,http://id.nlm.nih.gov/mesh/D026602,M0378494,D026602,Nitrergic Neurons,"Neuron, Nitrergic",1,0,1
+http://id.nlm.nih.gov/mesh/M0398498,http://id.nlm.nih.gov/mesh/D031608,M0398498,D031608,Area Postrema,"Area Postremas; Postrema, Area",1,0,1
+http://id.nlm.nih.gov/mesh/M0400427,http://id.nlm.nih.gov/mesh/D032383,M0400427,D032383,"Myocytes, Cardiac","Cardiac Myocyte; Cardiac Myocytes; Myocyte, Cardiac",1,0,1
+http://id.nlm.nih.gov/mesh/M0400431,http://id.nlm.nih.gov/mesh/D032386,M0400431,D032386,"Myoblasts, Cardiac","Cardiac Myoblast; Cardiac Myoblasts; Myoblast, Cardiac",1,0,1
+http://id.nlm.nih.gov/mesh/M0401683,http://id.nlm.nih.gov/mesh/D032961,M0401683,D032961,Sperm Midpiece,"Midpiece, Sperm; Midpieces, Sperm; Sperm Midpieces",0,0,1
+http://id.nlm.nih.gov/mesh/M0401762,http://id.nlm.nih.gov/mesh/D033023,M0401762,D033023,Foot Joints,"Foot Joint; Joint, Foot; Joints, Foot",1,0,1
+http://id.nlm.nih.gov/mesh/M0407094,http://id.nlm.nih.gov/mesh/D035262,M0407094,D035262,"Cranial Fossa, Anterior","Fossa, Anterior Cranial",1,0,1
+http://id.nlm.nih.gov/mesh/M0407251,http://id.nlm.nih.gov/mesh/D035301,M0407251,D035301,"Cranial Fossa, Middle","Fossa, Middle Cranial",1,0,1
+http://id.nlm.nih.gov/mesh/M0409789,http://id.nlm.nih.gov/mesh/D036421,M0409789,D036421,"Nerve Fibers, Unmyelinated","Nerve Fiber, Unmyelinated; Unmyelinated Nerve Fiber; Unmyelinated Nerve Fibers",1,0,1
+http://id.nlm.nih.gov/mesh/M0439053,http://id.nlm.nih.gov/mesh/D041742,M0439053,D041742,Upper Gastrointestinal Tract,"Gastrointestinal Tract, Upper",1,0,1
+http://id.nlm.nih.gov/mesh/M0439054,http://id.nlm.nih.gov/mesh/D041741,M0439054,D041741,Lower Gastrointestinal Tract,"Gastrointestinal Tract, Lower",1,0,1
+http://id.nlm.nih.gov/mesh/M0439813,http://id.nlm.nih.gov/mesh/D041981,M0439813,D041981,Gastrointestinal Tract,Gastrointestinal Tracts,1,0,1
+http://id.nlm.nih.gov/mesh/M0441093,http://id.nlm.nih.gov/mesh/D042361,M0441093,D042361,"Mammary Glands, Human","Gland, Human Mammary; Glands, Human Mammary; Mammary Gland, Human",1,0,1
+http://id.nlm.nih.gov/mesh/M0441193,http://id.nlm.nih.gov/mesh/D042381,M0441193,D042381,Granulocyte Precursor Cells,"Cell, Granulocyte Precursor; Cells, Granulocyte Precursor; Granulocyte Precursor Cell; Precursor Cell, Granulocyte; Precursor Cells, Granulocyte",1,0,1
+http://id.nlm.nih.gov/mesh/M0441573,http://id.nlm.nih.gov/mesh/D042601,M0441573,D042601,Lymphatic Vessels,"Lymphatic Vessel; Vessel, Lymphatic; Vessels, Lymphatic",1,0,1
+http://id.nlm.nih.gov/mesh/M0443760,http://id.nlm.nih.gov/mesh/D044682,M0443760,D044682,"Colon, Ascending",,1,0,1
+http://id.nlm.nih.gov/mesh/M0443761,http://id.nlm.nih.gov/mesh/D044684,M0443761,D044684,"Colon, Transverse",,1,0,1
+http://id.nlm.nih.gov/mesh/M0443762,http://id.nlm.nih.gov/mesh/D044683,M0443762,D044683,"Colon, Descending",,1,0,1
+http://id.nlm.nih.gov/mesh/M0446826,http://id.nlm.nih.gov/mesh/D044967,M0446826,D044967,Serum,Serums,1,0,1
+http://id.nlm.nih.gov/mesh/M0447015,http://id.nlm.nih.gov/mesh/D045042,M0447015,D045042,Pedunculopontine Tegmental Nucleus,"Nucleus, Pedunculopontine Tegmental; Tegmental Nucleus, Pedunculopontine",1,0,1
+http://id.nlm.nih.gov/mesh/M0454724,http://id.nlm.nih.gov/mesh/D046568,M0454724,D046568,Neuroepithelial Bodies,"Bodies, Neuroepithelial; Body, Neuroepithelial; Neuroepithelial Body",1,0,1
+http://id.nlm.nih.gov/mesh/M0454726,http://id.nlm.nih.gov/mesh/D046569,M0454726,D046569,Neuroepithelial Cells,"Cell, Neuroepithelial; Cells, Neuroepithelial; Neuroepithelial Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0456567,http://id.nlm.nih.gov/mesh/D063194,M0456567,D063194,Adventitia,,1,0,1
+http://id.nlm.nih.gov/mesh/M0463913,http://id.nlm.nih.gov/mesh/D049229,M0463913,D049229,Dendritic Spines,"Dendritic Spine; Spine, Dendritic; Spines, Dendritic",0,0,1
+http://id.nlm.nih.gov/mesh/M0464456,http://id.nlm.nih.gov/mesh/D049428,M0464456,D049428,Blood-Nerve Barrier,"Barrier, Blood-Nerve; Barriers, Blood-Nerve; Blood Nerve Barrier; Blood-Nerve Barriers",1,0,1
+http://id.nlm.nih.gov/mesh/M0466566,http://id.nlm.nih.gov/mesh/D049630,M0466566,D049630,"Esophageal Sphincter, Lower","Sphincter, Lower Esophageal",1,0,1
+http://id.nlm.nih.gov/mesh/M0466574,http://id.nlm.nih.gov/mesh/D049631,M0466574,D049631,"Esophageal Sphincter, Upper","Sphincter, Upper Esophageal",1,0,1
+http://id.nlm.nih.gov/mesh/M0472875,http://id.nlm.nih.gov/mesh/D050151,M0472875,D050151,Subcutaneous Fat,"Fats, Subcutaneous; Subcutaneous Fats",1,0,1
+http://id.nlm.nih.gov/mesh/M0472882,http://id.nlm.nih.gov/mesh/D050152,M0472882,D050152,Intra-Abdominal Fat,"Fats, Intra-Abdominal; Intra Abdominal Fat; Intra-Abdominal Fats",1,0,1
+http://id.nlm.nih.gov/mesh/M0472886,http://id.nlm.nih.gov/mesh/D050507,M0472886,D050507,"Subcutaneous Fat, Abdominal","Abdominal Subcutaneous Fats; Fats, Abdominal Subcutaneous; Subcutaneous Fats, Abdominal",1,0,1
+http://id.nlm.nih.gov/mesh/M0472888,http://id.nlm.nih.gov/mesh/D050153,M0472888,D050153,Abdominal Fat,"Abdominal Fats; Fats, Abdominal",1,0,1
+http://id.nlm.nih.gov/mesh/M0473246,http://id.nlm.nih.gov/mesh/D050199,M0473246,D050199,Podocytes,Podocyte,1,0,1
+http://id.nlm.nih.gov/mesh/M0473609,http://id.nlm.nih.gov/mesh/D050276,M0473609,D050276,Hand Bones,"Bones, Hand",1,0,1
+http://id.nlm.nih.gov/mesh/M0473616,http://id.nlm.nih.gov/mesh/D050277,M0473616,D050277,Toe Phalanges,"Phalanges, Toe",1,0,1
+http://id.nlm.nih.gov/mesh/M0473618,http://id.nlm.nih.gov/mesh/D050278,M0473618,D050278,Finger Phalanges,"Phalanges, Finger",1,0,1
+http://id.nlm.nih.gov/mesh/M0473619,http://id.nlm.nih.gov/mesh/D050279,M0473619,D050279,Metacarpal Bones,"Bones, Metacarpal",1,0,1
+http://id.nlm.nih.gov/mesh/M0473690,http://id.nlm.nih.gov/mesh/D050281,M0473690,D050281,Bones of Lower Extremity,"Extremity Bones, Lower; Lower Extremity Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0475038,http://id.nlm.nih.gov/mesh/D050418,M0475038,D050418,Pancreatic Polypeptide-Secreting Cells,"Cell, Pancreatic Polypeptide-Secreting; Cells, Pancreatic Polypeptide-Secreting; Pancreatic Polypeptide Secreting Cells; Pancreatic Polypeptide-Secreting Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0475586,http://id.nlm.nih.gov/mesh/D050476,M0475586,D050476,Bowman Capsule,"Capsule, Bowman",1,0,1
+http://id.nlm.nih.gov/mesh/M0475996,http://id.nlm.nih.gov/mesh/D050527,M0475996,D050527,Mesangial Cells,"Cell, Mesangial; Cells, Mesangial; Mesangial Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0476074,http://id.nlm.nih.gov/mesh/D050533,M0476074,D050533,Glomerular Basement Membrane,"Basement Membrane, Glomerular; Basement Membranes, Glomerular; Glomerular Basement Membranes; Membrane, Glomerular Basement; Membranes, Glomerular Basement",1,0,1
+http://id.nlm.nih.gov/mesh/M0476239,http://id.nlm.nih.gov/mesh/D050541,M0476239,D050541,Bowman Membrane,"Bowman Membranes; Membrane, Bowman; Membranes, Bowman",1,0,1
+http://id.nlm.nih.gov/mesh/M0478061,http://id.nlm.nih.gov/mesh/D050823,M0478061,D050823,Hand Joints,"Joints, Hand",1,0,1
+http://id.nlm.nih.gov/mesh/M0478070,http://id.nlm.nih.gov/mesh/D050824,M0478070,D050824,Carpal Joints,"Carpal Joint; Joint, Carpal; Joints, Carpal",1,0,1
+http://id.nlm.nih.gov/mesh/M0479688,http://id.nlm.nih.gov/mesh/D051220,M0479688,D051220,Pisiform Bone,"Bone, Pisiform; Bones, Pisiform; Pisiform Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0479692,http://id.nlm.nih.gov/mesh/D051221,M0479692,D051221,Triquetrum Bone,"Bone, Triquetrum; Bones, Triquetrum; Triquetrum Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0479693,http://id.nlm.nih.gov/mesh/D051222,M0479693,D051222,Trapezium Bone,"Bone, Trapezium; Bones, Trapezium; Trapezium Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0479694,http://id.nlm.nih.gov/mesh/D051223,M0479694,D051223,Trapezoid Bone,"Bone, Trapezoid; Bones, Trapezoid; Trapezoid Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0479695,http://id.nlm.nih.gov/mesh/D051224,M0479695,D051224,Capitate Bone,"Bone, Capitate; Bones, Capitate; Capitate Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0479696,http://id.nlm.nih.gov/mesh/D051225,M0479696,D051225,Hamate Bone,"Bone, Hamate; Bones, Hamate; Hamate Bones",1,0,1
+http://id.nlm.nih.gov/mesh/M0479891,http://id.nlm.nih.gov/mesh/D051245,M0479891,D051245,Retinal Bipolar Cells,"Bipolar Cell, Retinal; Cell, Retinal Bipolar; Cells, Retinal Bipolar; Retinal Bipolar Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0479896,http://id.nlm.nih.gov/mesh/D051248,M0479896,D051248,Retinal Horizontal Cells,,1,0,1
+http://id.nlm.nih.gov/mesh/M0480577,http://id.nlm.nih.gov/mesh/D051457,M0480577,D051457,Hyaline Cartilage,"Cartilage, Hyaline; Cartilages, Hyaline; Hyaline Cartilages",1,0,1
+http://id.nlm.nih.gov/mesh/M0480675,http://id.nlm.nih.gov/mesh/D051472,M0480675,D051472,Elastic Cartilage,"Cartilage, Elastic; Cartilages, Elastic; Elastic Cartilages",1,0,1
+http://id.nlm.nih.gov/mesh/M0480705,http://id.nlm.nih.gov/mesh/D051478,M0480705,D051478,Triangular Fibrocartilage,"Fibrocartilage, Triangular; Fibrocartilages, Triangular; Triangular Fibrocartilages",0,0,1
+http://id.nlm.nih.gov/mesh/M0483163,http://id.nlm.nih.gov/mesh/D052097,M0483163,D052097,Quadriceps Muscle,"Muscle, Quadriceps; Muscles, Quadriceps; Quadriceps Muscles",1,0,1
+http://id.nlm.nih.gov/mesh/M0486891,http://id.nlm.nih.gov/mesh/D052436,M0486891,D052436,"Adipose Tissue, White","Tissue, White Adipose",1,0,1
+http://id.nlm.nih.gov/mesh/M0488565,http://id.nlm.nih.gov/mesh/D052680,M0488565,D052680,Corticotrophs,Corticotroph,1,0,1
+http://id.nlm.nih.gov/mesh/M0488566,http://id.nlm.nih.gov/mesh/D052681,M0488566,D052681,Gonadotrophs,Gonadotroph,1,0,1
+http://id.nlm.nih.gov/mesh/M0488572,http://id.nlm.nih.gov/mesh/D052682,M0488572,D052682,Lactotrophs,Lactotroph,1,0,1
+http://id.nlm.nih.gov/mesh/M0488576,http://id.nlm.nih.gov/mesh/D052683,M0488576,D052683,Somatotrophs,Somatotroph,1,0,1
+http://id.nlm.nih.gov/mesh/M0488577,http://id.nlm.nih.gov/mesh/D052684,M0488577,D052684,Thyrotrophs,Thyrotroph,1,0,1
+http://id.nlm.nih.gov/mesh/M0488957,http://id.nlm.nih.gov/mesh/D052716,M0488957,D052716,"Pituitary Gland, Intermediate",Intermediate Pituitary Gland; Intermediate Pituitary Glands,1,0,1
+http://id.nlm.nih.gov/mesh/M0488969,http://id.nlm.nih.gov/mesh/D052717,M0488969,D052717,Melanotrophs,Melanotroph,1,0,1
+http://id.nlm.nih.gov/mesh/M0489052,http://id.nlm.nih.gov/mesh/D052737,M0489052,D052737,Carpometacarpal Joints,"Carpometacarpal Joint; Joint, Carpometacarpal; Joints, Carpometacarpal",1,0,1
+http://id.nlm.nih.gov/mesh/M0489550,http://id.nlm.nih.gov/mesh/D052816,M0489550,D052816,Foreskin,Foreskins,1,0,1
+http://id.nlm.nih.gov/mesh/M0492919,http://id.nlm.nih.gov/mesh/D053400,M0492919,D053400,High Vocal Center,"Vocal Center, High",0,1,0
+http://id.nlm.nih.gov/mesh/M0492941,http://id.nlm.nih.gov/mesh/D053401,M0492941,D053401,Palmar Plate,"Palmar Plates; Plate, Palmar; Plates, Palmar",0,0,1
+http://id.nlm.nih.gov/mesh/M0495288,http://id.nlm.nih.gov/mesh/D053657,M0495288,D053657,Platelet-Rich Plasma,"Plasma, Platelet-Rich; Platelet Rich Plasma",0,0,1
+http://id.nlm.nih.gov/mesh/M0500190,http://id.nlm.nih.gov/mesh/D054024,M0500190,D054024,Myelencephalon,Myelencephalons,1,0,1
+http://id.nlm.nih.gov/mesh/M0500779,http://id.nlm.nih.gov/mesh/D054063,M0500779,D054063,Superior Sagittal Sinus,"Sagittal Sinus, Superior; Sinus, Superior Sagittal",1,0,1
+http://id.nlm.nih.gov/mesh/M0500783,http://id.nlm.nih.gov/mesh/D054064,M0500783,D054064,Transverse Sinuses,"Sinuses, Transverse; Transverse Sinuse",1,0,1
+http://id.nlm.nih.gov/mesh/M0501516,http://id.nlm.nih.gov/mesh/D054087,M0501516,D054087,Atrial Septum,"Septum, Atrial",1,0,1
+http://id.nlm.nih.gov/mesh/M0501517,http://id.nlm.nih.gov/mesh/D054088,M0501517,D054088,Ventricular Septum,"Septum, Ventricular",1,0,1
+http://id.nlm.nih.gov/mesh/M0501519,http://id.nlm.nih.gov/mesh/D054089,M0501519,D054089,Endocardial Cushions,,1,0,1
+http://id.nlm.nih.gov/mesh/M0504061,http://id.nlm.nih.gov/mesh/D054326,M0504061,D054326,Coronary Sinus,"Sinus, Coronary",1,0,1
+http://id.nlm.nih.gov/mesh/M0504253,http://id.nlm.nih.gov/mesh/D054351,M0504253,D054351,Electrical Synapses,"Electrical Synapse; Synapse, Electrical",0,0,1
+http://id.nlm.nih.gov/mesh/M0505623,http://id.nlm.nih.gov/mesh/D054503,M0505623,D054503,Lymphoid Progenitor Cells,"Cell, Lymphoid Progenitor; Cells, Lymphoid Progenitor; Lymphoid Progenitor Cell; Progenitor Cell, Lymphoid; Progenitor Cells, Lymphoid",1,0,1
+http://id.nlm.nih.gov/mesh/M0508245,http://id.nlm.nih.gov/mesh/D054838,M0508245,D054838,von Ebner Glands,"Ebner Glands, von; Glands, von Ebner",1,0,1
+http://id.nlm.nih.gov/mesh/M0508604,http://id.nlm.nih.gov/mesh/D054885,M0508604,D054885,Cumulus Cells,"Cell, Cumulus; Cells, Cumulus; Cumulus Cell",1,0,1
+http://id.nlm.nih.gov/mesh/M0511962,http://id.nlm.nih.gov/mesh/D054992,M0511962,D054992,Immunological Synapses,"Immunological Synapse; Synapse, Immunological",0,0,1
+http://id.nlm.nih.gov/mesh/M0512588,http://id.nlm.nih.gov/mesh/D055014,M0512588,D055014,Granulocyte-Macrophage Progenitor Cells,"Cell, Granulocyte-Macrophage Progenitor; Cells, Granulocyte-Macrophage Progenitor; Granulocyte Macrophage Progenitor Cells; Progenitor Cell, Granulocyte-Macrophage",1,0,1
+http://id.nlm.nih.gov/mesh/M0512633,http://id.nlm.nih.gov/mesh/D055015,M0512633,D055015,Megakaryocyte-Erythroid Progenitor Cells,"Cell, Megakaryocyte-Erythroid Progenitor; Cells, Megakaryocyte-Erythroid Progenitor; Megakaryocyte Erythroid Progenitor Cells; Megakaryocyte-Erythroid Progenitor Cell; Progenitor Cell, Megakaryocyte-Erythroid; Progenitor Cells, Megakaryocyte-Erythroid",1,0,1
+http://id.nlm.nih.gov/mesh/M0512634,http://id.nlm.nih.gov/mesh/D055016,M0512634,D055016,Megakaryocyte Progenitor Cells,"Cell, Megakaryocyte Progenitor; Cells, Megakaryocyte Progenitor; Megakaryocyte Progenitor Cell; Progenitor Cell, Megakaryocyte; Progenitor Cells, Megakaryocyte",1,0,1
+http://id.nlm.nih.gov/mesh/M0512646,http://id.nlm.nih.gov/mesh/D055017,M0512646,D055017,Monocyte-Macrophage Precursor Cells,"Cell, Monocyte-Macrophage Precursor; Cells, Monocyte-Macrophage Precursor; Monocyte Macrophage Precursor Cells; Monocyte-Macrophage Precursor Cell; Precursor Cell, Monocyte-Macrophage; Precursor Cells, Monocyte-Macrophage",1,0,1
+http://id.nlm.nih.gov/mesh/M0514761,http://id.nlm.nih.gov/mesh/D055158,M0514761,D055158,Velopharyngeal Sphincter,"Sphincter, Velopharyngeal",1,0,1
+http://id.nlm.nih.gov/mesh/M0514975,http://id.nlm.nih.gov/mesh/D055171,M0514975,D055171,Nasal Cartilages,"Cartilage, Nasal; Cartilages, Nasal; Nasal Cartilage",1,0,1
+http://id.nlm.nih.gov/mesh/M0514991,http://id.nlm.nih.gov/mesh/D055172,M0514991,D055172,Vomer,Vomers,1,0,1
+http://id.nlm.nih.gov/mesh/M0515665,http://id.nlm.nih.gov/mesh/D055212,M0515665,D055212,Photoreceptor Connecting Cilium,"Connecting Cilium, Photoreceptor; Connecting Ciliums, Photoreceptor; Photoreceptor Connecting Ciliums",0,0,1
+http://id.nlm.nih.gov/mesh/M0515670,http://id.nlm.nih.gov/mesh/D055214,M0515670,D055214,Retinal Photoreceptor Cell Outer Segment,,1,0,1
+http://id.nlm.nih.gov/mesh/M0515673,http://id.nlm.nih.gov/mesh/D055211,M0515673,D055211,Retinal Photoreceptor Cell Inner Segment,,1,0,1
+http://id.nlm.nih.gov/mesh/M0516869,http://id.nlm.nih.gov/mesh/D055351,M0516869,D055351,Retinal Neurons,"Neuron, Retinal; Neurons, Retinal; Retinal Neuron",0,0,1
+http://id.nlm.nih.gov/mesh/M0517574,http://id.nlm.nih.gov/mesh/D055422,M0517574,D055422,Venous Valves,"Valve, Venous; Valves, Venous; Venous Valve",1,0,1
+http://id.nlm.nih.gov/mesh/M0518844,http://id.nlm.nih.gov/mesh/D055611,M0518844,D055611,Natural Killer T-Cells,"Killer T-Cell, Natural; Killer T-Cells, Natural; Natural Killer T Cells; T-Cell, Natural Killer; T-Cells, Natural Killer",1,0,1
+http://id.nlm.nih.gov/mesh/M0518850,http://id.nlm.nih.gov/mesh/D055612,M0518850,D055612,Cytokine-Induced Killer Cells,"Cytokine Induced Killer Cells; Cytokine-Induced Killer Cell; Killer Cell, Cytokine-Induced; Killer Cells, Cytokine-Induced",0,0,1
+http://id.nlm.nih.gov/mesh/M0520261,http://id.nlm.nih.gov/mesh/D055762,M0520261,D055762,Cranial Fontanelles,"Cranial Fontanelle; Fontanelle, Cranial; Fontanelles, Cranial",1,0,1
+http://id.nlm.nih.gov/mesh/M0520698,http://id.nlm.nih.gov/mesh/D055806,M0520698,D055806,Microvessels,Microvessel,1,0,1
+http://id.nlm.nih.gov/mesh/M0524978,http://id.nlm.nih.gov/mesh/D055988,M0524978,D055988,Uterine Artery,"Arteries, Uterine; Artery, Uterine; Uterine Arteries",1,0,1
+http://id.nlm.nih.gov/mesh/M0525919,http://id.nlm.nih.gov/mesh/D056144,M0525919,D056144,Pyriform Sinus,"Sinus, Pyriform",1,0,1
+http://id.nlm.nih.gov/mesh/M0527764,http://id.nlm.nih.gov/mesh/D056547,M0527764,D056547,"CA1 Region, Hippocampal","Hippocampal CA1 Region; Region, Hippocampal CA1",1,0,1
+http://id.nlm.nih.gov/mesh/M0528211,http://id.nlm.nih.gov/mesh/D056651,M0528211,D056651,"CA2 Region, Hippocampal","Hippocampal CA2 Region; Region, Hippocampal CA2",1,0,1
+http://id.nlm.nih.gov/mesh/M0528221,http://id.nlm.nih.gov/mesh/D056654,M0528221,D056654,"CA3 Region, Hippocampal","Hippocampal CA3 Region; Hippocampal CA3 Regions; Region, Hippocampal CA3",1,0,1
+http://id.nlm.nih.gov/mesh/M0528939,http://id.nlm.nih.gov/mesh/D056739,M0528939,D056739,Pterygopalatine Fossa,"Fossa, Pterygopalatine",0,0,1
+http://id.nlm.nih.gov/mesh/M0528952,http://id.nlm.nih.gov/mesh/D056740,M0528952,D056740,Olecranon Process,"Process, Olecranon",1,0,1
+http://id.nlm.nih.gov/mesh/M0529227,http://id.nlm.nih.gov/mesh/D056809,M0529227,D056809,Alveolar Epithelial Cells,"Alveolar Epithelial Cell; Cell, Alveolar Epithelial; Cells, Alveolar Epithelial; Epithelial Cell, Alveolar; Epithelial Cells, Alveolar",1,0,1
+http://id.nlm.nih.gov/mesh/M0534239,http://id.nlm.nih.gov/mesh/D057070,M0534239,D057070,Cervical Rib,"Cervical Ribs; Rib, Cervical; Ribs, Cervical",1,0,1
+http://id.nlm.nih.gov/mesh/M0534242,http://id.nlm.nih.gov/mesh/D057071,M0534242,D057071,Patellofemoral Joint,"Joint, Patellofemoral; Joints, Patellofemoral; Patellofemoral Joints",1,0,1
+http://id.nlm.nih.gov/mesh/M0538439,http://id.nlm.nih.gov/mesh/D057645,M0538439,D057645,Deltoid Muscle,"Deltoid Muscles; Muscle, Deltoid; Muscles, Deltoid",1,0,1
+http://id.nlm.nih.gov/mesh/M0539411,http://id.nlm.nih.gov/mesh/D057852,M0539411,D057852,Posterior Capsule of the Lens,,0,0,1
+http://id.nlm.nih.gov/mesh/M0539432,http://id.nlm.nih.gov/mesh/D057866,M0539432,D057866,Anterior Capsule of the Lens,,0,0,1
+http://id.nlm.nih.gov/mesh/M0539802,http://id.nlm.nih.gov/mesh/D057907,M0539802,D057907,Post-Synaptic Density,Post Synaptic Density,0,0,1
+http://id.nlm.nih.gov/mesh/M0540316,http://id.nlm.nih.gov/mesh/D057972,M0540316,D057972,Posterior Eye Segment,"Eye Segment, Posterior; Eye Segments, Posterior; Posterior Eye Segments; Segment, Posterior Eye; Segments, Posterior Eye",1,0,1
+http://id.nlm.nih.gov/mesh/M0542307,http://id.nlm.nih.gov/mesh/D058430,M0542307,D058430,Humeral Head,Humeral Heads,1,0,1
+http://id.nlm.nih.gov/mesh/M0542454,http://id.nlm.nih.gov/mesh/D058452,M0542454,D058452,"Axial Length, Eye","Axial Lengths, Eye; Eye Axial Length; Eye Axial Lengths; Length, Eye Axial; Lengths, Eye Axial",0,0,1
+http://id.nlm.nih.gov/mesh/M0542712,http://id.nlm.nih.gov/mesh/D058475,M0542712,D058475,Tenon Capsule,"Capsule, Tenon",0,0,1
+http://id.nlm.nih.gov/mesh/M0542928,http://id.nlm.nih.gov/mesh/D058504,M0542928,D058504,Th17 Cells,,1,0,1
+http://id.nlm.nih.gov/mesh/M0543696,http://id.nlm.nih.gov/mesh/D058621,M0543696,D058621,Blood Buffy Coat,"Blood Buffy Coats; Buffy Coats, Blood",0,1,0
+http://id.nlm.nih.gov/mesh/M0548498,http://id.nlm.nih.gov/mesh/D059167,M0548498,D059167,Mirror Neurons,"Mirror Neuron; Neuron, Mirror; Neurons, Mirror",0,0,1
+http://id.nlm.nih.gov/mesh/M0549236,http://id.nlm.nih.gov/mesh/D059290,M0549236,D059290,Dopaminergic Neurons,"Dopaminergic Neuron; Neuron, Dopaminergic; Neurons, Dopaminergic",1,0,1
+http://id.nlm.nih.gov/mesh/M0549413,http://id.nlm.nih.gov/mesh/D059326,M0549413,D059326,Serotonergic Neurons,"Neuron, Serotonergic; Neurons, Serotonergic; Serotonergic Neuron",1,0,1
+http://id.nlm.nih.gov/mesh/M0549427,http://id.nlm.nih.gov/mesh/D059329,M0549427,D059329,Cholinergic Neurons,"Cholinergic Neuron; Neuron, Cholinergic; Neurons, Cholinergic",1,0,1
+http://id.nlm.nih.gov/mesh/M0549430,http://id.nlm.nih.gov/mesh/D059330,M0549430,D059330,GABAergic Neurons,"GABAergic Neuron; Neuron, GABAergic; Neurons, GABAergic",1,0,1
+http://id.nlm.nih.gov/mesh/M0550363,http://id.nlm.nih.gov/mesh/D059331,M0550363,D059331,Adrenergic Neurons,"Adrenergic Neuron; Neuron, Adrenergic; Neurons, Adrenergic",1,0,1
+http://id.nlm.nih.gov/mesh/M0551031,http://id.nlm.nih.gov/mesh/D059705,M0551031,D059705,Polar Bodies,"Bodies, Polar; Body, Polar",1,0,1
+http://id.nlm.nih.gov/mesh/M0553098,http://id.nlm.nih.gov/mesh/D060151,M0553098,D060151,"B-Lymphocytes, Regulatory","B Lymphocytes, Regulatory; B-Lymphocyte, Regulatory; Regulatory B-Lymphocyte; Regulatory B-Lymphocytes",1,0,1
+http://id.nlm.nih.gov/mesh/M0554334,http://id.nlm.nih.gov/mesh/D060525,M0554334,D060525,Pudendal Nerve,"Nerve, Pudendal; Nerves, Pudendal; Pudendal Nerves",1,0,1
+http://id.nlm.nih.gov/mesh/M0555122,http://id.nlm.nih.gov/mesh/D060730,M0555122,D060730,Glomerular Filtration Barrier,"Barrier, Glomerular Filtration; Barriers, Glomerular Filtration; Filtration Barrier, Glomerular; Filtration Barriers, Glomerular; Glomerular Filtration Barriers",1,0,1
+http://id.nlm.nih.gov/mesh/M0556524,http://id.nlm.nih.gov/mesh/D061165,M0556524,D061165,Glenoid Cavity,"Cavities, Glenoid; Cavity, Glenoid",1,0,1
+http://id.nlm.nih.gov/mesh/M0561609,http://id.nlm.nih.gov/mesh/D062088,M0561609,D062088,Acellular Dermis,"Acellular Dermi; Dermi, Acellular; Dermis, Acellular",0,1,0
+http://id.nlm.nih.gov/mesh/M0572382,http://id.nlm.nih.gov/mesh/D063226,M0572382,D063226,Central Pattern Generators,"Central Pattern Generator; Generator, Central Pattern",0,1,0
+http://id.nlm.nih.gov/mesh/M0578089,http://id.nlm.nih.gov/mesh/D063928,M0578089,D063928,Ependymoglial Cells,"Cell, Ependymoglial; Cells, Ependymoglial",1,0,1
+http://id.nlm.nih.gov/mesh/M0579781,http://id.nlm.nih.gov/mesh/D064131,M0579781,D064131,Back Muscles,"Back Muscle; Muscle, Back; Muscles, Back",1,0,1
+http://id.nlm.nih.gov/mesh/M0579782,http://id.nlm.nih.gov/mesh/D064170,M0579782,D064170,Paraspinal Muscles,"Muscle, Paraspinal; Muscles, Paraspinal; Paraspinal Muscle",0,0,1
+http://id.nlm.nih.gov/mesh/M0579783,http://id.nlm.nih.gov/mesh/D064171,M0579783,D064171,Superficial Back Muscles,"Back Muscle, Superficial; Back Muscles, Superficial; Muscle, Superficial Back; Muscles, Superficial Back; Superficial Back Muscle",1,0,1
+http://id.nlm.nih.gov/mesh/M0579811,http://id.nlm.nih.gov/mesh/D064169,M0579811,D064169,Intermediate Back Muscles,"Back Muscle, Intermediate; Back Muscles, Intermediate; Intermediate Back Muscle; Muscles, Intermediate Back",1,0,1
+http://id.nlm.nih.gov/mesh/M0590591,http://id.nlm.nih.gov/mesh/D065726,M0590591,D065726,Limbic Lobe,"Limbic Lobes; Lobe, Limbic; Lobes, Limbic",1,0,1
+http://id.nlm.nih.gov/mesh/M0591083,http://id.nlm.nih.gov/mesh/D065814,M0591083,D065814,Cerebellar Vermis,"Vermis, Cerebellar",1,0,1
+http://id.nlm.nih.gov/mesh/M0591189,http://id.nlm.nih.gov/mesh/D065821,M0591189,D065821,Pontine Tegmentum,"Pontine Tegmentums; Tegmentum, Pontine; Tegmentums, Pontine",1,0,1
+http://id.nlm.nih.gov/mesh/M0591193,http://id.nlm.nih.gov/mesh/D065823,M0591193,D065823,Parabrachial Nucleus,"Nucleus, Parabrachial",1,0,1
+http://id.nlm.nih.gov/mesh/M0591245,http://id.nlm.nih.gov/mesh/D065827,M0591245,D065827,Abducens Nucleus,"Nucleus, Abducens",1,0,1
+http://id.nlm.nih.gov/mesh/M0591246,http://id.nlm.nih.gov/mesh/D065828,M0591246,D065828,Facial Nucleus,"Nucleus, Facial",1,0,1
+http://id.nlm.nih.gov/mesh/M0591274,http://id.nlm.nih.gov/mesh/D065832,M0591274,D065832,Superior Olivary Complex,"Olivary Complex, Superior",1,0,1
+http://id.nlm.nih.gov/mesh/M0591281,http://id.nlm.nih.gov/mesh/D065833,M0591281,D065833,Trapezoid Body,"Body, Trapezoid",1,0,1
+http://id.nlm.nih.gov/mesh/M0591283,http://id.nlm.nih.gov/mesh/D065835,M0591283,D065835,Barrington's Nucleus,"Barringtons Nucleus; Nucleus, Barrington's",1,0,1
+http://id.nlm.nih.gov/mesh/M0591287,http://id.nlm.nih.gov/mesh/D065836,M0591287,D065836,Kolliker-Fuse Nucleus,"Kolliker Fuse Nucleus; Nucleus, Kolliker-Fuse",1,0,1
+http://id.nlm.nih.gov/mesh/M0591288,http://id.nlm.nih.gov/mesh/D065837,M0591288,D065837,Middle Cerebellar Peduncle,"Cerebellar Peduncle, Middle; Cerebellar Peduncles, Middle; Middle Cerebellar Peduncles; Peduncle, Middle Cerebellar; Peduncles, Middle Cerebellar",1,0,1
+http://id.nlm.nih.gov/mesh/M0591291,http://id.nlm.nih.gov/mesh/D065838,M0591291,D065838,Oculomotor Nuclear Complex,"Nuclear Complex, Oculomotor",1,0,1
+http://id.nlm.nih.gov/mesh/M0591294,http://id.nlm.nih.gov/mesh/D065839,M0591294,D065839,Edinger-Westphal Nucleus,"Edinger Westphal Nucleus; Nucleus, Edinger-Westphal",1,0,1
+http://id.nlm.nih.gov/mesh/M0591299,http://id.nlm.nih.gov/mesh/D065841,M0591299,D065841,Pars Reticulata,"Pars Reticulatas; Reticulata, Pars; Reticulatas, Pars",1,0,1
+http://id.nlm.nih.gov/mesh/M0591302,http://id.nlm.nih.gov/mesh/D065842,M0591302,D065842,Pars Compacta,Pars Compactas,1,0,1
+http://id.nlm.nih.gov/mesh/M0591311,http://id.nlm.nih.gov/mesh/D065843,M0591311,D065843,Cerebral Crus,"Crus, Cerebral",1,0,1
+http://id.nlm.nih.gov/mesh/M0591315,http://id.nlm.nih.gov/mesh/D065844,M0591315,D065844,Tectospinal Fibers,"Fiber, Tectospinal; Fibers, Tectospinal; Tectospinal Fiber",1,0,1
+http://id.nlm.nih.gov/mesh/M0591381,http://id.nlm.nih.gov/mesh/D065846,M0591381,D065846,Nucleus Raphe Magnus,"Magnus, Nucleus Raphe; Raphe Magnus, Nucleus",1,0,1
+http://id.nlm.nih.gov/mesh/M0591382,http://id.nlm.nih.gov/mesh/D065847,M0591382,D065847,Dorsal Raphe Nucleus,"Nucleus, Dorsal Raphe; Raphe Nucleus, Dorsal",1,0,1
+http://id.nlm.nih.gov/mesh/M0591385,http://id.nlm.nih.gov/mesh/D065848,M0591385,D065848,Nucleus Raphe Pallidus,"Pallidus, Nucleus Raphe; Raphe Pallidus, Nucleus",1,0,1
+http://id.nlm.nih.gov/mesh/M0591393,http://id.nlm.nih.gov/mesh/D065849,M0591393,D065849,Nucleus Raphe Obscurus,"Obscurus, Nucleus Raphe; Raphe Obscurus, Nucleus",1,0,1
+http://id.nlm.nih.gov/mesh/M0592761,http://id.nlm.nih.gov/mesh/D066128,M0592761,D066128,Gray Matter,"Gray Matters; Matter, Gray; Matters, Gray",1,0,1
+http://id.nlm.nih.gov/mesh/M0592773,http://id.nlm.nih.gov/mesh/D066127,M0592773,D066127,White Matter,"Matter, White; Matters, White; White Matters",1,0,1
+http://id.nlm.nih.gov/mesh/M0592790,http://id.nlm.nih.gov/mesh/D066148,M0592790,D066148,Spinal Cord Dorsal Horn,,1,0,1
+http://id.nlm.nih.gov/mesh/M0592805,http://id.nlm.nih.gov/mesh/D066193,M0592805,D066193,Cervical Cord,"Cervical Cords; Cord, Cervical; Cords, Cervical",1,0,1
+http://id.nlm.nih.gov/mesh/M0592813,http://id.nlm.nih.gov/mesh/D066151,M0592813,D066151,Spinal Cord Ventral Horn,,1,0,1
+http://id.nlm.nih.gov/mesh/M0592817,http://id.nlm.nih.gov/mesh/D066152,M0592817,D066152,Spinal Cord Lateral Horn,,1,0,1
+http://id.nlm.nih.gov/mesh/M0592909,http://id.nlm.nih.gov/mesh/D066186,M0592909,D066186,Costal Cartilage,"Cartilage, Costal; Cartilages, Costal; Costal Cartilages",1,0,1
+http://id.nlm.nih.gov/mesh/M0592917,http://id.nlm.nih.gov/mesh/D066187,M0592917,D066187,Basal Forebrain,"Basal Forebrains; Forebrain, Basal; Forebrains, Basal",1,0,1
+http://id.nlm.nih.gov/mesh/M0593045,http://id.nlm.nih.gov/mesh/D066191,M0593045,D066191,Sensorimotor Cortex,"Cortex, Sensorimotor; Cortices, Sensorimotor; Sensorimotor Cortices",1,0,1
+http://id.nlm.nih.gov/mesh/M0593087,http://id.nlm.nih.gov/mesh/D066195,M0593087,D066195,Piriform Cortex,"Cortex, Piriform; Piriform Cortices",1,0,1
+http://id.nlm.nih.gov/mesh/M0593298,http://id.nlm.nih.gov/mesh/D066240,M0593298,D066240,"Anterior Commissure, Brain","Brain Anterior Commissure; Commissure, Brain Anterior",1,0,1
+http://id.nlm.nih.gov/mesh/M0593300,http://id.nlm.nih.gov/mesh/D066243,M0593300,D066243,Posterior Cerebellar Commissure,"Cerebellar Commissure, Posterior; Cerebellar Commissures, Posterior; Commissure, Posterior Cerebellar; Commissures, Posterior Cerebellar; Posterior Cerebellar Commissures",1,0,1
+http://id.nlm.nih.gov/mesh/M0593315,http://id.nlm.nih.gov/mesh/D000094282,M0593315,D000094282,Schaffer Collaterals,,1,0,1
+http://id.nlm.nih.gov/mesh/M0593321,http://id.nlm.nih.gov/mesh/D066245,M0593321,D066245,Telencephalic Commissures,"Commissure, Telencephalic; Commissures, Telencephalic; Telencephalic Commissure",1,0,1
+http://id.nlm.nih.gov/mesh/M0593361,http://id.nlm.nih.gov/mesh/D066250,M0593361,D066250,Pretectal Region,"Pretectal Regions; Region, Pretectal; Regions, Pretectal",1,0,1
+http://id.nlm.nih.gov/mesh/M0593542,http://id.nlm.nih.gov/mesh/D066268,M0593542,D066268,Interpeduncular Nucleus,"Nucleus, Interpeduncular",1,0,1
+http://id.nlm.nih.gov/mesh/M0593549,http://id.nlm.nih.gov/mesh/D066265,M0593549,D066265,Midbrain Reticular Formation,"Midbrain Reticular Formations; Reticular Formation, Midbrain; Reticular Formations, Midbrain",1,0,1
+http://id.nlm.nih.gov/mesh/M0593552,http://id.nlm.nih.gov/mesh/D066266,M0593552,D066266,Trigeminal Motor Nucleus,"Motor Nucleus, Trigeminal; Nucleus, Trigeminal Motor",1,0,1
+http://id.nlm.nih.gov/mesh/M0593555,http://id.nlm.nih.gov/mesh/D066267,M0593555,D066267,Midbrain Raphe Nuclei,"Midbrain Raphe Nucleus; Nuclei, Midbrain Raphe; Nucleus, Midbrain Raphe; Raphe Nuclei, Midbrain; Raphe Nucleus, Midbrain",1,0,1
+http://id.nlm.nih.gov/mesh/M0593583,http://id.nlm.nih.gov/mesh/D066271,M0593583,D066271,External Capsule,"Capsule, External; Capsules, External; External Capsules",1,0,1
+http://id.nlm.nih.gov/mesh/M0593589,http://id.nlm.nih.gov/mesh/D066272,M0593589,D066272,Basolateral Nuclear Complex,"Basolateral Nuclear Complices; Nuclear Complex, Basolateral; Nuclear Complices, Basolateral",1,0,1
+http://id.nlm.nih.gov/mesh/M0593591,http://id.nlm.nih.gov/mesh/D066274,M0593591,D066274,Central Amygdaloid Nucleus,"Amygdaloid Nucleus, Central; Nucleus, Central Amygdaloid",1,0,1
+http://id.nlm.nih.gov/mesh/M0593621,http://id.nlm.nih.gov/mesh/D066276,M0593621,D066276,Corticomedial Nuclear Complex,"Nuclear Complex, Corticomedial",1,0,1
+http://id.nlm.nih.gov/mesh/M0593622,http://id.nlm.nih.gov/mesh/D066277,M0593622,D066277,Periamygdaloid Cortex,"Cortex, Periamygdaloid",1,0,1
+http://id.nlm.nih.gov/mesh/M0593630,http://id.nlm.nih.gov/mesh/D066278,M0593630,D066278,Organum Vasculosum,"Organum Vasculosums; Vasculosum, Organum; Vasculosums, Organum",1,0,1
+http://id.nlm.nih.gov/mesh/M0593635,http://id.nlm.nih.gov/mesh/D066280,M0593635,D066280,Circumventricular Organs,"Circumventricular Organ; Organ, Circumventricular; Organs, Circumventricular",1,0,1
+http://id.nlm.nih.gov/mesh/M0593750,http://id.nlm.nih.gov/mesh/D066293,M0593750,D066293,Renshaw Cells,"Cells, Renshaw",1,0,1
+http://id.nlm.nih.gov/mesh/M0593756,http://id.nlm.nih.gov/mesh/D066294,M0593756,D066294,Commissural Interneurons,"Commissural Interneuron; Interneuron, Commissural; Interneurons, Commissural",1,0,1

@@ -464,7 +464,7 @@
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0016292",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0016307",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0016349",1
-"mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0016374",0.25
+"mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0016374",0.5
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0016439",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0016442",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0016451",1
@@ -778,7 +778,7 @@
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0328575",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0328577",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0328582",1
-"mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0328588",1
+"mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0328588",0.5
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0332426",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0333074",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0336841",1
@@ -893,7 +893,7 @@
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0555122",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0556524",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0578089",1
-"mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0579781",1
+"mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0579781",0.5
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0579783",0.2
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0579811",1
 "mesh-uberon-human-mapping.gpt4o.llm","http://id.nlm.nih.gov/mesh/M0590591",1
