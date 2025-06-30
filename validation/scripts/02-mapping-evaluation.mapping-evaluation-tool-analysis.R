@@ -9,7 +9,7 @@ library(stringr)
 # Paths
 path_input_data <- paste0("./input-data/mesh-uberon-human/v0.0.1")
 path_eval_data <- paste0("./validation/evaluation_mappings")
-path_prep_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
+path_prep_data <- paste0("./validation/mesh-uberon-cl-human/v0.0.1")
 
 # Create results directory and path 
 path_results_data  <- paste0(path_prep_data,"/results/")
@@ -34,8 +34,13 @@ target_concept <-
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-tool.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-cl-human-mapping.validation-tool.csv"),
            header = T, encoding = "UFT-8")
+
+evaluative_mappings$mesh_concept_group<- 
+  factor(evaluative_mappings$mesh_concept_group, 
+         levels=c("Anatomical structure", "Cell type", "Cell structure",
+                  "Not relevant to HRA."))
 
 # Identify mapped and unmapped concepts from initial set of subject concepts
 mappable_concepts <- 
@@ -47,7 +52,7 @@ unmapped_concepts <-
   unique()
 
 # Identify SSSOM mapping project
-project <- paste((str_split(path_input_data[1],"/")[[1]][3]))
+project <- paste((str_split(path_prep_data[1],"/")[[1]][3]))
 
 #### Characterize MeSH Subject Concepts and Mappings ####
 ##### MeSH Subject Concept Counts - Overall and by Concept Grouping ####
@@ -73,9 +78,9 @@ mesh_unmapped_concepts <-
   arrange(mesh_concept_group, desc(concepts)) %>%
   mutate(percent_subject_concepts = round(concepts/
                                           nrow(source_concept)*100,2)) %>%
-  rename(c("concept_group"="mesh_concept_group"))
+  dplyr::rename(c("concept_group"="mesh_concept_group"))
 
-# Add 
+# Add total 
 mesh_unmapped_concepts <-
   rbind(mesh_unmapped_concepts, 
         data.frame(concept_group = c("Total"),
@@ -89,7 +94,7 @@ mesh_unmapped_concepts_rational <-
   filter(map_state=="Unmapped") %>% 
   ddply(.(mesh_concept_group, exclusion_reason), summarise,
         subject_concepts = length(subject_id)) %>%
-  rename(c("concept_group"="mesh_concept_group")) %>%
+  dplyr::rename(c("concept_group"="mesh_concept_group")) %>%
   arrange(concept_group, desc(subject_concepts))
 
 # Save results and clean up environment
@@ -109,15 +114,16 @@ mapped_concepts <-
   filter(map_state=="Mapped") %>%
   select(subject_id, subject_label, mesh_concept_group, mapping_count) %>%
   distinct() %>%
-  group_by("concept_group"=mesh_concept_group) %>%
-  count() %>%
-  ungroup() %>% 
-  rename(c("mapped_subject_concepts"="n")) %>%
+  ddply(.(mesh_concept_group), summarise,
+        concepts = length(subject_id)) %>%
+  arrange(mesh_concept_group, desc(concepts)) %>%
+  dplyr::rename(c("concept_group"="mesh_concept_group",
+                  "mapped_subject_concepts"="concepts")) %>%
   rbind(data.frame(concept_group=c("Total"),
                    mapped_subject_concepts=length(mappable_concepts))) %>%
   mutate(percentage_mapped_concepts =
-           round(mapped_subject_concepts/length(mappable_concepts)*100,2))
-
+         round(mapped_subject_concepts/length(mappable_concepts)*100,2))
+  
 mapped_concepts <-
   left_join(subject_concepts, mapped_concepts, by="concept_group") %>%
   mutate(percent_subject_concepts_mapped =
@@ -126,15 +132,17 @@ mapped_concepts <-
          percent_subject_concepts_mapped, percentage_mapped_concepts)
 
 # Subject Concept Recalls (Mappings) - Overall and by Concept Grouping
-mapping_recalls <- data.frame(concept_group=c("Total"),
-                              mapping_recalls=
-                                nrow(evaluative_mappings[evaluative_mappings$map_state=="Mapped",]))
+mapping_recalls <- 
+  data.frame(concept_group=c("Total"),
+             mapping_recalls=
+               nrow(evaluative_mappings[evaluative_mappings$map_state=="Mapped",]))
+
 mapping_recalls <-
   evaluative_mappings %>%
   filter(map_state=="Mapped") %>%
   ddply(.(mesh_concept_group), summarise, 
         mapping_recalls = length(subject_id)) %>%
-  rename(c("concept_group"="mesh_concept_group")) %>%
+  dplyr::rename(c("concept_group"="mesh_concept_group")) %>%
   rbind(mapping_recalls)
 
 # Combine mapped concepts and recall count and percentage statistics.

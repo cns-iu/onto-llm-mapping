@@ -10,7 +10,7 @@ library(stringr)
 # Set Paths
 path_raw_data <- paste0("./raw-data/mesh-uberon-human/v0.0.1")
 path_eval_data <- paste0("./validation/evaluation_mappings")
-path_prep_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
+path_prep_data <- paste0("./validation/mesh-uberon-cl-human/v0.0.1")
 
 #Load in LLM mappings 
 # currently selects for vector results.
@@ -19,12 +19,12 @@ llm_mapping_paths <-
              pattern="sssom.csv", full.names = TRUE)
 
 # Identify mapping project from file path
-mapping_project <- unlist(str_split(llm_mapping_paths[1], pattern="\\/"))[[3]]
+mapping_project <- unlist(str_split(path_prep_data, pattern="\\/"))[[3]]
 
 #### Load Data ####
 # CNS Naive SSSOM Mappings
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-tool.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-cl-human-mapping.validation-tool.csv"),
            header = T, encoding = "UFT-8")
 
 # Mapped concepts
@@ -52,8 +52,9 @@ for(i in 1:length(llm_mapping_paths)){
   # Create concept_pair_rank values for subject concept mapping results, select results.
   data <-
     data %>% 
+    mutate(subject_id = factor(subject_id)) %>%
     group_by(subject_id) %>% 
-    mutate(rank = row_number()) %>%
+    mutate(rank = dplyr::row_number()) %>%
     ungroup() %>%
     filter(rank==1)
   

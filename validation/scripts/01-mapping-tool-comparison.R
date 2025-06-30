@@ -26,7 +26,7 @@ if(file.exists(paste0(path_eval_data,"/obo_mesh.sssom.csv"))==F){
 ##### CNS Naive SSSOM Mappings ####
 evaluative_mappings <- 
   read.csv(file=paste0(path_eval_data,
-                       "/mesh-uberon-human-mapping.validation-tool-development.csv"),
+                       "/mesh-uberon-cl-human-mapping.validation-tool-development.csv"),
            header = T, encoding = "UFT-8")
 
 # Compare OBO and CNS Naive Mappings
@@ -121,5 +121,5 @@ mapping_comparison <-
 
 # Save mapping tool comparison data set for review.
 write.csv(mapping_comparison, 
-          file=paste0(path_eval_data,"/mesh-uberon-human-mapping.evaluate.csv"),
+          file=paste0(path_eval_data,"/mesh-uberon-cl-human-mapping.evaluate.csv"),
           row.names = F, fileEncoding = "UTF8")

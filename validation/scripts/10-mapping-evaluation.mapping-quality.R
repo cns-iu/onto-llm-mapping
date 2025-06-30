@@ -9,7 +9,7 @@ library(stringr)
 # Paths
 path_input_data <- paste0("./input-data/mesh-uberon-human/v0.0.1")
 path_eval_data <- paste0("./validation/evaluation_mappings")
-path_prep_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
+path_prep_data <- paste0("./validation/mesh-uberon-cl-human/v0.0.1")
 
 # Create results directory and path 
 path_results_data  <- paste0(path_prep_data,"/results")
@@ -36,11 +36,11 @@ llm_mapping_paths <-
              pattern="prepared.csv", full.names = TRUE)
 
 # Identify SSSOM mapping project
-project <- paste((str_split(llm_mapping_paths[1],"/")[[1]][3]))
+project <- unlist(str_split(path_prep_data, pattern="\\/"))[[3]]
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-tool.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-cl-human-mapping.validation-tool.csv"),
            header = T, encoding = "UFT-8")
 
 # Identify mapped concepts from initial set of subject concepts
@@ -59,7 +59,7 @@ mappable_concepts_ct <-
 
 # LLM Model result mapping counts descriptive
 model_mapping_counts <- 
-  read.csv(file=paste0(path_prep_data,"/results/mesh-uberon-human.model_mapping_result_counts.csv"),
+  read.csv(file=paste0(path_prep_data,"/results/mesh-uberon-cl-human.model_mapping_result_counts.csv"),
            header = T)
 
 

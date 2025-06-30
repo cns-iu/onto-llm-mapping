@@ -1,0 +1,2 @@
+"model","mean_k","mean_precision","mean_recall","f_score","beta"
+"mesh-uberon-human-mapping.phi4-14b.llm",9.94752774974773,0.0946951131613089,0.946014127144299,0.338101152392841,2

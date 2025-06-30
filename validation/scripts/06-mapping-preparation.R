@@ -9,10 +9,10 @@ library(stringr)
 # Set Paths
 path_raw_data <- paste0("./raw-data/mesh-uberon-human/v0.0.1")
 path_eval_data <- paste0("./validation/evaluation_mappings")
-path_prep_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
+path_prep_data <- paste0("./validation/mesh-uberon-cl-human/v0.0.1")
 
 # Project
-project <- "mesh-uberon-human"
+project <- unlist(str_split(path_prep_data, pattern="\\/"))[[3]]
 
 #Load in LLM mappings 
 # currently selects for vector results.
@@ -22,7 +22,7 @@ llm_mapping_paths <-
 
 # Load Ground Truth mapping Data
 evaluative_mappings <- 
-  read.csv(file=paste0(path_eval_data,"/mesh-uberon-human-mapping.validation-tool.csv"),
+  read.csv(file=paste0(path_eval_data,"/mesh-uberon-cl-human-mapping.validation-tool.csv"),
            header = T, encoding = "UFT-8")
 
 # Identify mapped concepts from initial set of subject concepts)
@@ -37,8 +37,7 @@ mapping_result_counts <-
              evaluated_mapping_count = as.numeric())
 
 #### Pre-process the data ####
-#i=2 # For testing loop
-
+# i=3 # For testing loop
 for(i in 1:length(llm_mapping_paths)){
   ##### Load LLM mapping results and update data file #### 
   data <- read.csv(file=llm_mapping_paths[i],
@@ -47,6 +46,7 @@ for(i in 1:length(llm_mapping_paths)){
   # grab project and model for data.
   llm_result_file <- tail(unlist(str_split(llm_mapping_paths[i], pattern="\\/")),1)
   llm_result_file <- str_split(llm_result_file, pattern="-vec")[[1]][1]
+  llm_result_file <- paste0(project,"-mapping.",str_split(llm_result_file, pattern="mapping\\.")[[1]][2])
   
   # Creates model and project label for data set.
   data$model <- llm_result_file

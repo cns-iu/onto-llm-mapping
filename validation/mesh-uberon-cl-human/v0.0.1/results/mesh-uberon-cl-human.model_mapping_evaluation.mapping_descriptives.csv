@@ -1,7 +1,12 @@
 "model","mapping_count","evaluated_mapping_count","mapping_results","mapped_concepts","skipped_concepts","mapped_concepts_percent"
 "mesh-uberon-human-mapping.curategpt.sssom.csv",11130,10110,10110,1011,0,1
+"mesh-uberon-human-mapping.curategpt.sssom.csv",11130,10110,10110,1011,0,1
+"mesh-uberon-human-mapping.desc",10877,9976,9976,1002,9,0.991
 "mesh-uberon-human-mapping.desc",10877,9976,9976,1002,9,0.991
 "mesh-uberon-human-mapping.gpt4o.llm",10427,9510,9510,951,60,0.941
+"mesh-uberon-human-mapping.gpt4o.llm",10427,9510,9510,951,60,0.941
 "mesh-uberon-human-mapping.llama3.2-3b.llm",11082,10070,10070,1007,4,0.996
+"mesh-uberon-human-mapping.llama3.2-3b.llm",11082,10070,10070,1007,4,0.996
+"mesh-uberon-human-mapping.phi4-14b.llm",10869,9858,9858,991,20,0.98
 "mesh-uberon-human-mapping.phi4-14b.llm",10869,9858,9858,991,20,0.98
 "pooled-K1-vec-vote",2068,2068,2068,1011,0,1

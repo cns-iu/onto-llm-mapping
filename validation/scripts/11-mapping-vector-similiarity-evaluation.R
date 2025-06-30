@@ -3,15 +3,15 @@ library(magrittr)
 library(tidyr)
 library(stringr)
 library(multcomp)
-library(dplyr)
 library(plyr)
+library(dplyr)
 library(ggplot2)
 library(car)
 library(AICcmodavg)
 
 ##### Set Paths ####
 # Paths
-path_data <- paste0("./validation/mesh-uberon-human/v0.0.1")
+path_data <- paste0("./validation/mesh-uberon-cl-human/v0.0.1")
 path_eval_data <- paste0("./validation/evaluation_mappings")
 
 # Create results directory and path 
@@ -30,7 +30,7 @@ llm_mapping_paths <-
 names(llm_mapping_paths) <- "path"
 
 # Identify mapping project from file path
-mapping_project <- unlist(str_split(llm_mapping_paths[1], pattern="\\/"))[[3]]
+mapping_project <- unlist(str_split(path_data, pattern="\\/"))[[3]]
 
 # Select paths that are not pooled.
 llm_mapping_paths <- 
@@ -279,7 +279,7 @@ rm(plot1,plot2,plot3)
 ##### Prepare additional categorical factor variables for ANOVA Test####
 # Definition Treatment Group
 data$treatment_groups <- "RAG Definition (Treatment)"
-data[data$model=="human descriptions",]$treatment_groups <- "Human Definitions (Control)"
+data[data$model=="human definitions",]$treatment_groups <- "Human Definitions (Control)"
 data$treatment_groups <- factor(data$treatment_groups, 
                                 levels=c("RAG Definition (Treatment)",
                                          "Human Definitions (Control)"))
