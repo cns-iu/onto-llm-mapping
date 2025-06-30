@@ -1,0 +1,6 @@
+"F","p.val","conf_5","conf_95","ratio.of.variances","alternative","method","data.name"
+1.52465130660442,0,1.39080874881953,1.67736828420693,1,"two.sided","F test to compare two variances","human_hit$similarity_score and human_miss$similarity_score"
+1.54050578010568,0,1.40267978277374,1.69828783617703,1,"two.sided","F test to compare two variances","curategpt_hit$similarity_score and curategpt_miss$similarity_score"
+0.656957903931877,8.92827902199409e-17,0.599389556838708,0.722632021726328,1,"two.sided","F test to compare two variances","llama_hit$similarity_score and llama_miss$similarity_score"
+0.471490983629996,4.35580216016722e-45,0.42969755285468,0.519248414383998,1,"two.sided","F test to compare two variances","phi_hit$similarity_score and phi_miss$similarity_score"
+0.426794571620569,4.54458338747221e-56,0.388969376137581,0.469998498491831,1,"two.sided","F test to compare two variances","gpt_hit$similarity_score and gpt_miss$similarity_score"

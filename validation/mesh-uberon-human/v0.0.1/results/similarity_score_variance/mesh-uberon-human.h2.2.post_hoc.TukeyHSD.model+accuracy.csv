@@ -1,6 +1,0 @@
-"comparison","p.adj","diff","lwr","upr"
-"human descriptions:Inaccurate Mappings-human descriptions:Accurate Mappings",0,-1.56937005246867,-1.63440765723392,-1.50433244770342
-"llama3.2-3b.llm:Inaccurate Mappings-llama3.2-3b.llm:Accurate Mappings",0,-0.858564354675391,-0.923479834210209,-0.793648875140574
-"gpt4o.llm:Inaccurate Mappings-gpt4o.llm:Accurate Mappings",0,-1.71521995622914,-1.78091216784954,-1.64952774460873
-"phi4-14b.llm:Inaccurate Mappings-phi4-14b.llm:Accurate Mappings",0,-0.908064334434626,-0.973781014639649,-0.842347654229602
-"curategpt:Inaccurate Mappings-curategpt:Accurate Mappings",0,-0.367470754282309,-0.433857382666064,-0.301084125898553

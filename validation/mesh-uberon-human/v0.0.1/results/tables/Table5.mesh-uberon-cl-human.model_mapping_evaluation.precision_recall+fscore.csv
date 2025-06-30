@@ -1,0 +1,7 @@
+Model,Mean K,Mean Precision,Mean Recall,F Score,Beta
+human definitions,9.96,0.096,0.957,0.343,2
+pooled-K1-vec-vote,1.96,0.626,0.997,0.891,2
+curategpt,10.00,0.091,0.907,0.325,2
+gpt4o,10.00,0.099,0.989,0.353,2
+llama3.2-3b,10.00,0.096,0.956,0.342,2
+phi4-14b,9.95,0.095,0.946,0.338,2

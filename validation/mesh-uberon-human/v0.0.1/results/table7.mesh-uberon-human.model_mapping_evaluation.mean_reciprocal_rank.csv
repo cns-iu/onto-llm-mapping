@@ -1,7 +1,0 @@
-Model,Mean Reciprocal Rank,Std. Dev.
-human definitions,0.857,0.298
-pooled-K1-vec-vote,0.912,0.242
-curategpt,0.773,0.359
-gpt4o,0.943,0.189
-llama3.2-3b,0.757,0.340
-phi4-14b,0.798,0.327

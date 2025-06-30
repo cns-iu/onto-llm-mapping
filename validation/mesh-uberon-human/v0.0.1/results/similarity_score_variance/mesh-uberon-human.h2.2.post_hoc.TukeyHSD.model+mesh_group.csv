@@ -1,6 +1,0 @@
-"comparison","p.adj","diff","lwr","upr"
-"human descriptions:Cell type-human descriptions:Anatomical structure",0.395476487523945,-0.0394952996765021,-0.094061179204793,0.0150705798517888
-"llama3.2-3b.llm:Cell type-llama3.2-3b.llm:Anatomical structure",0,-0.327399596832218,-0.381615224433375,-0.273183969231061
-"gpt4o.llm:Cell type-gpt4o.llm:Anatomical structure",0.00202566516309965,0.0710707689719572,0.0156453455806553,0.126496192363259
-"phi4-14b.llm:Cell type-phi4-14b.llm:Anatomical structure",0,-0.315840582722293,-0.370524494590481,-0.261156670854106
-"curategpt:Cell type-curategpt:Anatomical structure",0.953016303330618,0.0223416935287759,-0.0318554647945348,0.0765388518520867

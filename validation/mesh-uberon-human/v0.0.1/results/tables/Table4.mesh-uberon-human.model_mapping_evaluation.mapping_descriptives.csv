@@ -1,7 +1,0 @@
-Model,Mappings,Evaluated Mappings,Concepts Mapped,Concepts Skipped,Percent of Concepts Mapped
-mesh-uberon-human-mapping.desc,10877,9976,1002,9,99.10%
-pooled-K1-vec-vote,2068,2068,1011,0,100.00%
-curategpt.sssom.csv,11130,10110,1011,0,100.00%
-gpt4o.llm,10427,9510,951,60,94.10%
-llama3.2-3b.llm,11082,10070,1007,4,99.60%
-phi4-14b.llm,10869,9858,991,20,98.00%

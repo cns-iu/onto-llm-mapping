@@ -1,6 +1,0 @@
-"model","mapping_count","evaluated_mapping_count"
-"mesh-uberon-human-mapping.curategpt.sssom.csv",11130,10110
-"mesh-uberon-human-mapping.desc",10877,9976
-"mesh-uberon-human-mapping.gpt4o.llm",10427,9510
-"mesh-uberon-human-mapping.llama3.2-3b.llm",11082,10070
-"mesh-uberon-human-mapping.phi4-14b.llm",10869,9858
